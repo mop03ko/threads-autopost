@@ -24,6 +24,7 @@ jobs:
       THREADS_APP_SECRET:   ${{ secrets.THREADS_APP_SECRET }}
       THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
       THREADS_SHEET_ID:     ${{ secrets.THREADS_SHEET_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_REDIRECT_URI: https://localhost/threads-auth
       THREADS_TZ:           Asia/Ulaanbaatar
       THREADS_LATE_GRACE:   "120"
@@ -64,6 +65,11 @@ jobs:
           # Зэрэг ажиллагаанаас үүдэх зөрчлийг зөөлөн барина
           git pull --rebase --autostash || true
           git push
+
+      - name: Google Sheet-ийн төлөвийг шинэчлэх
+        if: ${{ always() && env.GOOGLE_SERVICE_ACCOUNT_JSON != '' }}
+        continue-on-error: true
+        run: python threads_post.py sheet-status
 
       - name: Токеныг шинэчлэх
         if: ${{ env.GH_PAT != '' }}
