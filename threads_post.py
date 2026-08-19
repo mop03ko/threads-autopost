@@ -14,6 +14,7 @@ Meta-гийн албан ёсны Threads API ашиглан товлосон ц
     show [--next N]         Товлогдсон постын БҮТЭН бичвэр
     editor                  Ээлжийг засах вэб интерфейс
     sync                    Google Sheet-ээс ээлжийг татах
+    sheet-status            Нийтэлсэн төлөвийг Google Sheet рүү буцааж бичих
     add --text "..." --at "2026-08-20 08:30" [--image URL]
     run [--live]            Хугацаа болсон постуудыг нийтэлнэ
         [--id N]            тодорхой постыг яг одоо нийтлэх
@@ -520,6 +521,156 @@ def fetch_sheet_rows() -> list:
     return rows
 
 
+def google_sheet_session():
+    """Service account-аар Google Sheets API session үүсгэнэ."""
+    raw = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "").strip()
+    if not raw:
+        return None
+    try:
+        info = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError("GOOGLE_SERVICE_ACCOUNT_JSON зөв JSON биш байна.") from exc
+
+    try:
+        from google.auth.transport.requests import AuthorizedSession
+        from google.oauth2 import service_account
+    except ImportError as exc:
+        raise RuntimeError(
+            "google-auth сан суулгаагүй байна. requirements.txt-ээ дахин суулгана уу."
+        ) from exc
+
+    credentials = service_account.Credentials.from_service_account_info(
+        info,
+        scopes=("https://www.googleapis.com/auth/spreadsheets",),
+    )
+    log.info("Sheet бичих эрх: %s", info.get("client_email", "service account"))
+    return AuthorizedSession(credentials)
+
+
+def google_json(session, method: str, url: str, **kwargs) -> dict:
+    """Google API дуудлагын алдааг нууц мэдээлэлгүйгээр ойлгомжтой болгоно."""
+    try:
+        resp = session.request(method, url, timeout=45, **kwargs)
+    except requests.RequestException as exc:
+        raise RuntimeError(f"Google Sheets сүлжээний алдаа: {exc}") from exc
+    if resp.status_code >= 400:
+        raise RuntimeError(
+            f"Google Sheets API алдаа (HTTP {resp.status_code}): {resp.text[:300]}"
+        )
+    try:
+        return resp.json()
+    except ValueError as exc:
+        raise RuntimeError("Google Sheets API JSON биш хариу буцаалаа.") from exc
+
+
+def sheet_column_name(index: int) -> str:
+    """Тэгээс эхэлсэн баганын индексийг A1 үсэг болгоно."""
+    result = ""
+    index += 1
+    while index:
+        index, remainder = divmod(index - 1, 26)
+        result = chr(65 + remainder) + result
+    return result
+
+
+def update_google_sheet_status(queue: list) -> int:
+    """queue.json дахь эцсийн төлөвүүдийг Sheet-ийн төлөв баганад бичнэ."""
+    session = google_sheet_session()
+    if session is None:
+        log.warning(
+            "GOOGLE_SERVICE_ACCOUNT_JSON тохируулаагүй тул Sheet төлөв шинэчлэхийг алгаслаа."
+        )
+        return 0
+
+    sheet_id = os.environ.get("THREADS_SHEET_ID", "").strip()
+    if not sheet_id:
+        raise RuntimeError("THREADS_SHEET_ID тохируулаагүй байна.")
+
+    base = f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}"
+    metadata = google_json(
+        session,
+        "GET",
+        base,
+        params={"fields": "sheets.properties(sheetId,title,index)"},
+    )
+    sheets = [s.get("properties", {}) for s in metadata.get("sheets", [])]
+    if not sheets:
+        raise RuntimeError("Google Sheet дотор хуудас олдсонгүй.")
+
+    gid = os.environ.get("THREADS_SHEET_GID", "").strip()
+    selected = next((s for s in sheets if gid and str(s.get("sheetId")) == gid), None)
+    if selected is None:
+        selected = min(sheets, key=lambda s: s.get("index", 0))
+    title = selected["title"]
+    quoted_title = title.replace("'", "''")
+    table_range = f"'{quoted_title}'!A:Z"
+
+    values = google_json(
+        session,
+        "GET",
+        f"{base}/values:batchGet",
+        params={
+            "ranges": table_range,
+            "majorDimension": "ROWS",
+            "valueRenderOption": "FORMATTED_VALUE",
+        },
+    )
+    rows = (values.get("valueRanges") or [{}])[0].get("values", [])
+    if not rows:
+        raise RuntimeError("Google Sheet хоосон байна.")
+
+    headers = [str(value).strip().lower() for value in rows[0]]
+    try:
+        id_col = next(i for i, name in enumerate(headers) if name in ("id", "дугаар"))
+        status_col = next(i for i, name in enumerate(headers) if name in ("төлөв", "status"))
+    except StopIteration as exc:
+        raise RuntimeError("Sheet-д id эсвэл төлөв багана олдсонгүй.") from exc
+
+    final_by_id = {
+        int(post["id"]): post["status"]
+        for post in queue
+        if post.get("id") and post.get("status") in ("posted", "failed", "skipped")
+    }
+    status_letter = sheet_column_name(status_col)
+    updates = []
+    for row_number, row in enumerate(rows[1:], start=2):
+        if id_col >= len(row):
+            continue
+        try:
+            item_id = int(float(str(row[id_col]).strip()))
+        except (TypeError, ValueError):
+            continue
+        desired = final_by_id.get(item_id)
+        if not desired:
+            continue
+        current = str(row[status_col]).strip().lower() if status_col < len(row) else ""
+        if current == desired:
+            continue
+        updates.append({
+            "range": f"'{quoted_title}'!{status_letter}{row_number}",
+            "values": [[desired]],
+        })
+
+    if not updates:
+        log.info("Google Sheet-ийн төлөв аль хэдийн шинэ байна.")
+        return 0
+
+    google_json(
+        session,
+        "POST",
+        f"{base}/values:batchUpdate",
+        json={"valueInputOption": "RAW", "data": updates},
+    )
+    log.info("Google Sheet дээр %d постын төлөв шинэчлэгдлээ.", len(updates))
+    return len(updates)
+
+
+def cmd_sheet_status(_args) -> None:
+    """Нийтэлсэн/алдаатай/алгассан төлөвийг Google Sheet рүү буцааж бичнэ."""
+    load_dotenv()
+    update_google_sheet_status(load_json(QUEUE_FILE, []))
+
+
 def cmd_sync(args) -> None:
     """Google Sheet-ийн агуулгыг локал ээлж рүү татна."""
     load_dotenv()
@@ -905,6 +1056,7 @@ def main() -> None:
     ad.add_argument("--image", default=None, help="нээлттэй зургийн URL")
 
     sub.add_parser("sync", help="Google Sheet-ээс ээлжийг татах")
+    sub.add_parser("sheet-status", help="Эцсийн төлөвүүдийг Google Sheet рүү бичих")
     sub.add_parser("token-import", help="THREADS_ACCESS_TOKEN-оос token.json үүсгэх")
 
     te = sub.add_parser("token-export", help="токеныг файлд бичих (CI)")
@@ -930,6 +1082,7 @@ def main() -> None:
         "show": cmd_show,
         "editor": cmd_editor,
         "sync": cmd_sync,
+        "sheet-status": cmd_sheet_status,
         "token-import": cmd_token_import,
         "token-export": cmd_token_export,
         "add": cmd_add,
