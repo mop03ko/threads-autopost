@@ -28,7 +28,7 @@
     "id": 808,
     "scheduled_at": "2026-08-19 22:00",
     "text": "Киноны график дизайн: Metropolis — Геометр ба масштаб\n\nБосоо тэнхлэг, давтагдсан цонх, аварга хэлбэрүүд нь жижиг дүрсийг хүрээлж, хэмжээсийн hierarchy үүсгэдэг.\n\nДизайнерын хэрэглээ: Том–жижиг харьцааг эрс ялгаж, гол объектын хэмжээг орчноор нь ойлгуул.",
-    "image_url": null,
+    "image_url": "https://intranet.pogmacva.com/uploads/img/6eee0213cd5748fe95f4c0853f1429673b82b0cb.jpg",
     "status": "pending"
   },
   {
@@ -77,7 +77,7 @@
     "id": 809,
     "scheduled_at": "2026-08-20 22:00",
     "text": "Киноны график дизайн: The Wizard of Oz — Палитрын шилжилт\n\nСаармаг хүрэн өнгөөс өндөр ханалттай ногоон, шар, улаан руу шилжихэд орчны ялгаа тайлбаргүйгээр мэдрэгддэг.\n\nДизайнерын хэрэглээ: Контентын шинэ хэсгийг ялгахдаа ганц accent биш, бүтэн palette state ашигла.",
-    "image_url": null,
+    "image_url": "https://pics.filmaffinity.com/the_wizard_of_oz-811309541-large.jpg",
     "status": "pending"
   },
   {
@@ -126,7 +126,7 @@
     "id": 810,
     "scheduled_at": "2026-08-21 22:00",
     "text": "Киноны график дизайн: Citizen Kane — Гүн давхаргатай композици\n\nУрд, дунд, арын хэсгийг зэрэг уншигдахуйц байрлуулснаар нэг frame дотор олон түвшний мэдээлэл эмхэрдэг.\n\nДизайнерын хэрэглээ: Editorial layout-д хэмжээ, overlap, contrast-аар гурван түвшний hierarchy байгуул.",
-    "image_url": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Citizen-Kane-Welles-Warrick-Breakfast.jpg",
     "status": "pending"
   },
   {
@@ -177,7 +177,7 @@
     "id": 811,
     "scheduled_at": "2026-08-22 22:00",
     "text": "Киноны график дизайн: Vertigo — Спираль motif\n\nДавтагдсан эргэлдсэн хэлбэр нь poster, title, хөдөлгөөнт графикийг нэг танигдах системд оруулдаг.\n\nДизайнерын хэрэглээ: Нэг үндсэн geometry сонгоод crop, scale, rotation-аар бүх touchpoint-д хувилбар үүсгэ.",
-    "image_url": null,
+    "image_url": "https://cdn.zendalibros.com/wp-content/uploads/vertigo-de-entre-los-muertos.jpg",
     "status": "pending"
   },
   {
@@ -226,7 +226,7 @@
     "id": 812,
     "scheduled_at": "2026-08-23 22:00",
     "text": "Киноны график дизайн: Psycho — Хуваагдсан title\n\nҮсгийг хэвтээ зурвасаар тасалсан шийдэл нь уншигдах байдлыг хадгалангаа визуал түгшүүр үүсгэдэг.\n\nДизайнерын хэрэглээ: Wordmark-ийг эвдэхдээ таних гол stroke, counter-уудыг бүрэн үлдээ.",
-    "image_url": null,
+    "image_url": "https://mx.web.img3.acsta.net/pictures/22/04/06/14/36/2590511.jpg",
     "status": "pending"
   },
   {
@@ -275,7 +275,7 @@
     "id": 813,
     "scheduled_at": "2026-08-24 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Төвийн симметр\n\nТөгс төвлөрсөн объект, тэнцүү margin, урт тэнхлэг нь минимал frame-д хүчтэй дэг журам өгдөг.\n\nДизайнерын хэрэглээ: Premium layout-д элемент нэмэхээс өмнө төвийн axis ба spacing system-ээ нарийвчил.",
-    "image_url": null,
+    "image_url": "https://static.fabrik.io/106t/16.jpeg?fit=max&h=5120&lossless=1&s=b0eda6ca4d7e48e15f201f5e1ee0b5bd&w=3840",
     "status": "pending"
   },
   {
@@ -324,7 +324,7 @@
     "id": 814,
     "scheduled_at": "2026-08-25 22:00",
     "text": "Киноны график дизайн: A Clockwork Orange — Цагаан талбай ба улбар accent\n\nӨргөн цагаан орон зайд улбар өнгийн цөөн элемент байрласнаар танигдах хүчтэй palette бий болдог.\n\nДизайнерын хэрэглээ: Нэг өндөр ханалттай accent-ыг 10–15 хувиас хэтрүүлэхгүй хэрэглэж, амьсгалах зайг үлдээ.",
-    "image_url": null,
+    "image_url": "https://fina-wagtail-media-prod.s3.amazonaws.com/images/Mechaniczna_pomarancza.original.jpg",
     "status": "pending"
   },
   {
@@ -373,7 +373,7 @@
     "id": 815,
     "scheduled_at": "2026-08-26 22:00",
     "text": "Киноны график дизайн: The Godfather — Хар талбайн premium effect\n\nИх хэмжээний хар фон, жижиг цагаан title нь дуугүй атлаа өндөр authority бүхий hierarchy үүсгэдэг.\n\nДизайнерын хэрэглээ: Luxury layout-д контентын тоог цөөлж, scale ба empty space-аар үнэ цэнийг мэдрүүл.",
-    "image_url": null,
+    "image_url": "https://shot.cafe/images/o/the-godfather-1972-12758.jpg",
     "status": "pending"
   },
   {
@@ -422,7 +422,7 @@
     "id": 816,
     "scheduled_at": "2026-08-27 22:00",
     "text": "Киноны график дизайн: Star Wars — Алсад багасах title\n\nPerspective grid дагасан текстийн хэмжээ аажмаар багасаж, хөдөлгөөнгүй бичвэрт гүн ба чиглэл өгдөг.\n\nДизайнерын хэрэглээ: Sequential мэдээлэлд scale progression ашиглаж, унших дарааллыг геометрээр мэдрүүл.",
-    "image_url": null,
+    "image_url": "https://parade.com/.image/c_fill%2Cg_xy_center%2Cx_2929%2Cy_1385/ODowMDAwMDAwMDAwOTM1NTU2/harrison-ford-shares-rare-comment-on-dear-friend-carrie-fisher.jpg",
     "status": "pending"
   },
   {
@@ -471,7 +471,7 @@
     "id": 817,
     "scheduled_at": "2026-08-28 22:00",
     "text": "Киноны график дизайн: Alien — Biomechanical texture\n\nОрганик муруй ба механик шугамыг нэг texture-д холиход танил бус, өвөрмөц visual language үүсдэг.\n\nДизайнерын хэрэглээ: Хоёр эсрэг texture-ийг 50/50 холихгүй; нэгийг бүтэц, нөгөөг accent болгон ашигла.",
-    "image_url": null,
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMTMwNjUxOTExN15BMl5BanBnXkFtZTcwODE2NTUyMw%40%40._V1_.jpg",
     "status": "pending"
   },
   {
@@ -520,7 +520,7 @@
     "id": 818,
     "scheduled_at": "2026-08-29 22:00",
     "text": "Киноны график дизайн: The Shining — Хивсний pattern\n\nӨндөр contrast-тай зургаан өнцөгт давталт нь орон зайг grid шиг зохион байгуулж, шууд танигдах texture болдог.\n\nДизайнерын хэрэглээ: Pattern хийхдээ үндсэн module, repeat gap, хоёрдогч өнгийн дүрмийг тогтвортой барь.",
-    "image_url": null,
+    "image_url": "https://n.sinaimg.cn/sinacn10102/484/w1920h964/20200117/3b76-inhcyca4578322.jpg",
     "status": "pending"
   },
   {
@@ -569,7 +569,7 @@
     "id": 819,
     "scheduled_at": "2026-08-30 22:00",
     "text": "Киноны график дизайн: Blade Runner — Неон-noir palette\n\nХөх, ягаан, улаан гэрлийн давхарга бараан фон дээр мэдээллийн түвшнийг өнгөөр салгадаг.\n\nДизайнерын хэрэглээ: Dark visual-д glow бүрийг адил хүчтэй бүү хий; primary, secondary, ambient гэсэн intensity шатлал тогтоо.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/8f/13/e3/8f13e302cd9046bac50a306121388229.jpg",
     "status": "pending"
   },
   {
@@ -618,7 +618,7 @@
     "id": 820,
     "scheduled_at": "2026-08-31 22:00",
     "text": "Киноны график дизайн: Tron — Гэрэлт шугамын систем\n\nХар фон дээр ижил зузаантай cyan, orange шугамууд объект, хөдөлгөөн, ангиллыг зэрэг кодолдог.\n\nДизайнерын хэрэглээ: Icon ба illustration-д stroke width-ээ тогтмол байлгаж, өнгийг category ялгалтад ашигла.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/17/b4/70/17b4706762c35171ca657541aa19fecb.jpg",
     "status": "pending"
   },
   {
@@ -667,7 +667,7 @@
     "id": 821,
     "scheduled_at": "2026-09-01 22:00",
     "text": "Киноны график дизайн: Brazil — Мэдээллийн хэт нягтрал\n\nForm, label, stamp, duct-like line зэрэг давхарласан график элементүүд bureaucratic clutter-ийн нэгдсэн хэл үүсгэдэг.\n\nДизайнерын хэрэглээ: Complexity харуулахдаа random болгохгүй; давтагдсан label style, grid, stamp хэлбэрээр эмхэл.",
-    "image_url": null,
+    "image_url": "https://www.gilliamdreams.com/wp-content/uploads/brazil_15.png",
     "status": "pending"
   },
   {
@@ -716,7 +716,7 @@
     "id": 822,
     "scheduled_at": "2026-09-02 22:00",
     "text": "Киноны график дизайн: Batman (1989) — Ellipse logo\n\nХар сарьсан багваахайг шар ellipse дотор тусгаарласнаар жижиг, хол, хөдөлгөөнтэй нөхцөлд ч танигдана.\n\nДизайнерын хэрэглээ: Symbol-д contrast container ашиглаж, фон бүр дээр ижил silhouette хадгал.",
-    "image_url": null,
+    "image_url": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/45685/article_full%403x.jpg",
     "status": "pending"
   },
   {
@@ -765,7 +765,7 @@
     "id": 823,
     "scheduled_at": "2026-09-03 22:00",
     "text": "Киноны график дизайн: Edward Scissorhands — Pastel ба хар contrast\n\nЗөөлөн pastel palette дунд бараан, хурц silhouette байрлахад figure–ground ялгарал маш хүчтэй болдог.\n\nДизайнерын хэрэглээ: Эсрэг зан чанарыг илэрхийлэхдээ hue-ээс гадна edge, texture, saturation-ыг зэрэг ялга.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/736x/d4/fb/99/d4fb996b5a069aff40a27968f89a4360--series-movies-.jpg",
     "status": "pending"
   },
   {
@@ -814,7 +814,7 @@
     "id": 824,
     "scheduled_at": "2026-09-04 22:00",
     "text": "Киноны график дизайн: Jurassic Park — Дугуй logo lockup\n\nДугуй badge, skeleton silhouette, rectangular nameplate нь олон орчинд тогтвортой ашиглагдах modular lockup болдог.\n\nДизайнерын хэрэглээ: Logo system-д icon-only, full lockup, small-size гэсэн гурван хувилбар урьдчилан бэлд.",
-    "image_url": null,
+    "image_url": "https://media.thepopverse.com/media/jurassic-park-qy4er0av5zieleyfetzp2eu1w2.jpg",
     "status": "pending"
   },
   {
@@ -863,7 +863,7 @@
     "id": 825,
     "scheduled_at": "2026-09-05 22:00",
     "text": "Киноны график дизайн: Pulp Fiction — Retro pulp typography\n\nЗузаан serif, налуу shadow, шахуу tracking нь хуучны paperback cover-ийн шууд дохио болдог.\n\nДизайнерын хэрэглээ: Era reference ашиглахдаа нэг фонт бус, shadow, outline, spacing гэсэн багцаар нь системчил.",
-    "image_url": null,
+    "image_url": "https://media.vanityfair.com/photos/58861114d821cd5a3993d06b/16%3A9/w_1280%2Cc_limit/john-travolta-uma-thurman-pulp-fiction.jpg?mbid=social_retweet",
     "status": "pending"
   },
   {
@@ -912,7 +912,7 @@
     "id": 826,
     "scheduled_at": "2026-09-06 22:00",
     "text": "Киноны график дизайн: Se7en — Scratch typography\n\nЗураастай, жигд бус үсэг нь texture-ийг зөвхөн фон бус, мэдээллийн зан чанар болгодог.\n\nДизайнерын хэрэглээ: Distressed effect-ээ бүх текстэд бүү тавь; display layer-д хэрэглээд body copy-г цэвэр үлдээ.",
-    "image_url": null,
+    "image_url": "https://2.bp.blogspot.com/-wo-UZKR-Vd4/UQzIad7YOBI/AAAAAAAAFjc/Dwmrs4yaASo/s1600/se7end1002.png",
     "status": "pending"
   },
   {
@@ -961,7 +961,7 @@
     "id": 827,
     "scheduled_at": "2026-09-07 22:00",
     "text": "Киноны график дизайн: The Matrix — Ногоон digital code\n\nХар фон дээр босоо ногоон тэмдэгтүүд давтагдаж, нэг хөдөлгөөнт pattern бүх identity-г тодорхойлдог.\n\nДизайнерын хэрэглээ: Ownable pattern хийхдээ direction, density, speed, glow-ийн дүрмийг нэг мөр болго.",
-    "image_url": null,
+    "image_url": "https://remaimodern.org/wp-content/uploads/2023/09/The-Matrix.jpeg",
     "status": "pending"
   },
   {
@@ -1010,7 +1010,7 @@
     "id": 828,
     "scheduled_at": "2026-09-08 22:00",
     "text": "Киноны график дизайн: Fight Club — Ягаан савангийн icon\n\nЭнгийн rectangular object, embossed title, тод ягаан өнгө нь нэг кадрт бүтээгдэхүүн ба logo шиг ажилладаг.\n\nДизайнерын хэрэглээ: Campaign hero-д message-ээ нэг physical-form metaphor дээр төвлөрүүл.",
-    "image_url": null,
+    "image_url": "https://assets.eyefilm.nl/images/production/_2880x1620_crop_center-center_none/still-Fight-Club-David-Fincher-US-DE-1999-1.jpg",
     "status": "pending"
   },
   {
@@ -1059,7 +1059,7 @@
     "id": 829,
     "scheduled_at": "2026-09-09 22:00",
     "text": "Киноны график дизайн: Amélie — Улаан, ногоон, алтлаг\n\nГурван өнгийн хязгаарлагдмал palette нь кадр бүрийг нэг брэндийн цуврал мэт холбодог.\n\nДизайнерын хэрэглээ: Фото series-д preset бус, dominant, supporting, accent гурвалын харьцааг тогтоо.",
-    "image_url": null,
+    "image_url": "https://prcdn.freetls.fastly.net/release_image/29736/366/29736-366-d2777874280ce75dea9ead48ae01a96e-900x630.jpg?auto=webp&fit=bounds&format=jpeg&height=1350&quality=85&width=1950",
     "status": "pending"
   },
   {
@@ -1108,7 +1108,7 @@
     "id": 830,
     "scheduled_at": "2026-09-10 22:00",
     "text": "Киноны график дизайн: The Lord of the Rings — Map graphic system\n\nГар зурсан line, topographic texture, serif label, faded ink нь нэг цогц мэдээллийн систем болдог.\n\nДизайнерын хэрэглээ: World map эсвэл infographic-д line weight, label hierarchy, symbol key-ээ нэг style guide-д оруул.",
-    "image_url": null,
+    "image_url": "https://nofilmschool.com/media-library/the-lord-the-rings-0.jpg?coordinates=0%2C3%2C0%2C0&height=700&id=34049628&width=1245",
     "status": "pending"
   },
   {
@@ -1157,7 +1157,7 @@
     "id": 831,
     "scheduled_at": "2026-09-11 22:00",
     "text": "Киноны график дизайн: Spirited Away — Bathhouse signage\n\nБосоо бичвэр, улаан тэмдэг, модон texture нь олон давхар мэдээллийг орчны нэг график систем болгодог.\n\nДизайнерын хэрэглээ: Signage хийхдээ унших чиглэл, материал, accent color-ийг тухайн орчны логиктой холбо.",
-    "image_url": null,
+    "image_url": "https://christchurchartgallery.org.nz/media/cache/bf/91/bf91c469e473c33cf597e8682b9a4128.jpg",
     "status": "pending"
   },
   {
@@ -1206,7 +1206,7 @@
     "id": 832,
     "scheduled_at": "2026-09-12 22:00",
     "text": "Киноны график дизайн: In the Mood for Love — Улаан ба emerald palette\n\nГүн улаан, ногоон, алтлаг өнгөний давталт нь luxury editorial шиг нягт, тогтвортой visual tone өгдөг.\n\nДизайнерын хэрэглээ: Campaign series-д palette ratio-г asset бүр дээр хадгалж, hue-г санамсаргүй бүү өөрчил.",
-    "image_url": null,
+    "image_url": "https://shot.cafe/images/o/in-the-mood-for-love-2000-10112.jpg",
     "status": "pending"
   },
   {
@@ -1255,7 +1255,7 @@
     "id": 833,
     "scheduled_at": "2026-09-13 22:00",
     "text": "Киноны график дизайн: Harry Potter — Serif lightning wordmark\n\nҮсгийн хурц төгсгөл, аянгын custom stroke нь энгийн serif-ийг ownable wordmark болгодог.\n\nДизайнерын хэрэглээ: Custom логотипт бүх үсгийг өөрчлөхгүй; нэг distinctive character-ийг signature болго.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/8d/93/82/8d938251d708db60bec5b4ac55e41620.jpg",
     "status": "pending"
   },
   {
@@ -1304,7 +1304,7 @@
     "id": 834,
     "scheduled_at": "2026-09-14 22:00",
     "text": "Киноны график дизайн: Kill Bill — Шар, хар identity\n\nӨндөр ханалттай шар ба хатуу хар contrast нь costume, title, poster даяар нэг секундэд танигдах код болдог.\n\nДизайнерын хэрэглээ: Campaign palette-д dominant өнгө нэг, contrast өнгө нэг байхад asset consistency эрс нэмэгдэнэ.",
-    "image_url": null,
+    "image_url": "https://media.gq.com.tw/photos/65f17fd149574801a8dfbdd3/master/w_1600%2Cc_limit/2kg90b7-64f5e50532f9c.jpg",
     "status": "pending"
   },
   {
@@ -1353,7 +1353,7 @@
     "id": 835,
     "scheduled_at": "2026-09-15 22:00",
     "text": "Киноны график дизайн: Sin City — Selective color\n\nХар-цагаан зураг дотор ганц улаан эсвэл шар accent ашигласнаар focal point эргэлзээгүй тодордог.\n\nДизайнерын хэрэглээ: Accent-аа нэг semantic үүрэгт тогтоож, бусад өнгийг бүрэн саармагжуул.",
-    "image_url": null,
+    "image_url": "https://media.filmz.ru/photos/big/filmz.ru_b_96199.jpg",
     "status": "pending"
   },
   {
@@ -1402,7 +1402,7 @@
     "id": 836,
     "scheduled_at": "2026-09-16 22:00",
     "text": "Киноны график дизайн: The Dark Knight — Bat symbol negative space\n\nТэмдэг нь гэрэл, барилгын outline, эвдэрсэн texture дотор өөр өөрөөр гарсан ч silhouette-ээ хадгалдаг.\n\nДизайнерын хэрэглээ: Logo-г нэг lockup-аар хязгаарлахгүй; negative, texture, crop хувилбарын дүрэм гарга.",
-    "image_url": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/677ea4e5e704630439107568/54a659f4-4a78-4684-8338-6640701a821d/darkknight004.jpg",
     "status": "pending"
   },
   {
@@ -1451,7 +1451,7 @@
     "id": 837,
     "scheduled_at": "2026-09-17 22:00",
     "text": "Киноны график дизайн: Avatar — Bioluminescent palette\n\nCyan, blue, violet өнгө бараан фон дээр gradient layer болон ажиллаж depth үүсгэдэг.\n\nДизайнерын хэрэглээ: Glow effect-д hue бүрийн luminance-ийг ялгаж, текстийн contrast-ыг solid area-аар хамгаал.",
-    "image_url": null,
+    "image_url": "https://static.wixstatic.com/media/3a6f53_7f6ff0d4e9b14e39bb6e431368ff5248~mv2.jpg/v1/fill/w_1960%2Ch_1500%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3a6f53_7f6ff0d4e9b14e39bb6e431368ff5248~mv2.jpg",
     "status": "pending"
   },
   {
@@ -1500,7 +1500,7 @@
     "id": 838,
     "scheduled_at": "2026-09-18 22:00",
     "text": "Киноны график дизайн: Inception — Impossible geometry\n\nШат, хотын шугам, perspective-ийн зөрчил нь нэг зурагт concept-ийг тайлбаргүй багтаадаг.\n\nДизайнерын хэрэглээ: Concept visual-д бодит нэг дүрмийг зориуд эвдэж, бусад layout-аа энгийн үлдээ.",
-    "image_url": null,
+    "image_url": "https://cinemasips.com/wp-content/uploads/2021/08/inception.png",
     "status": "pending"
   },
   {
@@ -1549,7 +1549,7 @@
     "id": 839,
     "scheduled_at": "2026-09-19 22:00",
     "text": "Киноны график дизайн: The Grand Budapest Hotel — Төгс симметр\n\nОбъект, хаалга, type, margin бүгд төв axis-д захирагдаж decorative detail ч эмх цэгцтэй харагдана.\n\nДизайнерын хэрэглээ: Ornate layout-д symmetry ба spacing token-ууд complexity-г хянадаг.",
-    "image_url": null,
+    "image_url": "https://imgix.bustle.com/nylon/18614262/origin.jpg?crop=faces&fit=crop&fm=jpg&h=1200&w=1200",
     "status": "pending"
   },
   {
@@ -1598,7 +1598,7 @@
     "id": 840,
     "scheduled_at": "2026-09-20 22:00",
     "text": "Киноны график дизайн: Mad Max: Fury Road — Улбар ба cyan\n\nӨдрийн улбар, шөнийн cyan хоёр complementary state нь цаг, орчны ялгааг маш цэвэр кодолдог.\n\nДизайнерын хэрэглээ: Campaign-ийн хоёр phase-ийг palette state-аар ялгаад common typography-гаа тогтвортой үлдээ.",
-    "image_url": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/608dfe2b1aa87260966bfacf/ea5396f4-d731-4d1f-a310-51c56ca0e561/vlcsnap-2024-06-19-22h49m55s724.png",
     "status": "pending"
   },
   {
@@ -1647,7 +1647,7 @@
     "id": 841,
     "scheduled_at": "2026-09-21 22:00",
     "text": "Киноны график дизайн: La La Land — Primary color blocking\n\nШар, хөх, улаан хувцас ба фон том цэвэр талбай болж, дүрүүдийг graphic shapes мэт ялгадаг.\n\nДизайнерын хэрэглээ: Photo direction-д palette-аа prop бүрээр тараахгүй; 2–3 том color block-оор композици байгуул.",
-    "image_url": null,
+    "image_url": "https://a.ltrbxd.com/resized/alternative-backdrop/2/4/0/3/4/4/tmdb/uhwHCbSy6mzhB3ynJl4ubiOdBXS-1200-1200-675-675-crop-000000.jpg?v=67ecfc6b7f",
     "status": "pending"
   },
   {
@@ -1696,7 +1696,7 @@
     "id": 842,
     "scheduled_at": "2026-09-22 22:00",
     "text": "Киноны график дизайн: Arrival — Oval symbol system\n\nБэхэн дугуй тэмдэг бүр нэг гэр бүл шиг боловч дотоод тасралт, нягтралаараа ялгардаг.\n\nДизайнерын хэрэглээ: Icon family-д outer silhouette-ээ тогтвортой, internal pattern-аа variable болго.",
-    "image_url": null,
+    "image_url": "https://www.latfusa.com/media/uploads/2016/11/10/arrival3.jpg",
     "status": "pending"
   },
   {
@@ -1745,7 +1745,7 @@
     "id": 843,
     "scheduled_at": "2026-09-23 22:00",
     "text": "Киноны график дизайн: Moonlight — Цэнхэр tonal system\n\nНэг hue-ийн олон value арьсны өнгөтэй хослон зөөлөн, нэгдсэн palette үүсгэдэг.\n\nДизайнерын хэрэглээ: Duotone visual-д skin tone-оо алдагдуулахгүйгээр shadow ба background-д hue нэвтрүүл.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/736x/21/25/19/2125195275b157f603ce349f4ca9cb5a.jpg",
     "status": "pending"
   },
   {
@@ -1794,7 +1794,7 @@
     "id": 844,
     "scheduled_at": "2026-09-24 22:00",
     "text": "Киноны график дизайн: Blade Runner 2049 — Байршлын өнгөний код\n\nOrange, cyan, yellow, gray palette тус бүр өөр орчны visual state болж, asset series-ийг ангилдаг.\n\nДизайнерын хэрэглээ: Олон section-тэй brand-д location буюу category бүрт dominant hue оноож common grid-ээ хадгал.",
-    "image_url": null,
+    "image_url": "https://s-trojmiasto.pl/zdj/c/n/9/1913/1777x0/1913450-Nowa-odslona-Blade-Runnera-skupia-sie-ponownie-na-poszukiwaniach-czlowieczenstwa-zarowno-w-samym-czlowieku-jak-i-jego-tworach-To-rowniez-inteligentna-i-kameralna-w-przeslaniu-opowiesc-o-uczuciach-samotnosci-i-poszukiwaniach-tozsamosci.webp",
     "status": "pending"
   },
   {
@@ -1843,7 +1843,7 @@
     "id": 845,
     "scheduled_at": "2026-09-25 22:00",
     "text": "Киноны график дизайн: Black Panther — Африк геометрийн pattern\n\nГурвалжин, zigzag, bead-like rhythm нь хувцас, титэм, interface-д давтагдаж нэг visual library үүсгэдэг.\n\nДизайнерын хэрэглээ: Соёлын reference ашиглахдаа motif-ийн утгыг судалж, scale ба context-ийг системтэй хадгал.",
-    "image_url": null,
+    "image_url": "https://s.yimg.com/ny/api/res/1.2/uOuycwwsSl8USqOiMAkeVA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https%3A/media.zenfs.com/en/homerun/feed_manager_auto_publish_494/ffa29684c5c1ffad362734e33e657159",
     "status": "pending"
   },
   {
@@ -1892,7 +1892,7 @@
     "id": 846,
     "scheduled_at": "2026-09-26 22:00",
     "text": "Киноны график дизайн: Parasite — Хэвтээ censor bar\n\nНүдэн дээрх хар, цагаан зурвас нь хөрөг бүрийг нэг системд оруулж, хамгийн хүчтэй graphic hook болдог.\n\nДизайнерын хэрэглээ: Poster series-д нэг ижил overlay element ашиглаж өөр зургийг common campaign болго.",
-    "image_url": null,
+    "image_url": "https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/UJGDFIQM6BEEVGRWC63OROO3QA.jpg",
     "status": "pending"
   },
   {
@@ -1941,7 +1941,7 @@
     "id": 847,
     "scheduled_at": "2026-09-27 22:00",
     "text": "Киноны график дизайн: Joker — Ногоон, шар, улаан\n\nMuted ногоон-шар орчин дээр ханасан улаан хувцас focal point болж, palette ratio маш тод харагддаг.\n\nДизайнерын хэрэглээ: Hero visual-д 70/20/10 өнгөний харьцааг туршиж accent-аа зөвхөн субъект дээр төвлөрүүл.",
-    "image_url": null,
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/joaquin-phoenix-joker-1569510487.jpg?crop=1.00xw%3A0.752xh%3B0%2C0.0967xh&resize=1200%3A%2A",
     "status": "pending"
   },
   {
@@ -1990,7 +1990,7 @@
     "id": 848,
     "scheduled_at": "2026-09-28 22:00",
     "text": "Киноны график дизайн: Dune — Монументал minimalism\n\nАсар том дугуй, тэгш өнцөгт mass ба жижиг хүний дүрс нь цөөн элементээр масштабыг мэдрүүлдэг.\n\nДизайнерын хэрэглээ: Key visual-д нэг primary shape, нэг scale reference, нэг text block гэсэн хязгаар тавь.",
-    "image_url": null,
+    "image_url": "https://www.kinonews.ru/insimgs/2020/shotimg/shotimg95467_1.jpg",
     "status": "pending"
   },
   {
@@ -2039,7 +2039,7 @@
     "id": 849,
     "scheduled_at": "2026-09-29 22:00",
     "text": "Киноны график дизайн: Everything Everywhere All at Once — Олон style, нэг circle\n\nCollage, poster, title, prop graphic өөр өөр хэв маягтай ч дугуй motif дахин дахин гарч системийг холбодог.\n\nДизайнерын хэрэглээ: Эклектик campaign-д нэг invariant shape сонгож бүх style дээр давт.",
-    "image_url": null,
+    "image_url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A159%2Ccw%3A961%2Cch%3A721%2Cq%3A80%2Cw%3A961/6kK4nEuz5nrW2RqCWtsPiR.jpeg",
     "status": "pending"
   },
   {
@@ -2088,7 +2088,7 @@
     "id": 850,
     "scheduled_at": "2026-09-30 22:00",
     "text": "Киноны график дизайн: Barbie — Ягаан tonal palette\n\nНэг ягаан өнгийг pastel, hot pink, magenta, blush гэсэн олон value, saturation-аар өргөжүүлдэг.\n\nДизайнерын хэрэглээ: Single-color identity-д shade бүрт surface, text, accent гэсэн үүрэг оноо.",
-    "image_url": null,
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/O72ZMV2MCERFULW6AI6AGHTTIQ.jpg",
     "status": "pending"
   },
   {
@@ -2137,7 +2137,7 @@
     "id": 851,
     "scheduled_at": "2026-10-01 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Улбар ба хар texture\n\nГалын улбар, нүүрсэн хар, цагаан highlight нь rough texture дотор ч title-ийг өндөр contrast-тай барьдаг.\n\nДизайнерын хэрэглээ: Texture-heavy poster-д text-ийн ард local contrast zone зориуд цэвэрлэ.",
-    "image_url": null,
+    "image_url": "https://d15-a.sdn.cz/d_15/c_img_QP_BA/QhAJS/oppenheimer-film.jpeg?fl=cro%2C150%2C0%2C1620%2C1080%7Cres%2C1200%2C%2C1%7Cjpg%2C80%2C%2C1",
     "status": "pending"
   },
   {
@@ -2186,7 +2186,7 @@
     "id": 852,
     "scheduled_at": "2026-10-02 22:00",
     "text": "Киноны график дизайн: Poor Things — Fisheye frame\n\nДугуйрсан зах, өргөн distortion нь энгийн rectangular frame-ийг өөрөө танигдах graphic device болгодог.\n\nДизайнерын хэрэглээ: Series visual-д ижил lens-like mask ашиглаж өөр зургуудыг нэг систем болго.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/d1/7b/b9/d17bb93ced9c31dd9fc26f7f3f1d149b.jpg",
     "status": "pending"
   },
   {
@@ -2235,7 +2235,7 @@
     "id": 853,
     "scheduled_at": "2026-10-03 22:00",
     "text": "Киноны график дизайн: Metropolis — Хар, цагаан контраст\n\nӨнгөгүй палитр дотор гэрэл–сүүдрийн том масс, хурц ирмэг хоёр л түвшний мэдээллийг маш тод салгадаг.\n\nДизайнерын хэрэглээ: Өнгөгүй thumbnail дээр гол мессеж танигдах хүртэл value contrast-аа зас.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/88/2b/9c/882b9c3464bdb7ceb9e71763434ee74d.png",
     "status": "pending"
   },
   {
@@ -2284,7 +2284,7 @@
     "id": 854,
     "scheduled_at": "2026-10-04 22:00",
     "text": "Киноны график дизайн: The Wizard of Oz — Шар замын чиглүүлэлт\n\nТод шар муруй шугам нь фон дээр хүчтэй салж, нүдийг кадрын гүн рүү системтэй хөтөлдөг.\n\nДизайнерын хэрэглээ: Маршрут, алхам, CTA-г өнгө ба шугамын тасралтгүй хэмнэлээр холбо.",
-    "image_url": null,
+    "image_url": "https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2025/11/14131434/Wizard-of-Oz-Frame-3.jpeg",
     "status": "pending"
   },
   {
@@ -2333,7 +2333,7 @@
     "id": 855,
     "scheduled_at": "2026-10-05 22:00",
     "text": "Киноны график дизайн: Citizen Kane — Доод өнцгийн геометр\n\nДиагональ тааз, өргөн negative space нь субъектын жинг нэмэгдүүлж, frame-ийн баланс зориуд хүнд болгодог.\n\nДизайнерын хэрэглээ: Authority илэрхийлэх key visual-д доод суурь, өндөр хоосон зай, хатуу диагональ турш.",
-    "image_url": null,
+    "image_url": "https://www.pagina12.com.ar/resizer/v2/MQZTQM3CHBTGKMRTGZRWGNTGGM.jpg?auth=fb1508c5ac29d1e9c68a59446dd6fe29d7bd847d4e747b5314700eefc67738ff&quality=75&width=1200",
     "status": "pending"
   },
   {
@@ -2382,7 +2382,7 @@
     "id": 856,
     "scheduled_at": "2026-10-06 22:00",
     "text": "Киноны график дизайн: Vertigo — Улаан ба ногоон\n\nComplementary өнгөний зөрчил нь хоёр элементийг зэрэг хүчтэй болгох ч харааны дарамт үүсгэдэг.\n\nДизайнерын хэрэглээ: Улаан–ногооныг 50/50 бус, dominant–accent харьцаагаар ашиглаж уншигдах байдлыг хамгаал.",
-    "image_url": null,
+    "image_url": "https://screenmusings.org/movie/dvd/Vertigo/images/Vertigo-0781.jpg",
     "status": "pending"
   },
   {
@@ -2431,7 +2431,7 @@
     "id": 857,
     "scheduled_at": "2026-10-07 22:00",
     "text": "Киноны график дизайн: Psycho — Диагональ хэмнэл\n\nТашуу шугам, хурц crop, тэгш бус зай нь тайван grid-ийг зориуд эвдэж анхаарал татдаг.\n\nДизайнерын хэрэглээ: Системээ эхлээд цэвэр grid дээр байгуул; дараа нь зөвхөн focal point дээр диагональ зөрчил оруул.",
-    "image_url": null,
+    "image_url": "https://resizer.mail.ru/p/ccfce674-a4f6-55b5-8fd6-e6aa98a1c449/dpr%3A156/AAAC7TNcmr9trmvbHlUk6zr4hKXTGVavCpLQ45UsFaf_I44-tI87xNHpHH0BzrUSh1OsBe1ocMSvDsdSx6xfSSyzfFA.jpg",
     "status": "pending"
   },
   {
@@ -2480,7 +2480,7 @@
     "id": 858,
     "scheduled_at": "2026-10-08 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Цагаан, хар, улаан\n\nСаармаг том талбай дээр улаан accent маш бага хэмжээгээр ч navigation болон анхаарлыг удирддаг.\n\nДизайнерын хэрэглээ: Accent color-оо чимэглэлд бус, зөвхөн status ба action-д зарцуул.",
-    "image_url": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5c8d218eebfc7faf979aeb3d/3f630178-a1bf-4924-be52-80faed7847ef/2001%2B1.png",
     "status": "pending"
   },
   {
@@ -2529,7 +2529,7 @@
     "id": 859,
     "scheduled_at": "2026-10-09 22:00",
     "text": "Киноны график дизайн: A Clockwork Orange — Гурвалжин silhouette\n\nPoster-ийн хурц гурвалжин frame нь төв дүрсийг чиглүүлж, маш хурдан танигдах outline үүсгэдэг.\n\nДизайнерын хэрэглээ: Key visual-д эхлээд 2 секундэд танигдах нэг том silhouette зохио.",
-    "image_url": null,
+    "image_url": "https://assets.st-note.com/production/uploads/images/130060386/rectangle_large_type_2_2c69b3a1b55e0130f62e14040efc5055.jpeg?fit=bounds&height=2000&quality=85&width=2000",
     "status": "pending"
   },
   {
@@ -2578,7 +2578,7 @@
     "id": 860,
     "scheduled_at": "2026-10-10 22:00",
     "text": "Киноны график дизайн: The Godfather — Утас удирдсан гарын тэмдэг\n\nЭнгийн хар-цагаан icon нь бүтэн санааг нэг silhouette-д шахаж, wordmark-той салшгүй холбогддог.\n\nДизайнерын хэрэглээ: Логоны symbol-оо жижиг хэмжээ, нэг өнгө, тайлбаргүй нөхцөлд шалга.",
-    "image_url": null,
+    "image_url": "https://db.kookje.co.kr/news2000/photo/2010/0521/L20100521.22019192617i1.jpg",
     "status": "pending"
   },
   {
@@ -2627,7 +2627,7 @@
     "id": 861,
     "scheduled_at": "2026-10-11 22:00",
     "text": "Киноны график дизайн: Star Wars — Шар ба хар contrast\n\nЦэвэр хар талбай дээр шар үсэг хамгийн шууд, өндөр contrast бүхий signal болдог.\n\nДизайнерын хэрэглээ: Онцгой announcement-д palette-аа хоёр өнгөөр хязгаарлаж, hierarchy-г хэмжээ ба жингээр шийд.",
-    "image_url": null,
+    "image_url": "https://thetv.jp/i/nw/1279496/14955356.jpg?w=1284",
     "status": "pending"
   },
   {
@@ -2676,7 +2676,7 @@
     "id": 862,
     "scheduled_at": "2026-10-12 22:00",
     "text": "Киноны график дизайн: Alien — Зайтай title reveal\n\nҮсгүүд хэсэгчлэн гарч, өргөн tracking-тэй бүтэн title болох нь negative space-ийг идэвхтэй элемент болгодог.\n\nДизайнерын хэрэглээ: Title animation-д бүхнийг зэрэг үзүүлэхгүй; stroke, spacing, reveal order-оор хүлээлт үүсгэ.",
-    "image_url": null,
+    "image_url": "https://images6.alphacoders.com/522/thumb-1920-522439.jpg",
     "status": "pending"
   },
   {
@@ -2725,7 +2725,7 @@
     "id": 863,
     "scheduled_at": "2026-10-13 22:00",
     "text": "Киноны график дизайн: The Shining — Нэг цэгийн perspective\n\nКоридорын шугамууд төв рүү нийлж, focal point-ийг нэмэлт сум, хүрээгүйгээр заадаг.\n\nДизайнерын хэрэглээ: Landing page hero-д ирмэг, shadow, line-уудаа нэг харааны төв рүү чиглүүл.",
-    "image_url": null,
+    "image_url": "https://film-grab.com/wp-content/uploads/photo-gallery/08%20%281164%29.jpg?bwg=1547470754",
     "status": "pending"
   },
   {
@@ -2774,7 +2774,7 @@
     "id": 864,
     "scheduled_at": "2026-10-14 22:00",
     "text": "Киноны график дизайн: Blade Runner — Хотын signage\n\nОлон хэл, өөр scale, босоо ба хэвтээ тэмдэглэгээ нягт орчинд ч layer-by-layer hierarchy үүсгэдэг.\n\nДизайнерын хэрэглээ: Event visual-д signage-ийн scale contrast ашигла, гэхдээ нэг grid ба palette-аар эмхэл.",
-    "image_url": null,
+    "image_url": "https://nofilmschool.com/media-library/636426412652392360-d02-blade-runner-ford-17-11497637.jpg?coordinates=0%2C0%2C0%2C8&height=700&id=34057936&width=1245",
     "status": "pending"
   },
   {
@@ -2823,7 +2823,7 @@
     "id": 865,
     "scheduled_at": "2026-10-15 22:00",
     "text": "Киноны график дизайн: Tron — Circuit grid\n\nТэгш өнцөгт зам, зангилаа, давтагдсан module нь бүх surface-ийг нэг digital texture-д нэгтгэдэг.\n\nДизайнерын хэрэглээ: Background pattern-аа decoration бус, layout guide болон ашигла.",
-    "image_url": null,
+    "image_url": "https://cdn.theasc.com/tron_ram_dies.jpg",
     "status": "pending"
   },
   {
@@ -2872,7 +2872,7 @@
     "id": 866,
     "scheduled_at": "2026-10-16 22:00",
     "text": "Киноны график дизайн: Brazil — Ретро-future typography\n\nХуучны serif, механик label, техникийн sans зэрэг эсрэг хэв маяг зориуд мөргөлдөнө.\n\nДизайнерын хэрэглээ: Style mixing хийх бол тус бүрт нь тодорхой үүрэг өг: headline, system label, annotation.",
-    "image_url": null,
+    "image_url": "https://www.virtual-history.com/movie/photo/pr43/large/brazil.jpg",
     "status": "pending"
   },
   {
@@ -2921,7 +2921,7 @@
     "id": 867,
     "scheduled_at": "2026-10-17 22:00",
     "text": "Киноны график дизайн: Batman (1989) — Готик босоо хэмнэл\n\nӨндөр нарийн хэлбэр, үзүүрлэг орой, давтагдсан vertical line нь нэгдсэн architectural graphic language өгдөг.\n\nДизайнерын хэрэглээ: Display type, border, icon-доо ижил vertical proportion ба point angle ашигла.",
-    "image_url": null,
+    "image_url": "https://screenmusings.org/movie/dvd/Batman/images/Batman-1989-0183.jpg",
     "status": "pending"
   },
   {
@@ -2970,7 +2970,7 @@
     "id": 868,
     "scheduled_at": "2026-10-18 22:00",
     "text": "Киноны график дизайн: Edward Scissorhands — Suburb pattern\n\nИжил хэмжээтэй байшин, машин, зүлэг нь давталтын grid үүсгэж, ганц өөр элементийг шууд тодруулдаг.\n\nДизайнерын хэрэглээ: Олон card-тай layout-д uniform system байгуулж, онцгой item-ийг нэг параметрээр л эвд.",
-    "image_url": null,
+    "image_url": "https://www.domusweb.it/content/dam/domusweb/en/news/2024/10/31/i-migliori-film-di-tim-burton-dagli-anni-80-a-oggi/domus-barton-cover-1.jpg.foto.rmedium.jpg",
     "status": "pending"
   },
   {
@@ -3019,7 +3019,7 @@
     "id": 869,
     "scheduled_at": "2026-10-19 22:00",
     "text": "Киноны график дизайн: Jurassic Park — Улаан, шар, хар\n\nАнхааруулах тэмдэг шиг өндөр contrast palette нь мэдээллийг шууд, мартагдахгүй хүргэдэг.\n\nДизайнерын хэрэглээ: Safety эсвэл action visual-д color meaning-ээ decoration-оос тусгаарлаж тогтвортой хэрэглэ.",
-    "image_url": null,
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/jurassic-park-pelicula-1993-sam-neill-ariana-richards-escena-tiranosaurio-rex-1655557631.jpg?crop=1xw%3A0.84375xh%3B0%2C0.0931xh",
     "status": "pending"
   },
   {
@@ -3068,7 +3068,7 @@
     "id": 870,
     "scheduled_at": "2026-10-20 22:00",
     "text": "Киноны график дизайн: Pulp Fiction — Шар title block\n\nХар хүрээтэй шар үсэг бараан зураг дээр sticker шиг ялгарч, poster-ийн эхний уншилтыг авдаг.\n\nДизайнерын хэрэглээ: Image-heavy layout-д text contrast-аа outline эсвэл solid backing-ээр баталгаажуул.",
-    "image_url": null,
+    "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F09%2Fquentin-tarantino-movie-filmography-kill-bill-django-2.jpg?cbr=1&fit=max&q=90&w=1260",
     "status": "pending"
   },
   {
@@ -3117,7 +3117,7 @@
     "id": 871,
     "scheduled_at": "2026-10-21 22:00",
     "text": "Киноны график дизайн: Se7en — Title sequence collage\n\nГар бичиг, фото crop, marker, flashing type зэрэг олон материал нэг хязгаарлагдмал palette-д багтдаг.\n\nДизайнерын хэрэглээ: Mixed-media system-д нэг өнгө, нэг grain, нэг spacing rule давтагдвал эмх цэгц хадгалагдана.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/736x/32/62/75/326275f4a27c88036a3b4e16d604b5a9.jpg",
     "status": "pending"
   },
   {
@@ -3166,7 +3166,7 @@
     "id": 872,
     "scheduled_at": "2026-10-22 22:00",
     "text": "Киноны график дизайн: The Matrix — Ногоон ба хөх state\n\nХоёр орчныг palette-аар ялгаснаар ижил объект ч өөр state-д орсныг шууд ойлгуулдаг.\n\nДизайнерын хэрэглээ: Product UI-д mode солигдох үед accent, background, illustration tint-ийг хамтад нь өөрчил.",
-    "image_url": null,
+    "image_url": "https://loudandclearreviews.com/wp-content/uploads/2021/11/the-matrix-post-cover.jpg",
     "status": "pending"
   },
   {
@@ -3215,7 +3215,7 @@
     "id": 873,
     "scheduled_at": "2026-10-23 22:00",
     "text": "Киноны график дизайн: Fight Club — Xerox texture\n\nGrain, photocopy contrast, misregistration нь polished layout-д зориуд түүхий өнгө аяс нэмдэг.\n\nДизайнерын хэрэглээ: Analog texture-ийг overlay болгохдоо text legibility ба edge contrast-ыг маскаар хамгаал.",
-    "image_url": null,
+    "image_url": "https://c4.wallpaperflare.com/wallpaper/324/188/882/fight-club-tyler-durden-edward-norton-movies-wallpaper-preview.jpg",
     "status": "pending"
   },
   {
@@ -3264,7 +3264,7 @@
     "id": 874,
     "scheduled_at": "2026-10-24 22:00",
     "text": "Киноны график дизайн: Amélie — Handmade texture\n\nЗөөлөн grain, будсан мэт edge, жижиг doodle нь төгс digital гадаргыг хүний гарын мэдрэмжтэй болгодог.\n\nДизайнерын хэрэглээ: Friendly brand-д нэг төрлийн handmade marker сонгож icon, divider, highlight-д давт.",
-    "image_url": null,
+    "image_url": "https://static.kinoafisha.info/k/trailers/800x1200/upload/trailers/b61a0b5cef401acb74730c85f6df6158.jpg",
     "status": "pending"
   },
   {
@@ -3313,7 +3313,7 @@
     "id": 875,
     "scheduled_at": "2026-10-25 22:00",
     "text": "Киноны график дизайн: The Lord of the Rings — Алтан ring typography\n\nНарийн serif, engraved мэдрэмж, алтлаг accent нь жижиг title-д ч түүхэн жин өгдөг.\n\nДизайнерын хэрэглээ: Metallic effect-ээс өмнө үсгийн proportion, spacing, silhouette-ийг цэвэр шийд.",
-    "image_url": null,
+    "image_url": "https://s.abcnews.com/images/Entertainment/AP_the_lord_of_the_rings_fellowship_of_the_ring_jt_140209_2_16x9_992.jpg",
     "status": "pending"
   },
   {
@@ -3362,7 +3362,7 @@
     "id": 876,
     "scheduled_at": "2026-10-26 22:00",
     "text": "Киноны график дизайн: Spirited Away — Улаан bridge accent\n\nНогоон, хүрэн орчин дотор тод улаан зурвас frame-ийг огтолж, шууд visual anchor үүсгэдэг.\n\nДизайнерын хэрэглээ: Өргөн композици дээр focal line ашиглаж нүдний замыг нэг хөдөлгөөнөөр тогтоо.",
-    "image_url": null,
+    "image_url": "https://www.cultura.id/wp-content/uploads/2023/01/Spirited_Away-1024x552.jpg",
     "status": "pending"
   },
   {
@@ -3411,7 +3411,7 @@
     "id": 877,
     "scheduled_at": "2026-10-27 22:00",
     "text": "Киноны график дизайн: In the Mood for Love — Frame дотор frame\n\nХаалга, толь, хөшиг, corridor нь content-ийг байгалийн margin ба crop дотор байрлуулдаг.\n\nДизайнерын хэрэглээ: Poster layout-д rectangular masking ашиглаж negative space ба focus-ийг нарийвчил.",
-    "image_url": null,
+    "image_url": "https://levelvan.ru/upload/media/n-1001266925789-6790.jpg",
     "status": "pending"
   },
   {
@@ -3460,7 +3460,7 @@
     "id": 878,
     "scheduled_at": "2026-10-28 22:00",
     "text": "Киноны график дизайн: Harry Potter — House color coding\n\nУлаан, ногоон, хөх, шар өнгө icon болон pattern-тэй хослон ангиллын систем болдог.\n\nДизайнерын хэрэглээ: Sub-brand бүрт өнгө дээр нэмээд symbol, pattern гэсэн давхар ялгарал өг.",
-    "image_url": null,
+    "image_url": "https://images.ajc.com/resizer/v2/UIEQPH2ICGKXPVJF66JTFGUTXA.jpg?auth=0053f35f1c6b8bb0a6b2556cd86f73173d60837b34f97b7bfe649efb834d8198&height=4645&smart=true&width=3840",
     "status": "pending"
   },
   {
@@ -3509,7 +3509,7 @@
     "id": 879,
     "scheduled_at": "2026-10-29 22:00",
     "text": "Киноны график дизайн: Kill Bill — Brush typography\n\nХурдан, жигд бус brush stroke нь хөдөлгөөн ба эрчийг үсгийн хэлбэрээр илэрхийлдэг.\n\nДизайнерын хэрэглээ: Expressive lettering-ийг богино үгэнд ашиглаж, surrounding type-ийг саармаг байлга.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/88/d2/c1/88d2c1c5d538f9096de2878195def850.jpg",
     "status": "pending"
   },
   {
@@ -3558,7 +3558,7 @@
     "id": 880,
     "scheduled_at": "2026-10-30 22:00",
     "text": "Киноны график дизайн: Sin City — Ink contrast\n\nДунд tone-ийг багасгаж, том хар shadow, цагаан highlight-аар комик шиг graphic mass үүсгэдэг.\n\nДизайнерын хэрэглээ: Фото постыг threshold-д шалгаж, silhouette ба текстийн байрлал өнгөгүй үед ажиллаж буй эсэхийг үз.",
-    "image_url": null,
+    "image_url": "https://media.kg-portal.ru/movies/s/sincity/trailers/635t.jpg",
     "status": "pending"
   },
   {
@@ -3607,7 +3607,7 @@
     "id": 881,
     "scheduled_at": "2026-10-31 22:00",
     "text": "Киноны график дизайн: The Dark Knight — Хөх-саарал palette\n\nLow-saturation хөх, графит саарал, цагаан highlight нь хотын visual-ыг цэвэр, хатуу системд оруулдаг.\n\nДизайнерын хэрэглээ: Corporate dark theme-д hue-гаа цөөлж, ялгарлыг luminance ба spacing-аар шийд.",
-    "image_url": null,
+    "image_url": "https://picfiles.alphacoders.com/242/thumb-1920-242052.jpg",
     "status": "pending"
   },
   {
@@ -3656,7 +3656,7 @@
     "id": 882,
     "scheduled_at": "2026-11-01 22:00",
     "text": "Киноны график дизайн: Avatar — Органик pattern\n\nНавч, судал, цэгэн гэрэл нь нэг curved rhythm дагаж, давталттай ч механик харагддаггүй.\n\nДизайнерын хэрэглээ: Organic pattern-д random биш, хэмжээ ба нягтралын 3 түвшин ашигла.",
-    "image_url": null,
+    "image_url": "https://simplywallpaper.net/pictures/2010/04/09/avatar-jake-sully.jpg",
     "status": "pending"
   },
   {
@@ -3705,7 +3705,7 @@
     "id": 883,
     "scheduled_at": "2026-11-02 22:00",
     "text": "Киноны график дизайн: Inception — Төвлөрсөн poster grid\n\nCharacters-ийг төв axis, шаталсан scale, тогтсон horizon дээр байрлуулж олон элементийг эмхэлдэг.\n\nДизайнерын хэрэглээ: Group poster-д subject бүрийн хэмжээ, overlap, baseline-ийг grid-ээр удирд.",
-    "image_url": null,
+    "image_url": "https://i.blogs.es/75c1b0/origen-ap/1200_900.jpeg",
     "status": "pending"
   },
   {
@@ -3754,7 +3754,7 @@
     "id": 884,
     "scheduled_at": "2026-11-03 22:00",
     "text": "Киноны график дизайн: The Grand Budapest Hotel — Ягаан, нил ягаан palette\n\nОйролцоо hue-үүдийг value ба saturation-аар ялгаж, нэгэн төрлийн боловч хавтгай бус систем үүсгэдэг.\n\nДизайнерын хэрэглээ: Monochromatic palette-д light, mid, dark гэсэн value шатлал заавал байгуул.",
-    "image_url": null,
+    "image_url": "https://screenmusings.org/movie/blu-ray/The-Grand-Budapest-Hotel/images/The-Grand-Budapest-Hotel-200.jpg",
     "status": "pending"
   },
   {
@@ -3803,7 +3803,7 @@
     "id": 885,
     "scheduled_at": "2026-11-04 22:00",
     "text": "Киноны график дизайн: Mad Max: Fury Road — Төвийн action composition\n\nГол объектууд төвд, шугамууд нэг vanishing point руу чиглэж хурдан хөдөлгөөн дунд ч уншигдана.\n\nДизайнерын хэрэглээ: Dynamic poster-д focal point-оо төвлөрүүлж, secondary elements-ээ radial guide дээр байрлуул.",
-    "image_url": null,
+    "image_url": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/57211/article_full%403x.jpg",
     "status": "pending"
   },
   {
@@ -3852,7 +3852,7 @@
     "id": 886,
     "scheduled_at": "2026-11-05 22:00",
     "text": "Киноны график дизайн: La La Land — Retro title typography\n\nArt Deco-д ойр serif, өргөн spacing, алтлаг өнгө нь classic entertainment identity үүсгэдэг.\n\nДизайнерын хэрэглээ: Period-inspired type-ийг modern spacing grid-тэй хослуулж хуучирсан харагдахаас сэргийл.",
-    "image_url": null,
+    "image_url": "https://www.movienewsletters.net/photos/209869r2.jpg",
     "status": "pending"
   },
   {
@@ -3901,7 +3901,7 @@
     "id": 887,
     "scheduled_at": "2026-11-06 22:00",
     "text": "Киноны график дизайн: Arrival — Foggy negative space\n\nLow-contrast саарал талбай их үлдсэнээр жижиг хар объект асар их visual weight авдаг.\n\nДизайнерын хэрэглээ: Minimal poster-д object size-ийг томруулахын оронд surrounding space-ийг нэм.",
-    "image_url": null,
+    "image_url": "https://www.rogerebert.com/wp-content/uploads/2024/07/Arrival.jpg",
     "status": "pending"
   },
   {
@@ -3950,7 +3950,7 @@
     "id": 888,
     "scheduled_at": "2026-11-07 22:00",
     "text": "Киноны график дизайн: Moonlight — Гурван хөргийн нийлбэр\n\nНэг нүүрийг гурван үеийн хэсгээс бүтээсэн poster нь modular crop-оор бүтэн identity гаргадаг.\n\nДизайнерын хэрэглээ: Series portrait-д ижил eye-line, crop ratio, color grade ашиглаж collage-ийг нэг болго.",
-    "image_url": null,
+    "image_url": "https://cleojournal.com/wp-content/uploads/2017/04/20151025_Moonlight_D10_C1_K1_0599-960x0-c-default.jpg",
     "status": "pending"
   },
   {
@@ -3999,7 +3999,7 @@
     "id": 889,
     "scheduled_at": "2026-11-08 22:00",
     "text": "Киноны график дизайн: Blade Runner 2049 — Монументал scale\n\nЖижиг silhouette-ийг аварга хоосон shape-ийн өмнө байрлуулж хэмжээг тоон тайлбаргүй ойлгуулдаг.\n\nДизайнерын хэрэглээ: Scale илэрхийлэхдээ нэг танил reference object, нэг том mass, их negative space ашигла.",
-    "image_url": null,
+    "image_url": "https://img.goldposter.com/still/2022/04/blade-runner-2049_still_goldposter_com_80.jpg?x-oss-process=image%2Fresize%2Cw_1280%2Fquality%2Cq_80",
     "status": "pending"
   },
   {
@@ -4048,7 +4048,7 @@
     "id": 890,
     "scheduled_at": "2026-11-09 22:00",
     "text": "Киноны график дизайн: Black Panther — Хар, нил ягаан, алт\n\nБараан үндсэн өнгө дээр нил ягаан energy accent, алтлаг premium detail ялгаатай үүрэгтэй.\n\nДизайнерын хэрэглээ: Palette token бүрт background, action, premium detail гэсэн semantic role өг.",
-    "image_url": null,
+    "image_url": "https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AmfjbJXwE-K7rlGfTYBb1_Q.jpeg",
     "status": "pending"
   },
   {
@@ -4097,7 +4097,7 @@
     "id": 891,
     "scheduled_at": "2026-11-10 22:00",
     "text": "Киноны график дизайн: Parasite — Босоо түвшний layout\n\nДээд, дунд, доод хэсгийн зааг line, stairs, window-оор давтагдаж hierarchy-г орон зайгаар кодолдог.\n\nДизайнерын хэрэглээ: Infographic-д статус эсвэл түвшнийг өнгө бус, vertical position-оор давхар илэрхийл.",
-    "image_url": null,
+    "image_url": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_64.jpg?bwg=1699894052",
     "status": "pending"
   },
   {
@@ -4146,7 +4146,7 @@
     "id": 892,
     "scheduled_at": "2026-11-11 22:00",
     "text": "Киноны график дизайн: Joker — Hand-painted title\n\nЖигд бус цагаан үсэг нь төгс бус edge-тэй тул portrait-ийн gritty texture-тэй нийцдэг.\n\nДизайнерын хэрэглээ: Raw lettering-ийг vector болгож хэт цэвэрлэхгүй; controlled imperfection-ийг silhouette-д үлдээ.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/736x/c5/ec/8e/c5ec8e0408e3a55d9bfb30bb9f8734be.jpg",
     "status": "pending"
   },
   {
@@ -4195,7 +4195,7 @@
     "id": 893,
     "scheduled_at": "2026-11-12 22:00",
     "text": "Киноны график дизайн: Dune — Beige ба хар palette\n\nЭлсний ойролцоо beige tone, гүн хар silhouette нь saturation багатай ч маш өндөр value contrast үүсгэдэг.\n\nДизайнерын хэрэглээ: Luxury neutral palette-д hue-ээс илүү luminance range-ээ өргөн барь.",
-    "image_url": null,
+    "image_url": "https://d1uzk9o9cg136f.cloudfront.net/f/16782943/rc/2021/10/14/857c5f8205ab78632785cd5e42d11093d23fafcf_xlarge.jpg",
     "status": "pending"
   },
   {
@@ -4244,7 +4244,7 @@
     "id": 894,
     "scheduled_at": "2026-11-13 22:00",
     "text": "Киноны график дизайн: Everything Everywhere All at Once — Collage hierarchy\n\nОлон нүүр, объект, texture-ийг төв хөрөг, radial flow, хэмжээний огцом ялгаагаар эмхэлдэг.\n\nДизайнерын хэрэглээ: Maximalist layout-д төв focal point, 3 scale level, 1 direction of flow заавал тогтоо.",
-    "image_url": null,
+    "image_url": "https://sa.kapamilya.com/absnews/abscbnnews/media/2022/entertainment/07/01/20220701-michelle-yeoh.jpg",
     "status": "pending"
   },
   {
@@ -4293,7 +4293,7 @@
     "id": 895,
     "scheduled_at": "2026-11-14 22:00",
     "text": "Киноны график дизайн: Barbie — Bubble wordmark\n\nЗөөлөн муруй, холбогдсон stroke, цагаан outline нь фон солигдсон ч friendly silhouette-ээ хадгалдаг.\n\nДизайнерын хэрэглээ: Script logo-д outline ба clear-space хувилбарыг жижиг дэлгэц, photo background дээр тусад нь турш.",
-    "image_url": null,
+    "image_url": "https://www.tanjug.rs/data/images/2023-09-28/67033_the-stream_f.jpg",
     "status": "pending"
   },
   {
@@ -4342,7 +4342,7 @@
     "id": 896,
     "scheduled_at": "2026-11-15 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Uppercase condensed title\n\nӨндөр, шахуу caps үсэг нь өргөн дэлгэцийн imagery дээр компакт, жинтэй block үүсгэдэг.\n\nДизайнерын хэрэглээ: Long word title-д condensed family ашиглахдаа tracking-ийг хэт шахалгүй counter-уудыг хамгаал.",
-    "image_url": null,
+    "image_url": "https://static.independent.co.uk/2023/07/25/08/Cillian-Murphy-Oppenheimer-2.jpeg?fit=crop&height=630&width=1200",
     "status": "pending"
   },
   {
@@ -4391,7 +4391,7 @@
     "id": 897,
     "scheduled_at": "2026-11-16 22:00",
     "text": "Киноны график дизайн: Poor Things — Сюрреал өнгөний блок\n\nХүчиллэг ногоон, тэнгэрийн хөх, улбар, ягаан том талбайгаар мөргөлдөж theatrical palette үүсгэдэг.\n\nДизайнерын хэрэглээ: Өндөр ханалттай олон өнгө ашиглавал value hierarchy ба neutral buffer заавал нэм.",
-    "image_url": null,
+    "image_url": "https://novayagazeta.ru/static/records/6935bc4bef0342c19d9b95688092f146.jpeg",
     "status": "pending"
   },
   {
@@ -4440,7 +4440,7 @@
     "id": 898,
     "scheduled_at": "2026-11-17 22:00",
     "text": "Киноны график дизайн: Metropolis — Art Deco typography\n\nӨндөр, нарийн үсэг болон симметрик хүрээ нь технологи, сүр хүчийг нэг визуал хэлэнд нэгтгэдэг.\n\nДизайнерын хэрэглээ: Display фонтын proportion-ыг хүрээ, icon, divider-ийн геометртэй ижилсүүл.",
-    "image_url": null,
+    "image_url": "https://npr.brightspotcdn.com/dims4/default/92e3b8d/2147483647/strip/true/crop/1474x908%2B0%2B54/resize/880x542%21/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkstx%2Ffiles%2F201602%2FMetropolis_still.jpg",
     "status": "pending"
   },
   {
@@ -4489,7 +4489,7 @@
     "id": 899,
     "scheduled_at": "2026-11-18 22:00",
     "text": "Киноны график дизайн: The Wizard of Oz — Дүрийн өнгөний код\n\nУлаан, цэнхэр, мөнгөлөг зэрэг цэвэр өнгөнүүд дүр бүрийг silhouette-ээс гадна palette-аар нь ялгадаг.\n\nДизайнерын хэрэглээ: Олон ангилалтай системд category бүрт тогтвортой, хоорондоо хангалттай ялгаатай өнгө оноо.",
-    "image_url": null,
+    "image_url": "https://cdn.ibahia.com/img/inline/290000/Classico-de-O-Magico-de-Oz-tem-seis-versoes-difere0029952200202308031825.jpg?xid=1358943",
     "status": "pending"
   },
   {
@@ -4538,7 +4538,7 @@
     "id": 900,
     "scheduled_at": "2026-11-19 22:00",
     "text": "Киноны график дизайн: Citizen Kane — Сонины график хэл\n\nТом headline, нарийн column, хар-цагаан фото нь мэдээллийн нягтралыг редакцын систем болгон харуулдаг.\n\nДизайнерын хэрэглээ: Олон тексттэй постод headline, deck, body гэсэн scale ratio-г эхлээд тогтоо.",
-    "image_url": null,
+    "image_url": "https://img.jiemian.com/101/original/20200407/158625502366510000_a580xH.jpeg",
     "status": "pending"
   },
   {
@@ -4587,7 +4587,7 @@
     "id": 901,
     "scheduled_at": "2026-11-20 22:00",
     "text": "Киноны график дизайн: Vertigo — Кинетик typography\n\nҮсэг дүрсийн төв рүү татагдах хөдөлгөөнтэй нийлснээр title өөрөө композици болдог.\n\nДизайнерын хэрэглээ: Motion title хийхдээ текстийн хөдөлгөөнийг арын motif-ийн чиглэлтэй нэг вектор болго.",
-    "image_url": null,
+    "image_url": "https://cinemawavesblog.com/wp-content/uploads/2024/08/vertigo-1958-vertigo-effect-768x542.jpg",
     "status": "pending"
   },
   {
@@ -4636,7 +4636,7 @@
     "id": 902,
     "scheduled_at": "2026-11-21 22:00",
     "text": "Киноны график дизайн: Psycho — Хар-цагаан value\n\nДунд саарал багатай, хар ба цагааны огцом шилжилт нь маш цэвэр visual hierarchy өгдөг.\n\nДизайнерын хэрэглээ: Brand visual-аа grayscale болгож үзээд хоёр үндсэн value-д мэдээлэл салж байгаа эсэхийг шалга.",
-    "image_url": null,
+    "image_url": "https://iv1.lisimg.com/image/14082769/614full-psycho-photo.jpg",
     "status": "pending"
   },
   {
@@ -4685,7 +4685,7 @@
     "id": 903,
     "scheduled_at": "2026-11-22 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Интерфэйсийн iconography\n\nЭнгийн тэмдэг, дугуй indicator, техникийн label нь нэг төрлийн modular visual language үүсгэдэг.\n\nДизайнерын хэрэглээ: Dashboard-д icon stroke, corner radius, label case-ийг нэг дүрмээр стандартчил.",
-    "image_url": null,
+    "image_url": "https://czasnawnetrze.pl/i/images/8/6/2/cT04MCZ3YWM9NTgweDEuMDIyOTI3Njg5NTk0NA%3D%3D_src_24862-_odyseja_kosmiczna_kadr.jpg",
     "status": "pending"
   },
   {
@@ -4734,7 +4734,7 @@
     "id": 904,
     "scheduled_at": "2026-11-23 22:00",
     "text": "Киноны график дизайн: A Clockwork Orange — Display үсгийн зан чанар\n\nМеханик, ретро хэлбэртэй title нь зургийн ирмэг, хурц geometry-тэй нэгэн төрлийн ритм үүсгэдэг.\n\nДизайнерын хэрэглээ: Фонт сонгохдоо зөвхөн үеийг бус, дүрсний өнцөг ба stroke-ийн шинжийг тааруул.",
-    "image_url": null,
+    "image_url": "https://film-grab.com/wp-content/uploads/photo-gallery/10%20%2816%29.jpg?bwg=1547139790",
     "status": "pending"
   },
   {
@@ -4783,7 +4783,7 @@
     "id": 905,
     "scheduled_at": "2026-11-24 22:00",
     "text": "Киноны график дизайн: The Godfather — Serif wordmark\n\nӨндөр contrast-тай serif үсэг нь уламжлал, жин, албан ёсны өнгө аясыг бий болгодог.\n\nДизайнерын хэрэглээ: Serif display ашиглахдаа жижиг текстийг саармаг body font-оор хослуулж hierarchy-г цэвэр байлга.",
-    "image_url": null,
+    "image_url": "https://shot.cafe/images/o/the-godfather-1972-13045.jpg",
     "status": "pending"
   },
   {
@@ -4832,7 +4832,7 @@
     "id": 906,
     "scheduled_at": "2026-11-25 22:00",
     "text": "Киноны график дизайн: Star Wars — Фракцын тэмдэглэгээ\n\nЭнгийн radial, angular тэмдгүүд олон объект дээр давтагдан visual identity болон ажилладаг.\n\nДизайнерын хэрэглээ: Sub-brand бүрт нэг silhouette, тогтсон stroke, хязгаарлагдмал detail-ийн дүрэм өг.",
-    "image_url": null,
+    "image_url": "https://s.hdnux.com/photos/41/74/34/8898319/5/1200x0.jpg",
     "status": "pending"
   },
   {
@@ -4881,7 +4881,7 @@
     "id": 907,
     "scheduled_at": "2026-11-26 22:00",
     "text": "Киноны график дизайн: Alien — Хар, саарал, хүчиллэг ногоон\n\nБараан саармаг palette дээр ногоон жижиг гэрэл, interface accent нь мэдээллийг тодорхой кодолдог.\n\nДизайнерын хэрэглээ: Dark UI-д бүхнийг цайруулахын оронд нэг status color, хоёр text value ашигла.",
-    "image_url": null,
+    "image_url": "https://cdn.theasc.com/alien_still_5337_16_7.jpg",
     "status": "pending"
   },
   {
@@ -4930,7 +4930,7 @@
     "id": 908,
     "scheduled_at": "2026-11-27 22:00",
     "text": "Киноны график дизайн: The Shining — Шар poster typography\n\nТод шар фон дээр хар, барзгар илэрхийлэлтэй үсэг нь минимал элементээр хүчтэй зөрчил бий болгодог.\n\nДизайнерын хэрэглээ: Poster-д нэг өнгө, нэг display style, нэг сонин дүрс гэсэн хязгаар тавьж санаагаа хурцал.",
-    "image_url": null,
+    "image_url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/21/09/the-shining.jpg",
     "status": "pending"
   },
   {
@@ -4979,7 +4979,7 @@
     "id": 909,
     "scheduled_at": "2026-11-28 22:00",
     "text": "Киноны график дизайн: Blade Runner — Дэлгэцийн график\n\nНарийн grid, monospaced label, жижиг technical marker нь интерфэйсийг нэг систем мэт харагдуулдаг.\n\nДизайнерын хэрэглээ: Sci-fi UI хийхдээ random detail нэмэхээс өмнө spacing unit, type scale, state color-оо тодорхойл.",
-    "image_url": null,
+    "image_url": "https://shot.cafe/images/o/blade-runner-1982-3307.png",
     "status": "pending"
   },
   {
@@ -5028,7 +5028,7 @@
     "id": 910,
     "scheduled_at": "2026-11-29 22:00",
     "text": "Киноны график дизайн: Tron — Wordmark geometry\n\nӨргөн, өнцөгт үсэг болон тасалдсан stroke нь дүрсний circuit хэлтэй нийцдэг.\n\nДизайнерын хэрэглээ: Custom lettering хийхдээ дүрсний гол geometry-оос 2–3 дүрэм авч бүх үсэгт давт.",
-    "image_url": null,
+    "image_url": "https://media0.faz.net/image/w1240/4de40bc4ea9c/w2256h1269x330y0/202509/1.10694537/1982-dachte-man-dass-die-welt.webp",
     "status": "pending"
   },
   {
@@ -5077,7 +5077,7 @@
     "id": 911,
     "scheduled_at": "2026-11-30 22:00",
     "text": "Киноны график дизайн: Brazil — Poster-ийн далавчит дүрс\n\nНэг surreal silhouette том negative space дээр байрласнаар олон детальгүй ч санаа тогтоно.\n\nДизайнерын хэрэглээ: Concept poster-д тайлбарлахын оронд нэг unexpected combination-ыг төв motif болго.",
-    "image_url": null,
+    "image_url": "https://thefilmexperience.net/storage/1980s/brazil-tv.png",
     "status": "pending"
   },
   {
@@ -5126,7 +5126,7 @@
     "id": 912,
     "scheduled_at": "2026-12-01 22:00",
     "text": "Киноны график дизайн: Batman (1989) — Хар–шар palette\n\nХоёр өнгийн өндөр contrast нь poster, costume mark, merchandise даяар identity-г нэг мөр болгодог.\n\nДизайнерын хэрэглээ: Campaign-д secondary өнгө нэмэхээс өмнө core хоёр өнгөөр бүх asset ажиллаж байгаа эсэхийг шалга.",
-    "image_url": null,
+    "image_url": "https://m.media-amazon.com/images/M/MV5BM2RlOTcxZDMtZThhYi00YzU0LWFhMTgtZDU4YzcwMzYzZDkyXkEyXkFqcGc%40._V1_.jpg",
     "status": "pending"
   },
   {
@@ -5175,7 +5175,7 @@
     "id": 913,
     "scheduled_at": "2026-12-02 22:00",
     "text": "Киноны график дизайн: Edward Scissorhands — Гар бичмэл title\n\nНарийн, мушгирсан stroke-той lettering нь органик silhouette-тай нийцэж, эмзэг атлаа сонин өнгө аяс өгдөг.\n\nДизайнерын хэрэглээ: Custom title-ийн stroke character-ийг key illustration-ийн шугамтай уялдуул.",
-    "image_url": null,
+    "image_url": "https://media.vogue.co.jp/photos/666969e347c286fd29fee42a/1%3A1/w_3610%2Ch_3610%2Cc_limit/MSDEDSC_FE001.jpg",
     "status": "pending"
   },
   {
@@ -5224,7 +5224,7 @@
     "id": 914,
     "scheduled_at": "2026-12-03 22:00",
     "text": "Киноны график дизайн: Jurassic Park — Skeleton iconography\n\nНарийн детальтай бодит дүрсийг нэг өнгийн уншигдах silhouette болгон хялбарчилсан нь icon design-ийн сайн жишээ.\n\nДизайнерын хэрэглээ: Complex object-оос танихад зайлшгүй 3–5 шинжийг үлдээн бусдыг хас.",
-    "image_url": null,
+    "image_url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/07/1518532337-movies-jurassic-park-laura-dern-sam-neill.jpg?crop=1xw%3A0.8417496443812233xh%3B0%2C0",
     "status": "pending"
   },
   {
@@ -5273,7 +5273,7 @@
     "id": 915,
     "scheduled_at": "2026-12-04 22:00",
     "text": "Киноны график дизайн: Pulp Fiction — Редакцын cover layout\n\nTitle, portrait, жижиг props нь magazine cover шиг давхарласан ч гол нүүр ба headline хамгийн түрүүнд уншигдана.\n\nДизайнерын хэрэглээ: Overlap хийхдээ focal face, headline, secondary detail гэсэн z-order-оо хатуу тогтоо.",
-    "image_url": null,
+    "image_url": "https://pbs.twimg.com/media/Du9iPcJVsAAq3vU.jpg",
     "status": "pending"
   },
   {
@@ -5322,7 +5322,7 @@
     "id": 916,
     "scheduled_at": "2026-12-05 22:00",
     "text": "Киноны график дизайн: Se7en — Micro-detail hierarchy\n\nЖижиг annotation, number, underline нь төв үгнээс доогуур contrast-тай байж судалгааны тэмдэглэл шиг depth өгдөг.\n\nДизайнерын хэрэглээ: Supporting detail-ээ жижигрүүлэхээс гадна opacity, weight, spacing-аар гуравдагч түвшинд байрлуул.",
-    "image_url": null,
+    "image_url": "https://www.aljazeera.net/wp-content/uploads/2025/03/c-1753350889.jpg?quality=80&resize=770%2C513",
     "status": "pending"
   },
   {
@@ -5371,7 +5371,7 @@
     "id": 917,
     "scheduled_at": "2026-12-06 22:00",
     "text": "Киноны график дизайн: The Matrix — Terminal typography\n\nMonospaced үсэг, тогтмол baseline, богино системийн мөрүүд техникийн найдвартай мэдрэмж төрүүлдэг.\n\nДизайнерын хэрэглээ: Tech brand-д mono фонтыг бүх body-д бус, data, code, label-д зорилготой ашигла.",
-    "image_url": null,
+    "image_url": "https://cdn.mos.cms.futurecdn.net/xAzBFSAteiPf4fkFaa8rJP.jpg",
     "status": "pending"
   },
   {
@@ -5420,7 +5420,7 @@
     "id": 918,
     "scheduled_at": "2026-12-07 22:00",
     "text": "Киноны график дизайн: Fight Club — Condensed typography\n\nНарийн зайд багтсан өндөр, шахуу үсэг нь зурагт хүчтэй блок үүсгэдэг.\n\nДизайнерын хэрэглээ: Condensed display-ийг богино headline-д ашиглаж, tracking ба line-height-ийг гараар тохируул.",
-    "image_url": null,
+    "image_url": "https://img.championat.com/4kPE3qp6Ykj8dYqWv0beguYsskTXUl7yGtxYjUwpaxo/p%28q%3A0%29/i/x/n/17636405361439663342.jpg",
     "status": "pending"
   },
   {
@@ -5469,7 +5469,7 @@
     "id": 919,
     "scheduled_at": "2026-12-08 22:00",
     "text": "Киноны график дизайн: Amélie — Дугуй хэлбэрийн хэмнэл\n\nНүүр, object, frame доторх curve-үүд давтагдаж, хатуу grid-ийг дулаан болгодог.\n\nДизайнерын хэрэглээ: Mood-оо shape language-аар удирд: rounded form-ыг radius system болон стандартчил.",
-    "image_url": null,
+    "image_url": "https://moreliafilmfest.com/sites/default/files/legacy/2015/07/amelie-cine.jpg",
     "status": "pending"
   },
   {
@@ -5518,7 +5518,7 @@
     "id": 920,
     "scheduled_at": "2026-12-09 22:00",
     "text": "Киноны график дизайн: The Lord of the Rings — Faction iconography\n\nНавч, мод, нүд, цагаан гар зэрэг ялгаатай тэмдгүүд бүлэг бүрийг текстгүй танигдуулдаг.\n\nДизайнерын хэрэглээ: Category icon бүрийг нэг grid-д зур, харин silhouette-ийн зан чанарыг зориуд ялга.",
-    "image_url": null,
+    "image_url": "https://static.kinoafisha.info/k/movie_shots/canvas/620x410/upload/movie_shots/3/2/3/3337323/27db744dfd295d11dbad79229f80d5c6.jpg",
     "status": "pending"
   },
   {
@@ -5567,7 +5567,7 @@
     "id": 921,
     "scheduled_at": "2026-12-10 22:00",
     "text": "Киноны график дизайн: Spirited Away — Дүрсийн хялбаршуулалт\n\nЖижиг хар биет, цагаан mask зэрэг цэвэр silhouette нь детальгүй ч маш танигдах icon болдог.\n\nДизайнерын хэрэглээ: Character mark-ийг 32 px, нэг өнгө, дотоод detail-гүйгээр танигдах эсэхээр шалга.",
-    "image_url": null,
+    "image_url": "https://mangaschool.it/files/mangaschool.it/2020/04/Spirited-Away.jpg",
     "status": "pending"
   },
   {
@@ -5616,7 +5616,7 @@
     "id": 922,
     "scheduled_at": "2026-12-11 22:00",
     "text": "Киноны график дизайн: In the Mood for Love — Pattern layering\n\nХанын цаас, даавуу, хувцасны хээ зэрэг олон pattern scale-аараа ялгарч мөргөлдөхгүй.\n\nДизайнерын хэрэглээ: Pattern хослуулахдаа жижиг, дунд, том гэсэн scale hierarchy болон нэг shared өнгө ашигла.",
-    "image_url": null,
+    "image_url": "https://m.media-amazon.com/images/M/MV5BODljMTA0NjMtNjk0YS00MTVjLTkwMjUtNTIxNjQ4MTY0YzY1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "status": "pending"
   },
   {
@@ -5665,7 +5665,7 @@
     "id": 923,
     "scheduled_at": "2026-12-12 22:00",
     "text": "Киноны график дизайн: Harry Potter — Мараудерын газрын зураг\n\nSepia palette, footprint icon, hand-lettered label нь мэдээллийг playful navigation graphic болгодог.\n\nДизайнерын хэрэглээ: Interactive map-д route, label, legend-ээ нэг illustration style-аар нэгтгэ.",
-    "image_url": null,
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/cropharry-potter-group-1562130068.jpg?crop=0.5xw%3A1xh%3Bcenter%2Ctop&resize=1200%3A%2A",
     "status": "pending"
   },
   {
@@ -5714,7 +5714,7 @@
     "id": 924,
     "scheduled_at": "2026-12-13 22:00",
     "text": "Киноны график дизайн: Kill Bill — Split-screen grid\n\nFrame-ийг тэнцүү эсвэл purposefully unequal хэсэгт хувааснаар зэрэгцээ мэдээлэл нэг layout-д багтдаг.\n\nДизайнерын хэрэглээ: Carousel эсвэл comparison-д panel ratio, divider, reading order-оо эхэнд нь системчил.",
-    "image_url": null,
+    "image_url": "https://images.sbs.com.au/dims4/default/0474de4/2147483647/strip/true/crop/622x350%2B2%2B0/resize/1280x720%21/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffilm%2Fpublic%2Fimages%2F2%2F1%2F2188_kill-bill-social-627.jpg",
     "status": "pending"
   },
   {
@@ -5763,7 +5763,7 @@
     "id": 925,
     "scheduled_at": "2026-12-14 22:00",
     "text": "Киноны график дизайн: Sin City — Comic typography\n\nCondensed caps, speech-style label, хүчтэй border нь дүрс ба бичвэрийг нэг panel system-д холбодог.\n\nДизайнерын хэрэглээ: Text overlay-д font, balloon, border гурвыг ижил stroke logic-т оруул.",
-    "image_url": null,
+    "image_url": "https://ilarge.lisimg.com/image/7388420/740full-sin-city-screenshot.jpg",
     "status": "pending"
   },
   {
@@ -5812,7 +5812,7 @@
     "id": 926,
     "scheduled_at": "2026-12-15 22:00",
     "text": "Киноны график дизайн: The Dark Knight — Condensed title hierarchy\n\nНарийн caps title, өргөн tracking, жижиг credit block нь poster дээр тайван authority бий болгодог.\n\nДизайнерын хэрэглээ: Poster type-д headline-аа чанга, metadata-гаа нэг baseline grid дээр нам contrast-тай байрлуул.",
-    "image_url": null,
+    "image_url": "https://kgsmovierants.files.wordpress.com/2015/09/1f7d0f74_harvey-gordon-batman-rooftop-meeting.jpeg",
     "status": "pending"
   },
   {
@@ -5861,7 +5861,7 @@
     "id": 927,
     "scheduled_at": "2026-12-16 22:00",
     "text": "Киноны график дизайн: Avatar — Na’vi typography cue\n\nНарийн, суналттай үсэг ба цэнхэр texture нь үндсэн title-ийг орчны хэлтэй холбодог.\n\nДизайнерын хэрэглээ: Display type-д texture нэмэхээс өмнө silhouette ба kerning-ийг төгс болго.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/736x/a2/1b/71/a21b71d074da746d28f571a0230ec681.jpg",
     "status": "pending"
   },
   {
@@ -5910,7 +5910,7 @@
     "id": 928,
     "scheduled_at": "2026-12-17 22:00",
     "text": "Киноны график дизайн: Inception — Улаан title accent\n\nСаарал-хөх зураг дотор улаан title ганц semantic focal layer болдог.\n\nДизайнерын хэрэглээ: Photography дээр brand color-оо жижиг боловч хамгийн өндөр contrast-тай байрлалд хэрэглэ.",
-    "image_url": null,
+    "image_url": "https://s.movieinsider.com/images/p/17292_m1271675753.jpg",
     "status": "pending"
   },
   {
@@ -5959,7 +5959,7 @@
     "id": 929,
     "scheduled_at": "2026-12-18 22:00",
     "text": "Киноны график дизайн: The Grand Budapest Hotel — Packaging typography\n\nBox, label, ribbon, stamp дээр ижил serif, border, monogram давтагдаж жинхэнэ брэнд систем болдог.\n\nДизайнерын хэрэглээ: Packaging family-д logo-оос гадна border, pattern, seal, label ratio-г стандартчил.",
-    "image_url": null,
+    "image_url": "https://screenmusings.org/movie/blu-ray/The-Grand-Budapest-Hotel/images/The-Grand-Budapest-Hotel-116.jpg",
     "status": "pending"
   },
   {
@@ -6008,7 +6008,7 @@
     "id": 930,
     "scheduled_at": "2026-12-19 22:00",
     "text": "Киноны график дизайн: Mad Max: Fury Road — Weathered lettering\n\nЗэв, тоос, scratch texture нь title-ийн edge дээр сууж материалын мэдрэмж өгдөг.\n\nДизайнерын хэрэглээ: Texture-ээ бүх surface-д ижил хэмжээгээр бүү тавь; edge, shadow, large display дээр төвлөрүүл.",
-    "image_url": null,
+    "image_url": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20%28659%29.jpg?bwg=1547234460",
     "status": "pending"
   },
   {
@@ -6057,7 +6057,7 @@
     "id": 931,
     "scheduled_at": "2026-12-20 22:00",
     "text": "Киноны график дизайн: La La Land — Оддын pattern\n\nЖижиг гэрлийн цэг, deep blue gradient, silhouette нь хязгаарлагдмал element-ээр poster system бүтээдэг.\n\nДизайнерын хэрэглээ: Background pattern-аа focal subject-аас холдох тусам нягтралыг нь багасга.",
-    "image_url": null,
+    "image_url": "https://m.media-amazon.com/images/M/MV5BZTIyNjNiZTQtYjk4OS00ZGMzLTkyNWYtYTQ3MTVlMzQ2ZTg3XkEyXkFqcGc%40._V1_.jpg",
     "status": "pending"
   },
   {
@@ -6106,7 +6106,7 @@
     "id": 932,
     "scheduled_at": "2026-12-21 22:00",
     "text": "Киноны график дизайн: Arrival — Тайван sans typography\n\nЦэвэр sans, өргөн tracking, жижиг хэмжээ нь хүчтэй дүрсний доор мэдээллийг чимээгүй зохион байгуулдаг.\n\nДизайнерын хэрэглээ: Concept visual хүчтэй үед type-ээ өрсөлдүүлэхгүй; neutral family, generous spacing сонго.",
-    "image_url": null,
+    "image_url": "https://enfilme.com/img/content/la_llegada_Enfilme_97o27_675_489.jpg",
     "status": "pending"
   },
   {
@@ -6155,7 +6155,7 @@
     "id": 933,
     "scheduled_at": "2026-12-22 22:00",
     "text": "Киноны график дизайн: Moonlight — Жижиг lowercase title\n\nНимгэн, даруухан typography нь хөргийн сэтгэл хөдлөлийг булаахгүйгээр metadata layer болдог.\n\nДизайнерын хэрэглээ: Portrait-led design-д type size-аа content importance-аар бус visual competition-оор хэмж.",
-    "image_url": null,
+    "image_url": "https://i.pinimg.com/originals/4c/14/0d/4c140dc1f21d2075ad2f863785d5b970.jpg",
     "status": "pending"
   },
   {
@@ -6204,7 +6204,7 @@
     "id": 934,
     "scheduled_at": "2026-12-23 22:00",
     "text": "Киноны график дизайн: Blade Runner 2049 — Holographic typography\n\nГэрэлтэй, translucent type ба signage нь background-тэй blend хийсэн ч edge contrast-аар уншигдана.\n\nДизайнерын хэрэглээ: Transparent text overlay-д glow-оос гадна stroke, blur, local contrast mask ашигла.",
-    "image_url": null,
+    "image_url": "https://immagini.quotidiano.net/?url=https%3A%2F%2Frepo.maduli.it%2Fwp-content%2Fuploads%2F2017%2F09%2FBlade-Runner-2049_Ryan-Gosling_Ana-de-Armas.jpg&w=1200",
     "status": "pending"
   },
   {
@@ -6253,7 +6253,7 @@
     "id": 935,
     "scheduled_at": "2026-12-24 22:00",
     "text": "Киноны график дизайн: Black Panther — Wakanda glyph system\n\nӨнцөгт тэмдэг, radial icon, нарийн line нь signage ба technology graphic-ийг нэг гэр бүл болгодог.\n\nДизайнерын хэрэглээ: Custom glyph хийхдээ 8px grid, тогтсон angle, 2 stroke weight-ээс хэтрэхгүй дүрэм ашигла.",
-    "image_url": null,
+    "image_url": "https://ilarge.lisimg.com/image/15692265/1118full-black-panther-%282018%29-screenshot.jpg",
     "status": "pending"
   },
   {
@@ -6302,7 +6302,7 @@
     "id": 936,
     "scheduled_at": "2026-12-25 22:00",
     "text": "Киноны график дизайн: Parasite — Ногоон ба саарал palette\n\nMuted ногоон, бетон саарал, бага saturation нь нэг тайван фон үүсгэж хар bar-ыг улам хүчтэй болгодог.\n\nДизайнерын хэрэглээ: Accent хүчтэй бол supporting palette-аа нам contrast, ойролцоо saturation-тэй барь.",
-    "image_url": null,
+    "image_url": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_15.jpg?bwg=1699894053",
     "status": "pending"
   },
   {
@@ -6351,7 +6351,7 @@
     "id": 937,
     "scheduled_at": "2026-12-26 22:00",
     "text": "Киноны график дизайн: Joker — Төвийн шатны композици\n\nШатны диагональ шугам ба төв дүрс нийлж хөдөлгөөнтэй боловч уншигдах poster grid үүсгэдэг.\n\nДизайнерын хэрэглээ: Diagonal background ашиглавал headline эсвэл subject-ийн axis-ийг нэг тогтвортой цэгээр тогтоо.",
-    "image_url": null,
+    "image_url": "https://screenmusings.org/movie/blu-ray/Joker/images/Joker-173.jpg",
     "status": "pending"
   },
   {
@@ -6400,7 +6400,7 @@
     "id": 938,
     "scheduled_at": "2026-12-27 22:00",
     "text": "Киноны график дизайн: Dune — Custom title symmetry\n\nD, U, N, E үсгийг ижил дугуй module-оор бүтээж wordmark-ийг symbol шиг уншуулдаг.\n\nДизайнерын хэрэглээ: Custom lettering-д нэг base shape сонгоод rotation, crop, reflection-оор бүх glyph-ээ байгуул.",
-    "image_url": null,
+    "image_url": "https://imgix.bustle.com/uploads/image/2024/2/23/e292f679-75cb-4ec5-b2e9-0979f4cc3698-dun2-t3-0014r-1.jpg",
     "status": "pending"
   },
   {
@@ -6449,7 +6449,7 @@
     "id": 939,
     "scheduled_at": "2026-12-28 22:00",
     "text": "Киноны график дизайн: Everything Everywhere All at Once — Multilingual typography\n\nӨөр бичгийн систем, font style зэрэгцсэн ч baseline, alignment, color role-оор нэг composition болдог.\n\nДизайнерын хэрэглээ: Multiscript layout-д font-ыг ижил харагдуулах бус x-height, weight, visual density-г тэнцүүл.",
-    "image_url": null,
+    "image_url": "https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2021-12/Capture%20d%E2%80%99e%CC%81cran%202021-12-15%20a%CC%80%2012.28.51.png",
     "status": "pending"
   },
   {
@@ -6498,7 +6498,7 @@
     "id": 940,
     "scheduled_at": "2026-12-29 22:00",
     "text": "Киноны график дизайн: Barbie — Toy packaging grid\n\nЦонх, nameplate, icon, badge, accessory slot нь бүтээгдэхүүнийг modular мэдээллийн layout болгодог.\n\nДизайнерын хэрэглээ: Social card template-д тогтсон frame, title zone, badge zone, visual window үүсгэ.",
-    "image_url": null,
+    "image_url": "https://static.wixstatic.com/media/f24c57_9bc56b7e9a554931915c011713b940e0~mv2.jpg/v1/fill/w_980%2Ch_653%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/f24c57_9bc56b7e9a554931915c011713b940e0~mv2.jpg",
     "status": "pending"
   },
   {
@@ -6547,7 +6547,7 @@
     "id": 941,
     "scheduled_at": "2026-12-30 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Дугуй долгионы motif\n\nConcentric ring, burst, particle texture нь poster asset-уудыг нэг motion language-д холбодог.\n\nДизайнерын хэрэглээ: Campaign system-д нэг radial motif-ийг scale, crop, opacity-аар хувилбаржуул.",
-    "image_url": null,
+    "image_url": "https://www.slashfilm.com/img/gallery/the-oppenheimer-supporting-character-guide-your-guide-to-all-those-guys/florence-pugh-as-jean-tatlock-1689864925.jpg",
     "status": "pending"
   },
   {
@@ -6596,7 +6596,7 @@
     "id": 942,
     "scheduled_at": "2026-12-31 22:00",
     "text": "Киноны график дизайн: Poor Things — Victorian display type\n\nЧимэг serif, engraved border, unusual spacing нь хуучны хэвлэлийн хэлбэрийг modern crop-той хослуулдаг.\n\nДизайнерын хэрэглээ: Historical type-ийг contemporary болгохдоо layout, scale, negative space-ийг шинэчил.",
-    "image_url": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/569afbf5e0327c41cd98fa69/57cb6434-faa1-4b4c-91a7-f4030ecd3683/020_052_PoorThings_OV_V30464704_FP_DPO_Pro.max-2000x2000-1.jpg",
     "status": "pending"
   }
 ]
