@@ -124,7 +124,8 @@ def request_json(method: str, url: str, *, headers: dict | None = None,
         if response.status_code < 400:
             return response.json()
         if response.status_code not in {429, 500, 502, 503, 504} or attempt == 6:
-            response.raise_for_status()
+            detail = response.text.strip().replace("\n", " ")[:800]
+            raise RuntimeError(f"Magnific HTTP {response.status_code}: {detail}")
         retry_after = response.headers.get("Retry-After", "").strip()
         wait = int(retry_after) if retry_after.isdigit() else delay
         time.sleep(min(wait, 60))
