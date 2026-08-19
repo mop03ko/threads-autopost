@@ -1,0 +1,92 @@
+name: Threads автомат постлолт
+
+on:
+  schedule:
+    # 10 минут тутам. GitHub-ийн хуваарь 5-15 минут хоцорч болно.
+    # Үүнийг THREADS_LATE_GRACE тохиргоо нөхнө.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:        # гараар ажиллуулах товч
+
+concurrency:
+  group: threads-post       # хоёр ажиллагаа зэрэг явахаас сэргийлнэ
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # queue.json-г буцааж commit хийхэд хэрэгтэй
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      THREADS_APP_ID:       ${{ secrets.THREADS_APP_ID }}
+      THREADS_APP_SECRET:   ${{ secrets.THREADS_APP_SECRET }}
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      THREADS_SHEET_ID:     ${{ secrets.THREADS_SHEET_ID }}
+      THREADS_REDIRECT_URI: https://localhost/threads-auth
+      THREADS_TZ:           Asia/Ulaanbaatar
+      THREADS_LATE_GRACE:   "120"
+      GH_PAT:               ${{ secrets.GH_PAT }}
+
+    steps:
+      - name: Кодыг татах
+        uses: actions/checkout@v4
+
+      - name: Python бэлтгэх
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Хамаарал суулгах
+        run: pip install --quiet -r requirements.txt
+
+      - name: Токен бэлтгэх
+        run: python threads_post.py token-import
+
+      - name: Google Sheet-ээс татах
+        run: python threads_post.py sync
+        continue-on-error: true      # Sheet унтарсан ч постлолт үргэлжилнэ
+
+      - name: Хугацаа болсон постыг нийтлэх
+        run: python threads_post.py run --live
+
+      - name: Ээлжийн төлөвийг хадгалах
+        run: |
+          if git diff --quiet -- queue.json; then
+            echo "Өөрчлөлт алга."
+            exit 0
+          fi
+          git config user.name  "threads-autopost"
+          git config user.email "actions@users.noreply.github.com"
+          git add queue.json
+          git commit -m "Ээлж шинэчлэв [skip ci]"
+          # Зэрэг ажиллагаанаас үүдэх зөрчлийг зөөлөн барина
+          git pull --rebase --autostash || true
+          git push
+
+      - name: Токеныг шинэчлэх
+        if: ${{ env.GH_PAT != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python threads_post.py token-export --out token.txt
+          gh secret set THREADS_ACCESS_TOKEN < token.txt
+          rm -f token.txt
+          echo "Токен GitHub Secret дээр шинэчлэгдлээ."
+
+      - name: Токен дуусахад ойртсон эсэхийг шалгах
+        if: ${{ always() }}
+        run: |
+          python - <<'PY'
+          import json, pathlib, datetime
+          f = pathlib.Path("token.json")
+          if not f.exists():
+              raise SystemExit(0)
+          tok = json.loads(f.read_text(encoding="utf-8"))
+          exp = datetime.datetime.fromisoformat(tok["expires_at"])
+          days = (exp - datetime.datetime.now(exp.tzinfo)).days
+          print(f"Токен дуусах хүртэл {days} хоног.")
+          if days < 7:
+              print("::warning::Токен удахгүй дуусна. Дахин зөвшөөрөл авна уу.")
+          PY

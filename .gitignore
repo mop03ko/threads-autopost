@@ -1,0 +1,8 @@
+token.json
+token.txt
+.env
+threads-autopost.log
+cron.log
+queue.bak.json
+__pycache__/
+*.tmp
