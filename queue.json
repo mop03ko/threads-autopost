@@ -47,7 +47,7 @@
     "id": 673,
     "scheduled_at": "2026-08-20 19:00",
     "text": "Логоны задлан: Negative space бүхий лого\n\nХоосон зайг дүрсний нэг хэсэг болгосон лого хоёр санааг нэг тэмдэгт багтаадаг. Гэхдээ далд дүрс нь үндсэн хэлбэрийг эвдэхгүй, жижиг хэмжээнд ч танигдах ёстой.\n\nХар цагаанаар болон 24 px хэмжээнд туршиж, далд санаа харагдахгүй байсан ч лого ажиллаж байгаа эсэхийг шалга.\n\nТа “Negative space бүхий лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -89,7 +89,7 @@
     "id": 674,
     "scheduled_at": "2026-08-21 19:00",
     "text": "Өнгөний задлан: Warm ба cool өнгө\n\nДулаан өнгө ойртож, хүйтэн өнгө холдож харагдах хандлагатай тул depth, анхаарлыг удирдаж чадна. Гэхдээ утга нь контекстоос шалтгаална.\n\nДулаан accent-аа focal point-д, хүйтэн өнгөө орон зайд ашиглаад grayscale hierarchy-г давхар шалга.\n\nТа “Warm ба cool өнгө” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -131,7 +131,7 @@
     "id": 675,
     "scheduled_at": "2026-08-22 19:00",
     "text": "Typography задлан: Serif ба sans pairing\n\nНэг serif, нэг sans хослол contrast ба hierarchy үүсгэдэг. Хоёул хэт онцлог бол брэндийн дуу хоолой мөргөлдөнө.\n\nX-height, proportion, mood ойролцоо боловч бүтэц нь ялгаатай фонтуудыг бодит copy дээр харьцуул.\n\nТа “Serif ба sans pairing” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/30591531/pexels-photo-30591531.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -175,7 +175,7 @@
     "id": 676,
     "scheduled_at": "2026-08-23 19:00",
     "text": "Постерын задлан: One-message poster\n\nПостер хэдхэн секундэд ойлгогдох ёстой тул нэг гол өгүүлбэр хамгийн хүчтэй. Олон санаа зэрэгцэхэд юу ч тогтохгүй.\n\nНэмэлт detail-ийг QR, caption, website руу шилжүүлж headline ба нэг visual-аа хамгаал.\n\nТа “One-message poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/30349399/pexels-photo-30349399.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -217,7 +217,7 @@
     "id": 677,
     "scheduled_at": "2026-08-24 19:00",
     "text": "UI/UX задлан: First-screen hierarchy\n\nЭхний дэлгэц хэрэглэгч хаана ирсэн, юу авах, дараа нь юу хийхийг шууд хэлэх ёстой. Decoration энэ гурвыг дарах ёсгүй.\n\nHeadline, value, primary action-аа scroll хийхгүйгээр ойлгогдохоор зохион байгуул.\n\nТа “First-screen hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/34155027/pexels-photo-34155027.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -259,7 +259,7 @@
     "id": 678,
     "scheduled_at": "2026-08-25 19:00",
     "text": "Before/After задлан: Элемент цөөлсөн before/after\n\nМуу хувилбарт бүх мэдээлэл өөрийн box, icon, өнгөтэй байхад хараа хаана тогтохоо мэдэхгүй. Сайн хувилбар шаардлагагүй чимэглэлийг арилгадаг.\n\nНэг бүрчлэн “энэ элемент мессежид юу нэмэж байна?” гэж асуугаад хариултгүйг нь устга.\n\nТа “Элемент цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/15669271/pexels-photo-15669271.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -301,7 +301,7 @@
     "id": 679,
     "scheduled_at": "2026-08-26 19:00",
     "text": "Дизайнерын байр суурь: Гоё дизайн ба ажилладаг дизайн\n\nГоё харагдах нь анхны сэтгэгдэл өгдөг ч зорилго биелүүлэхгүй бол дизайн амжилтгүй. Function ба emotion хоёрын аль нэгийг сонгох шаардлагагүй.\n\nШийдвэр бүрийг “хэрэглэгч юу ойлгож, юу хийх вэ?” гэсэн асуулттай холбо.\n\nТа “Гоё дизайн ба ажилладаг дизайн” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/29504352/pexels-photo-29504352.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -343,7 +343,7 @@
     "id": 680,
     "scheduled_at": "2026-08-27 19:00",
     "text": "Логоны задлан: Monogram лого\n\nКомпанийн эхний үсгүүдийг нэг тэмдэг болгон нэгтгэхэд зай, stroke, overlap хамгийн чухал болдог. Үсэг бүрийг хүчээр харуулах нь тэмдгийг төвөгтэй болгоно.\n\nЭхлээд silhouette-ийг цэвэрлээд, дараа нь үсгийн танигдах байдлыг optical correction-оор тэнцүүл.\n\nТа “Monogram лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964576/pexels-photo-3964576.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -385,7 +385,7 @@
     "id": 681,
     "scheduled_at": "2026-08-28 19:00",
     "text": "Өнгөний задлан: Complementary palette\n\nӨнгөний хүрдний эсрэг хоёр өнгө өндөр contrast, эрч хүч өгдөг. Хоёуланг ижил хэмжээгээр хүчтэй хэрэглэхэд мөргөлдөнө.\n\nНэгийг dominant, нөгөөг жижиг accent болгож saturation, lightness-ийг тэнцүүл.\n\nТа “Complementary palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -427,7 +427,7 @@
     "id": 682,
     "scheduled_at": "2026-08-29 19:00",
     "text": "Typography задлан: Single-family typography\n\nНэг font family-ийн олон weight, width, italic ашиглахад систем нэгдмэл, ачаалал багатай байдаг.\n\nSize, weight, spacing, color-ын role-оор hierarchy гаргаж, шинэ font нэмэхээс өмнө family-ийн боломжийг бүрэн ашигла.\n\nТа “Single-family typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/9281786/pexels-photo-9281786.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -469,7 +469,7 @@
     "id": 683,
     "scheduled_at": "2026-08-30 19:00",
     "text": "Постерын задлан: Visual-hierarchy poster\n\nХэмжээ, contrast, байрлалын дараалал poster-ийн унших замыг удирддаг. Бүх текст ижил жинтэй бол жагсаалт л харагдана.\n\nHeadline, supporting line, detail, CTA-г дөрвөн өөр түвшинд туршиж 3 секундийн тест хий.\n\nТа “Visual-hierarchy poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7315755/pexels-photo-7315755.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -511,7 +511,7 @@
     "id": 684,
     "scheduled_at": "2026-08-31 19:00",
     "text": "UI/UX задлан: Navigation clarity\n\nNavigation нэр ойлгомжгүй, бүтэц хэт олон түвшинтэй бол хэрэглэгч хайлтанд цаг алддаг. Creative label үргэлж ашигтай биш.\n\nAudience-ийн хэрэглэдэг үгээр menu нэрлэж, хамгийн чухал 5–7 чиглэлийг эхний түвшинд үлдээ.\n\nТа “Navigation clarity” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/2582933/pexels-photo-2582933.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -553,7 +553,7 @@
     "id": 685,
     "scheduled_at": "2026-09-01 19:00",
     "text": "Before/After задлан: Alignment зассан before/after\n\n1–2 px-ийн олон зөрүү layout-ийг санаандгүй, дуусаагүй харагдуулдаг. Нэг тэнхлэгт орсон элементүүд шууд холбоотой болдог.\n\nGuides, smart alignment ашиглаж text, image, button-ийн харааны ирмэгийг нэг системд оруул.\n\nТа “Alignment зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/32388555/pexels-photo-32388555.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -595,7 +595,7 @@
     "id": 686,
     "scheduled_at": "2026-09-02 19:00",
     "text": "Дизайнерын байр суурь: Тренд дагах тухай\n\nТренд хурдан танигдах хэллэг өгдөг ч брэнд бүр адилхан харагдах эрсдэлтэй. Трендийг хуулбарлах бус зорилгод нийцүүлэн шүүх хэрэгтэй.\n\nТрендийн гаднах эффект бус яагаад ажиллаж буй зарчмыг авч, брэндийн өөрийн системд хөрвүүл.\n\nТа “Тренд дагах тухай” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/33802177/pexels-photo-33802177.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -637,7 +637,7 @@
     "id": 687,
     "scheduled_at": "2026-09-03 19:00",
     "text": "Логоны задлан: Wordmark лого\n\nНэр өөрөө брэндийн гол тэмдэг болох үед үсгийн хэлбэр, spacing, нэг онцгой detail ялгарал үүсгэнэ. Бэлэн font-ыг шууд бичих нь хангалтгүй.\n\nKerning-ийг гараар засаж, нэг эсвэл хоёр үсэгт брэндийн онцлог хөдөлгөөн оруулбал wordmark эзэмшигдэхүйц болно.\n\nТа “Wordmark лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964837/pexels-photo-3964837.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -679,7 +679,7 @@
     "id": 688,
     "scheduled_at": "2026-09-04 19:00",
     "text": "Өнгөний задлан: Analogous palette\n\nХөрш hue-үүд зөөлөн, нэгдмэл мэдрэмж үүсгэдэг. Ялгаа хэт бага бол hierarchy алдагдана.\n\nНэг үндсэн өнгө сонгож, хөрш өнгөнүүдийн lightness-ийг тод ялган role-уудыг тогтоо.\n\nТа “Analogous palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -721,7 +721,7 @@
     "id": 689,
     "scheduled_at": "2026-09-05 19:00",
     "text": "Typography задлан: Display headline\n\nDisplay font том хэмжээнд зан чанар өгдөг ч урт текстэд уншилтыг ядраана. Онцлог нь богино байх тусам хүчтэй.\n\nГарчгийг 3–8 үгт барьж, body copy-г төвийг сахисан font-аар дэмж.\n\nТа “Display headline” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313517/pexels-photo-16313517.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -763,7 +763,7 @@
     "id": 690,
     "scheduled_at": "2026-09-06 19:00",
     "text": "Постерын задлан: Large-headline poster\n\nТом гарчиг зайг эзэлж, алсаас мессеж дамжуулдаг. Урт copy-г томруулахад мөр таслалт, rhythm муудна.\n\nГарчгаа богиносгож, line break-ийг утгын бүлгээр зориуд хуваан margin-аа хадгал.\n\nТа “Large-headline poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -805,7 +805,7 @@
     "id": 691,
     "scheduled_at": "2026-09-07 19:00",
     "text": "UI/UX задлан: Primary CTA\n\nНэг дэлгэцийн үндсэн товч хамгийн өндөр contrast, тод action verb-тэй байх ёстой. Олон primary button сонголтын ачаалал үүсгэнэ.\n\nSecondary action-ийг outline эсвэл text style болгож, primary CTA-ийн эргэн тойронд зай нэм.\n\nТа “Primary CTA” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313504/pexels-photo-16313504.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -847,7 +847,7 @@
     "id": 692,
     "scheduled_at": "2026-09-08 19:00",
     "text": "Before/After задлан: Spacing зассан before/after\n\nСанамсаргүй зай нь бүлэглэлийг ойлгомжгүй болгодог. Сайн хувилбар related content-д бага, section хооронд их зай өгдөг.\n\n4 эсвэл 8 нэгжийн spacing scale сонгож бүх padding, gap-аа түүнд ойртуул.\n\nТа “Spacing зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/9492921/pexels-photo-9492921.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -889,7 +889,7 @@
     "id": 693,
     "scheduled_at": "2026-09-09 19:00",
     "text": "Дизайнерын байр суурь: Минимализмын тухай\n\nМинимал дизайн цөөн элемент биш, чухлыг ялгасан систем. Мэдээлэл хасахдаа хэрэглэгчийн ойлголтыг хамт хасаж болохгүй.\n\nЭлемент бүрийн үүргийг шалгаж, utility хадгалагдсан үед л reduction-ийг чанар гэж үз.\n\nТа “Минимализмын тухай” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/8386430/pexels-photo-8386430.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -931,7 +931,7 @@
     "id": 694,
     "scheduled_at": "2026-09-10 19:00",
     "text": "Логоны задлан: Symbol лого\n\nДүрсэн тэмдэг нэргүйгээр танигдах хүчтэй байж болох ч шинэ брэнд эхэндээ тайлбар шаарддаг. Хэт ерөнхий icon ялгарахгүй.\n\nSymbol болон нэрийн lockup-ийг хамт хөгжүүлж, танигдалт өсөх хүртэл хэрэглээний дүрмийг тодорхой байлга.\n\nТа “Symbol лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/29501720/pexels-photo-29501720.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -973,7 +973,7 @@
     "id": 695,
     "scheduled_at": "2026-09-11 19:00",
     "text": "Өнгөний задлан: Monochrome palette\n\nНэг hue-ийн tint, shade, tone-оор palette үүсгэхэд брэнд цэвэр, тогтвортой харагдана. Contrast зөвхөн hue-ээс гарахгүй.\n\nLightness-ийн хангалттай шатлал үүсгэж, CTA эсвэл status-д шаардлагатай үед нэг нэмэлт accent ашигла.\n\nТа “Monochrome palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1015,7 +1015,7 @@
     "id": 696,
     "scheduled_at": "2026-09-12 19:00",
     "text": "Typography задлан: Variable font\n\nНэг файл дахь weight, width, slant тэнхлэг responsive typography-д өргөн боломж өгдөг. Хэт олон завсрын утга системийг замбараагүй болгоно.\n\nBrand role бүрт тодорхой axis preset тогтоож, browser fallback болон лицензийг шалга.\n\nТа “Variable font” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/8100060/pexels-photo-8100060.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1057,7 +1057,7 @@
     "id": 697,
     "scheduled_at": "2026-09-13 19:00",
     "text": "Постерын задлан: Product-focus poster\n\nБүтээгдэхүүн гол дүр бол silhouette, өнцөг, reflection, shadow нь үнэ цэнийг тодорхойлно. Олон props анхаарал булаана.\n\nНэг hero product, нэг supporting detail, нэг CTA гэсэн гурван давхаргаар composition байгуул.\n\nТа “Product-focus poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/31949770/pexels-photo-31949770.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1099,7 +1099,7 @@
     "id": 698,
     "scheduled_at": "2026-09-14 19:00",
     "text": "UI/UX задлан: Form design\n\nУрт form нь хүнд мэт харагддаг бөгөөд placeholder-ыг label болгож ашиглахад context алга болдог.\n\nТалбаруудыг логик бүлэглэж, persistent label, зөв input type, progress indicator ашигла.\n\nТа “Form design” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/30499766/pexels-photo-30499766.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1141,7 +1141,7 @@
     "id": 699,
     "scheduled_at": "2026-09-15 19:00",
     "text": "Before/After задлан: Hierarchy зассан before/after\n\nБүх текст ижил хэмжээтэй үед хэрэглэгч унших дарааллаа өөрөө хайна. Сайн хувилбар нэг headline, supporting, detail түвшинтэй.\n\nSize, weight, contrast, spacing дөрвөөс дор хаяж хоёрыг өөрчилж түвшнүүдээ тодруул.\n\nТа “Hierarchy зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/34149478/pexels-photo-34149478.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1183,7 +1183,7 @@
     "id": 700,
     "scheduled_at": "2026-09-16 19:00",
     "text": "Дизайнерын байр суурь: AI ба дизайнер\n\nAI хурдан хувилбар, texture, reference өгч чадна; зорилго, taste, ethics, final judgment-ийг дизайнер хариуцна. Prompt бол бүтэн процесс биш.\n\nAI output-ыг эх материал гэж үзэж anatomy, typography, license, brand consistency-г хүнээр нягтал.\n\nТа “AI ба дизайнер” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/33802165/pexels-photo-33802165.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1225,7 +1225,7 @@
     "id": 701,
     "scheduled_at": "2026-09-17 19:00",
     "text": "Логоны задлан: Responsive лого\n\nНэг лого бүх хэмжээнд ижил detail-тэй ажиллахгүй. Том хувилбар, compact lockup, жижиг icon гэсэн шаталсан систем илүү бодитой.\n\nХувилбар бүр ижил гол silhouette, proportion, өнгөний дохиог хадгалж байгаа эсэхийг зэрэгцүүлэн шалга.\n\nТа “Responsive лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/10409887/pexels-photo-10409887.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1267,7 +1267,7 @@
     "id": 702,
     "scheduled_at": "2026-09-18 19:00",
     "text": "Өнгөний задлан: Split-complementary palette\n\nҮндсэн өнгийн эсрэг талын хоёр хөрш өнгө contrast-тай мөртлөө complementary хосоос зөөлөн байдаг.\n\n60-30-10 жингээр нэг dominant, нэг supporting, нэг accent role тогтоож palette-аа хяна.\n\nТа “Split-complementary palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1309,7 +1309,7 @@
     "id": 703,
     "scheduled_at": "2026-09-19 19:00",
     "text": "Typography задлан: Weight hierarchy\n\nRegular, medium, bold-ийн ялгаа мэдээллийн түвшнийг хурдан ойлгуулдаг. 400 ба 500 зарим font дээр бараг ялгагдахгүй.\n\nWeight-ээ бодит дэлгэц, хэвлэл дээр туршиж, size ба spacing-тэй хамт hierarchy үүсгэ.\n\nТа “Weight hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7014919/pexels-photo-7014919.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1351,7 +1351,7 @@
     "id": 704,
     "scheduled_at": "2026-09-20 19:00",
     "text": "Постерын задлан: Face-led poster\n\nХүний царай анхаарлыг хамгийн хурдан татдаг бөгөөд emotion мессежийг шууд дамжуулна. Харцны чиглэл буруу бол хэрэглэгч frame-ээс гарна.\n\nSubject-ийн харцыг headline эсвэл product руу чиглүүлж, skin tone ба background contrast-ийг шалга.\n\nТа “Face-led poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313709/pexels-photo-16313709.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1393,7 +1393,7 @@
     "id": 705,
     "scheduled_at": "2026-09-21 19:00",
     "text": "UI/UX задлан: Error state\n\nАлдааны мессеж “invalid” гэж зогсохгүй юу буруу, яаж засахыг тодорхой хэлэх ёстой. Зөвхөн улаан өнгө хангалтгүй.\n\nАлдаатай field-ийн дэргэд icon, text, focus өгч хэрэглэгчийн оруулсан зөв мэдээллийг устгахгүй.\n\nТа “Error state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313664/pexels-photo-16313664.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1435,7 +1435,7 @@
     "id": 706,
     "scheduled_at": "2026-09-22 19:00",
     "text": "Before/After задлан: Font цөөлсөн before/after\n\nОлон font зан чанарыг нэмэхээсээ илүү эмх замбараагүй болгодог. Сайн хувилбар нэг family эсвэл хоёр зохицсон font ашиглана.\n\nFont бүрт role байхгүй бол хасаж, hierarchy-г weight, size, italic-аар шийд.\n\nТа “Font цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/33206535/pexels-photo-33206535.png?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1477,7 +1477,7 @@
     "id": 707,
     "scheduled_at": "2026-09-23 19:00",
     "text": "Дизайнерын байр суурь: Template ашиглах тухай\n\nTemplate хурд, structure өгдөг ч copy, hierarchy, brand rule-аа тааруулахгүй бол generic харагдана. Template өөрөө муу биш.\n\nLayout-ийн логикийг хадгалж typography, spacing, image direction-ийг брэндэд зориулан дахин шийд.\n\nТа “Template ашиглах тухай” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16241255/pexels-photo-16241255.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1519,7 +1519,7 @@
     "id": 708,
     "scheduled_at": "2026-09-24 19:00",
     "text": "Логоны задлан: Geometric лого\n\nТойрог, дөрвөлжин, шулуун шугам тогтвортой, технологийн мэдрэмж өгдөг. Гэхдээ математик тэгш байдал нүдэнд заавал тэгш харагддаггүй.\n\nOvershoot, corner, optical center-ийг нүдээр засаж, construction grid-ээ тайлбар бус чанарын хэрэгсэл болго.\n\nТа “Geometric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/18386912/pexels-photo-18386912.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1561,7 +1561,7 @@
     "id": 709,
     "scheduled_at": "2026-09-25 19:00",
     "text": "Өнгөний задлан: Triadic palette\n\nӨнгөний хүрд дээр тэнцүү зайтай гурван hue эрч хүчтэй, олон талт систем өгдөг. Бүгдийг өндөр saturation-тай хэрэглэхэд хүүхдийн мэт болж болно.\n\nНэг өнгийг голлон, үлдсэн хоёрыг saturation болон хэрэглээний хэмжээгээр намжаа.\n\nТа “Triadic palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6289025/pexels-photo-6289025.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1603,7 +1603,7 @@
     "id": 710,
     "scheduled_at": "2026-09-26 19:00",
     "text": "Typography задлан: X-height analysis\n\nИжил point size-тэй фонтууд x-height-ээс болж өөр хэмжээтэй харагддаг. UI text-д өндөр x-height уншилтад тустай.\n\nFont pair-аа cap height бус body copy-ийн харагдах өндөр, counter space-аар тэнцүүл.\n\nТа “X-height analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7610449/pexels-photo-7610449.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1645,7 +1645,7 @@
     "id": 711,
     "scheduled_at": "2026-09-27 19:00",
     "text": "Постерын задлан: Eye-direction poster\n\nЗураг доторх хүн, гар, хөдөлгөөн нь хэрэглэгчийн харааг дараагийн элемент рүү чиглүүлдэг. Энэ шугамыг composition дэмжих ёстой.\n\nХарц, gesture, diagonal-аа CTA хүртэл үргэлжлүүлж, эсрэг чиглэлтэй decoration-ийг цөөл.\n\nТа “Eye-direction poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/20456575/pexels-photo-20456575.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1687,7 +1687,7 @@
     "id": 712,
     "scheduled_at": "2026-09-28 19:00",
     "text": "UI/UX задлан: Empty state\n\nӨгөгдөлгүй дэлгэц бол мухардал биш, анхны үйлдлийг заах боломж. Хоосон цагаан талбай хэрэглэгчийг эргэлзүүлнэ.\n\nЮу харагдах ёстойг тайлбарлаж, нэг primary action болон шаардлагатай бол жишээ контент нэм.\n\nТа “Empty state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7675029/pexels-photo-7675029.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1729,7 +1729,7 @@
     "id": 713,
     "scheduled_at": "2026-09-29 19:00",
     "text": "Before/After задлан: Өнгө цөөлсөн before/after\n\nОлон accent өнгө action, decoration, status-ыг хооронд нь ялгах боломжгүй болгодог. Сайн хувилбар role-той цөөн palette ашиглана.\n\nPrimary, neutral, accent, status өнгөө ялгаж бусад санамсаргүй swatch-ийг арилга.\n\nТа “Өнгө цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7302067/pexels-photo-7302067.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1771,7 +1771,7 @@
     "id": 714,
     "scheduled_at": "2026-09-30 19:00",
     "text": "Дизайнерын байр суурь: Оригинал байдал\n\nЮунаас ч нөлөө аваагүй дизайн гэж бараг байхгүй. Оригинал байдал нь олон эх сурвалжийг шинэ асуудалд өөрийн шүүлтээр нэгтгэхэд оршино.\n\nНэг reference-ийг хуулбарлахгүй, өөр салбарын 3–5 зарчмыг салгаж moodboard дээр тайлбарла.\n\nТа “Оригинал байдал” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/31984653/pexels-photo-31984653.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1813,7 +1813,7 @@
     "id": 715,
     "scheduled_at": "2026-10-01 19:00",
     "text": "Логоны задлан: Organic лого\n\nЖигд бус муруй, гарын хөдөлгөөнтэй хэлбэр брэндэд хүнлэг, байгалийн мэдрэмж нэмдэг. Санамсаргүй хэлбэр ба зориудын органик дүрс ялгаатай.\n\nAnchor point-оо цөөлж, муруйн tension-ийг цэвэрлэхэд organic лого илүү мэргэжлийн болно.\n\nТа “Organic лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3747264/pexels-photo-3747264.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1855,7 +1855,7 @@
     "id": 716,
     "scheduled_at": "2026-10-02 19:00",
     "text": "Өнгөний задлан: Muted palette\n\nСаарал нэмсэн намдуу өнгө editorial, premium, тайван мэдрэмж төрүүлдэг. Бүх зүйл muted бол action point алга болно.\n\nNeutral суурин дээр нэг илүү цэвэр accent үлдээж хэрэглэгчийн харааг чиглүүл.\n\nТа “Muted palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/326518/pexels-photo-326518.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1897,7 +1897,7 @@
     "id": 717,
     "scheduled_at": "2026-10-03 19:00",
     "text": "Typography задлан: Line-length control\n\nХэт урт мөр нүдэнд дараагийн мөрөө олоход хэцүү, хэт богино мөр rhythm-ийг тасалдаг.\n\nBody text-д 45–75 тэмдэгт орчим зорьж, mobile, desktop бүрт баганын өргөнийг тохируул.\n\nТа “Line-length control” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7971616/pexels-photo-7971616.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1939,7 +1939,7 @@
     "id": 718,
     "scheduled_at": "2026-10-04 19:00",
     "text": "Постерын задлан: Contrast-led poster\n\nТом хар-цагаан ялгаа, scale, texture poster-ийг холоос танигдуулдаг. Бүх хэсэг өндөр contrast-тай бол focal point арилна.\n\nХамгийн хүчтэй contrast-ийг нэг цэгт төвлөрүүлж supporting copy-г нэг шат намжаа.\n\nТа “Contrast-led poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7675023/pexels-photo-7675023.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -1981,7 +1981,7 @@
     "id": 719,
     "scheduled_at": "2026-10-05 19:00",
     "text": "UI/UX задлан: Loading state\n\nХүлээлтийн хугацааг мэдээлэхгүй бол систем эвдэрсэн мэт санагдана. Spinner бүх нөхцөлд хамгийн сайн шийдэл биш.\n\nSkeleton, progress, optimistic update-ийг хугацаа ба үйлдлийн эрсдэлээр сонго.\n\nТа “Loading state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/1714202/pexels-photo-1714202.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2023,7 +2023,7 @@
     "id": 720,
     "scheduled_at": "2026-10-06 19:00",
     "text": "Before/After задлан: Crop зассан before/after\n\nМуу crop хүний үе, бүтээгдэхүүний ирмэг, харцны чиглэлийг эвддэг. Сайн crop subject-д амьсгалах зай, зөв focal point өгнө.\n\nAspect ratio бүрт crop-оо гараар тохируулж auto-crop-д гол контент тасрахгүйг шалга.\n\nТа “Crop зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2065,7 +2065,7 @@
     "id": 721,
     "scheduled_at": "2026-10-07 19:00",
     "text": "Дизайнерын байр суурь: Захиалагчийн амт\n\nЗахиалагчийн “таалагдах” мэдрэмж чухал ч audience-ийн зорилгыг орлохгүй. Feedback-ийг хувийн амтаас бизнесийн шалгуур руу хөрвүүлэх хэрэгтэй.\n\n“Яагаад?” гэж маргахын оронд мессеж, хэрэглэгч, хэмжигдэх үр дүнгээр хоёр хувилбарыг харьцуул.\n\nТа “Захиалагчийн амт” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/38291731/pexels-photo-38291731.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2107,7 +2107,7 @@
     "id": 722,
     "scheduled_at": "2026-10-08 19:00",
     "text": "Логоны задлан: Symmetric лого\n\nТэгш хэм найдвартай, албан, тогтвортой мэдрэмж төрүүлдэг. Гэвч бүх элементийг яг тэнцүүлэхэд тэмдэг хэт хөдөлгөөнгүй болж болно.\n\nТөв тэнхлэгээ хадгалж, negative space эсвэл detail-д багахан ялгаа оруулан брэндийн зан чанарыг нэм.\n\nТа “Symmetric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/14602304/pexels-photo-14602304.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2149,7 +2149,7 @@
     "id": 723,
     "scheduled_at": "2026-10-09 19:00",
     "text": "Өнгөний задлан: High-contrast palette\n\nГэрэлтэлтийн том ялгаа хурдан уншилт, хүчтэй hierarchy үүсгэдэг. Хэт их contrast бүхий бүх элемент өрсөлдөнө.\n\nХамгийн өндөр contrast-ийг headline, CTA-д хадгалж, supporting мэдээллийг нэг шат сулруул.\n\nТа “High-contrast palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2191,7 +2191,7 @@
     "id": 724,
     "scheduled_at": "2026-10-10 19:00",
     "text": "Typography задлан: Leading analysis\n\nМөр хоорондын зай хэт бага бол текст бөөгнөрч, хэт их бол догол мөрийн холбоо тасарна.\n\nFont size-ийн 1.4–1.6 дахин зайгаас эхэлж, x-height ба line length-ээр нүдээр зас.\n\nТа “Leading analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/5628244/pexels-photo-5628244.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2233,7 +2233,7 @@
     "id": 725,
     "scheduled_at": "2026-10-11 19:00",
     "text": "Постерын задлан: Whitespace poster\n\nХоосон зай гол объектын үнэ цэнэ, тайван байдлыг нэмдэг. Зайг “дутуу” гэж дүүргэх нь poster-ийг хямд харагдуулна.\n\nHero element-ийн эргэн тойронд intentional isolation өгч, edge margin-аа grid-тэй уялдуул.\n\nТа “Whitespace poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/13618542/pexels-photo-13618542.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2275,7 +2275,7 @@
     "id": 726,
     "scheduled_at": "2026-10-12 19:00",
     "text": "UI/UX задлан: Button hierarchy\n\nPrimary, secondary, tertiary, destructive button бүр өнгө, fill, байрлалаар ялгаатай байх ёстой. Shape-ийг дур мэдэн сольж болохгүй.\n\nНэг component system ашиглаж state бүрийн hover, focus, disabled, loading хувилбарыг тодорхойл.\n\nТа “Button hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7971531/pexels-photo-7971531.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2317,7 +2317,7 @@
     "id": 727,
     "scheduled_at": "2026-10-13 19:00",
     "text": "Before/After задлан: Copy богиносгосон before/after\n\nУрт гарчиг design-ийг жижигрүүлж, анхаарлыг сарниулдаг. Сайн хувилбар нэг гол санааг цомхон хэлээд detail-ийг caption-д шилжүүлнэ.\n\nДавхардсан adjective, тайлбар, нөхцөлийг хасаж headline-аа нэг амьсгаагаар уншигддаг болго.\n\nТа “Copy богиносгосон before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/396129/pexels-photo-396129.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2359,7 +2359,7 @@
     "id": 728,
     "scheduled_at": "2026-10-14 19:00",
     "text": "Дизайнерын байр суурь: Brand consistency\n\nТогтвортой байдал нь бүх постыг ижил болгох бус танигдах дүрмийг хадгалах явдал. Уян хатан байдалгүй system хурдан уйтгартай болно.\n\nӨөрчлөгдөхгүй signature болон campaign бүрт өөрчлөгдөх layer-ээ тусад нь тодорхойл.\n\nТа “Brand consistency” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/11141869/pexels-photo-11141869.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2401,7 +2401,7 @@
     "id": 729,
     "scheduled_at": "2026-10-15 19:00",
     "text": "Логоны задлан: Asymmetric лого\n\nТэгш бус хэлбэр хөдөлгөөн, шинэлэг байдлыг хүчтэй илэрхийлдэг. Balance алдагдвал тэмдэг санамсаргүй эсвэл унаж байгаа мэт харагдана.\n\nХэмжээ, хар өнгийн масс, хоосон зайг grayscale дээр харьцуулж харааны жинг тэнцүүл.\n\nТа “Asymmetric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964466/pexels-photo-3964466.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2443,7 +2443,7 @@
     "id": 730,
     "scheduled_at": "2026-10-16 19:00",
     "text": "Өнгөний задлан: Low-contrast palette\n\nОйролцоо өнгөнүүд зөөлөн, тансаг мэдрэмж өгч болох ч жижиг текст, интерфэйсийн төлөвт эрсдэлтэй.\n\nDecorative хэсэгт low contrast ашиглаж, унших болон үйлдлийн элементүүдийг accessibility стандартаар хамгаал.\n\nТа “Low-contrast palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2485,7 +2485,7 @@
     "id": 731,
     "scheduled_at": "2026-10-17 19:00",
     "text": "Typography задлан: Tracking analysis\n\nНийт үсгийн зай tone, density, уншилтад нөлөөлнө. Body text-ийг хэт шахах нь хурдан ядраана.\n\nAll-caps жижиг label-д tracking нэмээд, том гарчигт optical rhythm-ийг үсгийн хэлбэрээр тохируул.\n\nТа “Tracking analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313529/pexels-photo-16313529.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2527,7 +2527,7 @@
     "id": 732,
     "scheduled_at": "2026-10-18 19:00",
     "text": "Постерын задлан: Border-frame poster\n\nХүрээ composition-ийг нэгтгэж, editorial эсвэл classic мэдрэмж өгдөг. Хэт зузаан frame дотоод талбайг шахна.\n\nBorder thickness-ийг poster size, margin, type weight-тэй нэг харьцаанд барь.\n\nТа “Border-frame poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/15569284/pexels-photo-15569284.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2569,7 +2569,7 @@
     "id": 733,
     "scheduled_at": "2026-10-19 19:00",
     "text": "UI/UX задлан: Card design\n\nCard нь холбоотой мэдээллийг бүлэглэдэг ч бүх зүйлд card хийхэд hierarchy хавтгай болно.\n\nBoundary үнэхээр хэрэгтэй хэсэгт card ашиглаж, доторх padding, title, action placement-ийг нэг стандарттай барь.\n\nТа “Card design” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/30008706/pexels-photo-30008706.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2611,7 +2611,7 @@
     "id": 734,
     "scheduled_at": "2026-10-20 19:00",
     "text": "Before/After задлан: CTA тодруулсан before/after\n\nМуу хувилбарт CTA бусад badge, logo-той ижил жинтэй байдаг. Сайн хувилбар action verb, contrast, зайгаар дараагийн алхмыг тодорхойлно.\n\nНэг primary CTA үлдээж secondary action-ийг сул style-р ялга.\n\nТа “CTA тодруулсан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/37690781/pexels-photo-37690781.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2653,7 +2653,7 @@
     "id": 735,
     "scheduled_at": "2026-10-21 19:00",
     "text": "Дизайнерын байр суурь: Design system\n\nSystem нь component library төдий биш; шийдвэрийн хэл, token, rule, ownership юм. Документгүй component удаан хугацаанд сална.\n\nДахин давтагдсан шийдвэр бүрийг token эсвэл component болгоод хэрэглээний шалтгааныг бич.\n\nТа “Design system” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6935188/pexels-photo-6935188.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2695,7 +2695,7 @@
     "id": 736,
     "scheduled_at": "2026-10-22 19:00",
     "text": "Логоны задлан: Mascot лого\n\nДүр нь брэндэд зан чанар, story, social контентын өргөн боломж өгдөг. Хэт олон detail жижиг icon, embroidery дээр алга болно.\n\nMascot-ийн нүүр, silhouette, нэг гол шинжийг үлдээсэн simplified logo variant заавал бэлтгэ.\n\nТа “Mascot лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964671/pexels-photo-3964671.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2737,7 +2737,7 @@
     "id": 737,
     "scheduled_at": "2026-10-23 19:00",
     "text": "Өнгөний задлан: Accent-color strategy\n\nAccent өнгө бага хэрэглэгдэх тусам үнэ цэнтэй дохио болдог. Logo, icon, line, button бүр accent болбол hierarchy алга болно.\n\nAccent-аа нэг үйлдэл эсвэл нэг мэдээллийн төрлөөр хязгаарлаж, хэрэглээний хувийг style guide-д тэмдэглэ.\n\nТа “Accent-color strategy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/12760383/pexels-photo-12760383.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2779,7 +2779,7 @@
     "id": 738,
     "scheduled_at": "2026-10-24 19:00",
     "text": "Typography задлан: Kerning analysis\n\nХоёр үсгийн зайг тус бүрээр засахгүй бол AV, To, Wa зэрэг хос нүхтэй харагдана. Автомат metric төгс биш.\n\nLogo, том headline-аа blur болон upside-down view дээр шалгаж харааны зайг тэнцүүл.\n\nТа “Kerning analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/21342777/pexels-photo-21342777.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2821,7 +2821,7 @@
     "id": 739,
     "scheduled_at": "2026-10-25 19:00",
     "text": "Постерын задлан: Diagonal composition\n\nДиагональ шугам хөдөлгөөн, хурд, эрч хүч үүсгэдэг. Олон зөрүүтэй өнцөг visual noise болдог.\n\nНэг гол angle сонгож зураг, type, shape-ийн чиглэлийг түүнд уялдуул.\n\nТа “Diagonal composition” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/19089182/pexels-photo-19089182.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2863,7 +2863,7 @@
     "id": 740,
     "scheduled_at": "2026-10-26 19:00",
     "text": "UI/UX задлан: UI whitespace\n\nЗай нь мэдээллийн бүлэг, interaction target, hierarchy-г тодруулдаг. Өндөр density-г зайгүй байдалтай андуурч болохгүй.\n\nSpacing token ашиглаж холбоотой зүйлсийн зайг бага, бүлэг хоорондын зайг их байлга.\n\nТа “UI whitespace” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7989229/pexels-photo-7989229.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2905,7 +2905,7 @@
     "id": 741,
     "scheduled_at": "2026-10-27 19:00",
     "text": "Before/After задлан: Contrast нэмсэн before/after\n\nОйролцоо lightness-тай text, background дэлгэцийн brightness өөрчлөгдөхөд алга болдог. Сайн хувилбар тоогоор баталгаажсан contrast-той.\n\nColor picker-ийн мэдрэмжид найдахгүй, ratio хэмжиж хамгийн чухал text-ээ 4.5:1 орчимд хүргэ.\n\nТа “Contrast нэмсэн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7302086/pexels-photo-7302086.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2947,7 +2947,7 @@
     "id": 742,
     "scheduled_at": "2026-10-28 19:00",
     "text": "Дизайнерын байр суурь: Reference хуулбарлах эрсдэл\n\nНэг reference-ийн composition, palette, type-ийг бүхэлд нь авахад plagiarism болон generic үр дүн үүснэ. Reference бол асуултын эхлэл.\n\nЖишээ бүрээс нэг л зарчим авч, өөр content ба audience дээр шинэ structure байгуул.\n\nТа “Reference хуулбарлах эрсдэл” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6480785/pexels-photo-6480785.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -2989,7 +2989,7 @@
     "id": 743,
     "scheduled_at": "2026-10-29 19:00",
     "text": "Логоны задлан: Emblem лого\n\nНэр, тэмдэг нэг хүрээнд багтсан emblem уламжлал, нэгдэл, бат бөх мэдрэмж өгдөг. Жижиг хэмжээнд доторх текст түрүүлж муудна.\n\nFull emblem, simplified badge, icon гэсэн гурван түвшинтэй болговол хэрэглээний хүрээ тэлнэ.\n\nТа “Emblem лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/33289718/pexels-photo-33289718.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3031,7 +3031,7 @@
     "id": 744,
     "scheduled_at": "2026-10-30 19:00",
     "text": "Өнгөний задлан: Color psychology\n\nУлаан эрч хүч, цэнхэр итгэл гэх мэт нийтлэг холбоо байдаг ч салбар, соёл, shade-аас утга өөрчлөгдөнө.\n\nӨнгө сонгохдоо хүссэн adjective-ээс гадна өрсөлдөгч, audience, бодит хэрэглээний контекстыг харьцуул.\n\nТа “Color psychology” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3073,7 +3073,7 @@
     "id": 745,
     "scheduled_at": "2026-10-31 19:00",
     "text": "Typography задлан: All-caps typography\n\nБүх том үсэг authority, label, compact emphasis өгдөг ч урт өгүүлбэрийн word shape-ийг алдагдуулна.\n\nAll-caps-ийг богино хэсэгт хэрэглэж, tracking-ийг бага зэрэг нэмэн accent-аа хязгаарла.\n\nТа “All-caps typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/19848073/pexels-photo-19848073.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3115,7 +3115,7 @@
     "id": 746,
     "scheduled_at": "2026-11-01 19:00",
     "text": "Постерын задлан: Intentional grid break\n\nGrid-ээс санаатай гарсан нэг элемент анхаарал татдаг. Олон объект дүрэм зөрчвөл grid огт мэдрэгдэхгүй.\n\nСуурь alignment-аа эхэлж тодорхой болгоод зөвхөн focal point-д controlled break хий.\n\nТа “Intentional grid break” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3045245/pexels-photo-3045245.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3157,7 +3157,7 @@
     "id": 747,
     "scheduled_at": "2026-11-02 19:00",
     "text": "UI/UX задлан: Icon with label\n\nТанил бус icon дангаараа утгаа тайлбарлаж чаддаггүй. Style танигдсан ч үйлдэл тодорхой биш байж болно.\n\nЧухал action-д text label нэмэж, tooltip-ийг үндсэн тайлбарын орлуулга болгохгүй.\n\nТа “Icon with label” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/4348193/pexels-photo-4348193.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3199,7 +3199,7 @@
     "id": 748,
     "scheduled_at": "2026-11-03 19:00",
     "text": "Before/After задлан: Consistency зассан before/after\n\nButton, icon, margin бүр өөр дүрэмтэй бол нэг дэлгэц олон эх сурвалжаас наасан мэт харагдана. Сайн хувилбар component rule ашиглана.\n\nRadius, stroke, shadow, spacing-ийн token-оо цөөлж бүх instance-д нэг дор шинэчил.\n\nТа “Consistency зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/28576306/pexels-photo-28576306.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3241,7 +3241,7 @@
     "id": 749,
     "scheduled_at": "2026-11-04 19:00",
     "text": "Дизайнерын байр суурь: Перфекционизм\n\nЖижиг detail-д хэт удаан суух нь гол асуудлыг шийдээгүй хэвээр үлдээж болно. Чанар ба хугацааны тэнцвэрийг шатлал шийднэ.\n\nConcept, hierarchy, readability, production гэсэн дарааллаар review хийж дараа нь micro-detail рүү ор.\n\nТа “Перфекционизм” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/36846220/pexels-photo-36846220.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3283,7 +3283,7 @@
     "id": 750,
     "scheduled_at": "2026-11-05 19:00",
     "text": "Логоны задлан: Dynamic identity\n\nНэг тогтмол тэмдэг дээр pattern, өнгө, дүрс өөрчлөгддөг систем брэндийг амьд харагдуулна. Хэт уян бол танигдах цөм алдагдана.\n\nӨөрчлөгдөх ба өөрчлөгдөхгүй элементүүдийг brand rule-д ялгаж, бүх хувилбарт нэг signature үлдээ.\n\nТа “Dynamic identity” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964580/pexels-photo-3964580.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3325,7 +3325,7 @@
     "id": 751,
     "scheduled_at": "2026-11-06 19:00",
     "text": "Өнгөний задлан: Cultural color meaning\n\nНэг өнгө улс, шашин, үе, үйл явдлаас хамаарч эсрэг утгатай байж болно. Global palette-г зөвхөн трендээр сонгох эрсдэлтэй.\n\nЗорилтот зах зээл дээрээ өнгөний утга, баяр ёслол, хориг, өрсөлдөгчийн кодыг судал.\n\nТа “Cultural color meaning” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/5678243/pexels-photo-5678243.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3367,7 +3367,7 @@
     "id": 752,
     "scheduled_at": "2026-11-07 19:00",
     "text": "Typography задлан: Lowercase tone\n\nЖижиг үсэг брэндийг илүү ойр, энгийн, contemporary харагдуулж чадна. Албан салбарт хэт casual мэдрэмж төрж болно.\n\nAudience, нэрийн дуудлага, өгүүлбэрийн дүрэмтэй нь туршиж, intentional lowercase гэдгийг системээр баталгаажуул.\n\nТа “Lowercase tone” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7014939/pexels-photo-7014939.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3409,7 +3409,7 @@
     "id": 753,
     "scheduled_at": "2026-11-08 19:00",
     "text": "Постерын задлан: Repetition poster\n\nНэг дүрс, үг, өнгө давтагдахад rhythm, campaign identity үүсдэг. Ижил давталт удаан үргэлжилбэл уйтгартай.\n\nХэмжээ, crop, opacity-ийн нэг хувьсагчийг өөрчилж pattern дотор surprise point үүсгэ.\n\nТа “Repetition poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3730210/pexels-photo-3730210.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3451,7 +3451,7 @@
     "id": 754,
     "scheduled_at": "2026-11-09 19:00",
     "text": "UI/UX задлан: Color-state system\n\nSuccess, warning, error, info өнгө тогтмол хэрэглэгдэхгүй бол хэрэглэгчийн суралцсан дохио эвдэрнэ.\n\nӨнгө бүрт icon, label, background treatment хослуулж light, dark mode-д contrast шалга.\n\nТа “Color-state system” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/29485989/pexels-photo-29485989.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3493,7 +3493,7 @@
     "id": 755,
     "scheduled_at": "2026-11-10 19:00",
     "text": "Before/After задлан: Grid оруулсан before/after\n\nGrid-гүй layout-д объект бүр тусдаа шийдвэр болдог. Сайн хувилбар column, gutter, baseline-аар нийт structure-ийг холбодог.\n\nЭхлээд бүх элементийг grid-д оруулж, зөвхөн focal point дээр санаатай break хий.\n\nТа “Grid оруулсан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3535,7 +3535,7 @@
     "id": 756,
     "scheduled_at": "2026-11-11 19:00",
     "text": "Дизайнерын байр суурь: Хурдан дизайн\n\nХурд нь shortcut бус сайн бэлтгэсэн system, asset, preset, checklist-ийн үр дүн. Яарсан improvisation тогтвортой биш.\n\nДавтагдсан ажлаа template болгож, бүтээлч цагийг гол concept ба judgment-д үлдээ.\n\nТа “Хурдан дизайн” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6005072/pexels-photo-6005072.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3577,7 +3577,7 @@
     "id": 757,
     "scheduled_at": "2026-11-12 19:00",
     "text": "Логоны задлан: Black-and-white logo test\n\nӨнгөгүй үед ажиллахгүй лого ихэнхдээ shape, hierarchy-ийн асуудалтай байдаг. Өнгө муу бүтцийг түр нууж чадна.\n\nКонцепцийн эхэнд хар silhouette, дараа нь reverse хувилбарыг баталж байж palette нэм.\n\nТа “Black-and-white logo test” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/28609342/pexels-photo-28609342.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3619,7 +3619,7 @@
     "id": 758,
     "scheduled_at": "2026-11-13 19:00",
     "text": "Өнгөний задлан: Black-and-white palette\n\nХар, цагаан систем shape, typography, spacing-ийг илүү тод харуулдаг. Харин цэвэр хар, цэвэр цагаан үргэлж хамгийн тухтай хос биш.\n\nДэлгэцэд off-black, off-white туршиж, хэвлэлд paper white болон ink density-г proof дээр шалга.\n\nТа “Black-and-white palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/17279854/pexels-photo-17279854.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3661,7 +3661,7 @@
     "id": 759,
     "scheduled_at": "2026-11-14 19:00",
     "text": "Typography задлан: Text alignment\n\nLeft alignment урт уншлагад тогтвортой эхлэл өгдөг; centered alignment богино мессежид ёслолын мэдрэмж нэмнэ.\n\nНэг блокт олон alignment бүү хольж, хамгийн урт copy дээр rag болон scan path-ийг шалга.\n\nТа “Text alignment” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7015062/pexels-photo-7015062.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3703,7 +3703,7 @@
     "id": 760,
     "scheduled_at": "2026-11-15 19:00",
     "text": "Постерын задлан: Texture poster\n\nЦаас, grain, ink, material texture дизайндаа tactile мэдрэмж өгдөг. Texture ихдвэл жижиг copy, лого бүдгэрнэ.\n\nTexture-г hierarchy-ийн доод түвшинд барьж, хэвлэл ба дэлгэцийн хувилбарт intensity-г тусад нь тохируул.\n\nТа “Texture poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313660/pexels-photo-16313660.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3745,7 +3745,7 @@
     "id": 761,
     "scheduled_at": "2026-11-16 19:00",
     "text": "UI/UX задлан: UI typography\n\nИнтерфэйсийн текст decoration биш, navigation ба decision tool. Хэт олон size, weight system-ийг сулруулна.\n\nDisplay, title, body, label, caption гэсэн цөөн role тогтоож component бүрт нэг мөр хэрэглэ.\n\nТа “UI typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/9902813/pexels-photo-9902813.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3787,7 +3787,7 @@
     "id": 762,
     "scheduled_at": "2026-11-17 19:00",
     "text": "Before/After задлан: Icon нэгтгэсэн before/after\n\nFill, outline, 3D icon-ыг холиход visual language тасардаг. Сайн хувилбар ижил stroke, corner, grid-тэй set хэрэглэнэ.\n\nIcon бүрийг ижил optical size-д тохируулж source style-ийг нэг хэлбэрт зур.\n\nТа “Icon нэгтгэсэн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/38869233/pexels-photo-38869233.png?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3829,7 +3829,7 @@
     "id": 763,
     "scheduled_at": "2026-11-18 19:00",
     "text": "Дизайнерын байр суурь: Үнэгүй фонт\n\nFree гэж бичсэн бүхэн commercial хэрэглээ, web embedding, redistribution-д зөвшөөрөгдсөн гэсэн үг биш. Лиценз design-ийн нэг хэсэг.\n\nFont source, license version, хэрэглээний эрхийг төсөлтэй нь архивлаж захиалагчид тодорхой дамжуул.\n\nТа “Үнэгүй фонт” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/38459240/pexels-photo-38459240.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3871,7 +3871,7 @@
     "id": 764,
     "scheduled_at": "2026-11-19 19:00",
     "text": "Логоны задлан: Minimum-size logo\n\nНарийн шугам, жижиг counter, урт tagline нь хэмжээг багасгахад хамгийн түрүүнд алга болдог. Minimum size бол дурын тоо биш.\n\nДэлгэц, хэвлэл, embroidery дээр бодитоор туршиж, detail алдагдах яг цэгээр доод хэмжээг тогтоо.\n\nТа “Minimum-size logo” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/35066322/pexels-photo-35066322.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3913,7 +3913,7 @@
     "id": 765,
     "scheduled_at": "2026-11-20 19:00",
     "text": "Өнгөний задлан: Pastel palette\n\nӨндөр lightness, бага saturation нь зөөлөн, нөхөрсөг мэдрэмж өгдөг. Pastel дээр цагаан текст ихэнхдээ contrast дутна.\n\nBody text-д бараан neutral хэрэглэж, pastel-аа background, illustration, supporting block-д байрлуул.\n\nТа “Pastel palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/27141314/pexels-photo-27141314.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3955,7 +3955,7 @@
     "id": 766,
     "scheduled_at": "2026-11-21 19:00",
     "text": "Typography задлан: Rag quality\n\nLeft-aligned текстийн баруун зах санамсаргүй том нүх, шат үүсгэвэл layout боловсруулаагүй харагдана.\n\nColumn width, copy edit, discretionary line break ашиглан natural, зөөлөн rag үүсгэ.\n\nТа “Rag quality” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/32075861/pexels-photo-32075861.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -3997,7 +3997,7 @@
     "id": 767,
     "scheduled_at": "2026-11-22 19:00",
     "text": "Постерын задлан: Collage poster\n\nӨөр эх сурвалжийн зураг, shape, type хослох нь story, energy үүсгэдэг. Scale, light, color grade зөрвөл тасархай харагдана.\n\nБүх asset-д нэг palette, edge treatment, shadow logic өгч collage-аа нэг орон зайд оруул.\n\nТа “Collage poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16313516/pexels-photo-16313516.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4039,7 +4039,7 @@
     "id": 768,
     "scheduled_at": "2026-11-23 19:00",
     "text": "UI/UX задлан: Accessible UI\n\nKeyboard focus, contrast, semantic label, screen-reader order дизайн шатнаас шийдэгдэх ёстой. Дараа нь нэмэхэд бүтэц эвдэрнэ.\n\nPrototype дээр tab order, focus state, zoom, color blindness, error feedback-ийг шалгах checklist ашигла.\n\nТа “Accessible UI” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/4348289/pexels-photo-4348289.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4081,7 +4081,7 @@
     "id": 769,
     "scheduled_at": "2026-11-24 19:00",
     "text": "Before/After задлан: Shadow цөөлсөн before/after\n\nОлон хүчтэй shadow элемент бүрийг хөвүүлж, depth-ийн утгыг үгүй болгодог. Сайн хувилбар elevation-ийн цөөн түвшинтэй.\n\nShadow-г зөвхөн overlap, focus, modal зэрэг бодит depth-т хэрэглэж бусдыг border эсвэл whitespace-аар шийд.\n\nТа “Shadow цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4123,7 +4123,7 @@
     "id": 770,
     "scheduled_at": "2026-11-25 19:00",
     "text": "Дизайнерын байр суурь: Stock зураг\n\nStock зураг хурдан шийдэл боловч хэт танил pose, lighting брэндийг generic болгодог. Зөв art direction-оор stock ч ялгарч чадна.\n\nНэг campaign-ийн зургуудыг crop, grade, texture, subject direction-аар нэг хэллэгт оруул.\n\nТа “Stock зураг” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6005010/pexels-photo-6005010.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4165,7 +4165,7 @@
     "id": 771,
     "scheduled_at": "2026-11-26 19:00",
     "text": "Логоны задлан: Logo clear space\n\nЛогоны эргэн тойрны зай нь тэмдгийг бусад мэдээллээс тусгаарлаж, үнэ цэнийг нь хамгаалдаг. Хэт бага зай logo-г sticker мэт шахна.\n\nНэг тогтмол хэмжүүр сонгон lockup бүрт clear-space дүрмийг хэрэглээний жишээгээр үзүүл.\n\nТа “Logo clear space” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3964594/pexels-photo-3964594.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4207,7 +4207,7 @@
     "id": 772,
     "scheduled_at": "2026-11-27 19:00",
     "text": "Өнгөний задлан: Neon palette\n\nНеон өнгө digital, entertainment, youthful energy-г хүчтэй өгдөг. CMYK хэвлэл дээр тэр тод байдал давтагдахгүй.\n\nДэлгэцийн RGB хувилбар, хэвлэлийн spot эсвэл ойролцоо CMYK хувилбарыг тусад нь тодорхойл.\n\nТа “Neon palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4249,7 +4249,7 @@
     "id": 773,
     "scheduled_at": "2026-11-28 19:00",
     "text": "Typography задлан: Punctuation detail\n\nQuote, dash, apostrophe, ellipsis-ийн зөв glyph typography-г мэргэжлийн харагдуулдаг. Keyboard-ийн энгийн тэмдэг үргэлж зөв биш.\n\nLanguage бүрийн punctuation, spacing, quotation mark-ийг style sheet-ээр нэг мөр болго.\n\nТа “Punctuation detail” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/11284046/pexels-photo-11284046.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4291,7 +4291,7 @@
     "id": 774,
     "scheduled_at": "2026-11-29 19:00",
     "text": "Постерын задлан: Photography poster\n\nХүчтэй фото ганцаараа мессежийн тал хувийг шийдэж чадна. Copy-г дурын хоосон газар тавихад composition эвдэрнэ.\n\nЗургийн focal point, negative space, eye direction-ийг ашиглан type-ийн байрлалыг эхээс нь төлөвлө.\n\nТа “Photography poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/12902944/pexels-photo-12902944.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4333,7 +4333,7 @@
     "id": 775,
     "scheduled_at": "2026-11-30 19:00",
     "text": "UI/UX задлан: Thumb-zone mobile UI\n\nНэг гараар ашиглах үед дэлгэцийн доод төв хэсэг хамгийн хүрэхэд хялбар. Чухал action-ыг дээд буланд нууж болохгүй.\n\nPrimary navigation, frequent action-аа thumb zone-д байрлуулж destructive action-аас зай барь.\n\nТа “Thumb-zone mobile UI” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/13450796/pexels-photo-13450796.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4375,7 +4375,7 @@
     "id": 776,
     "scheduled_at": "2026-12-01 19:00",
     "text": "Before/After задлан: Border цөөлсөн before/after\n\nБүх блок хүрээтэй үед page хүснэгт мэт хүнд харагдана. Сайн хувилбар proximity, background, spacing-аар бүлэглэнэ.\n\nBoundary үнэхээр шаардлагатай card-д л border үлдээж line weight, color-ыг намжаа.\n\nТа “Border цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/15124857/pexels-photo-15124857.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4417,7 +4417,7 @@
     "id": 777,
     "scheduled_at": "2026-12-02 19:00",
     "text": "Дизайнерын байр суурь: Motion design\n\nХөдөлгөөн анхаарал татахын тулд бус change, hierarchy, cause-effect тайлбарлахад хамгийн хүчтэй. Бүхнийг хөдөлгөх нь noise.\n\nAnimation бүрт “юуг ойлгуулж байна?” гэсэн зорилго өгч reduced-motion хувилбар бод.\n\nТа “Motion design” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/5981821/pexels-photo-5981821.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4459,7 +4459,7 @@
     "id": 778,
     "scheduled_at": "2026-12-03 19:00",
     "text": "Логоны задлан: Optical logo correction\n\nТойрог, гурвалжин, үсэг bounding box-оор төвд байсан ч нүдэнд хазайж харагддаг. Геометр ба perception үргэлж адил биш.\n\nМатематик alignment хийсний дараа logo-г жижигрүүлж, 1–2 нэгжийн optical correction-ийг зориуд хий.\n\nТа “Optical logo correction” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/11462538/pexels-photo-11462538.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4501,7 +4501,7 @@
     "id": 779,
     "scheduled_at": "2026-12-04 19:00",
     "text": "Өнгөний задлан: Gradient palette\n\nGradient depth, motion, орчин үеийн мэдрэмж нэмж чадна. Хэт олон stop, буруу hue path нь бохир өнгө үүсгэнэ.\n\nХоёр эсвэл гурван үндсэн stop-оор эхэлж, lightness болон banding-ийг бодит экспорт дээр шалга.\n\nТа “Gradient palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/28550000/pexels-photo-28550000.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4543,7 +4543,7 @@
     "id": 780,
     "scheduled_at": "2026-12-05 19:00",
     "text": "Typography задлан: Numeral style\n\nTabular, proportional, oldstyle numeral өөр хэрэглээнд зориулагдсан. Үнэ, хүснэгт, editorial текстэд нэг хэлбэр тохирохгүй.\n\nTable-д tabular, body text-д proportional эсвэл oldstyle сонгож currency, unit-ийн alignment-ийг шалга.\n\nТа “Numeral style” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/8100065/pexels-photo-8100065.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4585,7 +4585,7 @@
     "id": 781,
     "scheduled_at": "2026-12-06 19:00",
     "text": "Постерын задлан: Illustration poster\n\nIllustration брэндэд өвөрмөц ертөнц, тайлбарлах боломж өгдөг. Style нь campaign бүрт өөрчлөгдвөл танигдалт сарнина.\n\nStroke, palette, character proportion, texture-ийн дүрмийг campaign system болгон баримтжуул.\n\nТа “Illustration poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4627,7 +4627,7 @@
     "id": 782,
     "scheduled_at": "2026-12-07 19:00",
     "text": "UI/UX задлан: Responsive UI\n\nDesktop frame-ийг зүгээр шахахад content priority, navigation, tap target эвдэрнэ. Responsive бол дахин зохион байгуулалт.\n\nContent эвдэрч эхлэх цэгээр breakpoint сонгож, copy length болон image crop-ийг size бүрт турш.\n\nТа “Responsive UI” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16698508/pexels-photo-16698508.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4669,7 +4669,7 @@
     "id": 783,
     "scheduled_at": "2026-12-08 19:00",
     "text": "Before/After задлан: Зургийн чанар зассан before/after\n\nБага resolution, хэт sharpen, буруу compression нь сайн layout-ийг ч хямд харагдуулдаг. Сайн хувилбар зөв эх, зөв export ашиглана.\n\nFinal display size-д хангалттай пикселтэй зураг авч, 100 хувь zoom дээр artifact шалга.\n\nТа “Зургийн чанар зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/31052377/pexels-photo-31052377.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4711,7 +4711,7 @@
     "id": 784,
     "scheduled_at": "2026-12-09 19:00",
     "text": "Дизайнерын байр суурь: Accessibility\n\nAccessibility бол нэмэлт feature бус сайн дизайн хийх суурь. Contrast, keyboard, alt text, subtitle олон хэрэглэгчийн нөхцөлийг сайжруулна.\n\nBrief болон QA checklist-д accessibility-г эхнээс нь оруулж final дээр нөхөх ажлыг багасга.\n\nТа “Accessibility” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7722870/pexels-photo-7722870.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4753,7 +4753,7 @@
     "id": 785,
     "scheduled_at": "2026-12-10 19:00",
     "text": "Логоны задлан: Hidden-meaning logo\n\nДалд санаа логоны story-г сонирхолтой болгодог ч хэрэглэгч заавал тайлах албагүй. Үндсэн танигдалт нэгдүгээрт.\n\nДалд дүрсийг хассан ч брэндийн тэмдэг цэвэр, ялгарахуйц үлдэж байгаа эсэхээр концепцоо шүү.\n\nТа “Hidden-meaning logo” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/14466232/pexels-photo-14466232.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4795,7 +4795,7 @@
     "id": 786,
     "scheduled_at": "2026-12-11 19:00",
     "text": "Өнгөний задлан: Photo-derived palette\n\nГол зурагнаас өнгө авахад layout ба photography байгалийн холбоотой болно. Eyedropper-ийн бүх өнгө palette болох шаардлагагүй.\n\nЗургаас dominant, neutral, accent гурвыг ялгаж, contrast ба брэндийн нийцлийг дараа нь зас.\n\nТа “Photo-derived palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/27141304/pexels-photo-27141304.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4837,7 +4837,7 @@
     "id": 787,
     "scheduled_at": "2026-12-12 19:00",
     "text": "Typography задлан: Multilingual typography\n\nМонгол кирилл, латин, тоо, тэмдэглэгээний glyph чанар, жин, өндөр нэг font-д зөрөх боломжтой.\n\nБодит хоёр хэлтэй copy, bold, italic, punctuation дээр font-оо туршиж орлуулах glyph-ийг илрүүл.\n\nТа “Multilingual typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/17744148/pexels-photo-17744148.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4879,7 +4879,7 @@
     "id": 788,
     "scheduled_at": "2026-12-13 19:00",
     "text": "Постерын задлан: CTA poster\n\nCTA хэрэглэгч дараа нь юу хийхийг тодорхой хэлэх ёстой. “Дэлгэрэнгүй” гэх ерөнхий үг value-г сулруулна.\n\nAction verb, benefit, хугацааг цомхон бичиж CTA-г headline-аас доогуур ч detail-ээс дээгүүр байрлуул.\n\nТа “CTA poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4921,7 +4921,7 @@
     "id": 789,
     "scheduled_at": "2026-12-14 19:00",
     "text": "UI/UX задлан: Onboarding flow\n\nOnboarding бүх feature-ийг тайлбарлах биш, хэрэглэгчийг эхний амжилтад хүргэх ёстой. Урт slide sequence алгасагдана.\n\nContextual hint, progressive disclosure ашиглаж хамгийн чухал action-ыг бодитоор хийлгэ.\n\nТа “Onboarding flow” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/12902984/pexels-photo-12902984.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -4963,7 +4963,7 @@
     "id": 790,
     "scheduled_at": "2026-12-15 19:00",
     "text": "Before/After задлан: Logo хэмжээг зассан before/after\n\nЛого хэт том байхад content бус эзэмшлийн тэмдэг хамгийн түрүүнд харагддаг. Сайн хувилбар танигдах хэмжээг хадгалж hierarchy-д захирагдана.\n\nLogo-г хамгийн бага танигдах хэмжээнд ойртуулж clear space-аар үнэ цэнийг нь хамгаал.\n\nТа “Logo хэмжээг зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/9492916/pexels-photo-9492916.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5005,7 +5005,7 @@
     "id": 791,
     "scheduled_at": "2026-12-16 19:00",
     "text": "Дизайнерын байр суурь: Data visualization\n\nГрафик гоё харагдахаасаа өмнө үнэн зөв scale, context, label-тэй байх ёстой. Decoration data-г гуйвуулж болохгүй.\n\nChart type-ээ асуултаар сонгож, zero baseline, time range, source-оо ил тод харуул.\n\nТа “Data visualization” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/38352191/pexels-photo-38352191.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5047,7 +5047,7 @@
     "id": 792,
     "scheduled_at": "2026-12-17 19:00",
     "text": "Логоны задлан: Motion logo\n\nХөдөлгөөнт лого origin, transition, sound-аар брэндийн зан чанарыг илэрхийлж чадна. Зүгээр эргүүлэх нь систем биш.\n\nStatic logo-ны geometry-оос хөдөлгөөнөө гаргаж, 1 секунд дотор танигдах эхлэл, төгсгөлтэй болго.\n\nТа “Motion logo” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/11556402/pexels-photo-11556402.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5089,7 +5089,7 @@
     "id": 793,
     "scheduled_at": "2026-12-18 19:00",
     "text": "Өнгөний задлан: Dark-mode color\n\nDark mode нь цагааныг хар болгох энгийн inversion биш. Saturated өнгө хар фон дээр хэт гэрэлтэж, shadow утгаа алдана.\n\nSurface түвшин, text opacity, accent saturation-ийг тусад нь тохируулж бүх state-ийг шалга.\n\nТа “Dark-mode color” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7709273/pexels-photo-7709273.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5131,7 +5131,7 @@
     "id": 794,
     "scheduled_at": "2026-12-19 19:00",
     "text": "Typography задлан: Expressive typography\n\nҮсгийг scale, rotation, distortion, repetition-оор image мэт ашиглахад мессежийн emotion хүчтэй болно. Уншилт бүрэн алдагдаж болохгүй.\n\nНэг гол үгэнд experimental treatment өгч, үлдсэн мэдээллийг тайван grid дээр тогтоон balance үүсгэ.\n\nТа “Expressive typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/19847907/pexels-photo-19847907.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5173,7 +5173,7 @@
     "id": 795,
     "scheduled_at": "2026-12-20 19:00",
     "text": "Постерын задлан: Price-led poster\n\nҮнэ гол мессеж үед тоо, currency, өмнөх үнэ, нөхцөл зөв hierarchy-тай байх шаардлагатай. Бүх badge үнэ цэнийг тараана.\n\nНэг гол үнэ, нэг supporting нөхцөл үлдээж discount-ийг математик болон copy-гоор давхар шалга.\n\nТа “Price-led poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/1055731/pexels-photo-1055731.png?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5215,7 +5215,7 @@
     "id": 796,
     "scheduled_at": "2026-12-21 19:00",
     "text": "UI/UX задлан: Dashboard hierarchy\n\nDashboard бүх тоог зэрэг харуулах бус, шийдвэр гаргахад хэрэгтэй KPI, trend, exception-ийг эрэмбэлнэ.\n\nНэг гол асуултад эхний дэлгэц хариулдаг болгоод detail-ийг drill-down руу шилжүүл.\n\nТа “Dashboard hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/9902807/pexels-photo-9902807.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5257,7 +5257,7 @@
     "id": 797,
     "scheduled_at": "2026-12-22 19:00",
     "text": "Before/After задлан: Whitespace нэмсэн before/after\n\nБүх зайг контентоор дүүргэхэд хэрэглэгч бүлэг, дарааллыг ялгахгүй. Сайн хувилбар хоосон зайг active element болгон ашиглана.\n\nSection хоорондын зайг нэмээд card доторх related item-уудын зайг харьцангуй бага байлга.\n\nТа “Whitespace нэмсэн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7605098/pexels-photo-7605098.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5299,7 +5299,7 @@
     "id": 798,
     "scheduled_at": "2026-12-23 19:00",
     "text": "Дизайнерын байр суурь: Local identity\n\nҮндэсний element шууд наах нь local identity биш; хэл, rhythm, material, story-г гүн ойлгох хэрэгтэй. Cliché богино настай.\n\nТүүхэн утга, өнөөгийн хэрэглээ, audience-ийн харилцааг судалж бэлгэдлийг шинэ context-д хүндэтгэлтэй хөрвүүл.\n\nТа “Local identity” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/8965140/pexels-photo-8965140.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5341,7 +5341,7 @@
     "id": 799,
     "scheduled_at": "2026-12-24 19:00",
     "text": "Логоны задлан: Local-culture logo\n\nҮндэсний хээ, бичиг, бэлгэдэл брэндэд газар нутгийн хүчтэй identity өгдөг. Шууд хуулбарлах нь cliché, утгын алдаа үүсгэнэ.\n\nЭлементийн гарал, утгыг судалж, хэлбэрийн зарчмыг орчин үеийн хэрэглээнд дахин тайлбарла.\n\nТа “Local-culture logo” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/31376933/pexels-photo-31376933.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5383,7 +5383,7 @@
     "id": 800,
     "scheduled_at": "2026-12-25 19:00",
     "text": "Өнгөний задлан: Accessible color system\n\nStatus, link, button-ийг зөвхөн hue-ээр ялгах нь өнгө ялгах бэрхшээлтэй хэрэглэгчийг орхино.\n\nContrast ratio дээр icon, label, underline, pattern зэрэг хоёр дахь дохиог нэмэж system-ээ баталгаажуул.\n\nТа “Accessible color system” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3888149/pexels-photo-3888149.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5425,7 +5425,7 @@
     "id": 801,
     "scheduled_at": "2026-12-26 19:00",
     "text": "Typography задлан: Type as image\n\nТекст өөрөө composition-ийн үндсэн дүрс болох үед үгийн утга ба хэлбэр нэг санааг илэрхийлдэг.\n\nSilhouette, negative space, crop-ийг эхэлж хараад дараа нь жижиг хэмжээний уншилтыг баталгаажуул.\n\nТа “Type as image” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/7014506/pexels-photo-7014506.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5467,7 +5467,7 @@
     "id": 802,
     "scheduled_at": "2026-12-27 19:00",
     "text": "Постерын задлан: Outdoor-readability poster\n\nГадна самбарыг холоос, хөдөлгөөн дунд хэдхэн секунд хардаг. Жижиг detail, урт URL, олон logo ажиллахгүй.\n\nБодит үзэх зайтай тэнцэх thumbnail дээр headline, brand, action гурав үлдэж байгаа эсэхийг шалга.\n\nТа “Outdoor-readability poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/16307279/pexels-photo-16307279.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5509,7 +5509,7 @@
     "id": 803,
     "scheduled_at": "2026-12-28 19:00",
     "text": "UI/UX задлан: Microinteraction\n\nЖижиг motion, feedback нь үйлдэл болсон, state өөрчлөгдсөн, system ажиллаж байгааг ойлгуулна. Зүгээр гоёл саад болдог.\n\nDuration, easing, sound-ыг action-ийн утгатай уялдуулж reduced-motion хувилбар бэлтгэ.\n\nТа “Microinteraction” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/3747269/pexels-photo-3747269.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5551,7 +5551,7 @@
     "id": 804,
     "scheduled_at": "2026-12-29 19:00",
     "text": "Before/After задлан: Export зассан before/after\n\nЗөв дизайн буруу хэмжээ, profile, compression-оор гарвал эцсийн үр дүн муудна. Сайн хувилбар platform-specific preset, naming-тай.\n\nФайл бүрийг upload хийсний дараах бодит preview дээр шалгаж зөвхөн source preview-д найдахгүй.\n\nТа “Export зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/947417/pexels-photo-947417.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5593,7 +5593,7 @@
     "id": 805,
     "scheduled_at": "2026-12-30 19:00",
     "text": "Дизайнерын байр суурь: Timeless дизайн\n\nTimeless гэдэг трендгүй гэсэн үг биш; зорилго, proportion, typography, material нь түр зуурын эффектээс хүчтэй байхыг хэлнэ.\n\nCore system-ээ энгийн, бат бөх барьж campaign layer дээр трендийг хязгаартай турш.\n\nТа “Timeless дизайн” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/6596749/pexels-photo-6596749.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
@@ -5635,7 +5635,7 @@
     "id": 806,
     "scheduled_at": "2026-12-31 19:00",
     "text": "Логоны задлан: Brand-architecture logo\n\nОхин компани олон үед parent mark, нэр, өнгөний харилцаа системтэй байх шаардлагатай. Бүх логог тус тусад нь зохиовол бүлгийн танигдалт сарнина.\n\nBranded house, house of brands, endorsed model-ийн аль нь бизнесийн бүтэцтэй нийцэхийг эхэлж шийд.\n\nТа “Brand-architecture logo” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
-    "image_url": null,
+    "image_url": "https://images.pexels.com/photos/35515543/pexels-photo-35515543.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
     "status": "pending"
   },
   {
