@@ -1,0 +1,128 @@
+name: Upload manual Threads images to R2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "manual-images/**"
+      - ".github/workflows/upload-manual-images.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads-r2-manual-images
+  cancel-in-progress: false
+
+jobs:
+  upload-and-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
+      THREADS_SHEET_GID: "1131908690"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          missing=()
+          for name in R2_ACCOUNT_ID R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY R2_BUCKET_NAME R2_PUBLIC_BASE_URL GOOGLE_SERVICE_ACCOUNT_JSON THREADS_SHEET_ID; do
+            if [[ -z "${!name:-}" ]]; then missing+=("$name"); fi
+          done
+          if (( ${#missing[@]} )); then
+            echo "Missing GitHub secrets: ${missing[*]}" >&2
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -q -r requirements.txt awscli
+
+      - name: Upload manual images
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > .manual-image-urls.tsv
+          shopt -s nullglob
+          files=(manual-images/post-*.jpg manual-images/post-*.jpeg manual-images/post-*.png)
+          if (( ${#files[@]} == 0 )); then
+            echo "No manual images found." >&2
+            exit 1
+          fi
+          short_sha="${GITHUB_SHA:0:12}"
+          base="${R2_PUBLIC_BASE_URL%/}"
+          for file in "${files[@]}"; do
+            name="$(basename "$file")"
+            if [[ ! "$name" =~ ^post-([0-9]+)\.(jpg|jpeg|png)$ ]]; then
+              continue
+            fi
+            post_id="$((10#${BASH_REMATCH[1]}))"
+            ext="${BASH_REMATCH[2],,}"
+            content_type="image/jpeg"
+            [[ "$ext" == "png" ]] && content_type="image/png"
+            key="threads/posts/manual-post-$(printf '%03d' "$post_id")-${short_sha}.${ext}"
+            aws s3 cp "$file" "s3://${R2_BUCKET_NAME}/${key}" \
+              --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com" \
+              --content-type "$content_type" \
+              --cache-control "public,max-age=31536000,immutable" \
+              --only-show-errors
+            url="${base}/${key}"
+            curl --fail --silent --show-error --location \
+              --retry 5 --retry-all-errors --retry-delay 3 \
+              --output /dev/null "$url"
+            printf '%s\t%s\n' "$post_id" "$url" >> .manual-image-urls.tsv
+          done
+          test -s .manual-image-urls.tsv
+
+      - name: Update queue and Google Sheet
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from prepare_image_urls import load_queue, save_queue, sync_google_sheet
+
+          queue_path = Path("queue.json")
+          queue = load_queue(queue_path)
+          by_id = {int(post["id"]): post for post in queue if post.get("id")}
+          updated = []
+          for line in Path(".manual-image-urls.tsv").read_text(encoding="utf-8").splitlines():
+              raw_id, url = line.split("\t", 1)
+              post_id = int(raw_id)
+              post = by_id.get(post_id)
+              if post is None:
+                  raise SystemExit(f"Post ID {post_id} not found in queue.json")
+              post["image_url"] = url
+              post["status"] = "pending"
+              for key in ("error", "posted_at", "threads_id"):
+                  post.pop(key, None)
+              updated.append(post_id)
+          save_queue(queue_path, queue)
+          cells = sync_google_sheet(queue)
+          print(f"Updated post IDs: {updated}; Sheet cells: {cells}")
+          PY
+
+      - name: Commit updated queue
+        run: |
+          if git diff --quiet -- queue.json; then
+            echo "queue.json is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue.json
+          git commit -m "Manual post images uploaded to R2 [skip ci]"
+          git pull --rebase --autostash || true
+          git push
