@@ -78,10 +78,9 @@ def classify(text: str) -> str:
     return best if scores[best] else "marketing"
 
 
-def public_url(base_url: str, category: str, item_id: int) -> str:
-    variant = ((item_id - 1) % 3) + 1
-    name = f"{category}-{variant:02d}.jpg"
-    return f"{base_url.rstrip('/')}/threads/{quote(name)}"
+def public_url(base_url: str, item_id: int) -> str:
+    name = f"post-{item_id:03d}.jpg"
+    return f"{base_url.rstrip('/')}/threads/posts/{quote(name)}"
 
 
 def load_queue(path: Path) -> list[dict]:
@@ -111,8 +110,7 @@ def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tupl
         if status not in VALID_STATUSES:
             post["status"] = "pending"
         if force or not post.get("image_url"):
-            category = classify(str(post.get("text") or ""))
-            post["image_url"] = public_url(base_url, category, item_id)
+            post["image_url"] = public_url(base_url, item_id)
             assigned += 1
         if post.get("status") == "hold" and post.get("image_url"):
             post["status"] = "pending"
