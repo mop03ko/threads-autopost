@@ -1,0 +1,137 @@
+name: Magnific upscale selected post image
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "Post ID to upscale; use test to validate the API key"
+        required: true
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - ".github/magnific-post-id.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: magnific-upscale
+  cancel-in-progress: false
+
+jobs:
+  upscale:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MAGNIFIC_API_KEY: ${{ secrets.MAGNIFIC_API_KEY }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
+      THREADS_SHEET_GID: "1131908690"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -q -r requirements.txt awscli
+
+      - name: Resolve post ID
+        id: target
+        env:
+          MANUAL_POST_ID: ${{ inputs.post_id }}
+        shell: bash
+        run: |
+          post_id="$MANUAL_POST_ID"
+          if [[ -z "$post_id" && -f .github/magnific-post-id.txt ]]; then
+            IFS= read -r post_id < .github/magnific-post-id.txt
+          fi
+          if [[ -z "$post_id" ]]; then
+            echo "Missing post ID." >&2
+            exit 1
+          fi
+          echo "post_id=$post_id" >> "$GITHUB_OUTPUT"
+
+      - name: Validate Magnific API connection
+        run: python magnific_upscale.py check
+
+      - name: Upscale selected image
+        if: ${{ steps.target.outputs.post_id != 'test' }}
+        run: |
+          python magnific_upscale.py upscale \
+            --id "${{ steps.target.outputs.post_id }}" \
+            --output magnific-output.jpg
+
+      - name: Upload Magnific result to R2
+        if: ${{ steps.target.outputs.post_id != 'test' }}
+        id: r2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        shell: bash
+        run: |
+          set -euo pipefail
+          post_id="${{ steps.target.outputs.post_id }}"
+          short_sha="${GITHUB_SHA:0:12}"
+          key="threads/posts/magnific-post-$(printf '%03d' "$post_id")-${short_sha}.jpg"
+          aws s3 cp magnific-output.jpg "s3://${R2_BUCKET_NAME}/${key}" \
+            --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com" \
+            --content-type image/jpeg \
+            --cache-control "public,max-age=31536000,immutable" \
+            --only-show-errors
+          url="${R2_PUBLIC_BASE_URL%/}/${key}"
+          curl --fail --silent --show-error --location --retry 5 \
+            --output /dev/null "$url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Update queue and Google Sheet
+        if: ${{ steps.target.outputs.post_id != 'test' }}
+        env:
+          POST_ID: ${{ steps.target.outputs.post_id }}
+          IMAGE_URL: ${{ steps.r2.outputs.url }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from prepare_image_urls import load_queue, save_queue, sync_google_sheet
+
+          post_id = int(os.environ["POST_ID"])
+          image_url = os.environ["IMAGE_URL"]
+          queue_path = Path("queue.json")
+          queue = load_queue(queue_path)
+          post = next((item for item in queue if int(item.get("id") or 0) == post_id), None)
+          if post is None:
+              raise SystemExit(f"Post ID {post_id} not found.")
+          post["image_url"] = image_url
+          post["status"] = "pending"
+          for key in ("error", "posted_at", "threads_id"):
+              post.pop(key, None)
+          save_queue(queue_path, queue)
+          cells = sync_google_sheet(queue)
+          print(f"Post {post_id} updated; Sheet cells: {cells}")
+          PY
+
+      - name: Commit updated queue
+        if: ${{ steps.target.outputs.post_id != 'test' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue.json
+          if git diff --cached --quiet; then
+            echo "queue.json is already current."
+            exit 0
+          fi
+          git commit -m "Magnific image applied to post ${{ steps.target.outputs.post_id }} [skip ci]"
+          git pull --rebase --autostash || true
+          git push
