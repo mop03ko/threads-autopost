@@ -348,7 +348,7 @@ def main() -> None:
     parser.add_argument("--queue", type=Path, default=Path("queue.json"))
     parser.add_argument("--assets", type=Path, default=Path("assets/threads"))
     parser.add_argument("--texture", type=Path,
-                        default=Path("assets/threads/unique-texture.png"))
+                        default=Path("assets/threads/unique-texture.jpg"))
     parser.add_argument("--output", type=Path, default=Path("generated-images"))
     args = parser.parse_args()
 
