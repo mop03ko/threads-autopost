@@ -1,0 +1,90 @@
+name: Upload Threads images to R2
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "assets/threads/**"
+      - "prepare_image_urls.py"
+      - ".github/workflows/upload-images.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads-r2-images
+  cancel-in-progress: false
+
+jobs:
+  upload-and-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
+      THREADS_SHEET_GID: "1131908690"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          missing=()
+          for name in R2_ACCOUNT_ID R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY R2_BUCKET_NAME R2_PUBLIC_BASE_URL GOOGLE_SERVICE_ACCOUNT_JSON THREADS_SHEET_ID; do
+            if [[ -z "${!name:-}" ]]; then missing+=("$name"); fi
+          done
+          if (( ${#missing[@]} )); then
+            echo "Missing GitHub secrets: ${missing[*]}" >&2
+            exit 1
+          fi
+          if [[ "$R2_PUBLIC_BASE_URL" != https://* ]]; then
+            echo "R2_PUBLIC_BASE_URL must start with https://" >&2
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -q -r requirements.txt awscli
+
+      - name: Upload image library
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          aws s3 cp assets/threads/ "s3://${R2_BUCKET_NAME}/threads/" \
+            --recursive \
+            --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com" \
+            --content-type image/jpeg \
+            --cache-control "public,max-age=31536000,immutable" \
+            --only-show-errors
+
+      - name: Verify a public image
+        run: |
+          base="${R2_PUBLIC_BASE_URL%/}"
+          curl --fail --silent --show-error --location \
+            --retry 5 --retry-all-errors --retry-delay 3 \
+            --output /dev/null "${base}/threads/layout-01.jpg"
+
+      - name: Assign images and sync Google Sheet
+        run: python prepare_image_urls.py
+
+      - name: Commit updated queue
+        run: |
+          if git diff --quiet -- queue.json; then
+            echo "queue.json is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue.json
+          git commit -m "Зургийн холбоосуудыг R2-оос шинэчлэв [skip ci]"
+          git push
