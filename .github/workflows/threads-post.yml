@@ -7,6 +7,9 @@ on:
     # Canva tip-ийг өдөр бүр 13:00 Asia/Ulaanbaatar (05:00 UTC)-д ажиллуулна.
     # GitHub-ийн хуваарь хэдэн минут хоцорч болохыг THREADS_LATE_GRACE тохиргоо нөхнө.
     - cron: "0 5 * * *"
+    # График дизайны зөвлөгөө: 10:00, 16:00 Asia/Ulaanbaatar (02:00, 08:00 UTC).
+    - cron: "0 2 * * *"
+    - cron: "0 8 * * *"
   push:
     branches: [main]
     paths:
