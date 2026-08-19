@@ -101,10 +101,17 @@ def build_prompt(post: dict) -> str:
         "cinematic side light with controlled shadows",
         "high-key studio lighting with subtle depth",
     ))
+    concept = str(post.get("text") or "").strip()
+    if post_id == 7:
+        concept = (
+            "Analyze design references to understand composition, rhythm, and intentional negative space. "
+            "Transform those underlying principles into an original visual solution rather than imitating "
+            "the reference's surface appearance."
+        )
     return (
         "Create a unique premium 4:5 editorial image for a professional graphic designer's "
         "Threads post. Interpret the Mongolian post concept visually; do not typeset or quote it.\n\n"
-        f"Post concept:\n{str(post.get('text') or '').strip()}\n\n"
+        f"Post concept:\n{concept}\n\n"
         f"Visual direction: {direction}. Use {composition}. Materials: {material}. "
         f"Color palette: {palette}. Lighting: {light}. "
         "Contemporary international design-award quality, sophisticated art direction, tactile detail, "
