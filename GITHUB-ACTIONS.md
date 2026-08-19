@@ -53,7 +53,7 @@ Git суулгаагүй бол: https://git-scm.com/download/win
 
 Repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
-Дараах дөрвийг нэмнэ:
+Дараах тавыг нэмнэ:
 
 | Нэр | Утга |
 |---|---|
@@ -61,6 +61,7 @@ Repo → **Settings** → **Secrets and variables** → **Actions** → **New re
 | `THREADS_APP_SECRET` | `.env` файлын дотроос |
 | `THREADS_SHEET_ID` | `1nVy7ZcU-3XyTcAKaPkP7V6DZq5XvXZRy3sQ4uhS__6Y` |
 | `THREADS_ACCESS_TOKEN` | доорх тушаалаар гаргана |
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | Google service account key-ийн бүтэн JSON |
 
 Токеноо гаргах:
 
@@ -75,6 +76,26 @@ Notepad дотор гарсан урт текстийг хуулж `THREADS_ACCE
 ```powershell
 del token.txt
 ```
+
+### Google Sheet-ийн төлөвийг автоматаар шинэчлэх
+
+Пост Threads-д амжилттай орсны дараа Sheet-ийн `төлөв` нүдийг `posted`
+болгохын тулд Google service account нэг удаа тохируулна.
+
+1. Google Cloud Console дээр project үүсгээд **Google Sheets API**-г идэвхжүүлнэ.
+2. **IAM & Admin → Service Accounts** хэсгээс service account үүсгэнэ.
+3. Тухайн service account-д JSON key үүсгэж татна.
+4. Google Sheet-ээ service account JSON доторх `client_email` хаягтай
+   **Editor** эрхээр хуваалцана.
+5. JSON файлын бүтэн агуулгыг GitHub Actions secret дээр
+   `GOOGLE_SERVICE_ACCOUNT_JSON` нэрээр хадгална.
+
+Secret байхгүй үед постлолт хэвийн үргэлжилнэ, харин Sheet-ийн төлөв
+автоматаар өөрчлөгдөхгүй. Тохируулсны дараа:
+
+- амжилттай нийтлэгдсэн пост → `posted`
+- нийтлэхэд алдаа гарсан пост → `failed`
+- хэт хоцорч алгассан пост → `skipped`
 
 ---
 
@@ -121,6 +142,7 @@ GitHub cron (10 мин тутам)
         ├─ Google Sheet-ээс ээлжийг татна
         ├─ Хугацаа болсон постыг Threads руу нийтэлнэ
         ├─ queue.json-г repo руу буцааж commit хийнэ  ← төлөв хадгалагдана
+        ├─ Google Sheet-ийн төлөвийг posted/failed/skipped болгоно
         └─ Токен сунгагдсан бол Secret-ийг шинэчилнэ
 ```
 
