@@ -54,8 +54,9 @@
     "id": 8,
     "scheduled_at": "2026-08-22 20:30",
     "text": "Сайн зураг үнэтэй камераас эхэлдэггүй.\n\nГэрэл хаанаас орж байна, сүүдэр юуг нууж байна, кадрын гадна юу үлдэж байна гэдгээс эхэлдэг.\n\nТехник зургийг цэвэр болгоно. Ажиглалт зургийг дурсамжтай болгоно.",
-    "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/post-008.jpg",
-    "status": "pending"
+    "image_url": "blob:https://gemini.google.com/50cae298-3705-44f1-8644-9b2fd1f884bc",
+    "status": "failed",
+    "error": "API алдаа (HTTP 500, код 100): Param image_url is not a valid URI."
   },
   {
     "id": 9,
