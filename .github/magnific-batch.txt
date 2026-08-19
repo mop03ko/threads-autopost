@@ -1,1 +1,2 @@
-pilot:10
+pilot:1
+retry-error-detail
