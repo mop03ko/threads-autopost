@@ -75,7 +75,7 @@ jobs:
           python magnific_generate_batch.py \
             --scope "${{ steps.settings.outputs.scope }}" \
             --limit "${{ steps.settings.outputs.limit }}" \
-            --workers 4 \
+            --workers 2 \
             --run-token "${GITHUB_RUN_ID}"
 
       - name: Commit updated queue
