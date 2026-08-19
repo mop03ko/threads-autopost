@@ -5,6 +5,10 @@ on:
     # 2 цаг тутам, цагийн 17 дахь минутад ажиллана.
     # GitHub-ийн хуваарь 5-15 минут хоцорч болно. Үүнийг THREADS_LATE_GRACE тохиргоо нөхнө.
     - cron: "17 */2 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/manual-post-id.txt"
   workflow_dispatch:
     inputs:
       post_id:
@@ -58,9 +62,13 @@ jobs:
         env:
           MANUAL_POST_ID: ${{ inputs.post_id }}
         run: |
-          if [[ -n "$MANUAL_POST_ID" ]]; then
-            echo "Гар аргаар нийтлэх post ID: $MANUAL_POST_ID"
-            python threads_post.py run --live --id "$MANUAL_POST_ID"
+          post_id="$MANUAL_POST_ID"
+          if [[ -z "$post_id" && -f .github/manual-post-id.txt ]]; then
+            IFS= read -r post_id < .github/manual-post-id.txt
+          fi
+          if [[ -n "$post_id" ]]; then
+            echo "Гар аргаар нийтлэх post ID: $post_id"
+            python threads_post.py run --live --id "$post_id"
           else
             python threads_post.py run --live
           fi
