@@ -27,7 +27,7 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_REDIRECT_URI: https://localhost/threads-auth
       THREADS_TZ:           Asia/Ulaanbaatar
-      THREADS_LATE_GRACE:   "120"
+      THREADS_LATE_GRACE:   "150"
       GH_PAT:               ${{ secrets.GH_PAT }}
 
     steps:
