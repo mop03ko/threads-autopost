@@ -29,7 +29,8 @@
     "scheduled_at": "2026-08-19 22:00",
     "text": "Киноны график дизайн: Metropolis — Геометр ба масштаб\n\nБосоо тэнхлэг, давтагдсан цонх, аварга хэлбэрүүд нь жижиг дүрсийг хүрээлж, хэмжээсийн hierarchy үүсгэдэг.\n\nДизайнерын хэрэглээ: Том–жижиг харьцааг эрс ялгаж, гол объектын хэмжээг орчноор нь ойлгуул.",
     "image_url": "https://archive.pinupmagazine.org/content/2-articles/263-essay-dream-cities-sci-fi-film-architecture-mahfuz-sultan/dream-cities-metropolis-mahfuz-sultan-pinup-magazine07.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 36001): The image format is not supported."
   },
   {
     "id": 3,
