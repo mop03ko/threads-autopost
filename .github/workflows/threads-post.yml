@@ -5,7 +5,12 @@ on:
     # 2 цаг тутам, цагийн 17 дахь минутад ажиллана.
     # GitHub-ийн хуваарь 5-15 минут хоцорч болно. Үүнийг THREADS_LATE_GRACE тохиргоо нөхнө.
     - cron: "17 */2 * * *"
-  workflow_dispatch:        # гараар ажиллуулах товч
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "Шууд нийтлэх постын ID (хоосон бол хуваариар ажиллана)"
+        required: false
+        type: string
 
 concurrency:
   group: threads-post       # хоёр ажиллагаа зэрэг явахаас сэргийлнэ
@@ -49,8 +54,16 @@ jobs:
         run: python threads_post.py sync
         continue-on-error: true      # Sheet унтарсан ч постлолт үргэлжилнэ
 
-      - name: Хугацаа болсон постыг нийтлэх
-        run: python threads_post.py run --live
+      - name: Хугацаа болсон эсвэл сонгосон постыг нийтлэх
+        env:
+          MANUAL_POST_ID: ${{ inputs.post_id }}
+        run: |
+          if [[ -n "$MANUAL_POST_ID" ]]; then
+            echo "Гар аргаар нийтлэх post ID: $MANUAL_POST_ID"
+            python threads_post.py run --live --id "$MANUAL_POST_ID"
+          else
+            python threads_post.py run --live
+          fi
 
       - name: Ээлжийн төлөвийг хадгалах
         run: |
