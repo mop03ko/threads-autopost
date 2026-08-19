@@ -5648,8 +5648,8 @@
   {
     "id": 807,
     "scheduled_at": "2026-08-19 19:00",
-    "text": "Оройн дизайн задлан: Reference-ийг харах биш, унших нь\n\nСайн дизайнер зураг хадгалаад өнгө, фонтыг нь шууд хуулдаггүй. Харин “Яагаад энэ шийдэл ажиллаж байна?” гэж задалдаг: анхаарал хаана очиж байна, hierarchy юугаар үүсэж байна, юуг зориуд орхисон байна?\n\nӨнөөдрөөс өдөр бүр 19:00 цагт нэг visual шийдлийг богино, практик байдлаар задлая.\n\nТа эхлээд лого, өнгө, typography, постер эсвэл UI/UX-ээс алийг нь задлуулах вэ?",
-    "image_url": "https://images.pexels.com/photos/7147456/pexels-photo-7147456.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
+    "text": "Оройн дизайн задлан: Reference-ийг харах биш, унших нь\n\nTrent-ийн “Stellar” design system case study нэг чухал зүйлийг харуулдаг: reference цуглуулах зорилго нь харагдах байдлыг хуулбарлах биш, давтагдаж буй pattern-ыг олж, юу ажиллах, юу ажиллахгүйг тэмдэглэх.\n\nСайн reference board гурван асуултад хариулна: анхаарал хаана очиж байна, hierarchy юугаар үүсэж байна, юуг зориуд орхисон байна?\n\nЭх сурвалж: Trent / Dribbble",
+    "image_url": "https://cdn.dribbble.com/userupload/6041740/file/original-2cf9266cd63544d7282bdd22779c9997.png?resize=752x&vertical=center",
     "status": "pending"
   }
 ]
