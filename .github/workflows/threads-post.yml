@@ -12,6 +12,8 @@ on:
     - cron: "0 8 * * *"
     # Оройн дизайн задлан: 19:00 Asia/Ulaanbaatar (11:00 UTC).
     - cron: "0 11 * * *"
+    # Киноны график дизайн: 22:00 Asia/Ulaanbaatar (14:00 UTC).
+    - cron: "0 14 * * *"
   push:
     branches: [main]
     paths:
