@@ -18,6 +18,7 @@ from PIL import Image
 BASE = Path(__file__).resolve().parent
 QUEUE_PATH = BASE / "queue.json"
 API_ROOT = "https://api.magnific.com/v1/ai/image-upscaler-precision"
+UPLOAD_URL_ENDPOINT = "https://api.magnific.com/v1/ai/uploads/request-url"
 
 
 def api_key() -> str:
@@ -35,10 +36,16 @@ def headers() -> dict[str, str]:
 
 
 def check_connection() -> None:
-    response = requests.get(API_ROOT, headers=headers(), timeout=45)
+    response = requests.post(
+        UPLOAD_URL_ENDPOINT,
+        headers=headers(),
+        json={"files": [{"content_type": "image/jpeg"}]},
+        timeout=45,
+    )
     response.raise_for_status()
     payload = response.json()
-    if "data" not in payload:
+    files = payload.get("files") or payload.get("data", {}).get("files") or []
+    if not files or not files[0].get("upload_url"):
         raise SystemExit("Magnific API returned an unexpected response.")
     print("Magnific API authentication: OK")
 
