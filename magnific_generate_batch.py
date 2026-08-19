@@ -123,7 +123,7 @@ def request_json(method: str, url: str, *, headers: dict | None = None,
         response = requests.request(method, url, headers=headers, json=payload, timeout=timeout)
         if response.status_code < 400:
             return response.json()
-        if response.status_code not in {429, 500, 502, 503, 504} or attempt == 6:
+        if response.status_code not in {403, 429, 500, 502, 503, 504} or attempt == 6:
             detail = response.text.strip().replace("\n", " ")[:800]
             raise RuntimeError(f"Magnific HTTP {response.status_code}: {detail}")
         retry_after = response.headers.get("Retry-After", "").strip()
