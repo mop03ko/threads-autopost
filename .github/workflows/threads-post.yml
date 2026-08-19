@@ -10,6 +10,8 @@ on:
     # График дизайны зөвлөгөө: 10:00, 16:00 Asia/Ulaanbaatar (02:00, 08:00 UTC).
     - cron: "0 2 * * *"
     - cron: "0 8 * * *"
+    # Оройн дизайн задлан: 19:00 Asia/Ulaanbaatar (11:00 UTC).
+    - cron: "0 11 * * *"
   push:
     branches: [main]
     paths:
