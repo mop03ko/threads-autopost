@@ -73,16 +73,22 @@ jobs:
 
       - name: Хугацаа болсон эсвэл сонгосон постыг нийтлэх
         env:
-          MANUAL_POST_ID: ${{ inputs.post_id }}
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_POST_ID: ${{ github.event.inputs.post_id || '' }}
         run: |
           post_id="$MANUAL_POST_ID"
-          if [[ -z "$post_id" && -f .github/manual-post-id.txt ]]; then
+
+          # manual-post-id.txt нь зөвхөн тухайн файлын push trigger үед хүчинтэй.
+          # Scheduled ажиллагаа өмнөх ID-г дахин ашиглах ёсгүй.
+          if [[ "$EVENT_NAME" == "push" && -f .github/manual-post-id.txt ]]; then
             IFS= read -r post_id < .github/manual-post-id.txt
           fi
+
           if [[ -n "$post_id" ]]; then
             echo "Гар аргаар нийтлэх post ID: $post_id"
             python threads_post.py run --live --id "$post_id"
           else
+            echo "Хуваарьт ажиллагаа: хугацаа болсон постуудыг шалгаж байна."
             python threads_post.py run --live
           fi
 
