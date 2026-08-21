@@ -138,7 +138,9 @@
     "scheduled_at": "2026-08-21 19:00",
     "text": "Өнгөний задлан: Warm ба cool өнгө\n\nДулаан өнгө ойртож, хүйтэн өнгө холдож харагдах хандлагатай тул depth, анхаарлыг удирдаж чадна. Гэхдээ утга нь контекстоос шалтгаална.\n\nДулаан accent-аа focal point-д, хүйтэн өнгөө орон зайд ашиглаад grayscale hierarchy-г давхар шалга.\n\nТа “Warm ба cool өнгө” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/15669271/pexels-photo-15669271.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-21 19:16",
+    "threads_id": "17933890326368127"
   },
   {
     "id": 6,
