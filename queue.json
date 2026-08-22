@@ -201,7 +201,9 @@
     "scheduled_at": "2026-08-22 19:00",
     "text": "Typography задлан: Serif ба sans pairing\n\nНэг serif, нэг sans хослол contrast ба hierarchy үүсгэдэг. Хоёул хэт онцлог бол брэндийн дуу хоолой мөргөлдөнө.\n\nX-height, proportion, mood ойролцоо боловч бүтэц нь ялгаатай фонтуудыг бодит copy дээр харьцуул.\n\nТа “Serif ба sans pairing” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/29504352/pexels-photo-29504352.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-22 19:11",
+    "threads_id": "18129152008736371"
   },
   {
     "id": 8,
