@@ -183,7 +183,9 @@
     "scheduled_at": "2026-08-22 13:00",
     "text": "Canva файл дээрээ хайлт хийхээс өмнө нэршлээ системчил.\n\nPage, section, template-ээ зорилгоор нь нэрлэ: Hero, Product, CTA, Story 01 гэх мэт. “Copy of copy” нэрийг үлдээхгүй бай.\n\nЗөв нэршил багийн review болон дараагийн засварыг мэдэгдэхүйц хурдан болгодог.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-22 13:19",
+    "threads_id": "18403475908091301"
   },
   {
     "id": 410,
