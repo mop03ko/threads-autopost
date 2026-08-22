@@ -219,7 +219,9 @@
     "scheduled_at": "2026-08-22 22:00",
     "text": "Киноны график дизайн: Vertigo — Спираль motif\n\nДавтагдсан эргэлдсэн хэлбэр нь poster, title, хөдөлгөөнт графикийг нэг танигдах системд оруулдаг.\n\nДизайнерын хэрэглээ: Нэг үндсэн geometry сонгоод crop, scale, rotation-аар бүх touchpoint-д хувилбар үүсгэ.",
     "image_url": "https://cdn.zendalibros.com/wp-content/uploads/vertigo-de-entre-los-muertos.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-22 22:20",
+    "threads_id": "17903338584520223"
   },
   {
     "id": 9,
