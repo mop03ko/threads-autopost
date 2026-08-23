@@ -264,7 +264,9 @@
     "scheduled_at": "2026-08-23 19:00",
     "text": "Постерын задлан: One-message poster\n\nПостер хэдхэн секундэд ойлгогдох ёстой тул нэг гол өгүүлбэр хамгийн хүчтэй. Олон санаа зэрэгцэхэд юу ч тогтохгүй.\n\nНэмэлт detail-ийг QR, caption, website руу шилжүүлж headline ба нэг visual-аа хамгаал.\n\nТа “One-message poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-23 19:12",
+    "threads_id": "18123963652829839"
   },
   {
     "id": 10,
