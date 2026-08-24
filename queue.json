@@ -327,7 +327,9 @@
     "scheduled_at": "2026-08-24 19:00",
     "text": "UI/UX задлан: First-screen hierarchy\n\nЭхний дэлгэц хэрэглэгч хаана ирсэн, юу авах, дараа нь юу хийхийг шууд хэлэх ёстой. Decoration энэ гурвыг дарах ёсгүй.\n\nHeadline, value, primary action-аа scroll хийхгүйгээр ойлгогдохоор зохион байгуул.\n\nТа “First-screen hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-24 19:18",
+    "threads_id": "18169271194453023"
   },
   {
     "id": 12,
