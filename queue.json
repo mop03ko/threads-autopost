@@ -300,7 +300,9 @@
     "scheduled_at": "2026-08-24 10:00",
     "text": "PSD гэж юу вэ?\n\nPhotoshop-ийн layer, mask, effect, adjustment-ийг засварлах боломжтойгоор хадгалдаг эх файл.\n\nФото эвлүүлэг, retouch ажлыг PSD-ээр архивла; харин захиалагчид preview зориулсан JPEG эсвэл PDF-г тусад нь өг. “PSD” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-24 10:07",
+    "threads_id": "17984744220101033"
   },
   {
     "id": 275,
