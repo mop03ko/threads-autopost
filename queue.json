@@ -345,7 +345,8 @@
     "scheduled_at": "2026-08-24 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Төвийн симметр\n\nТөгс төвлөрсөн объект, тэнцүү margin, урт тэнхлэг нь минимал frame-д хүчтэй дэг журам өгдөг.\n\nДизайнерын хэрэглээ: Premium layout-д элемент нэмэхээс өмнө төвийн axis ба spacing system-ээ нарийвчил.",
     "image_url": "https://static.fabrik.io/106t/16.jpeg?fit=max&h=5120&lossless=1&s=b0eda6ca4d7e48e15f201f5e1ee0b5bd&w=3840",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 13,
