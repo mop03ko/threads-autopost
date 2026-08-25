@@ -407,7 +407,9 @@
     "scheduled_at": "2026-08-25 22:00",
     "text": "Киноны график дизайн: A Clockwork Orange — Цагаан талбай ба улбар accent\n\nӨргөн цагаан орон зайд улбар өнгийн цөөн элемент байрласнаар танигдах хүчтэй palette бий болдог.\n\nДизайнерын хэрэглээ: Нэг өндөр ханалттай accent-ыг 10–15 хувиас хэтрүүлэхгүй хэрэглэж, амьсгалах зайг үлдээ.",
     "image_url": "https://fina-wagtail-media-prod.s3.amazonaws.com/images/Mechaniczna_pomarancza.original.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-25 23:08",
+    "threads_id": "18090038741403255"
   },
   {
     "id": 15,
