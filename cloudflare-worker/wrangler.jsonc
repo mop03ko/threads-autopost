@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "threads-autopost-direct",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-25",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "GITHUB_OWNER": "mop03ko",
+    "GITHUB_REPO": "threads-autopost",
+    "GITHUB_BRANCH": "main",
+    "QUEUE_PATH": "queue.json",
+    "LATE_GRACE_MINUTES": "150",
+    "MAX_POSTS_PER_RUN": "3",
+    "MAX_POSTS_PER_DAY": "15"
+  },
+  "triggers": {
+    "crons": [
+      "30 0,12 * * *",
+      "0 2,5,8,11,14 * * *"
+    ]
+  }
+
+  // Токеныг автоматаар сунгаж хадгалахын тулд Dashboard дээр STATE нэртэй
+  // Workers KV binding нэмнэ. Namespace ID-г source control-д placeholder-аар
+  // оруулахгүй; бодит binding-ийг Dashboard/Wrangler орчноос холбоно.
+}

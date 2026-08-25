@@ -337,7 +337,7 @@ def cmd_list(_args) -> None:
         print("Ээлж хоосон байна.")
         return
     for p in sorted(queue, key=lambda x: x["scheduled_at"]):
-        icon = {"pending": "·", "posted": "+", "failed": "!", "skipped": "-", "hold": "o"}.get(p.get("status"), "?")
+        icon = {"pending": "·", "processing": "~", "posted": "+", "failed": "!", "skipped": "-", "hold": "o"}.get(p.get("status"), "?")
         first = p["text"].splitlines()[0][:58]
         img = " [зураг]" if p.get("image_url") else ""
         print(f"{icon} {p['scheduled_at']}  {len(p['text']):3d}т{img}  {first}")
@@ -690,7 +690,7 @@ def cmd_sync(args) -> None:
         existing = by_id.get(item_id)
 
         # Аль хэдийн нийтэлсэн постыг Sheet-ээс дарж бичихгүй
-        if existing and existing.get("status") in ("posted", "failed", "skipped"):
+        if existing and existing.get("status") in ("posted", "failed", "skipped", "processing"):
             merged.append(existing)
             locked += 1
             continue
@@ -713,13 +713,13 @@ def cmd_sync(args) -> None:
     # Sheet-д байхгүй боловч нийтлэгдсэн постуудыг хадгална
     sheet_ids = {e["id"] for e in merged}
     for post in local:
-        if post.get("id") not in sheet_ids and post.get("status") in ("posted", "failed", "skipped"):
+        if post.get("id") not in sheet_ids and post.get("status") in ("posted", "failed", "skipped", "processing"):
             merged.append(post)
             locked += 1
 
     removed = len(local) - len([p for p in local if p.get("id") in sheet_ids]) - \
               len([p for p in local if p.get("id") not in sheet_ids
-                   and p.get("status") in ("posted", "failed", "skipped")])
+                   and p.get("status") in ("posted", "failed", "skipped", "processing")])
 
     if QUEUE_FILE.exists():
         QUEUE_FILE.with_suffix(".bak.json").write_text(
@@ -794,9 +794,9 @@ def cmd_editor(args) -> None:
                         "text": text,
                         "image_url": (item.get("image_url") or None),
                         "status": item.get("status") if item.get("status") in
-                                  ("pending", "hold", "posted", "failed", "skipped") else "pending",
+                                  ("pending", "hold", "posted", "failed", "skipped", "processing") else "pending",
                     }
-                    for keep in ("posted_at", "threads_id", "error", "note"):
+                    for keep in ("posted_at", "threads_id", "error", "note", "processing_token", "processing_at"):
                         if item.get(keep):
                             entry[keep] = item[keep]
                     cleaned.append(entry)

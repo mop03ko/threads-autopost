@@ -1,0 +1,42 @@
+name: Threads Sheet төлөв синк
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "queue.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: threads-sheet-status
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.head_commit.message, 'Threads post finalized')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      THREADS_TZ: Asia/Ulaanbaatar
+
+    steps:
+      - name: Кодыг татах
+        uses: actions/checkout@v4
+
+      - name: Python бэлтгэх
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Хамаарал суулгах
+        run: pip install --quiet -r requirements.txt
+
+      - name: Google Sheet-ийн төлөвийг шинэчлэх
+        run: python threads_post.py sheet-status

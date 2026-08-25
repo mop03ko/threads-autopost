@@ -2,22 +2,9 @@ name: Threads автомат постлолт
 
 on:
   schedule:
-    # 2 цаг тутам, цагийн 17 дахь минутад ажиллана.
+    # Cloudflare Worker үндсэн нийтлэгч. Энэ cron нь зөвхөн нөөц ажиллагаа:
+    # Worker алдахад 150 минутын grace дотор хоцорсон постыг нөхнө.
     - cron: "17 */2 * * *"
-    # Өглөөний үндсэн пост: 08:30 Asia/Ulaanbaatar (00:30 UTC).
-    - cron: "30 0 * * *"
-    # Оройн үндсэн пост: 20:30 Asia/Ulaanbaatar (12:30 UTC).
-    - cron: "30 12 * * *"
-    # Canva tip-ийг өдөр бүр 13:00 Asia/Ulaanbaatar (05:00 UTC)-д ажиллуулна.
-    # GitHub-ийн хуваарь хэдэн минут хоцорч болохыг THREADS_LATE_GRACE тохиргоо нөхнө.
-    - cron: "0 5 * * *"
-    # График дизайны зөвлөгөө: 10:00, 16:00 Asia/Ulaanbaatar (02:00, 08:00 UTC).
-    - cron: "0 2 * * *"
-    - cron: "0 8 * * *"
-    # Оройн дизайн задлан: 19:00 Asia/Ulaanbaatar (11:00 UTC).
-    - cron: "0 11 * * *"
-    # Киноны график дизайн: 22:00 Asia/Ulaanbaatar (14:00 UTC).
-    - cron: "0 14 * * *"
   push:
     branches: [main]
     paths:
