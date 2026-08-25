@@ -373,6 +373,9 @@ async function runScheduled(env, scheduledTime) {
   const nowMs = scheduledTime || Date.now();
   log("run_started", { runId, localTime: localTimestamp(new Date(nowMs)) });
 
+  // Токен/данс буруу үед queue-г processing болгохоос өмнө шууд зогсоно.
+  const accessToken = await loadAccessToken(env);
+  const userId = await resolveThreadsUserId(env, accessToken);
   const claim = await claimDuePosts(env, nowMs);
   if (claim.claims.length === 0) {
     log("run_finished", {
@@ -382,8 +385,6 @@ async function runScheduled(env, scheduledTime) {
     return;
   }
 
-  const accessToken = await loadAccessToken(env);
-  const userId = await resolveThreadsUserId(env, accessToken);
   const results = [];
   for (const post of claim.claims) {
     try {
