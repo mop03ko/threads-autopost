@@ -524,14 +524,16 @@
     "scheduled_at": "2026-08-27 20:30",
     "text": "Таны дизайн дээр гурван секундэд хамгийн түрүүнд юу харагддаг вэ?\n\nХэрэглэгч бүх мэдээллийг ижил хүчээр харж байвал юуг ч түрүүлж ойлгохгүй.\n\nHierarchy нь хэмжээ томруулах тухай биш; ач холбогдлыг дараалалтай болгох тухай. Би дизайнаа холоос хараад эхний, хоёр дахь, гурав дахь анхаарлын цэгийг шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-018-32234951648.jpg",
-    "status": "pending"
+    "status": "skipped",
+    "note": "150 минутаас их хоцорсон тул алгассан"
   },
   {
     "id": 816,
     "scheduled_at": "2026-08-27 22:00",
     "text": "Киноны график дизайн: Star Wars — Алсад багасах title\n\nPerspective grid дагасан текстийн хэмжээ аажмаар багасаж, хөдөлгөөнгүй бичвэрт гүн ба чиглэл өгдөг.\n\nДизайнерын хэрэглээ: Sequential мэдээлэлд scale progression ашиглаж, унших дарааллыг геометрээр мэдрүүл.",
     "image_url": "https://parade.com/.image/c_fill%2Cg_xy_center%2Cx_2929%2Cy_1385/ODowMDAwMDAwMDAwOTM1NTU2/harrison-ford-shares-rare-comment-on-dear-friend-carrie-fisher.jpg",
-    "status": "pending"
+    "status": "skipped",
+    "note": "150 минутаас их хоцорсон тул алгассан"
   },
   {
     "id": 19,
