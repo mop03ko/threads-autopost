@@ -1,7 +1,7 @@
 const GRAPH = "https://graph.threads.net/v1.0";
 const REFRESH_URL = "https://graph.threads.net/refresh_access_token";
 const LOCAL_OFFSET = "+08:00";
-const DEFAULT_GRACE_MINUTES = 150;
+const DEFAULT_GRACE_MINUTES = 7 * 24 * 60;
 const DEFAULT_MAX_POSTS_PER_RUN = 3;
 const DEFAULT_MAX_POSTS_PER_DAY = 15;
 
@@ -28,6 +28,47 @@ function config(env) {
 
 function log(event, fields = {}) {
   console.log(JSON.stringify({ event, ...fields }));
+}
+
+async function readRuntimeStatus(env) {
+  let storedToken = false;
+  let lastRun = null;
+  if (env.STATE) {
+    try {
+      const [tokenState, runState] = await Promise.all([
+        env.STATE.get("threads_token", "json"),
+        env.STATE.get("last_run", "json"),
+      ]);
+      storedToken = Boolean(tokenState?.accessToken);
+      lastRun = runState || null;
+    } catch (error) {
+      log("runtime_state_read_failed", { error: String(error).slice(0, 300) });
+    }
+  }
+  const bindings = {
+    githubToken: Boolean(env.GITHUB_TOKEN),
+    threadsAccessToken: Boolean(env.THREADS_ACCESS_TOKEN) || storedToken,
+    threadsUserId: Boolean(env.THREADS_USER_ID),
+    state: Boolean(env.STATE),
+  };
+  return {
+    ready: bindings.githubToken && bindings.threadsAccessToken,
+    bindings,
+    lastRun,
+  };
+}
+
+async function saveLastRun(env, value) {
+  if (!env.STATE) return;
+  try {
+    await env.STATE.put(
+      "last_run",
+      JSON.stringify({ ...value, recordedAt: localTimestamp() }),
+      { expirationTtl: 30 * 24 * 60 * 60 },
+    );
+  } catch (error) {
+    log("last_run_write_failed", { error: String(error).slice(0, 300) });
+  }
 }
 
 function localTimestamp(date = new Date()) {
@@ -209,10 +250,6 @@ async function metaRequest(url, init = {}) {
 }
 
 async function loadAccessToken(env) {
-  if (!env.THREADS_ACCESS_TOKEN) {
-    throw new Error("THREADS_ACCESS_TOKEN secret тохируулаагүй байна");
-  }
-
   let state = null;
   if (env.STATE) {
     try {
@@ -223,6 +260,9 @@ async function loadAccessToken(env) {
   }
 
   let accessToken = state?.accessToken || env.THREADS_ACCESS_TOKEN;
+  if (!accessToken) {
+    throw new Error("THREADS_ACCESS_TOKEN runtime secret тохируулаагүй байна");
+  }
   const nowMs = Date.now();
   if (!env.STATE || Number(state?.nextRefreshAt || 0) > nowMs) return accessToken;
 
@@ -372,16 +412,23 @@ async function runScheduled(env, scheduledTime) {
   const runId = crypto.randomUUID();
   const nowMs = scheduledTime || Date.now();
   log("run_started", { runId, localTime: localTimestamp(new Date(nowMs)) });
+  await saveLastRun(env, {
+    status: "running",
+    runId,
+    scheduledFor: localTimestamp(new Date(nowMs)),
+  });
 
   // Токен/данс буруу үед queue-г processing болгохоос өмнө шууд зогсоно.
   const accessToken = await loadAccessToken(env);
   const userId = await resolveThreadsUserId(env, accessToken);
   const claim = await claimDuePosts(env, nowMs);
   if (claim.claims.length === 0) {
+    const result = claim.finalizedOnly ? "overdue_skipped" : "nothing_due";
     log("run_finished", {
       runId,
-      result: claim.finalizedOnly ? "overdue_skipped" : "nothing_due",
+      result,
     });
+    await saveLastRun(env, { status: "success", runId, result });
     return;
   }
 
@@ -398,24 +445,44 @@ async function runScheduled(env, scheduledTime) {
   }
   await finalizeClaims(env, claim.claimToken, results);
   log("run_finished", { runId, result: "finalized", count: results.length });
+  await saveLastRun(env, {
+    status: results.some((item) => item.status === "failed") ? "partial" : "success",
+    runId,
+    result: "finalized",
+    posts: results.map((item) => ({ id: item.id, status: item.status })),
+  });
 }
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     if (new URL(request.url).pathname !== "/health") {
       return new Response("Not found", { status: 404 });
     }
+    const runtime = await readRuntimeStatus(env);
+    const cfg = config(env);
     return Response.json({
-      ok: true,
+      ok: runtime.ready,
+      ready: runtime.ready,
       service: "threads-autopost-direct",
       localTime: localTimestamp(),
-    });
+      bindings: runtime.bindings,
+      lastRun: runtime.lastRun,
+      config: {
+        graceMinutes: cfg.graceMinutes,
+        maxPostsPerRun: cfg.maxPostsPerRun,
+        maxPostsPerDay: cfg.maxPostsPerDay,
+      },
+    }, { status: runtime.ready ? 200 : 503 });
   },
 
   async scheduled(controller, env, ctx) {
     ctx.waitUntil(
-      runScheduled(env, controller.scheduledTime).catch((error) => {
+      runScheduled(env, controller.scheduledTime).catch(async (error) => {
         log("run_failed", { error: String(error).slice(0, 1000) });
+        await saveLastRun(env, {
+          status: "failed",
+          error: String(error).slice(0, 500),
+        });
         throw error;
       }),
     );
