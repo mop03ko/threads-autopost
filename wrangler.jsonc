@@ -1,0 +1,30 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "threads-autopost-cron",
+  "main": "cloudflare-worker/src/index.js",
+  "compatibility_date": "2026-08-28",
+  "keep_vars": true,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "GITHUB_OWNER": "mop03ko",
+    "GITHUB_REPO": "threads-autopost",
+    "GITHUB_BRANCH": "main",
+    "QUEUE_PATH": "queue.json",
+    "LATE_GRACE_MINUTES": "10080",
+    "MAX_POSTS_PER_RUN": "3",
+    "MAX_POSTS_PER_DAY": "15"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "STATE"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  }
+}
