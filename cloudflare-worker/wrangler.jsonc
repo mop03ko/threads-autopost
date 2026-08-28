@@ -3,6 +3,7 @@
   "name": "threads-autopost-cron",
   "main": "src/index.js",
   "compatibility_date": "2026-08-28",
+  "keep_vars": true,
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1
@@ -16,13 +17,14 @@
     "MAX_POSTS_PER_RUN": "3",
     "MAX_POSTS_PER_DAY": "15"
   },
+  "kv_namespaces": [
+    {
+      "binding": "STATE"
+    }
+  ],
   "triggers": {
     "crons": [
       "*/5 * * * *"
     ]
   }
-
-  // Токеныг автоматаар сунгаж хадгалахын тулд Dashboard дээр STATE нэртэй
-  // Workers KV binding нэмнэ. Namespace ID-г source control-д placeholder-аар
-  // оруулахгүй; бодит binding-ийг Dashboard/Wrangler орчноос холбоно.
 }
