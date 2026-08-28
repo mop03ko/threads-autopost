@@ -580,21 +580,26 @@
     "scheduled_at": "2026-08-28 19:00",
     "text": "Өнгөний задлан: Complementary palette\n\nӨнгөний хүрдний эсрэг хоёр өнгө өндөр contrast, эрч хүч өгдөг. Хоёуланг ижил хэмжээгээр хүчтэй хэрэглэхэд мөргөлдөнө.\n\nНэгийг dominant, нөгөөг жижиг accent болгож saturation, lightness-ийг тэнцүүл.\n\nТа “Complementary palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/32388555/pexels-photo-32388555.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-29 00:32",
+    "threads_id": "18000948932794438"
   },
   {
     "id": 20,
     "scheduled_at": "2026-08-28 20:30",
     "text": "Сайн layout элемент нэмэхээс илүү харилцааг нь зөв байрлуулахад тогтдог.\n\nБи эхлээд контентыг бүлэглээд дараа нь гоёлын шийдэлд ордог.\n\nОйр зүйлс холбоотой, хол зүйлс тусдаа гэж нүд автоматаар уншдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-020-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-29 00:33",
+    "threads_id": "18438556483123529"
   },
   {
     "id": 817,
     "scheduled_at": "2026-08-28 22:00",
     "text": "Киноны график дизайн: Alien — Biomechanical texture\n\nОрганик муруй ба механик шугамыг нэг texture-д холиход танил бус, өвөрмөц visual language үүсдэг.\n\nДизайнерын хэрэглээ: Хоёр эсрэг texture-ийг 50/50 холихгүй; нэгийг бүтэц, нөгөөг accent болгон ашигла.",
     "image_url": "https://m.media-amazon.com/images/M/MV5BMTMwNjUxOTExN15BMl5BanBnXkFtZTcwODE2NTUyMw%40%40._V1_.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 21,
