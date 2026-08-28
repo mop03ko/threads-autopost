@@ -689,8 +689,16 @@ def cmd_sync(args) -> None:
 
         existing = by_id.get(item_id)
 
-        # Аль хэдийн нийтэлсэн постыг Sheet-ээс дарж бичихгүй
-        if existing and existing.get("status") in ("posted", "failed", "skipped", "processing"):
+        # Нийтлэгдсэн/боловсруулж буй постыг Sheet-ээс дарж бичихгүй.
+        # failed/skipped мөрийг Sheet дээр pending болгосон бол зассан агуулгаар
+        # дахин оролдохыг зөвшөөрнө (жишээ нь эвдэрсэн image_url-г арилгах).
+        if existing and (
+            existing.get("status") in ("posted", "processing")
+            or (
+                existing.get("status") in ("failed", "skipped")
+                and row["status"] != "pending"
+            )
+        ):
             merged.append(existing)
             locked += 1
             continue
