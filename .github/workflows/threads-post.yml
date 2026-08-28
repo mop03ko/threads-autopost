@@ -3,8 +3,8 @@ name: Threads автомат постлолт
 on:
   schedule:
     # Cloudflare Worker үндсэн нийтлэгч. Энэ cron нь зөвхөн нөөц ажиллагаа:
-    # Worker алдахад 150 минутын grace дотор хоцорсон постыг нөхнө.
-    - cron: "17 */2 * * *"
+    # Цагт хоёр удаа шалгаж, Worker саатсан үед хоцорсон постыг нөхнө.
+    - cron: "7,37 * * * *"
   push:
     branches: [main]
     paths:
@@ -36,7 +36,7 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_REDIRECT_URI: https://localhost/threads-auth
       THREADS_TZ:           Asia/Ulaanbaatar
-      THREADS_LATE_GRACE:   "150"
+      THREADS_LATE_GRACE:   "10080"
       GH_PAT:               ${{ secrets.GH_PAT }}
 
     steps:
@@ -75,8 +75,8 @@ jobs:
             echo "Гар аргаар нийтлэх post ID: $post_id"
             python threads_post.py run --live --id "$post_id"
           else
-            echo "Хуваарьт ажиллагаа: хугацаа болсон постуудыг шалгаж байна."
-            python threads_post.py run --live
+            echo "Хуваарьт ажиллагаа: хугацаа болсон постуудыг нөхөж байна."
+            python threads_post.py run --live --force
           fi
 
       - name: Ээлжийн төлөвийг хадгалах
