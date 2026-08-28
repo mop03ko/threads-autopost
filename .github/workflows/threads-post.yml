@@ -72,8 +72,16 @@ jobs:
           fi
 
           if [[ -n "$post_id" ]]; then
-            echo "Гар аргаар нийтлэх post ID: $post_id"
-            python threads_post.py run --live --id "$post_id"
+            # Нэг ID эсвэл таслал/зайгаар тусгаарласан олон ID дэмжинэ.
+            # Нэг пост алдаа өгсөн ч batch-ийн үлдсэн постууд үргэлжилнэ.
+            IFS=', ' read -r -a post_ids <<< "$post_id"
+            for id in "${post_ids[@]}"; do
+              [[ -z "$id" ]] && continue
+              echo "Гар аргаар нийтлэх post ID: $id"
+              if ! python threads_post.py run --live --id "$id"; then
+                echo "::warning::Post ID $id нийтлэхэд алдаа гарлаа; дараагийн ID руу үргэлжилж байна."
+              fi
+            done
           else
             echo "Хуваарьт ажиллагаа: хугацаа болсон постуудыг нөхөж байна."
             python threads_post.py run --live --force
