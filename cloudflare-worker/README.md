@@ -6,7 +6,8 @@
 
 ## Шаардлагатай тохиргоо
 
-Cloudflare Worker-ийн **Settings > Variables and Secrets** хэсэгт:
+Cloudflare Worker-ийн **Settings > Variables and Secrets** хэсэгт (Build
+configuration биш, deployed Worker-ийн runtime settings):
 
 - `GITHUB_TOKEN` — fine-grained PAT; зөвхөн `mop03ko/threads-autopost`
   repository, **Contents: Read and write** эрхтэй.
@@ -24,16 +25,27 @@ Cloudflare Worker-ийн **Settings > Variables and Secrets** хэсэгт:
 
 ## Cron
 
-Cron нь UTC цагаар:
+Нэг Cron Trigger ашиглана:
 
-- `30 0,12 * * *` — Улаанбаатарын 08:30, 20:30
-- `0 2,5,8,11,14 * * *` — Улаанбаатарын 10:00, 13:00, 16:00, 19:00, 22:00
+- `*/5 * * * *` — таван минут тутам queue-г шалгана.
+
+Worker зөвхөн хугацаа болсон `pending` постыг claim хийдэг тул хоосон шалгалт пост
+үүсгэхгүй. Яг цагийн trigger алгассан тохиолдолд дараагийн 5 минутын шалгалт
+нөхөж нийтэлнэ. Хоцролтын цонх 7 хоног тул trigger саатсанаас пост автоматаар
+`skipped` болохгүй.
 
 ## Dashboard-оос шинэчлэх
 
 Одоо байгаа Worker-ийн code editor дахь кодыг `src/index.js`-ийн агуулгаар
 сольж **Deploy** хийнэ. Дээрх хоёр cron trigger-ийг хэвээр үлдээнэ. Deploy-ийн
-дараа Worker URL-ийн `/health` зам `{"ok":true,...}` буцаана.
+дараа Worker URL-ийн `/health` замыг нээнэ. `ready: true`,
+`bindings.githubToken: true`, `bindings.threadsAccessToken: true`,
+`bindings.state: true` байх ёстой. `lastRun` нь сүүлийн cron ажиллагааны төлвийг
+харуулна; secret-ийн утгыг буцаахгүй.
+
+Cron trigger-ийн өөрчлөлт Cloudflare сүлжээнд тархахад 15 минут хүртэл хугацаа
+шаардагдаж болно. Wrangler-аар удирдаж байгаа бол Dashboard болон Wrangler-ийг
+хольж өөрчлөхгүй, `wrangler.jsonc`-ийг source of truth болгоно.
 
 ## Давхар нийтлэх хамгаалалт
 
