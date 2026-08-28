@@ -498,8 +498,9 @@
     "scheduled_at": "2026-08-27 13:00",
     "text": "Undo бол зөвхөн алдаа засах товч биш.\n\nТуршилт хийхээсээ өмнө page-ээ duplicate хийгээд, хувилбар бүрийг тусад нь хөгжүүл. Ингэснээр сайн санаагаа буцааж алдахгүй.\n\nVersion-үүд зэрэгцэж харагдах үед сонголтоо тайлбарлахад ч илүү амар.",
     "image_url": null,
-    "status": "skipped",
-    "note": "150 минутаас их хоцорсон тул алгассан"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:32",
+    "threads_id": "18189431668402710"
   },
   {
     "id": 420,
@@ -524,44 +525,54 @@
     "scheduled_at": "2026-08-27 20:30",
     "text": "Таны дизайн дээр гурван секундэд хамгийн түрүүнд юу харагддаг вэ?\n\nХэрэглэгч бүх мэдээллийг ижил хүчээр харж байвал юуг ч түрүүлж ойлгохгүй.\n\nHierarchy нь хэмжээ томруулах тухай биш; ач холбогдлыг дараалалтай болгох тухай. Би дизайнаа холоос хараад эхний, хоёр дахь, гурав дахь анхаарлын цэгийг шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-018-32234951648.jpg",
-    "status": "skipped",
-    "note": "150 минутаас их хоцорсон тул алгассан"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:33",
+    "threads_id": "18074891741403551"
   },
   {
     "id": 816,
     "scheduled_at": "2026-08-27 22:00",
     "text": "Киноны график дизайн: Star Wars — Алсад багасах title\n\nPerspective grid дагасан текстийн хэмжээ аажмаар багасаж, хөдөлгөөнгүй бичвэрт гүн ба чиглэл өгдөг.\n\nДизайнерын хэрэглээ: Sequential мэдээлэлд scale progression ашиглаж, унших дарааллыг геометрээр мэдрүүл.",
     "image_url": "https://parade.com/.image/c_fill%2Cg_xy_center%2Cx_2929%2Cy_1385/ODowMDAwMDAwMDAwOTM1NTU2/harrison-ford-shares-rare-comment-on-dear-friend-carrie-fisher.jpg",
-    "status": "skipped",
-    "note": "150 минутаас их хоцорсон тул алгассан"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:34",
+    "threads_id": "17959819218195652"
   },
   {
     "id": 19,
     "scheduled_at": "2026-08-28 08:30",
     "text": "Товч харагдаж байна гэдэг товч ойлгомжтой байна гэсэн үг биш.\n\nСайн CTA юу хийх, дараа нь юу болохыг хэрэглэгчид эргэлзээгүй хэлдэг.\n\nБи үйл үг, contrast, байрлал гурвыг хамтад нь шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-019-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:34",
+    "threads_id": "18626024839030000"
   },
   {
     "id": 421,
     "scheduled_at": "2026-08-28 10:00",
     "text": "GIF гэж юу вэ?\n\n256 өнгийн хязгаартай, богино frame animation болон transparency дэмждэг raster формат.\n\nЭнгийн хөдөлгөөнт icon, meme-д GIF ажиллана; градиент, фото, урт animation-д MP4 эсвэл WebP илүү чанартай. “GIF” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:35",
+    "threads_id": "18105258596614162"
   },
   {
     "id": 279,
     "scheduled_at": "2026-08-28 13:00",
     "text": "Canva shortcut-уудаас бүгдийг цээжлэх шаардлагагүй.\n\nӨдөр бүр хамгийн их давтдаг 3 үйлдлээ сонгоод shortcut-аар хий: duplicate, group, lock гэх мэт. Долоо хоног бүр нэгийг нэм.\n\nЦөөн shortcut-ийг тогтмол ашиглах нь урт жагсаалт нэг удаа харахаас илүү үр дүнтэй.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:36",
+    "threads_id": "18460977991141204"
   },
   {
     "id": 422,
     "scheduled_at": "2026-08-28 16:00",
     "text": "Grid setup: дизайнерын практик зөвлөгөө\n\nФайлын эхэнд column, margin, gutter, baseline дүрмээ тохируулж объектуудаа түүнд snap хий.\n\nGrid-ээ харагдахгүй болгосны дараа ч alignment мэдрэгдэж байвал систем зөв ажиллаж байна. “Grid setup” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-28 16:36",
+    "threads_id": "18059042789541452"
   },
   {
     "id": 681,
