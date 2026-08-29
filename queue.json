@@ -642,14 +642,18 @@
     "scheduled_at": "2026-08-29 19:00",
     "text": "Typography задлан: Single-family typography\n\nНэг font family-ийн олон weight, width, italic ашиглахад систем нэгдмэл, ачаалал багатай байдаг.\n\nSize, weight, spacing, color-ын role-оор hierarchy гаргаж, шинэ font нэмэхээс өмнө family-ийн боломжийг бүрэн ашигла.\n\nТа “Single-family typography” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/33802177/pexels-photo-33802177.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-29 21:24",
+    "threads_id": "18071864267720192"
   },
   {
     "id": 22,
     "scheduled_at": "2026-08-29 20:30",
     "text": "Та математик alignment-д итгэдэг үү, оптик тохируулгад итгэдэг үү?\n\nНүд нэг пикселийн зөрүүг тоогоор биш, тавгүй мэдрэмжээр анзаардаг.\n\nAlignment нь цэвэр харагдахаас гадна элементүүдийн холбоог тайлбарладаг. Би төгсгөлд нь guide-аа асааж бүх гол тэнхлэгийг нэг удаа шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-022-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-29 21:25",
+    "threads_id": "17905245498509327"
   },
   {
     "id": 818,
