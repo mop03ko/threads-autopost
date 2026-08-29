@@ -2,9 +2,15 @@ name: Threads автомат постлолт
 
 on:
   schedule:
-    # Cloudflare Worker үндсэн нийтлэгч. Энэ cron нь зөвхөн нөөц ажиллагаа:
-    # Цагт хоёр удаа шалгаж, Worker саатсан үед хоцорсон постыг нөхнө.
-    - cron: "7,37 * * * *"
+    # Бүх cron UTC. Asia/Ulaanbaatar = UTC+8.
+    # Exact нийтлэх цагууд:
+    # 08:30, 20:30 Ulaanbaatar
+    - cron: "30 0,12 * * *"
+    # 10:00, 13:00, 16:00, 19:00, 22:00 Ulaanbaatar
+    - cron: "0 2,5,8,11,14 * * *"
+    # Exact schedule GitHub дээр саатах/алдагдах үед нөхөх fallback.
+    # Цаг бүрийн :07, :17, :27, :37, :47, :57-д шалгана.
+    - cron: "7-57/10 * * * *"
   push:
     branches: [main]
     paths:
