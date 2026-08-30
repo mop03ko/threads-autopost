@@ -669,7 +669,9 @@
     "scheduled_at": "2026-08-30 08:30",
     "text": "Зай бол үлдэгдэл биш; дизайны хэмжүүр.\n\nТогтмол spacing мэдээллийн хэмнэлийг бүтээж, хэрэглэгчид бүтэц тайлбарладаг.\n\nБи 4 эсвэл 8-ийн суурьтай scale сонгоод санамсаргүй утгаас зайлсхийдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-023-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-30 08:40",
+    "threads_id": "18095684858566915"
   },
   {
     "id": 425,
