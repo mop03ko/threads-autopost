@@ -714,14 +714,18 @@
     "scheduled_at": "2026-08-30 20:30",
     "text": "Whitespace-ийг хоосон гэж нэрлэхээр дүүргэмээр санагддаг.\n\nБи зайг үлдээх биш, зориулалттайгаар төлөвлөдөг.\n\nҮнэндээ тэр анхаарал төвлөрүүлж, мэдээлэл амьсгалах нөхцөл өгдөг идэвхтэй элемент.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-024-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-30 23:18",
+    "threads_id": "18368792095210722"
   },
   {
     "id": 819,
     "scheduled_at": "2026-08-30 22:00",
     "text": "Киноны график дизайн: Blade Runner — Неон-noir palette\n\nХөх, ягаан, улаан гэрлийн давхарга бараан фон дээр мэдээллийн түвшнийг өнгөөр салгадаг.\n\nДизайнерын хэрэглээ: Dark visual-д glow бүрийг адил хүчтэй бүү хий; primary, secondary, ambient гэсэн intensity шатлал тогтоо.",
     "image_url": "https://i.pinimg.com/originals/8f/13/e3/8f13e302cd9046bac50a306121388229.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-30 23:19",
+    "threads_id": "18622140838060571"
   },
   {
     "id": 25,
