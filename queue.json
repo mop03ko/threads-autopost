@@ -705,7 +705,9 @@
     "scheduled_at": "2026-08-30 19:00",
     "text": "Постерын задлан: Visual-hierarchy poster\n\nХэмжээ, contrast, байрлалын дараалал poster-ийн унших замыг удирддаг. Бүх текст ижил жинтэй бол жагсаалт л харагдана.\n\nHeadline, supporting line, detail, CTA-г дөрвөн өөр түвшинд туршиж 3 секундийн тест хий.\n\nТа “Visual-hierarchy poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3964576/pexels-photo-3964576.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-08-30 19:33",
+    "threads_id": "18470104885118860"
   },
   {
     "id": 24,
