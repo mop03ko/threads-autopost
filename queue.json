@@ -822,21 +822,27 @@
     "scheduled_at": "2026-09-01 16:00",
     "text": "Two-font rule: дизайнерын практик зөвлөгөө\n\nИхэнх брэндийн материалд нэг display, нэг body font хангалттай байдаг.\n\nГурав дахь font нэмэхийн оронд weight, size, italic, color-оор hierarchy гаргах боломжийг эхэлж шалга. “Two-font rule” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-01 20:38",
+    "threads_id": "18116939533943970"
   },
   {
     "id": 685,
     "scheduled_at": "2026-09-01 19:00",
     "text": "Before/After задлан: Alignment зассан before/after\n\n1–2 px-ийн олон зөрүү layout-ийг санаандгүй, дуусаагүй харагдуулдаг. Нэг тэнхлэгт орсон элементүүд шууд холбоотой болдог.\n\nGuides, smart alignment ашиглаж text, image, button-ийн харааны ирмэгийг нэг системд оруул.\n\nТа “Alignment зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/9281786/pexels-photo-9281786.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-01 20:39",
+    "threads_id": "18104582597192535"
   },
   {
     "id": 28,
     "scheduled_at": "2026-09-01 20:30",
     "text": "Уншихад хэцүү текстийн бурууг үргэлж фонтод өгч болохгүй.\n\nБи эх биеийн текстийг өргөнийг нь өөрчилж туршаад хамгийн тайван хэмнэлийг сонгодог.\n\nМөр хэт урт бол нүд дараагийн мөрийн эхлэлийг олоход ядардаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-028-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-01 20:40",
+    "threads_id": "18090640244155291"
   },
   {
     "id": 821,
