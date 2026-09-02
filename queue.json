@@ -867,7 +867,9 @@
     "scheduled_at": "2026-09-02 10:00",
     "text": "INDD гэж юу вэ?\n\nInDesign-ийн олон хуудас, master page, style, linked asset-ийг хадгалдаг эх формат.\n\nКаталог, ном, тайланг INDD дээр зохион байгуул; хүлээлгэн өгөхдөө Package командаар font, link, эх файлыг багцал. “INDD” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-02 12:58",
+    "threads_id": "17977562370087735"
   },
   {
     "id": 284,
