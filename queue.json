@@ -921,7 +921,9 @@
     "scheduled_at": "2026-09-03 08:30",
     "text": "Өнгө олон байх нь баялаг систем гэсэн үг биш.\n\nӨнгө бүр primary, secondary, accent, feedback гэх мэт тодорхой ажилтай байх ёстой.\n\nБи palette бүрт “энэ өнгө юуг хэлэх вэ?” гэсэн тайлбар өгдөг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-031-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-03 08:45",
+    "threads_id": "18487657366103869"
   },
   {
     "id": 433,
