@@ -957,14 +957,18 @@
     "scheduled_at": "2026-09-03 19:00",
     "text": "Логоны задлан: Wordmark лого\n\nНэр өөрөө брэндийн гол тэмдэг болох үед үсгийн хэлбэр, spacing, нэг онцгой detail ялгарал үүсгэнэ. Бэлэн font-ыг шууд бичих нь хангалтгүй.\n\nKerning-ийг гараар засаж, нэг эсвэл хоёр үсэгт брэндийн онцлог хөдөлгөөн оруулбал wordmark эзэмшигдэхүйц болно.\n\nТа “Wordmark лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-03 20:45",
+    "threads_id": "18006479120971069"
   },
   {
     "id": 32,
     "scheduled_at": "2026-09-03 20:30",
     "text": "Contrast бол зөвхөн хар, цагааны ялгаа биш.\n\nБи hierarchy сул үед шинэ элемент нэмэхээсээ өмнө contrast-аа шалгадаг.\n\nХэмжээ, жин, өнгө, зай, хэлбэр бүгд анхаарлын түвшинг ялгаж чадна.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-032-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-03 20:46",
+    "threads_id": "18109550141160139"
   },
   {
     "id": 823,
