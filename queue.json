@@ -948,7 +948,9 @@
     "scheduled_at": "2026-09-03 16:00",
     "text": "Palette roles: дизайнерын практик зөвлөгөө\n\nӨнгө бүрийг primary, secondary, accent, background, text, success, warning гэсэн үүрэгтэй болго.\n\nЗөвхөн HEX жагсаалт бус хэрэглэх нөхцөл, contrast pairing-ийг style guide-д бич. “Palette roles” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-03 17:56",
+    "threads_id": "17946994236295836"
   },
   {
     "id": 687,
