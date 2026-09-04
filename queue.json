@@ -1020,14 +1020,18 @@
     "scheduled_at": "2026-09-04 19:00",
     "text": "Өнгөний задлан: Analogous palette\n\nХөрш hue-үүд зөөлөн, нэгдмэл мэдрэмж үүсгэдэг. Ялгаа хэт бага бол hierarchy алдагдана.\n\nНэг үндсэн өнгө сонгож, хөрш өнгөнүүдийн lightness-ийг тод ялган role-уудыг тогтоо.\n\nТа “Analogous palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/9492921/pexels-photo-9492921.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-04 20:39",
+    "threads_id": "18099304532301410"
   },
   {
     "id": 34,
     "scheduled_at": "2026-09-04 20:30",
     "text": "Та өнгөө аль орчинд хамгийн түрүүнд туршдаг вэ?\n\nНэг өнгө дангаараа өөр, хажуугийн өнгөтэйгөө хамт бүр өөр харагддаг.\n\nӨнгөний мэдрэмж нь кодоосоо гадна хэмжээ, орчин, гэрэл, хөрш өнгөнөөс хамаарна. Би өнгийг тусгаарлаж биш, хэрэглэх орчинд нь баталдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-034-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-04 20:40",
+    "threads_id": "18049827887803536"
   },
   {
     "id": 824,
