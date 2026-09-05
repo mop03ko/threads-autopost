@@ -1083,7 +1083,9 @@
     "scheduled_at": "2026-09-05 19:00",
     "text": "Typography задлан: Display headline\n\nDisplay font том хэмжээнд зан чанар өгдөг ч урт текстэд уншилтыг ядраана. Онцлог нь богино байх тусам хүчтэй.\n\nГарчгийг 3–8 үгт барьж, body copy-г төвийг сахисан font-аар дэмж.\n\nТа “Display headline” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/8386430/pexels-photo-8386430.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-05 19:47",
+    "threads_id": "18020044769878925"
   },
   {
     "id": 36,
