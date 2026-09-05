@@ -1074,7 +1074,9 @@
     "scheduled_at": "2026-09-05 16:00",
     "text": "Contrast check: дизайнерын практик зөвлөгөө\n\nForeground, background хос бүрийн contrast ratio-г автомат хэрэгслээр хэмж.\n\nДэлгэцийн brightness-д найдахгүй; normal text, large text, control state бүрийг тусад нь баталгаажуул. “Contrast check” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-05 16:49",
+    "threads_id": "18051954131600103"
   },
   {
     "id": 689,
