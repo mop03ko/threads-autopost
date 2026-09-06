@@ -1119,7 +1119,9 @@
     "scheduled_at": "2026-09-06 10:00",
     "text": "CMYK өнгө гэж юу вэ?\n\nCyan, Magenta, Yellow, Black бэхийг давхарлан цаасан дээр өнгө үүсгэдэг хэвлэлийн систем.\n\nБрошюр, нэрийн хуудас, савлагааг хэвлэх бол хэвлэх газрын ICC profile, black setting, ink limit-ийг асууж CMYK файл бэлтгэ. “CMYK өнгө” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-06 13:00",
+    "threads_id": "18351425590173646"
   },
   {
     "id": 288,
