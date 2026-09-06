@@ -1137,7 +1137,9 @@
     "scheduled_at": "2026-09-06 16:00",
     "text": "Color-blind check: дизайнерын практик зөвлөгөө\n\nPalette-аа protanopia, deuteranopia, tritanopia simulation дээр турш.\n\nStatus-ийг зөвхөн улаан, ногооноор ялгахгүй; icon, label, pattern зэрэг хоёр дахь дохио нэм. “Color-blind check” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-06 18:50",
+    "threads_id": "18373640020240906"
   },
   {
     "id": 690,
