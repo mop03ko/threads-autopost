@@ -1146,7 +1146,9 @@
     "scheduled_at": "2026-09-06 19:00",
     "text": "Постерын задлан: Large-headline poster\n\nТом гарчиг зайг эзэлж, алсаас мессеж дамжуулдаг. Урт copy-г томруулахад мөр таслалт, rhythm муудна.\n\nГарчгаа богиносгож, line break-ийг утгын бүлгээр зориуд хуваан margin-аа хадгал.\n\nТа “Large-headline poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3964837/pexels-photo-3964837.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-06 20:05",
+    "threads_id": "18089461376342873"
   },
   {
     "id": 38,
