@@ -1173,7 +1173,9 @@
     "scheduled_at": "2026-09-07 08:30",
     "text": "Өнгө #1A73E8 гэж нэрлэгдэхээс илүү “Action Primary” гэж нэрлэгдэхэд систем болдог.\n\nToken нь харагдах утгыг хэрэглээний утгатай холбож, өөрчлөлтийг удирддаг.\n\nБи өнгө, spacing, radius-ийг тоогоор нь биш үүргээр нь нэрлэдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-039-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-07 08:42",
+    "threads_id": "18618223921033122"
   },
   {
     "id": 441,
