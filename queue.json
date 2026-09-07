@@ -1209,21 +1209,27 @@
     "scheduled_at": "2026-09-07 19:00",
     "text": "UI/UX задлан: Primary CTA\n\nНэг дэлгэцийн үндсэн товч хамгийн өндөр contrast, тод action verb-тэй байх ёстой. Олон primary button сонголтын ачаалал үүсгэнэ.\n\nSecondary action-ийг outline эсвэл text style болгож, primary CTA-ийн эргэн тойронд зай нэм.\n\nТа “Primary CTA” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-07 22:11",
+    "threads_id": "18168023509457550"
   },
   {
     "id": 40,
     "scheduled_at": "2026-09-07 20:30",
     "text": "Компонентын хамгийн гоё төлөв нь default; хамгийн чухал нь заримдаа error байдаг.\n\nБи компонент зурахдаа happy path-аас гадна эвгүй нөхцөлүүдийг жагсаадаг.\n\nHover, focus, loading, empty, disabled, error төлөвүүд хэрэглэгчийн бодит туршлагыг бүрдүүлдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-040-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-07 22:12",
+    "threads_id": "17983685213881205"
   },
   {
     "id": 827,
     "scheduled_at": "2026-09-07 22:00",
     "text": "Киноны график дизайн: The Matrix — Ногоон digital code\n\nХар фон дээр босоо ногоон тэмдэгтүүд давтагдаж, нэг хөдөлгөөнт pattern бүх identity-г тодорхойлдог.\n\nДизайнерын хэрэглээ: Ownable pattern хийхдээ direction, density, speed, glow-ийн дүрмийг нэг мөр болго.",
     "image_url": "https://remaimodern.org/wp-content/uploads/2023/09/The-Matrix.jpeg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-07 22:12",
+    "threads_id": "17986040676025745"
   },
   {
     "id": 41,
