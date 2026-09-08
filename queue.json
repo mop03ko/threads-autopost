@@ -1272,14 +1272,18 @@
     "scheduled_at": "2026-09-08 19:00",
     "text": "Before/After задлан: Spacing зассан before/after\n\nСанамсаргүй зай нь бүлэглэлийг ойлгомжгүй болгодог. Сайн хувилбар related content-д бага, section хооронд их зай өгдөг.\n\n4 эсвэл 8 нэгжийн spacing scale сонгож бүх padding, gap-аа түүнд ойртуул.\n\nТа “Spacing зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/16313517/pexels-photo-16313517.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-08 20:48",
+    "threads_id": "18147354115544454"
   },
   {
     "id": 42,
     "scheduled_at": "2026-09-08 20:30",
     "text": "Та accessibility-г ямар үеэс дизайндаа оруулдаг вэ?\n\nAccessibility бол төслийн төгсгөлд тавьдаг нэмэлт шалгалт биш.\n\nContrast, font size, focus order, alt text зэрэг нь эхний шийдвэрээс хамт төлөвлөгдөх ёстой. Би component батлахдаа keyboard болон contrast-ийн суурь шалгалтыг хийдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-042-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-08 20:49",
+    "threads_id": "18621830038058294"
   },
   {
     "id": 828,
