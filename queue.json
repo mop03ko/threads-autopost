@@ -1344,7 +1344,9 @@
     "scheduled_at": "2026-09-09 20:30",
     "text": "Responsive дизайн бол breakpoint бүрд шинэ зураг зурах ажил биш.\n\nБи хамгийн жижиг, дунд, хамгийн том өргөн дээр системийн зан төлөвийг шалгадаг.\n\nКонтент, компонент, зай хэрхэн уян хатан өөрчлөгдөх дүрмийг тогтоох ажил.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-044-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-09 20:53",
+    "threads_id": "17862763725679878"
   },
   {
     "id": 829,
