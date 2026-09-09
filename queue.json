@@ -1299,7 +1299,9 @@
     "scheduled_at": "2026-09-09 08:30",
     "text": "Жижиг дэлгэц бол desktop дизайны шахсан хувилбар биш.\n\nОрон зай багасахад мэдээллийн жинхэнэ эрэмбэ ил гардаг.\n\nБи mobile дээр хамгийн чухал нэг үйлдлийг эхэлж хамгаалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-043-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-09 09:24",
+    "threads_id": "17945498379291745"
   },
   {
     "id": 445,
