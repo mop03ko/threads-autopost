@@ -1371,14 +1371,17 @@
     "scheduled_at": "2026-09-10 10:00",
     "text": "Process color гэж юу вэ?\n\nCMYK-ийн дөрвөн бэхийн жижиг цэгүүдийг хослуулж олон өнгө үүсгэдэг хэвлэлийн арга.\n\nФото болон олон өнгийн дизайнд process color эдийн засгийн хувьд тохиромжтой; spot өнгийг CMYK-д буулгахад зөрүү гарахыг proof дээр шалга. “Process color” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 500, код 2): An unexpected error has occurred. Please retry your request later."
   },
   {
     "id": 292,
     "scheduled_at": "2026-09-10 13:00",
     "text": "Layout-аа zoom out хийж шалгадаг уу?\n\n10–25% zoom дээр page-үүдээ thumbnail шиг хар. Текст уншихгүйгээр focal point, rhythm, өнгөний жин ойлгогдож байна уу гэдгийг шалга.\n\nХолоос зөв ажиллаж буй бүтэц жижиг дэлгэц дээр ч хурдан танигдана.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-10 13:08",
+    "threads_id": "17984260886880705"
   },
   {
     "id": 448,
