@@ -1451,14 +1451,18 @@
     "scheduled_at": "2026-09-11 16:00",
     "text": "Autosave: дизайнерын практик зөвлөгөө\n\nДизайн программын auto recovery болон background save тохиргоог идэвхжүүл.\n\nAutosave нь backup биш ч crash-ийн алдагдлыг багасгана; сэргээгдсэн файлыг шууд шинэ version болгон хадгал. “Autosave” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-11 19:17",
+    "threads_id": "18127969687830241"
   },
   {
     "id": 695,
     "scheduled_at": "2026-09-11 19:00",
     "text": "Өнгөний задлан: Monochrome palette\n\nНэг hue-ийн tint, shade, tone-оор palette үүсгэхэд брэнд цэвэр, тогтвортой харагдана. Contrast зөвхөн hue-ээс гарахгүй.\n\nLightness-ийн хангалттай шатлал үүсгэж, CTA эсвэл status-д шаардлагатай үед нэг нэмэлт accent ашигла.\n\nТа “Monochrome palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/34149478/pexels-photo-34149478.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-11 19:17",
+    "threads_id": "18159245512491789"
   },
   {
     "id": 48,
