@@ -1469,7 +1469,9 @@
     "scheduled_at": "2026-09-11 20:30",
     "text": "Сайн дизайн тайлбаргүйгээр ажиллах ёстой ч шийдвэр нь тайлбартай байх ёстой.\n\nБи final-аас өмнө context, constraint, reasoning-ээ товч танилцуулдаг.\n\nТанилцуулга нь зураг үзүүлэхээс илүү асуудал, сонголт, шалтгааны холбоог харуулдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-048-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-11 20:46",
+    "threads_id": "17894171787604758"
   },
   {
     "id": 831,
