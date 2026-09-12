@@ -1523,7 +1523,9 @@
     "scheduled_at": "2026-09-12 19:00",
     "text": "Typography задлан: Variable font\n\nНэг файл дахь weight, width, slant тэнхлэг responsive typography-д өргөн боломж өгдөг. Хэт олон завсрын утга системийг замбараагүй болгоно.\n\nBrand role бүрт тодорхой axis preset тогтоож, browser fallback болон лицензийг шалга.\n\nТа “Variable font” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/33802165/pexels-photo-33802165.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-12 20:06",
+    "threads_id": "18088108901678910"
   },
   {
     "id": 50,
