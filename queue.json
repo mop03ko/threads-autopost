@@ -1577,14 +1577,18 @@
     "scheduled_at": "2026-09-13 16:00",
     "text": "Linked files: дизайнерын практик зөвлөгөө\n\nInDesign, Illustrator-ийн link panel дээр missing, modified, low-resolution asset-ийг тогтмол шалга.\n\nЭцсийн export-ын өмнө бүх link updated, effective PPI хангалттай эсэхийг preflight-аар баталгаажуул. “Linked files” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-13 20:12",
+    "threads_id": "18418121674155046"
   },
   {
     "id": 697,
     "scheduled_at": "2026-09-13 19:00",
     "text": "Постерын задлан: Product-focus poster\n\nБүтээгдэхүүн гол дүр бол silhouette, өнцөг, reflection, shadow нь үнэ цэнийг тодорхойлно. Олон props анхаарал булаана.\n\nНэг hero product, нэг supporting detail, нэг CTA гэсэн гурван давхаргаар composition байгуул.\n\nТа “Product-focus poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/29501720/pexels-photo-29501720.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-13 20:13",
+    "threads_id": "17900897943584845"
   },
   {
     "id": 52,
