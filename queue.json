@@ -1550,7 +1550,9 @@
     "scheduled_at": "2026-09-13 08:30",
     "text": "Файлын нэршил бол ирээдүйн өөртөө үлдээдэг тайлбар.\n\nОгноо, төсөл, хувилбар, төлөв тодорхой байвал хайлт, хүлээлцэх ажил хурдан болдог.\n\nБи project_asset_version_status гэсэн тогтсон бүтэц ашигладаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-051-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-13 09:17",
+    "threads_id": "18123908557803274"
   },
   {
     "id": 453,
