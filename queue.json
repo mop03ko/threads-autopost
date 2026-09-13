@@ -1595,7 +1595,9 @@
     "scheduled_at": "2026-09-13 20:30",
     "text": "Undo history бол version control биш.\n\nБи concept, review, approved хувилбаруудыг тусад нь хадгалж, буцах цэг үүсгэдэг.\n\nТом шийдвэрийн өмнөх төлөвийг хадгалах нь туршилт хийх зориг өгдөг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-052-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-13 21:15",
+    "threads_id": "18391991371200162"
   },
   {
     "id": 833,
