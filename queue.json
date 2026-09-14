@@ -1640,21 +1640,27 @@
     "scheduled_at": "2026-09-14 16:00",
     "text": "Package handoff: дизайнерын практик зөвлөгөө\n\nЭх файлтай хамт links, fonts, instructions, preview PDF-ийг нэг багц болгон бэлтгэ.\n\nPackage folder-оо өөр компьютер дээр нээж туршсаны дараа ZIP хийж дамжуулбал зам тасрах эрсдэл багасна. “Package handoff” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 21:16",
+    "threads_id": "18130059100740679"
   },
   {
     "id": 698,
     "scheduled_at": "2026-09-14 19:00",
     "text": "UI/UX задлан: Form design\n\nУрт form нь хүнд мэт харагддаг бөгөөд placeholder-ыг label болгож ашиглахад context алга болдог.\n\nТалбаруудыг логик бүлэглэж, persistent label, зөв input type, progress indicator ашигла.\n\nТа “Form design” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 21:17",
+    "threads_id": "18095726105426936"
   },
   {
     "id": 54,
     "scheduled_at": "2026-09-14 20:30",
     "text": "Та press-ready файл өгөхдөө хамгийн түрүүнд юуг шалгадаг вэ?\n\nДэлгэц дээрх тод өнгө хэвлэл дээр яг адил гарах албагүй.\n\nCMYK gamut, paper, ink, finishing нь дизайны бодит өнгө, contrast-д нөлөөлнө. Би хэвлэх газраас profile, bleed, safe area, finishing-ийн шаардлагыг эхэлж авдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-054-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 21:17",
+    "threads_id": "18134316352647232"
   },
   {
     "id": 834,
