@@ -1622,14 +1622,18 @@
     "scheduled_at": "2026-09-14 10:00",
     "text": "ICC profile гэж юу вэ?\n\nТөхөөрөмж, дэлгэц, принтерийн өнгө хэрхэн тайлбарлагдахыг тодорхойлдог өгөгдлийн профайл.\n\nФайлд зөв ICC profile embed хийж, принтерийн профайлаар soft proof хийх нь таамгаар CMYK болгохоос найдвартай. “ICC profile” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 13:21",
+    "threads_id": "17983995617888953"
   },
   {
     "id": 296,
     "scheduled_at": "2026-09-14 13:00",
     "text": "Carousel хийхдээ page бүрийг тусдаа poster шиг бүү бод.\n\nНэг grid, margin, typography system-ээ бүх slide-д хадгал. Харин focal element болон tempo-г ээлжлүүл.\n\nИнгэснээр carousel нэг түүх шиг урсаж, slide бүр брэндээ танигдуулна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 13:22",
+    "threads_id": "17909930652497852"
   },
   {
     "id": 456,
