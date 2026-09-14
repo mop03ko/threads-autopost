@@ -1613,7 +1613,9 @@
     "scheduled_at": "2026-09-14 08:30",
     "text": "Дизайн canvas дээр дуусдаггүй; зөв экспортлогдсон үед дуусдаг.\n\nНадад ажилладаг нэг арга: би export хийсний дараа файлаа дахин нээж бодит хэмжээгээр нь шалгадаг.\n\nХэмжээ, format, color profile, compression, file name бүгд эцсийн чанарын хэсэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-053-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-14 09:14",
+    "threads_id": "18106100093231471"
   },
   {
     "id": 455,
