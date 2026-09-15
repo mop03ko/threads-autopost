@@ -1728,7 +1728,8 @@
     "scheduled_at": "2026-09-15 22:00",
     "text": "Киноны график дизайн: Sin City — Selective color\n\nХар-цагаан зураг дотор ганц улаан эсвэл шар accent ашигласнаар focal point эргэлзээгүй тодордог.\n\nДизайнерын хэрэглээ: Accent-аа нэг semantic үүрэгт тогтоож, бусад өнгийг бүрэн саармагжуул.",
     "image_url": "https://media.filmz.ru/photos/big/filmz.ru_b_96199.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 57,
