@@ -1703,21 +1703,25 @@
     "scheduled_at": "2026-09-15 16:00",
     "text": "Editable source: дизайнерын практик зөвлөгөө\n\nЗахиалагчид эх файл өгөх хүрээ, font, linked stock, plugin dependency-г гэрээндээ тодорхой болго.\n\nEditable source өгөхдөө хэрэггүй hidden layer, хувийн note, туршилтын asset-аа цэвэрлэ. “Editable source” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted"
   },
   {
     "id": 699,
     "scheduled_at": "2026-09-15 19:00",
     "text": "Before/After задлан: Hierarchy зассан before/after\n\nБүх текст ижил хэмжээтэй үед хэрэглэгч унших дарааллаа өөрөө хайна. Сайн хувилбар нэг headline, supporting, detail түвшинтэй.\n\nSize, weight, contrast, spacing дөрвөөс дор хаяж хоёрыг өөрчилж түвшнүүдээ тодруул.\n\nТа “Hierarchy зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/8100060/pexels-photo-8100060.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-15 21:24",
+    "threads_id": "18115053293085010"
   },
   {
     "id": 56,
     "scheduled_at": "2026-09-15 20:30",
     "text": "Кадрт юу оруулах нь чухал; юуг зориуд үлдээхгүй байх нь бас чухал.\n\nБи зураг авахдаа хүрээний дөрвөн буланг тус бүр шалгадаг.\n\nComposition нь нүдийг удирдаж, түүхийн гол баатар хэн болохыг шийддэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-056-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-15 21:24",
+    "threads_id": "18148401892553537"
   },
   {
     "id": 835,
