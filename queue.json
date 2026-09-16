@@ -1772,14 +1772,17 @@
     "scheduled_at": "2026-09-16 19:00",
     "text": "Дизайнерын байр суурь: AI ба дизайнер\n\nAI хурдан хувилбар, texture, reference өгч чадна; зорилго, taste, ethics, final judgment-ийг дизайнер хариуцна. Prompt бол бүтэн процесс биш.\n\nAI output-ыг эх материал гэж үзэж anatomy, typography, license, brand consistency-г хүнээр нягтал.\n\nТа “AI ба дизайнер” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/16313709/pexels-photo-16313709.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 500, код 2): An unexpected error has occurred. Please retry your request later."
   },
   {
     "id": 58,
     "scheduled_at": "2026-09-16 20:30",
     "text": "Та зураг сонгохдоо гоо сайхныг түрүүлдэг үү, хэрэглээг түрүүлдэг үү?\n\nСайн зураг дангаараа гоё байхаас гадна контентын зорилгыг дэмжих ёстой.\n\nНүдний чиглэл, negative space, өнгө, сэтгэл хөдлөл layout-тай хамт ажиллана. Би copy хаана байрлахыг бодож байж зураг сонгодог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-058-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-16 21:23",
+    "threads_id": "18106283207225825"
   },
   {
     "id": 836,
