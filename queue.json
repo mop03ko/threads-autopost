@@ -1789,7 +1789,8 @@
     "scheduled_at": "2026-09-16 22:00",
     "text": "Киноны график дизайн: The Dark Knight — Bat symbol negative space\n\nТэмдэг нь гэрэл, барилгын outline, эвдэрсэн texture дотор өөр өөрөөр гарсан ч silhouette-ээ хадгалдаг.\n\nДизайнерын хэрэглээ: Logo-г нэг lockup-аар хязгаарлахгүй; negative, texture, crop хувилбарын дүрэм гарга.",
     "image_url": "https://images.squarespace-cdn.com/content/v1/677ea4e5e704630439107568/54a659f4-4a78-4684-8338-6640701a821d/darkknight004.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 59,
