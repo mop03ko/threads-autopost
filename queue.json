@@ -1833,14 +1833,18 @@
     "scheduled_at": "2026-09-17 19:00",
     "text": "Логоны задлан: Responsive лого\n\nНэг лого бүх хэмжээнд ижил detail-тэй ажиллахгүй. Том хувилбар, compact lockup, жижиг icon гэсэн шаталсан систем илүү бодитой.\n\nХувилбар бүр ижил гол silhouette, proportion, өнгөний дохиог хадгалж байгаа эсэхийг зэрэгцүүлэн шалга.\n\nТа “Responsive лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/30499766/pexels-photo-30499766.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-17 21:18",
+    "threads_id": "18368703061244360"
   },
   {
     "id": 60,
     "scheduled_at": "2026-09-17 20:30",
     "text": "Illustration стиль нэг зураг дээр биш, олон нөхцөлд тогтвортой байж систем болдог.\n\nБи шинэ дүрслэл эхлэхээс өмнө style-ийн таван тогтмол шинжийг бичдэг.\n\nLine, shape, palette, texture, proportion, perspective-д давтагдах дүрэм хэрэгтэй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-060-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-17 21:19",
+    "threads_id": "18092857397147197"
   },
   {
     "id": 837,
