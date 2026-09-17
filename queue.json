@@ -1851,7 +1851,8 @@
     "scheduled_at": "2026-09-17 22:00",
     "text": "Киноны график дизайн: Avatar — Bioluminescent palette\n\nCyan, blue, violet өнгө бараан фон дээр gradient layer болон ажиллаж depth үүсгэдэг.\n\nДизайнерын хэрэглээ: Glow effect-д hue бүрийн luminance-ийг ялгаж, текстийн contrast-ыг solid area-аар хамгаал.",
     "image_url": "https://static.wixstatic.com/media/3a6f53_7f6ff0d4e9b14e39bb6e431368ff5248~mv2.jpg/v1/fill/w_1960%2Ch_1500%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3a6f53_7f6ff0d4e9b14e39bb6e431368ff5248~mv2.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 61,
