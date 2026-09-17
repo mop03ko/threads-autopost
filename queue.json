@@ -1797,14 +1797,18 @@
     "scheduled_at": "2026-09-17 08:30",
     "text": "Icon жижиг зураг биш; үйлдэл, ойлголтыг хурдан таних тэмдэг.\n\nStroke, corner, optical size, perspective тогтвортой байх тусам багц нэг хэлээр ярьдаг.\n\nБи icon бүрийг 16, 24, 32 пиксел дээр хамтад нь шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-059-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-17 12:22",
+    "threads_id": "18189451312397751"
   },
   {
     "id": 461,
     "scheduled_at": "2026-09-17 10:00",
     "text": "HSL өнгө гэж юу вэ?\n\nHue, Saturation, Lightness гэсэн гурван утгаар өнгийг ойлгомжтой удирддаг загвар.\n\nВэбийн palette үүсгэхдээ нэг hue-ийн saturation, lightness-ийг системтэй өөрчилж state болон hierarchy гарга. “HSL өнгө” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-17 12:23",
+    "threads_id": "17931349476142270"
   },
   {
     "id": 299,
