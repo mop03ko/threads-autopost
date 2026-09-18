@@ -1904,7 +1904,9 @@
     "scheduled_at": "2026-09-18 20:30",
     "text": "Таны бүтээгдэхүүний хамгийн хэрэгтэй microinteraction аль нь вэ?\n\nЖижиг хариу үйлдэл хэрэглэгчид систем түүнийг сонсож байгааг мэдрүүлдэг.\n\nButton state, progress, success, error feedback нь итгэлцлийг секундийн дотор бүтээдэг. Би үйлдэл бүрийн дараа хэрэглэгч юу мэдэх ёстойг жагсаадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-062-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-18 20:53",
+    "threads_id": "18115516246975313"
   },
   {
     "id": 838,
