@@ -1886,14 +1886,18 @@
     "scheduled_at": "2026-09-18 16:00",
     "text": "Social safe zones: дизайнерын практик зөвлөгөө\n\nPlatform UI, username, caption, button дарж болох хэсгүүдийг template дээр guide-аар тэмдэглэ.\n\nГарчиг, logo, CTA-г safe zone-д байрлуулж, өөр төхөөрөмжийн preview дээр overlay-д дарагдахгүйг шалга. “Social safe zones” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-18 19:53",
+    "threads_id": "18151105456522632"
   },
   {
     "id": 702,
     "scheduled_at": "2026-09-18 19:00",
     "text": "Өнгөний задлан: Split-complementary palette\n\nҮндсэн өнгийн эсрэг талын хоёр хөрш өнгө contrast-тай мөртлөө complementary хосоос зөөлөн байдаг.\n\n60-30-10 жингээр нэг dominant, нэг supporting, нэг accent role тогтоож palette-аа хяна.\n\nТа “Split-complementary palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/33206535/pexels-photo-33206535.png?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-18 19:54",
+    "threads_id": "17907807858473093"
   },
   {
     "id": 62,
