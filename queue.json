@@ -1949,14 +1949,18 @@
     "scheduled_at": "2026-09-19 16:00",
     "text": "Instagram 4:5: дизайнерын практик зөвлөгөө\n\nFeed-д 1080×1350 px босоо хэмжээ дэлгэцийн талбайг сайн ашигладаг.\n\nThumbnail grid дээр 1:1 эсвэл шинэ profile crop-д гол контент тасрах эсэхийг давхар preview хий. “Instagram 4:5” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-19 19:37",
+    "threads_id": "18104370797187547"
   },
   {
     "id": 703,
     "scheduled_at": "2026-09-19 19:00",
     "text": "Typography задлан: Weight hierarchy\n\nRegular, medium, bold-ийн ялгаа мэдээллийн түвшнийг хурдан ойлгуулдаг. 400 ба 500 зарим font дээр бараг ялгагдахгүй.\n\nWeight-ээ бодит дэлгэц, хэвлэл дээр туршиж, size ба spacing-тэй хамт hierarchy үүсгэ.\n\nТа “Weight hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/16241255/pexels-photo-16241255.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-19 19:38",
+    "threads_id": "18115229122799438"
   },
   {
     "id": 64,
