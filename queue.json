@@ -2012,14 +2012,18 @@
     "scheduled_at": "2026-09-20 16:00",
     "text": "Stories 9:16: дизайнерын практик зөвлөгөө\n\nStory, Reel-ийн үндсэн canvas 1080×1920 px боловч дээр, доор UI бүс ордог.\n\nГарчиг, subtitle, CTA-г төвийн safe zone-д барьж, progress bar болон reply field-ээс зай үлдээ. “Stories 9:16” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-20 20:19",
+    "threads_id": "17925101547416072"
   },
   {
     "id": 704,
     "scheduled_at": "2026-09-20 19:00",
     "text": "Постерын задлан: Face-led poster\n\nХүний царай анхаарлыг хамгийн хурдан татдаг бөгөөд emotion мессежийг шууд дамжуулна. Харцны чиглэл буруу бол хэрэглэгч frame-ээс гарна.\n\nSubject-ийн харцыг headline эсвэл product руу чиглүүлж, skin tone ба background contrast-ийг шалга.\n\nТа “Face-led poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/10409887/pexels-photo-10409887.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-20 20:20",
+    "threads_id": "18197792695377664"
   },
   {
     "id": 66,
