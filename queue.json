@@ -1994,14 +1994,18 @@
     "scheduled_at": "2026-09-20 10:00",
     "text": "Alpha channel гэж юу вэ?\n\nПиксел бүрийн тунгалаг байдлыг тусдаа сувгаар хадгалдаг мэдээлэл.\n\nTransparent logo, shadow, cutout экспортлоход alpha channel хэрэгтэй; JPEG alpha дэмждэггүйг анхаар. “Alpha channel” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-20 13:18",
+    "threads_id": "18109704725174678"
   },
   {
     "id": 302,
     "scheduled_at": "2026-09-20 13:00",
     "text": "Font pairing хийхдээ зөвхөн хэлбэрийг нь бүү хар.\n\nX-height, stroke contrast, өргөн, mood-ийг харьцуул. Ялгаа хангалттай боловч хоорондоо зөрчилдөхгүй хослол сонго.\n\nЗориудын contrast-тай хослол нь гарчиг ба body-г нэгэн зэрэг ялгаж, нэгтгэдэг.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-20 13:18",
+    "threads_id": "17879945211535370"
   },
   {
     "id": 468,
