@@ -2075,21 +2075,27 @@
     "scheduled_at": "2026-09-21 16:00",
     "text": "Threads visual: дизайнерын практик зөвлөгөө\n\nThreads-д зураг мессежийг дэмжих ёстой болохоос урт текстийг бүхэлд нь давтах шаардлагагүй.\n\n4:5 зурагт нэг санаа, нэг focal point ашиглаж, гол тайлбарыг post text-д уншихад хялбар үлдээ. “Threads visual” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-21 22:20",
+    "threads_id": "18021298901870266"
   },
   {
     "id": 705,
     "scheduled_at": "2026-09-21 19:00",
     "text": "UI/UX задлан: Error state\n\nАлдааны мессеж “invalid” гэж зогсохгүй юу буруу, яаж засахыг тодорхой хэлэх ёстой. Зөвхөн улаан өнгө хангалтгүй.\n\nАлдаатай field-ийн дэргэд icon, text, focus өгч хэрэглэгчийн оруулсан зөв мэдээллийг устгахгүй.\n\nТа “Error state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-21 22:21",
+    "threads_id": "18337047697257950"
   },
   {
     "id": 68,
     "scheduled_at": "2026-09-21 20:30",
     "text": "Хязгаарлалт бүтээлч байдлын дайсан биш; чиглэл.\n\nБи constraint бүрийг саад биш, дизайн шийдвэрийн эхлэл гэж хардаг.\n\nӨнгө, хэмжээ, хугацаа, материалын хязгаар сонголтыг багасгаж, санааг төвлөрүүлдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-068-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-21 22:21",
+    "threads_id": "18086531102499850"
   },
   {
     "id": 841,
