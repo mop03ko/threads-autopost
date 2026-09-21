@@ -2048,7 +2048,9 @@
     "scheduled_at": "2026-09-21 08:30",
     "text": "Эхний санаа хурдан гарсан нь зөв гэсэн баталгаа биш.\n\nIteration бүр шинэ чимэглэл нэмэх биш, нэг таамгийг шалгах ёстой.\n\nБи хувилбар бүрт юуг өөрчилсөн, яагаад өөрчилснөө нэрлэдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-067-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-21 09:38",
+    "threads_id": "18090286811691941"
   },
   {
     "id": 469,
