@@ -2138,14 +2138,18 @@
     "scheduled_at": "2026-09-22 16:00",
     "text": "LinkedIn visual: дизайнерын практик зөвлөгөө\n\nМэргэжлийн feed-д data, insight, case study-г тод hierarchy-тай цомхон үзүүл.\n\nMobile preview дээр гарчиг шууд уншигдах хэмжээтэй, брэндийн тэмдэг хэт давамгай биш байхыг шалга. “LinkedIn visual” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-22 20:05",
+    "threads_id": "18107497934032496"
   },
   {
     "id": 706,
     "scheduled_at": "2026-09-22 19:00",
     "text": "Before/After задлан: Font цөөлсөн before/after\n\nОлон font зан чанарыг нэмэхээсээ илүү эмх замбараагүй болгодог. Сайн хувилбар нэг family эсвэл хоёр зохицсон font ашиглана.\n\nFont бүрт role байхгүй бол хасаж, hierarchy-г weight, size, italic-аар шийд.\n\nТа “Font цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7014919/pexels-photo-7014919.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-22 20:06",
+    "threads_id": "17990117358048352"
   },
   {
     "id": 70,
