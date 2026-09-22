@@ -2120,14 +2120,18 @@
     "scheduled_at": "2026-09-22 10:00",
     "text": "Tint гэж юу вэ?\n\nӨнгөнд цагаан нэмснээр үүсэх цайвар хувилбар.\n\nНэг brand color-оос background, badge, hover state гаргахдаа tint ашиглавал palette нэгдмэл үлдэнэ. “Tint” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-22 13:18",
+    "threads_id": "18243386968314759"
   },
   {
     "id": 304,
     "scheduled_at": "2026-09-22 13:00",
     "text": "Body text-ээ center align хийхээс өмнө уртыг нь шалга.\n\n2–3 богино мөрөөс урт текстийг left align болго. Center alignment-ийг headline, quote, богино caption-д үлдээ.\n\nТогтсон эхлэх цэгтэй урт текст нүдэнд амар, унших хурд өндөр байдаг.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-22 13:18",
+    "threads_id": "18128200042690914"
   },
   {
     "id": 472,
