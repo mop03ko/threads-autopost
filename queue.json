@@ -2111,7 +2111,9 @@
     "scheduled_at": "2026-09-22 08:30",
     "text": "Хурдан ажиллах гэдэг алхам алгасах тухай биш.\n\nНадад ажилладаг нэг арга: би template, component, checklist ашигладаг ч концепцыг автоматжуулдаггүй.\n\nДавтагдах шийдвэрээ систем болгож, чухал шийдвэрт цагаа үлдээх тухай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-069-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-22 09:26",
+    "threads_id": "18165498697466111"
   },
   {
     "id": 471,
