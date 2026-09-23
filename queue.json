@@ -2201,14 +2201,18 @@
     "scheduled_at": "2026-09-23 16:00",
     "text": "Facebook cover: дизайнерын практик зөвлөгөө\n\nCover зураг desktop, mobile дээр өөрөөр crop хийгддэг тул төвийн уян composition шаарддаг.\n\nЛого, гол текстийг төв safe area-д байрлуулж, profile photo давхцах байршлыг бодит page дээр турш. “Facebook cover” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-23 19:57",
+    "threads_id": "18021920180873478"
   },
   {
     "id": 707,
     "scheduled_at": "2026-09-23 19:00",
     "text": "Дизайнерын байр суурь: Template ашиглах тухай\n\nTemplate хурд, structure өгдөг ч copy, hierarchy, brand rule-аа тааруулахгүй бол generic харагдана. Template өөрөө муу биш.\n\nLayout-ийн логикийг хадгалж typography, spacing, image direction-ийг брэндэд зориулан дахин шийд.\n\nТа “Template ашиглах тухай” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/20456575/pexels-photo-20456575.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-23 19:58",
+    "threads_id": "18115091831472378"
   },
   {
     "id": 72,
