@@ -2183,14 +2183,18 @@
     "scheduled_at": "2026-09-23 10:00",
     "text": "Shade гэж юу вэ?\n\nӨнгөнд хар нэмснээр үүсэх бараан хувилбар.\n\nCTA, depth, dark mode-д shade хэрэглэхдээ хар өнгө шууд нэмэхээс илүү hue-ийн амьд чанарыг хадгалж тохируул. “Shade” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-23 13:03",
+    "threads_id": "18134815981712564"
   },
   {
     "id": 305,
     "scheduled_at": "2026-09-23 13:00",
     "text": "Letter spacing-ийг effect шиг биш, засвар шиг ашигла.\n\nALL CAPS жижиг label-д tracking-ийг бага зэрэг нээж болно. Харин урт body text дээр хэт их зай уншлагыг тасалдуулна.\n\nЗориулалттай spacing typography-г цэвэр болгож, хиймэл харагдахаас хамгаална.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-23 13:04",
+    "threads_id": "17946642606324983"
   },
   {
     "id": 474,
