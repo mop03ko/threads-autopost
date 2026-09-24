@@ -2264,14 +2264,18 @@
     "scheduled_at": "2026-09-24 16:00",
     "text": "YouTube thumbnail: дизайнерын практик зөвлөгөө\n\nЖижиг хэмжээтэй feed дээр нэг царай, нэг объект, 3–5 үгийн гарчиг хамгийн хурдан уншигддаг.\n\nThumbnail-аа 10 хувь хэмжээнд багасгаж үз; focal point алга болвол detail, copy-г цөөл. “YouTube thumbnail” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-24 19:39",
+    "threads_id": "18017502224943910"
   },
   {
     "id": 708,
     "scheduled_at": "2026-09-24 19:00",
     "text": "Логоны задлан: Geometric лого\n\nТойрог, дөрвөлжин, шулуун шугам тогтвортой, технологийн мэдрэмж өгдөг. Гэхдээ математик тэгш байдал нүдэнд заавал тэгш харагддаггүй.\n\nOvershoot, corner, optical center-ийг нүдээр засаж, construction grid-ээ тайлбар бус чанарын хэрэгсэл болго.\n\nТа “Geometric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/16313664/pexels-photo-16313664.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-24 19:39",
+    "threads_id": "18565811800076656"
   },
   {
     "id": 74,
