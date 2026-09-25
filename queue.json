@@ -2327,14 +2327,18 @@
     "scheduled_at": "2026-09-25 16:00",
     "text": "OG image: дизайнерын практик зөвлөгөө\n\nЛинк share хийхэд social preview-д харагдах 1200×630 px орчим зураг.\n\nГарчиг, logo-г төв safe area-д барьж, URL бүр зөв OG metadata дуудаж байгааг debugger-ээр шалга. “OG image” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-25 20:15",
+    "threads_id": "18489521641107277"
   },
   {
     "id": 709,
     "scheduled_at": "2026-09-25 19:00",
     "text": "Өнгөний задлан: Triadic palette\n\nӨнгөний хүрд дээр тэнцүү зайтай гурван hue эрч хүчтэй, олон талт систем өгдөг. Бүгдийг өндөр saturation-тай хэрэглэхэд хүүхдийн мэт болж болно.\n\nНэг өнгийг голлон, үлдсэн хоёрыг saturation болон хэрэглээний хэмжээгээр намжаа.\n\nТа “Triadic palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7302067/pexels-photo-7302067.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-25 20:16",
+    "threads_id": "18217370023353996"
   },
   {
     "id": 76,
