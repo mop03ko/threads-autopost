@@ -2345,7 +2345,9 @@
     "scheduled_at": "2026-09-25 20:30",
     "text": "AI санааг хурдан олшруулж чадна, харин зөв асуудлыг сонгохыг дизайнерын өмнөөс шийдэхгүй.\n\nБи AI-г эхний хувилбар, mood, copy exploration-д ашиглаад эцсийн шийдвэрээ өөрөө хамгаалдаг.\n\nTool хурд өгдөг; context, шүүлт, амт, хариуцлага хүний ажил хэвээр.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-076-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-25 21:34",
+    "threads_id": "18082359122330350"
   },
   {
     "id": 845,
