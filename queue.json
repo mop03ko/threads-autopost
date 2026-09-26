@@ -2417,7 +2417,9 @@
     "scheduled_at": "2026-09-26 22:00",
     "text": "Киноны график дизайн: Parasite — Хэвтээ censor bar\n\nНүдэн дээрх хар, цагаан зурвас нь хөрөг бүрийг нэг системд оруулж, хамгийн хүчтэй graphic hook болдог.\n\nДизайнерын хэрэглээ: Poster series-д нэг ижил overlay element ашиглаж өөр зургийг common campaign болго.",
     "image_url": "https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/UJGDFIQM6BEEVGRWC63OROO3QA.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-27 00:40",
+    "threads_id": "18112531787117855"
   },
   {
     "id": 79,
