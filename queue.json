@@ -2390,14 +2390,18 @@
     "scheduled_at": "2026-09-26 16:00",
     "text": "Favicon: дизайнерын практик зөвлөгөө\n\nBrowser tab, bookmark-д маш жижиг харагдах брэндийн icon.\n\n16×16, 32×32 хэмжээнд detail-ээ хасаж, silhouette танигдах эсэхийг PNG, ICO, SVG хувилбараар турш. “Favicon” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-26 20:28",
+    "threads_id": "18116049730913709"
   },
   {
     "id": 710,
     "scheduled_at": "2026-09-26 19:00",
     "text": "Typography задлан: X-height analysis\n\nИжил point size-тэй фонтууд x-height-ээс болж өөр хэмжээтэй харагддаг. UI text-д өндөр x-height уншилтад тустай.\n\nFont pair-аа cap height бус body copy-ийн харагдах өндөр, counter space-аар тэнцүүл.\n\nТа “X-height analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/31984653/pexels-photo-31984653.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-26 20:28",
+    "threads_id": "18107218531925819"
   },
   {
     "id": 78,
