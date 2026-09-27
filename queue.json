@@ -2453,14 +2453,18 @@
     "scheduled_at": "2026-09-27 16:00",
     "text": "Retina asset: дизайнерын практик зөвлөгөө\n\nCSS-д харагдах хэмжээнээс 2 дахин олон пикселтэй зураг өндөр нягтралтай дэлгэцэд цэвэр харагдана.\n\n@2x файлын нэр, display dimension-ийг хөгжүүлэгчтэй тохир; зүгээр том файл тавих нь layout хэмжээг өөрчилж болохгүй. “Retina asset” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-27 19:26",
+    "threads_id": "18111011483612800"
   },
   {
     "id": 711,
     "scheduled_at": "2026-09-27 19:00",
     "text": "Постерын задлан: Eye-direction poster\n\nЗураг доторх хүн, гар, хөдөлгөөн нь хэрэглэгчийн харааг дараагийн элемент рүү чиглүүлдэг. Энэ шугамыг composition дэмжих ёстой.\n\nХарц, gesture, diagonal-аа CTA хүртэл үргэлжлүүлж, эсрэг чиглэлтэй decoration-ийг цөөл.\n\nТа “Eye-direction poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/18386912/pexels-photo-18386912.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-27 19:27",
+    "threads_id": "18061446353791594"
   },
   {
     "id": 80,
