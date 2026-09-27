@@ -2471,7 +2471,9 @@
     "scheduled_at": "2026-09-27 20:30",
     "text": "Текст placeholder байх үед layout бодитоор шалгагддаггүй.\n\nБи боломжтой бол бодит copy-тай эрт ажиллаж, урт ба богино хувилбарыг туршдаг.\n\nҮгийн урт, өгүүлбэрийн хэмнэл, tone of voice нь визуал hierarchy-тэй хамт ажиллана.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-080-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-27 21:51",
+    "threads_id": "18103526189631204"
   },
   {
     "id": 847,
