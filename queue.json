@@ -2525,21 +2525,26 @@
     "scheduled_at": "2026-09-28 19:00",
     "text": "UI/UX задлан: Empty state\n\nӨгөгдөлгүй дэлгэц бол мухардал биш, анхны үйлдлийг заах боломж. Хоосон цагаан талбай хэрэглэгчийг эргэлзүүлнэ.\n\nЮу харагдах ёстойг тайлбарлаж, нэг primary action болон шаардлагатай бол жишээ контент нэм.\n\nТа “Empty state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/6289025/pexels-photo-6289025.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-28 22:57",
+    "threads_id": "17938515837373107"
   },
   {
     "id": 82,
     "scheduled_at": "2026-09-28 20:30",
     "text": "Та prototype-оо танилцуулгад зориулдаг уу, суралцахад зориулдаг уу?\n\nPrototype гоё transition үзүүлэхээс илүү эрсдэлийг эрт илрүүлэх хэрэгсэл.\n\nFlow, timing, state, interaction-ыг зурагнаас өмнө мэдрэх боломж өгдөг. Би хамгийн тодорхойгүй хэсгээ хамгийн түрүүнд prototype болгодог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-082-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-28 22:58",
+    "threads_id": "17946348948325541"
   },
   {
     "id": 848,
     "scheduled_at": "2026-09-28 22:00",
     "text": "Киноны график дизайн: Dune — Монументал minimalism\n\nАсар том дугуй, тэгш өнцөгт mass ба жижиг хүний дүрс нь цөөн элементээр масштабыг мэдрүүлдэг.\n\nДизайнерын хэрэглээ: Key visual-д нэг primary shape, нэг scale reference, нэг text block гэсэн хязгаар тавь.",
     "image_url": "https://www.kinonews.ru/insimgs/2020/shotimg/shotimg95467_1.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 83,
