@@ -2489,7 +2489,9 @@
     "scheduled_at": "2026-09-28 08:30",
     "text": "Data бүтээлч байдлыг орлохгүй; таамгийг шалгахад тусална.\n\nНадад ажилладаг нэг арга: би metric-ийг зорилготой холбож байж өөрчлөлтийн үр дүнг дүгнэдэг.\n\nClick, completion, error, scroll зэрэг дохио дизайн хаана ажиллаж, хаана саад болж байгааг харуулдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-081-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-28 09:06",
+    "threads_id": "18449549023193759"
   },
   {
     "id": 483,
