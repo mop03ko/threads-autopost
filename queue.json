@@ -2578,7 +2578,9 @@
     "scheduled_at": "2026-09-29 16:00",
     "text": "Image compression: дизайнерын практик зөвлөгөө\n\nЭкспортын quality slider-ийг таамгаар бус, 100 хувь preview ба файлын хэмжээг зэрэг харж тохируул.\n\nGradient, үс, бичвэр, өндөр contrast ирмэг дээр artifact хамгийн түрүүнд гардаг тул тэдгээрийг шалга. “Image compression” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-29 16:17",
+    "threads_id": "18086371511697449"
   },
   {
     "id": 713,
