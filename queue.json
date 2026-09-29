@@ -2551,7 +2551,9 @@
     "scheduled_at": "2026-09-29 08:30",
     "text": "Handoff хийснээр дизайнерын ажил бүрэн дуусдаггүй.\n\nХөгжүүлсэн хувилбар дээр spacing, font, state, responsive behavior, content edge case-ийг шалгах хэрэгтэй.\n\nБи release-ээс өмнө design QA checklist-ээр бодит build-ийг үздэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-083-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-29 09:03",
+    "threads_id": "18086094800278235"
   },
   {
     "id": 485,
