@@ -2587,14 +2587,18 @@
     "scheduled_at": "2026-09-29 19:00",
     "text": "Before/After задлан: Өнгө цөөлсөн before/after\n\nОлон accent өнгө action, decoration, status-ыг хооронд нь ялгах боломжгүй болгодог. Сайн хувилбар role-той цөөн palette ашиглана.\n\nPrimary, neutral, accent, status өнгөө ялгаж бусад санамсаргүй swatch-ийг арилга.\n\nТа “Өнгө цөөлсөн before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7610449/pexels-photo-7610449.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-29 21:45",
+    "threads_id": "18057173456800993"
   },
   {
     "id": 84,
     "scheduled_at": "2026-09-29 20:30",
     "text": "Design system бүхнийг нэг хэлбэрт хүчээр оруулах ёсгүй.\n\nБи exception бүрийг шинэ дүрэм болгохоос өмнө давтамж, шалтгааныг нь шалгадаг.\n\nДавтагдах асуудлыг стандартчилж, үнэхээр онцгой нөхцөлд ухамсартай уян хатан байх хэрэгтэй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-084-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-29 21:45",
+    "threads_id": "18114645377019708"
   },
   {
     "id": 849,
