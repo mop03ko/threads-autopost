@@ -2650,21 +2650,27 @@
     "scheduled_at": "2026-09-30 19:00",
     "text": "Дизайнерын байр суурь: Оригинал байдал\n\nЮунаас ч нөлөө аваагүй дизайн гэж бараг байхгүй. Оригинал байдал нь олон эх сурвалжийг шинэ асуудалд өөрийн шүүлтээр нэгтгэхэд оршино.\n\nНэг reference-ийг хуулбарлахгүй, өөр салбарын 3–5 зарчмыг салгаж moodboard дээр тайлбарла.\n\nТа “Оригинал байдал” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7675023/pexels-photo-7675023.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-30 22:53",
+    "threads_id": "18102652316021171"
   },
   {
     "id": 86,
     "scheduled_at": "2026-09-30 20:30",
     "text": "Таны дизайныг логогүйгээр таних ямар шинж байдаг вэ?\n\nТанигдах дизайн заавал чанга, олон элементтэй байх албагүй.\n\nДавтагдах цөөн онцлогийг тогтвортой ашиглах нь илүү хүчтэй санамж үүсгэдэг. Би брэнд бүрт хамгаалах 2–3 visual signature тодорхойлдог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-086-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-30 22:54",
+    "threads_id": "17990965656049265"
   },
   {
     "id": 850,
     "scheduled_at": "2026-09-30 22:00",
     "text": "Киноны график дизайн: Barbie — Ягаан tonal palette\n\nНэг ягаан өнгийг pastel, hot pink, magenta, blush гэсэн олон value, saturation-аар өргөжүүлдэг.\n\nДизайнерын хэрэглээ: Single-color identity-д shade бүрт surface, text, accent гэсэн үүрэг оноо.",
     "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/O72ZMV2MCERFULW6AI6AGHTTIQ.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-30 22:55",
+    "threads_id": "18089618105664949"
   },
   {
     "id": 87,
