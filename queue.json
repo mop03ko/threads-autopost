@@ -2623,14 +2623,18 @@
     "scheduled_at": "2026-09-30 10:00",
     "text": "Registration black гэж юу вэ?\n\nC, M, Y, K бүх хавтан дээр 100 хувь хэвлэгддэг тусгай хар өнгө.\n\nRegistration mark-д л ашигла; дизайн дотор хэрэглэхэд бэх хэтэрч, тааруулгын өчүүхэн зөрүү тод гарна. “Registration black” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-30 13:53",
+    "threads_id": "17986612271878525"
   },
   {
     "id": 312,
     "scheduled_at": "2026-09-30 13:00",
     "text": "Typography-г final export дээр заавал дахин шалга.\n\nEditor дээр зөв харагдсан ч PDF, PNG, video-д мөр таслалт, font substitution, crop өөрчлөгдөж болно.\n\nТатсан файлаа бодит хэмжээгээр нээж үзэх нь нийтлэсний дараах жижиг алдаанаас хамгаална.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-09-30 13:53",
+    "threads_id": "18143211541716577"
   },
   {
     "id": 488,
