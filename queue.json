@@ -2713,21 +2713,27 @@
     "scheduled_at": "2026-10-01 19:00",
     "text": "Логоны задлан: Organic лого\n\nЖигд бус муруй, гарын хөдөлгөөнтэй хэлбэр брэндэд хүнлэг, байгалийн мэдрэмж нэмдэг. Санамсаргүй хэлбэр ба зориудын органик дүрс ялгаатай.\n\nAnchor point-оо цөөлж, муруйн tension-ийг цэвэрлэхэд organic лого илүү мэргэжлийн болно.\n\nТа “Organic лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7675029/pexels-photo-7675029.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 00:33",
+    "threads_id": "17875886475574187"
   },
   {
     "id": 88,
     "scheduled_at": "2026-10-01 20:30",
     "text": "Яагаад гэдгийг тэмдэглээгүй шийдвэр хэдэн долоо хоногийн дараа дахин маргаан болдог.\n\nБи том өөрчлөлт бүрийн ард нэг өгүүлбэрийн reasoning үлдээдэг.\n\nDecision log нь сонголт, шалтгаан, constraint, зөвшөөрсөн хүнийг товч хадгалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-088-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 00:34",
+    "threads_id": "17960069223000453"
   },
   {
     "id": 851,
     "scheduled_at": "2026-10-01 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Улбар ба хар texture\n\nГалын улбар, нүүрсэн хар, цагаан highlight нь rough texture дотор ч title-ийг өндөр contrast-тай барьдаг.\n\nДизайнерын хэрэглээ: Texture-heavy poster-д text-ийн ард local contrast zone зориуд цэвэрлэ.",
     "image_url": "https://d15-a.sdn.cz/d_15/c_img_QP_BA/QhAJS/oppenheimer-film.jpeg?fl=cro%2C150%2C0%2C1620%2C1080%7Cres%2C1200%2C%2C1%7Cjpg%2C80%2C%2C1",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 00:34",
+    "threads_id": "18419963422149692"
   },
   {
     "id": 89,
