@@ -2767,7 +2767,9 @@
     "scheduled_at": "2026-10-02 16:00",
     "text": "SVG cleanup: дизайнерын практик зөвлөгөө\n\nSVG экспортын өмнө hidden object, unnecessary group, metadata, editor-specific code-г цэвэрлэ.\n\nViewBox зөв, stroke scaling, font outline, accessibility title шаардлагатай эсэхийг хөгжүүлэгчтэй баталгаажуул. “SVG cleanup” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 16:18",
+    "threads_id": "18068316974765106"
   },
   {
     "id": 716,
