@@ -2749,14 +2749,18 @@
     "scheduled_at": "2026-10-02 10:00",
     "text": "Overprint гэж юу вэ?\n\nДээд объект доорх бэхийг цоолохгүй дээрээс нь давхар хэвлэгдэх тохиргоо.\n\nЖижиг хар текстэд overprint тустай байж болно; цагаан объект санамсаргүй overprint бол хэвлэл дээр алга болдгийг preview-ээр шалга. “Overprint” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 14:04",
+    "threads_id": "18103351568576301"
   },
   {
     "id": 314,
     "scheduled_at": "2026-10-02 13:00",
     "text": "Text style-аа page бүр дээр гараар тааруулах хэрэггүй.\n\nГарчиг, дэд гарчиг, body, caption-д тогтсон size–weight–spacing хослол үүсгээд бүх design-д давт.\n\nStyle system нь хурд нэмээд зогсохгүй санамсаргүй typography зөрүүг багасгана.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-02 14:05",
+    "threads_id": "18096486278531583"
   },
   {
     "id": 492,
