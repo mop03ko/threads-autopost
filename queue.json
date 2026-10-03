@@ -2857,7 +2857,8 @@
     "scheduled_at": "2026-10-03 22:00",
     "text": "Киноны график дизайн: Metropolis — Хар, цагаан контраст\n\nӨнгөгүй палитр дотор гэрэл–сүүдрийн том масс, хурц ирмэг хоёр л түвшний мэдээллийг маш тод салгадаг.\n\nДизайнерын хэрэглээ: Өнгөгүй thumbnail дээр гол мессеж танигдах хүртэл value contrast-аа зас.",
     "image_url": "https://i.pinimg.com/originals/88/2b/9c/882b9c3464bdb7ceb9e71763434ee74d.png",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 93,
