@@ -2830,21 +2830,27 @@
     "scheduled_at": "2026-10-03 16:00",
     "text": "PDF preflight: дизайнерын практик зөвлөгөө\n\nFinal PDF-ээ Acrobat эсвэл хэвлэлийн preflight хэрэгслээр font, color, image, page box-оор шалга.\n\nЗөвхөн “export амжилттай” гэдэгт найдахгүй; output preview, separations, overprint-ийг нээж үз. “PDF preflight” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-03 20:44",
+    "threads_id": "18359390707219916"
   },
   {
     "id": 717,
     "scheduled_at": "2026-10-03 19:00",
     "text": "Typography задлан: Line-length control\n\nХэт урт мөр нүдэнд дараагийн мөрөө олоход хэцүү, хэт богино мөр rhythm-ийг тасалдаг.\n\nBody text-д 45–75 тэмдэгт орчим зорьж, mobile, desktop бүрт баганын өргөнийг тохируул.\n\nТа “Line-length control” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/38291731/pexels-photo-38291731.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-03 20:45",
+    "threads_id": "18094050371346234"
   },
   {
     "id": 92,
     "scheduled_at": "2026-10-03 20:30",
     "text": "Туршилт бүр нийтлэхэд бэлэн бүтээл болох албагүй.\n\nБи client ажлаас тусдаа жижиг sandbox файлтай байдаг.\n\nЗорилго нь нэг tool, нэг style, нэг асуултыг дарамтгүй шалгаж үзэх.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-092-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-03 20:45",
+    "threads_id": "18245331595311995"
   },
   {
     "id": 853,
