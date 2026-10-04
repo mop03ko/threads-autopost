@@ -2901,21 +2901,27 @@
     "scheduled_at": "2026-10-04 19:00",
     "text": "Постерын задлан: Contrast-led poster\n\nТом хар-цагаан ялгаа, scale, texture poster-ийг холоос танигдуулдаг. Бүх хэсэг өндөр contrast-тай бол focal point арилна.\n\nХамгийн хүчтэй contrast-ийг нэг цэгт төвлөрүүлж supporting copy-г нэг шат намжаа.\n\nТа “Contrast-led poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3747264/pexels-photo-3747264.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-04 22:11",
+    "threads_id": "17995545672044221"
   },
   {
     "id": 94,
     "scheduled_at": "2026-10-04 20:30",
     "text": "Та дизайны үнэ цэнийг үйлчлүүлэгчид юугаар тайлбарладаг вэ?\n\nДизайны үнэ цэнэ зарцуулсан цагийн тоогоор дангаараа хэмжигдэхгүй.\n\nЗөв асуулт, хуримтлагдсан туршлага, буруу замаас зайлсхийсэн шийдвэр үр дүнд нөлөөлдөг. Би ажлаа тайлбарлахдаа файл биш, шийдсэн асуудал ба бий болгосон үр дүнгээр ярьдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-094-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-04 22:12",
+    "threads_id": "18145955617605136"
   },
   {
     "id": 854,
     "scheduled_at": "2026-10-04 22:00",
     "text": "Киноны график дизайн: The Wizard of Oz — Шар замын чиглүүлэлт\n\nТод шар муруй шугам нь фон дээр хүчтэй салж, нүдийг кадрын гүн рүү системтэй хөтөлдөг.\n\nДизайнерын хэрэглээ: Маршрут, алхам, CTA-г өнгө ба шугамын тасралтгүй хэмнэлээр холбо.",
     "image_url": "https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2025/11/14131434/Wizard-of-Oz-Frame-3.jpeg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-04 22:12",
+    "threads_id": "18075329198470542"
   },
   {
     "id": 95,
