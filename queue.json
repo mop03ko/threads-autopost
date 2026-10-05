@@ -2955,7 +2955,9 @@
     "scheduled_at": "2026-10-05 16:00",
     "text": "Crop-mark export: дизайнерын практик зөвлөгөө\n\nCrop mark-ийг document bleed setting-тэй уялдуулж export panel-оос үүсгэ.\n\nMark offset bleed-ээс бага байвал тэмдэг хэвлэлийн хэсэгт орж болдог тул offset утгыг шалга. “Crop-mark export” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 16:48",
+    "threads_id": "18033112106814731"
   },
   {
     "id": 719,
