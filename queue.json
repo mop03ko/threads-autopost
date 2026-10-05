@@ -2964,14 +2964,18 @@
     "scheduled_at": "2026-10-05 19:00",
     "text": "UI/UX задлан: Loading state\n\nХүлээлтийн хугацааг мэдээлэхгүй бол систем эвдэрсэн мэт санагдана. Spinner бүх нөхцөлд хамгийн сайн шийдэл биш.\n\nSkeleton, progress, optimistic update-ийг хугацаа ба үйлдлийн эрсдэлээр сонго.\n\nТа “Loading state” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/326518/pexels-photo-326518.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 21:39",
+    "threads_id": "17967365973192233"
   },
   {
     "id": 96,
     "scheduled_at": "2026-10-05 20:30",
     "text": "Бриф бүдэг байхад шууд гүйцэтгэл рүү орох нь нийтлэг алдаа.\n\nИнгэхээр засварын тоо өсөж, сайн санаа хүртэл буруу чиглэлд явдаг.\n\nҮүнийг багасгахын тулд би файл нээхээсээ өмнө зорилго, үзэгч, үйлдлийг нэг өгүүлбэрт багтаадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-096-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 21:40",
+    "threads_id": "18111083497888169"
   },
   {
     "id": 855,
