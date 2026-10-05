@@ -2928,21 +2928,27 @@
     "scheduled_at": "2026-10-05 08:30",
     "text": "Жилийн эцэст хамгийн гоё ажлаа биш, хамгийн их зүйл заасан ажлаа эргэж харах сонирхолтой.\n\nАмжилттай төсөл итгэл өгдөг; хэцүү төсөл арга барил өгдөг.\n\nБи энэ жилийн ажлуудаа үр дүн, сургамж, дараагийн алхам гэсэн гурван баганад хувааж хардаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-095-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 13:51",
+    "threads_id": "17895504750415964"
   },
   {
     "id": 497,
     "scheduled_at": "2026-10-05 10:00",
     "text": "Soft proof гэж юу вэ?\n\nПринтер, цаасны ICC profile ашиглан хэвлэлийн өнгийг дэлгэц дээр дуурайлган харах арга.\n\nКалибровк хийсэн дэлгэц дээр soft proof ашиглаж gamut, shadow, paper white-ийн өөрчлөлтийг урьдчилан хар. “Soft proof” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 13:52",
+    "threads_id": "17907135840561236"
   },
   {
     "id": 317,
     "scheduled_at": "2026-10-05 13:00",
     "text": "Contrast-оо зөвхөн дэлгэцийнхээ гэрэл дээр бүү үнэл.\n\nBrightness-аа багасгаж, grayscale preview хийж, жижиг thumbnail дээр текст ялгарч байна уу шалга.\n\nОлон нөхцөлд уншигдах contrast нь гоё өнгөнөөс илүү чухал.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-05 13:52",
+    "threads_id": "18085699703702533"
   },
   {
     "id": 498,
