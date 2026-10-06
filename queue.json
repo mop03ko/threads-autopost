@@ -3027,21 +3027,26 @@
     "scheduled_at": "2026-10-06 19:00",
     "text": "Before/After задлан: Crop зассан before/after\n\nМуу crop хүний үе, бүтээгдэхүүний ирмэг, харцны чиглэлийг эвддэг. Сайн crop subject-д амьсгалах зай, зөв focal point өгнө.\n\nAspect ratio бүрт crop-оо гараар тохируулж auto-crop-д гол контент тасрахгүйг шалга.\n\nТа “Crop зассан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7971616/pexels-photo-7971616.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-06 23:17",
+    "threads_id": "18198973102378767"
   },
   {
     "id": 98,
     "scheduled_at": "2026-10-06 20:30",
     "text": "Бодит төсөл дээр, заримдаа захиалга “постер хэрэгтэй” гэж эхэлдэг ч бодит асуудал нь мэдээлэл ойлгомжгүй байхад оршдог.\n\nГэхдээ форматыг асуудал гэж ойлгоод шууд бүтээх нь цаг алддаг.\n\nЗөв биш зүйлийг маш гоё хийсэн ч үр дүн гарахгүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-098-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-06 23:17",
+    "threads_id": "17912005080534876"
   },
   {
     "id": 856,
     "scheduled_at": "2026-10-06 22:00",
     "text": "Киноны график дизайн: Vertigo — Улаан ба ногоон\n\nComplementary өнгөний зөрчил нь хоёр элементийг зэрэг хүчтэй болгох ч харааны дарамт үүсгэдэг.\n\nДизайнерын хэрэглээ: Улаан–ногооныг 50/50 бус, dominant–accent харьцаагаар ашиглаж уншигдах байдлыг хамгаал.",
     "image_url": "https://screenmusings.org/movie/dvd/Vertigo/images/Vertigo-0781.jpg",
-    "status": "pending"
+    "status": "failed",
+    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred"
   },
   {
     "id": 99,
