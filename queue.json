@@ -3080,7 +3080,9 @@
     "scheduled_at": "2026-10-07 16:00",
     "text": "Rich-black use: дизайнерын практик зөвлөгөө\n\nТом хар фон, өргөн shape-д хэвлэх газрын зөвлөсөн C/M/Y/K хольцыг ашигла.\n\nBody text, barcode, нарийн line-д зөвхөн 100K хэрэглэвэл registration илүү цэвэр үлдэнэ. “Rich-black use” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-07 16:29",
+    "threads_id": "18019793375869229"
   },
   {
     "id": 721,
