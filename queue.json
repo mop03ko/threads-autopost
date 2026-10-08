@@ -3116,14 +3116,18 @@
     "scheduled_at": "2026-10-08 08:30",
     "text": "Бүх хоосон хэсгийг элементээр дүүргэх нь мэдээллийн бүтцийг эвддэг.\n\nЗайгүй layout хурдан биш, харин ядраадаг.\n\nАжлын явцад, би эхлээд контентыг бүлэглээд дараа нь гоёлын шийдэлд ордог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-101-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-08 10:55",
+    "threads_id": "18096769307393526"
   },
   {
     "id": 503,
     "scheduled_at": "2026-10-08 10:00",
     "text": "Gradient banding гэж юу вэ?\n\nӨнгөний жигд шилжилт тасалдсан зурвас мэт харагдах артефакт.\n\n16-bit эх, бага зэргийн noise, зөв compression ашиглавал gradient banding багасна; экспортын файлаа бодит дэлгэц дээр шалга. “Gradient banding” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-08 10:55",
+    "threads_id": "18118677316949761"
   },
   {
     "id": 320,
