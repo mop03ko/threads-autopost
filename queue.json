@@ -3152,21 +3152,27 @@
     "scheduled_at": "2026-10-08 19:00",
     "text": "Логоны задлан: Symmetric лого\n\nТэгш хэм найдвартай, албан, тогтвортой мэдрэмж төрүүлдэг. Гэвч бүх элементийг яг тэнцүүлэхэд тэмдэг хэт хөдөлгөөнгүй болж болно.\n\nТөв тэнхлэгээ хадгалж, negative space эсвэл detail-д багахан ялгаа оруулан брэндийн зан чанарыг нэм.\n\nТа “Symmetric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/1714202/pexels-photo-1714202.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-09 01:27",
+    "threads_id": "17945265624348948"
   },
   {
     "id": 102,
     "scheduled_at": "2026-10-08 20:30",
     "text": "Layout дээр, grid бол бүтээлч байдлыг хорьдог тор биш.\n\nГэхдээ grid-гүйгээр элемент бүрийг тусад нь тааруулах нь тогтвортой бус.\n\nНэг дэлгэц зөв харагдавч дараагийн хувилбар дээр систем задрана.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-102-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-09 01:28",
+    "threads_id": "18238738489319380"
   },
   {
     "id": 858,
     "scheduled_at": "2026-10-08 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Цагаан, хар, улаан\n\nСаармаг том талбай дээр улаан accent маш бага хэмжээгээр ч navigation болон анхаарлыг удирддаг.\n\nДизайнерын хэрэглээ: Accent color-оо чимэглэлд бус, зөвхөн status ба action-д зарцуул.",
     "image_url": "https://images.squarespace-cdn.com/content/v1/5c8d218eebfc7faf979aeb3d/3f630178-a1bf-4924-be52-80faed7847ef/2001%2B1.png",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-09 01:28",
+    "threads_id": "17992047147099081"
   },
   {
     "id": 103,
