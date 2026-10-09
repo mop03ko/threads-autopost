@@ -3197,7 +3197,9 @@
     "scheduled_at": "2026-10-09 13:00",
     "text": "Color palette-аа hex кодын жагсаалт биш, бодит жишээгээр шалга.\n\nГарчиг, body, button, background, photo overlay бүхий нэг test page үүсгээд бүх хослолыг турш.\n\nБодит хэрэглээн дээр батлагдсан palette дараагийн дизайн бүрт эргэлзээг багасгана.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-09 14:34",
+    "threads_id": "18218604550346723"
   },
   {
     "id": 506,
