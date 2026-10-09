@@ -3215,21 +3215,27 @@
     "scheduled_at": "2026-10-09 19:00",
     "text": "Өнгөний задлан: High-contrast palette\n\nГэрэлтэлтийн том ялгаа хурдан уншилт, хүчтэй hierarchy үүсгэдэг. Хэт их contrast бүхий бүх элемент өрсөлдөнө.\n\nХамгийн өндөр contrast-ийг headline, CTA-д хадгалж, supporting мэдээллийг нэг шат сулруул.\n\nТа “High-contrast palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/396129/pexels-photo-396129.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 00:32",
+    "threads_id": "18100452488643497"
   },
   {
     "id": 104,
     "scheduled_at": "2026-10-09 20:30",
     "text": "Элемент бүрт өөр өөр зай өгөх нь жижиг мэт боловч системийг сулруулдаг.\n\nХарагдах байдал цэвэр биш болохоос гадна хөгжүүлэлт төвөгтэй болдог.\n\nҮүнийг багасгахын тулд би 4 эсвэл 8-ийн суурьтай scale сонгоод санамсаргүй утгаас зайлсхийдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-104-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 00:33",
+    "threads_id": "18007828739780405"
   },
   {
     "id": 859,
     "scheduled_at": "2026-10-09 22:00",
     "text": "Киноны график дизайн: A Clockwork Orange — Гурвалжин silhouette\n\nPoster-ийн хурц гурвалжин frame нь төв дүрсийг чиглүүлж, маш хурдан танигдах outline үүсгэдэг.\n\nДизайнерын хэрэглээ: Key visual-д эхлээд 2 секундэд танигдах нэг том silhouette зохио.",
     "image_url": "https://assets.st-note.com/production/uploads/images/130060386/rectangle_large_type_2_2c69b3a1b55e0130f62e14040efc5055.jpeg?fit=bounds&height=2000&quality=85&width=2000",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 00:34",
+    "threads_id": "17998272993009877"
   },
   {
     "id": 105,
