@@ -3278,14 +3278,18 @@
     "scheduled_at": "2026-10-10 19:00",
     "text": "Typography задлан: Leading analysis\n\nМөр хоорондын зай хэт бага бол текст бөөгнөрч, хэт их бол догол мөрийн холбоо тасарна.\n\nFont size-ийн 1.4–1.6 дахин зайгаас эхэлж, x-height ба line length-ээр нүдээр зас.\n\nТа “Leading analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/11141869/pexels-photo-11141869.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 21:36",
+    "threads_id": "17961570888221289"
   },
   {
     "id": 106,
     "scheduled_at": "2026-10-10 20:30",
     "text": "Олон сувагт туршихад, фонт бол текст өмссөн хувцас биш; брэндийн дуу хоолой.\n\nГэхдээ тренд болж буй фонтыг зорилгогүй ашиглах нь брэндийн өнгийг өөрчилдөг.\n\nТанигдах гэж оролдохдоо брэнд өөр хүн шиг ярьж эхэлдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-106-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 21:36",
+    "threads_id": "17965193183980461"
   },
   {
     "id": 860,
