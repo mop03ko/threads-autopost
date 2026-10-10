@@ -3269,7 +3269,9 @@
     "scheduled_at": "2026-10-10 16:00",
     "text": "Overprint preview: дизайнерын практик зөвлөгөө\n\nFinal PDF дээр Overprint Preview асааж хар object, spot effect, white element-үүдийг шалга.\n\nЦагаан fill эсвэл stroke санамсаргүй overprint бол үйлдвэрлэл дээр алга болох тул бүх хуудсыг нягтал. “Overprint preview” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-10 16:21",
+    "threads_id": "18145506646566481"
   },
   {
     "id": 724,
