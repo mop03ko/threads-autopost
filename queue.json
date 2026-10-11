@@ -3341,14 +3341,18 @@
     "scheduled_at": "2026-10-11 19:00",
     "text": "Постерын задлан: Whitespace poster\n\nХоосон зай гол объектын үнэ цэнэ, тайван байдлыг нэмдэг. Зайг “дутуу” гэж дүүргэх нь poster-ийг хямд харагдуулна.\n\nHero element-ийн эргэн тойронд intentional isolation өгч, edge margin-аа grid-тэй уялдуул.\n\nТа “Whitespace poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/14602304/pexels-photo-14602304.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-11 21:20",
+    "threads_id": "17889379599474353"
   },
   {
     "id": 108,
     "scheduled_at": "2026-10-11 20:30",
     "text": "Default line-height-ийг нөхцөл бүрд өөрчлөлтгүй үлдээх нь хангалтгүй.\n\nФонтын x-height, мөрийн урт, дэлгэцийн хэмжээ бүр өөр хариу шаардана.\n\nҮүнийг багасгахын тулд би фонтыг сонгосны дараа хэмжээ биш, эхлээд унших хэмнэлийг нь шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-108-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-11 21:20",
+    "threads_id": "17975957364011277"
   },
   {
     "id": 861,
