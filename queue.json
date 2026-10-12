@@ -3404,21 +3404,27 @@
     "scheduled_at": "2026-10-12 19:00",
     "text": "UI/UX задлан: Button hierarchy\n\nPrimary, secondary, tertiary, destructive button бүр өнгө, fill, байрлалаар ялгаатай байх ёстой. Shape-ийг дур мэдэн сольж болохгүй.\n\nНэг component system ашиглаж state бүрийн hover, focus, disabled, loading хувилбарыг тодорхойл.\n\nТа “Button hierarchy” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 01:33",
+    "threads_id": "18076466096459580"
   },
   {
     "id": 110,
     "scheduled_at": "2026-10-12 20:30",
     "text": "Бодит төсөл дээр, зарим үсгийн хоорондох зай техникийн хувьд зөв ч нүдэнд буруу харагддаг.\n\nГэхдээ automatic kerning-д бүх нөхцөлд бүрэн найдах нь эрсдэлтэй.\n\nЯлангуяа том хэмжээ дээр жижиг зөрүү шууд харагддаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-110-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 01:34",
+    "threads_id": "18152560348544082"
   },
   {
     "id": 862,
     "scheduled_at": "2026-10-12 22:00",
     "text": "Киноны график дизайн: Alien — Зайтай title reveal\n\nҮсгүүд хэсэгчлэн гарч, өргөн tracking-тэй бүтэн title болох нь negative space-ийг идэвхтэй элемент болгодог.\n\nДизайнерын хэрэглээ: Title animation-д бүхнийг зэрэг үзүүлэхгүй; stroke, spacing, reveal order-оор хүлээлт үүсгэ.",
     "image_url": "https://images6.alphacoders.com/522/thumb-1920-522439.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 01:35",
+    "threads_id": "18108912830245136"
   },
   {
     "id": 111,
