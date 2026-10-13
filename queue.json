@@ -3458,7 +3458,9 @@
     "scheduled_at": "2026-10-13 16:00",
     "text": "Soft-proof workflow: дизайнерын практик зөвлөгөө\n\nFinal output-ын ICC profile-ийг simulation болгон асааж paper color, black ink-ийг preview хий.\n\nProof тохиргоог screenshot-аар биш profile нэртэй нь баримтжуулж, source RGB файлаа тусад нь хадгал. “Soft-proof workflow” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 17:14",
+    "threads_id": "18453252442124537"
   },
   {
     "id": 727,
