@@ -3449,7 +3449,9 @@
     "scheduled_at": "2026-10-13 13:00",
     "text": "Өнгөөр бүх hierarchy-г шийдэх нь accessibility-д эрсдэлтэй.\n\nStatus, CTA, ялгааг өнгөнөөс гадна label, icon, shape, weight-аар давхар илэрхийл.\n\nӨнгө ялгах чадвар өөр хэрэглэгчид ч мэдээлэл бүрэн ойлгогдоно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 15:01",
+    "threads_id": "18105231851011683"
   },
   {
     "id": 514,
