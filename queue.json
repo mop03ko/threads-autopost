@@ -3467,7 +3467,9 @@
     "scheduled_at": "2026-10-13 19:00",
     "text": "Before/After задлан: Copy богиносгосон before/after\n\nУрт гарчиг design-ийг жижигрүүлж, анхаарлыг сарниулдаг. Сайн хувилбар нэг гол санааг цомхон хэлээд detail-ийг caption-д шилжүүлнэ.\n\nДавхардсан adjective, тайлбар, нөхцөлийг хасаж headline-аа нэг амьсгаагаар уншигддаг болго.\n\nТа “Copy богиносгосон before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/5628244/pexels-photo-5628244.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-13 19:42",
+    "threads_id": "18115184333583889"
   },
   {
     "id": 112,
