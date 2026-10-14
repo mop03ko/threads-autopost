@@ -3494,7 +3494,9 @@
     "scheduled_at": "2026-10-14 08:30",
     "text": "Бүхнийг bold болгох нь contrast бий болгодоггүй.\n\nБүх элемент ижил хүчтэй болоод ялгаа дахин алга болдог.\n\nТекст бодитоор орж ирэхэд, би hierarchy сул үед шинэ элемент нэмэхээсээ өмнө contrast-аа шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-113-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-14 09:54",
+    "threads_id": "18114716732592334"
   },
   {
     "id": 515,
