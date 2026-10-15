@@ -3593,14 +3593,18 @@
     "scheduled_at": "2026-10-15 19:00",
     "text": "Логоны задлан: Asymmetric лого\n\nТэгш бус хэлбэр хөдөлгөөн, шинэлэг байдлыг хүчтэй илэрхийлдэг. Balance алдагдвал тэмдэг санамсаргүй эсвэл унаж байгаа мэт харагдана.\n\nХэмжээ, хар өнгийн масс, хоосон зайг grayscale дээр харьцуулж харааны жинг тэнцүүл.\n\nТа “Asymmetric лого” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/7971531/pexels-photo-7971531.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-15 21:17",
+    "threads_id": "17975212406939257"
   },
   {
     "id": 116,
     "scheduled_at": "2026-10-15 20:30",
     "text": "Брэнд бүрт ижил template хуулж хэрэглэх нь тогтвортой байдал биш.\n\nДүр төрх цэгцтэй мэт боловч өөрийн онцлог алга болдог.\n\nҮүнийг багасгахын тулд би layout, type, өнгө, дүрслэлийн цөөн тогтмол дүрмийг хамгаалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-116-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-15 21:18",
+    "threads_id": "18116532938039517"
   },
   {
     "id": 865,
