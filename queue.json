@@ -3656,14 +3656,18 @@
     "scheduled_at": "2026-10-16 19:00",
     "text": "Өнгөний задлан: Low-contrast palette\n\nОйролцоо өнгөнүүд зөөлөн, тансаг мэдрэмж өгч болох ч жижиг текст, интерфэйсийн төлөвт эрсдэлтэй.\n\nDecorative хэсэгт low contrast ашиглаж, унших болон үйлдлийн элементүүдийг accessibility стандартаар хамгаал.\n\nТа “Low-contrast palette” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/37690781/pexels-photo-37690781.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-16 21:09",
+    "threads_id": "17998507658824506"
   },
   {
     "id": 118,
     "scheduled_at": "2026-10-16 20:30",
     "text": "Олон сувагт туршихад, хялбар лого хийх амархан мэт харагддаг ч хамгийн их сонголт хасдаг ажил.\n\nГэхдээ утга бүрийг нэг тэмдэгт багтаах гэж оролдох нь логог тайлбарын зураг болгодог.\n\nТэмдэг олон болох тусам санаа хүчтэй биш, харин бүдэг болдог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-118-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-16 21:10",
+    "threads_id": "17962397859211712"
   },
   {
     "id": 866,
