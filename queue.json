@@ -3638,7 +3638,9 @@
     "scheduled_at": "2026-10-16 13:00",
     "text": "Stock зураг template шиг харагдах шалтгаан ихэвчлэн crop байдаг.\n\nЗургийг бүтнээр нь харуулахын оронд онцгой detail, gesture, texture рүү ойрт. Text-д зориуд negative space үлдээ.\n\nӨөр crop нэг зурагт шинэ art direction өгч, танил stock мэдрэмжийг багасгана.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-16 14:58",
+    "threads_id": "17992742865060935"
   },
   {
     "id": 520,
