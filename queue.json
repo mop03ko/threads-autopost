@@ -3647,7 +3647,9 @@
     "scheduled_at": "2026-10-16 16:00",
     "text": "Minimum line weight: дизайнерын практик зөвлөгөө\n\nХэт нимгэн stroke хэвлэл, дэлгэцийн scaling дээр тасарч алга болдог.\n\nХэвлэх технологийн доод хэмжээг асууж, positive болон reversed line-д тусдаа аюулгүй жин сонго. “Minimum line weight” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-16 17:05",
+    "threads_id": "17895594909611264"
   },
   {
     "id": 730,
