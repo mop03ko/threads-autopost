@@ -3719,7 +3719,9 @@
     "scheduled_at": "2026-10-17 19:00",
     "text": "Typography задлан: Tracking analysis\n\nНийт үсгийн зай tone, density, уншилтад нөлөөлнө. Body text-ийг хэт шахах нь хурдан ядраана.\n\nAll-caps жижиг label-д tracking нэмээд, том гарчигт optical rhythm-ийг үсгийн хэлбэрээр тохируул.\n\nТа “Tracking analysis” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/6935188/pexels-photo-6935188.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-17 20:05",
+    "threads_id": "17964970305198932"
   },
   {
     "id": 120,
