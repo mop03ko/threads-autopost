@@ -3773,14 +3773,18 @@
     "scheduled_at": "2026-10-18 16:00",
     "text": "QR-code testing: дизайнерын практик зөвлөгөө\n\nQR кодыг хэвлэх бодит хэмжээнд, өөр утас, өөр гэрэл, өөр зайнаас турш.\n\nКодын эргэн тойронд quiet zone үлдээж, contrast өндөр барь; vector эсвэл өндөр нягтралтай файл ашигла. “QR-code testing” дадлыг тогтмол хэрэгжүүлбэл ажлын үр дүн илүү хяналттай болно.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-18 19:40",
+    "threads_id": "18157238014513075"
   },
   {
     "id": 732,
     "scheduled_at": "2026-10-18 19:00",
     "text": "Постерын задлан: Border-frame poster\n\nХүрээ composition-ийг нэгтгэж, editorial эсвэл classic мэдрэмж өгдөг. Хэт зузаан frame дотоод талбайг шахна.\n\nBorder thickness-ийг poster size, margin, type weight-тэй нэг харьцаанд барь.\n\nТа “Border-frame poster” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3964466/pexels-photo-3964466.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-18 19:41",
+    "threads_id": "18095364746451209"
   },
   {
     "id": 122,
