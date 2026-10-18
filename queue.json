@@ -3755,14 +3755,18 @@
     "scheduled_at": "2026-10-18 10:00",
     "text": "Anti-aliasing гэж юу вэ?\n\nМуруй, ташуу ирмэгийн шаталсан пикселийг завсрын өнгөөр зөөлрүүлэх арга.\n\nЖижиг icon, текст экспортлоход anti-aliasing горимуудыг харьцуул; хэт зөөлөн тохиргоо нимгэн шугамыг бүдгэрүүлж болно. “Anti-aliasing” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-18 13:01",
+    "threads_id": "18345064438253130"
   },
   {
     "id": 330,
     "scheduled_at": "2026-10-18 13:00",
     "text": "Cutout subject-ээ шууд background дээр тавихад наасан мэт харагддаг уу?\n\nContact shadow, зөөлөн reflected color, ижил гэрлийн чиглэл нэм. Shadow-ийн blur ба opacity-г орчинтой нь тааруул.\n\nГэрлийн логик нийцэхэд тусдаа эх үүсвэрүүд нэг зураг шиг нэгдэнэ.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-18 13:02",
+    "threads_id": "18179827456431003"
   },
   {
     "id": 524,
