@@ -3845,21 +3845,27 @@
     "scheduled_at": "2026-10-19 19:00",
     "text": "UI/UX задлан: Card design\n\nCard нь холбоотой мэдээллийг бүлэглэдэг ч бүх зүйлд card хийхэд hierarchy хавтгай болно.\n\nBoundary үнэхээр хэрэгтэй хэсэгт card ашиглаж, доторх padding, title, action placement-ийг нэг стандарттай барь.\n\nТа “Card design” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-19 23:28",
+    "threads_id": "18095108075453469"
   },
   {
     "id": 124,
     "scheduled_at": "2026-10-19 20:30",
     "text": "Desktop layout-ыг багасгаад mobile гэж үзэх нь хэрэглээний дарааллыг эвддэг.\n\nЭлемент багтсан ч хуруу, уншилт, контекстийн асуудал үлддэг.\n\nҮүнийг багасгахын тулд би mobile дээр хамгийн чухал нэг үйлдлийг эхэлж хамгаалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-124-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-19 23:29",
+    "threads_id": "17975107338138684"
   },
   {
     "id": 869,
     "scheduled_at": "2026-10-19 22:00",
     "text": "Киноны график дизайн: Jurassic Park — Улаан, шар, хар\n\nАнхааруулах тэмдэг шиг өндөр contrast palette нь мэдээллийг шууд, мартагдахгүй хүргэдэг.\n\nДизайнерын хэрэглээ: Safety эсвэл action visual-д color meaning-ээ decoration-оос тусгаарлаж тогтвортой хэрэглэ.",
     "image_url": "https://hips.hearstapps.com/hmg-prod/images/jurassic-park-pelicula-1993-sam-neill-ariana-richards-escena-tiranosaurio-rex-1655557631.jpg?crop=1xw%3A0.84375xh%3B0%2C0.0931xh",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-19 23:30",
+    "threads_id": "18142551073608476"
   },
   {
     "id": 125,
