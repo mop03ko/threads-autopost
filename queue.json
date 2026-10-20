@@ -1740,13 +1740,15 @@
     "scheduled_at": "2026-09-15 22:00",
     "text": "Sin City: ганц өнгө харцыг чиглүүлдэг\n\nХар, цагаан орчин дундах улаан эсвэл шар хэсэг түрүүлж анзаарагдана. Бусад өнгийг намжаасан учраас тэр жижиг хэсэг хүчтэй харагдаж байгаа юм.\n\nПостер дээрээ энэ аргыг туршихдаа нэг л зүйлийг өнгөөр онцол. Үнэ, гарчиг, товч гурвуул ижил хүчтэй байвал харц хаана тогтох вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-835-f067dd344114eb8582b7.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T00:19:54.000242+08:00",
     "processing_token": "3999246e-17f2-4f56-b242-a9d15c386c16",
     "processing_at": "2026-10-21 00:20",
     "attempted_at": "2026-10-21 00:20",
-    "publication_phase": "publishing",
-    "container_id": "17988564786110223"
+    "publication_phase": "published",
+    "container_id": "17988564786110223",
+    "threads_id": "17891131209617068",
+    "posted_at": "2026-10-21 00:20"
   },
   {
     "id": 57,
