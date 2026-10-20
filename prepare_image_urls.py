@@ -156,7 +156,8 @@ def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tupl
     return assigned, activated
 
 
-def sync_google_sheet(queue: list[dict], only_ids: list[int], expected_posts=None) -> int:
+def sync_google_sheet(queue: list[dict], only_ids: list[int], expected_posts=None,
+                      expected_statuses=("pending",)) -> int:
     """Mirror only changed image URLs; never overwrite editorial/publication status."""
     if not only_ids:
         return 0
@@ -181,7 +182,7 @@ def sync_google_sheet(queue: list[dict], only_ids: list[int], expected_posts=Non
         expected = {p['id']: p for p in expected_posts}
         for item_id in only_ids:
             actual, prior = latest.get(item_id), expected.get(item_id)
-            if not actual or not prior or actual.get('status') != 'pending' or any(
+            if not actual or not prior or actual.get('status') not in expected_statuses or any(
                     actual.get(key) != prior.get(key) for key in ('text','scheduled_at','image_url')):
                 raise RuntimeError(f'Post {item_id}: Sheet changed since image review; no images written.')
     headers = [str(value).strip().lower() for value in rows[0]]
