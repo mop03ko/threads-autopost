@@ -1,0 +1,884 @@
+{
+  "version": 1,
+  "policy": "Use the actual main theatrical poster, preserving its complete original composition.",
+  "films": [
+    {
+      "key": "2001-a-space-odyssey-1968",
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
+      "aliases": [
+        "2001: A Space Odyssey"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1968/two_thousand_and_one_a_space_odyssey_ver2.html",
+      "film_reference": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
+      "source_url": "https://www.impawards.com/1968/posters/two_thousand_and_one_a_space_odyssey_ver2.jpg",
+      "source_sha256": "11f88668f9bbc5c4ea8a51f8adf6cd0d3f555446b8bff0085a3f6d086d40cdfa",
+      "dimensions": [
+        499,
+        755
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "a-clockwork-orange-1971",
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "aliases": [
+        "A Clockwork Orange"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1971/clockwork_orange_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)",
+      "source_url": "https://www.impawards.com/1971/posters/clockwork_orange_xlg.jpg",
+      "source_sha256": "18401d62f5d9ffb0f076396b5e4790332000375f2b0c12acf3a93829c00306f1",
+      "dimensions": [
+        989,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "alien-1979",
+      "title": "Alien",
+      "year": 1979,
+      "aliases": [
+        "Alien"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1979/alien_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Alien_(film)",
+      "source_url": "https://www.impawards.com/1979/posters/alien_xlg.jpg",
+      "source_sha256": "00d25f4bf1dc1040aa8dd61e63d113ba0b7e1599de0cc94486abe241d255bff2",
+      "dimensions": [
+        982,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "am-lie-2001",
+      "title": "Amélie",
+      "year": 2001,
+      "aliases": [
+        "Amélie"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2001/amelie_ver1_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Amélie",
+      "source_url": "https://www.impawards.com/2001/posters/amelie_ver1_xlg.jpg",
+      "source_sha256": "c29195201931b13756bf85a773b648b8460c62352d5eda08c0e13063d0a5ff34",
+      "dimensions": [
+        1007,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "arrival-2016",
+      "title": "Arrival",
+      "year": 2016,
+      "aliases": [
+        "Arrival"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2016/arrival_ver16_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Arrival_(film)",
+      "source_url": "https://www.impawards.com/2016/posters/arrival_ver16_xlg.jpg",
+      "source_sha256": "d855d11f4d71a83c842ea66481a5f64a08660e480a255cca56891cc22eb18a0d",
+      "dimensions": [
+        960,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "avatar-2009",
+      "title": "Avatar",
+      "year": 2009,
+      "aliases": [
+        "Avatar"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2009/avatar_ver5_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+      "source_url": "https://www.impawards.com/2009/posters/avatar_ver5_xlg.jpg",
+      "source_sha256": "c957fefd863832959177ff4d4b9f214355bc3742ca9cfd0135ea4de563b77786",
+      "dimensions": [
+        800,
+        1185
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "barbie-2023",
+      "title": "Barbie",
+      "year": 2023,
+      "aliases": [
+        "Barbie"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://gatewayfilmcenter.org/movies/barbie-2023/",
+      "film_reference": "https://en.wikipedia.org/wiki/Barbie_(film)",
+      "source_url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2023/05/19121401/barbie-poster1-scaled.jpg",
+      "source_sha256": "ff75e50c5747dea69eea90989e9a54f5828e4b6946b095717d5ec42d24381015",
+      "dimensions": [
+        1728,
+        2560
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "batman-1989-1989",
+      "title": "Batman (1989)",
+      "year": 1989,
+      "aliases": [
+        "Batman (1989)"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1989/batman_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Batman_(1989_film)",
+      "source_url": "https://www.impawards.com/1989/posters/batman_ver2_xlg.jpg",
+      "source_sha256": "05a65ad69b6153a6987250e5e12c1fcf167eea7a6345e25c6ec680cef651ccaf",
+      "dimensions": [
+        1004,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "black-panther-2018",
+      "title": "Black Panther",
+      "year": 2018,
+      "aliases": [
+        "Black Panther"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2018/black_panther_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+      "source_url": "https://www.impawards.com/2018/posters/black_panther_ver3_xlg.jpg",
+      "source_sha256": "84c8d4a334f8b8c2776407eda4183e4838e41ca7181a04109ea8b84d5fb3722b",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "blade-runner-1982",
+      "title": "Blade Runner",
+      "year": 1982,
+      "aliases": [
+        "Blade Runner"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1982/blade_runner_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Blade_Runner",
+      "source_url": "https://www.impawards.com/1982/posters/blade_runner_xlg.jpg",
+      "source_sha256": "3bb60002e0c3450197d1d8967aace6ae67e3a608eb727f1093ad8a8ae4b204d8",
+      "dimensions": [
+        990,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "blade-runner-2049-2017",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "aliases": [
+        "Blade Runner 2049"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2017/blade_runner_twenty_forty_nine_ver5_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Blade_Runner_2049",
+      "source_url": "https://www.impawards.com/2017/posters/blade_runner_twenty_forty_nine_ver5_xlg.jpg",
+      "source_sha256": "0aec5262d35f5880ca2cd1ca5a4e27527e56309af31ddfc74af01bbd4f9d745e",
+      "dimensions": [
+        973,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "brazil-1985",
+      "title": "Brazil",
+      "year": 1985,
+      "aliases": [
+        "Brazil"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1985/brazil_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Brazil_(1985_film)",
+      "source_url": "https://www.impawards.com/1985/posters/brazil_xlg.jpg",
+      "source_sha256": "be42cc764dbc00ec6411445d17161b481e40f832cdedb3372f71ec4f234d850e",
+      "dimensions": [
+        986,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "citizen-kane-1941",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "aliases": [
+        "Citizen Kane"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1941/citizen_kane_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Citizen_Kane",
+      "source_url": "https://www.impawards.com/1941/posters/citizen_kane_xlg.jpg",
+      "source_sha256": "5dc3f7c9e8b163734e837909dca76dcff308ad47fb728fef57a3a61afc2b078d",
+      "dimensions": [
+        1006,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "dune-2021",
+      "title": "Dune",
+      "year": 2021,
+      "aliases": [
+        "Dune"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2021/dune_ver16_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Dune_(2021_film)",
+      "source_url": "https://www.impawards.com/2021/posters/dune_ver16_xlg.jpg",
+      "source_sha256": "333c76108523c218d8f00e38ad54a97dde17a60c9ddcd64a22bb4eda798e96fe",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "edward-scissorhands-1990",
+      "title": "Edward Scissorhands",
+      "year": 1990,
+      "aliases": [
+        "Edward Scissorhands"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1990/edward_scissorhands_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Edward_Scissorhands",
+      "source_url": "https://www.impawards.com/1990/posters/edward_scissorhands_ver3_xlg.jpg",
+      "source_sha256": "b02a546820cf72cdf172b102205d3f08ada7ac5211183b46527a3a68ad61e336",
+      "dimensions": [
+        1010,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "everything-everywhere-all-at-once-2022",
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "aliases": [
+        "Everything Everywhere All at Once"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2022/everything_everywhere_all_at_once_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once",
+      "source_url": "https://www.impawards.com/2022/posters/everything_everywhere_all_at_once_ver3_xlg.jpg",
+      "source_sha256": "b0c259abc6fee13349546be7bf1f82facfcba88194b3c053c11e4bcf253c44fc",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "fight-club-1999",
+      "title": "Fight Club",
+      "year": 1999,
+      "aliases": [
+        "Fight Club"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1999/fight_club_ver4_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Fight_Club",
+      "source_url": "https://www.impawards.com/1999/posters/fight_club_ver4_xlg.jpg",
+      "source_sha256": "e90f37e96cafac683495daf7c2ad8dd482c4ab45424056c41be6d6f02057414f",
+      "dimensions": [
+        1015,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "harry-potter-2001",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "aliases": [
+        "Harry Potter",
+        "Harry Potter and the Philosopher's Stone"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2001/harry_potter_and_the_sorcerers_stone_ver5_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)",
+      "source_url": "https://www.impawards.com/2001/posters/harry_potter_and_the_sorcerers_stone_ver5_xlg.jpg",
+      "source_sha256": "91f862d99d474da8e66523321a915aeb5ed9d7ce6460b0bf1aa6ad900f6b9889",
+      "dimensions": [
+        1013,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "harry-potter-and-the-prisoner-of-azkaban-2004",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "aliases": [
+        "Harry Potter and the Prisoner of Azkaban"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2004/harry_potter_and_the_prisoner_of_azkaban_ver5.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban_(film)",
+      "source_url": "https://www.impawards.com/2004/posters/harry_potter_and_the_prisoner_of_azkaban_ver5.jpg",
+      "source_sha256": "57b0acd958cec0e492febab86340bf10ff0c8ed546131e3298dbd3f40ed079d9",
+      "dimensions": [
+        432,
+        640
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "in-the-mood-for-love-2000",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "aliases": [
+        "In the Mood for Love"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2001/in_the_mood_for_love_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/In_the_Mood_for_Love",
+      "source_url": "https://www.impawards.com/2001/posters/in_the_mood_for_love_xlg.jpg",
+      "source_sha256": "a9ae4689e7815b11ae4d1787ea4021cf7dfe52b3164eed313245c579b5e11abe",
+      "dimensions": [
+        1003,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "inception-2010",
+      "title": "Inception",
+      "year": 2010,
+      "aliases": [
+        "Inception"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2010/inception_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Inception",
+      "source_url": "https://www.impawards.com/2010/posters/inception_ver3_xlg.jpg",
+      "source_sha256": "047b0a9fa759bdb17c869fe78ea74c7c21ab2f978900c68383fa02e334f441a6",
+      "dimensions": [
+        1013,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "joker-2019",
+      "title": "Joker",
+      "year": 2019,
+      "aliases": [
+        "Joker"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2019/joker_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Joker_(2019_film)",
+      "source_url": "https://www.impawards.com/2019/posters/joker_ver2_xlg.jpg",
+      "source_sha256": "6a00cbad4c5bf05198ed56dcb50be8bb281d3089523c9a67831ce2a0ab1005af",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "jurassic-park-1993",
+      "title": "Jurassic Park",
+      "year": 1993,
+      "aliases": [
+        "Jurassic Park"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1993/jurassic_park_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+      "source_url": "https://www.impawards.com/1993/posters/jurassic_park_ver2_xlg.jpg",
+      "source_sha256": "1f04423ccb210892acd555b70a79baf369aa2880132a09c2506c0c47cb46cf77",
+      "dimensions": [
+        1009,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "kill-bill-2003",
+      "title": "Kill Bill: Volume 1",
+      "year": 2003,
+      "aliases": [
+        "Kill Bill",
+        "Kill Bill: Volume 1"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2003/kill_bill_ver4_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Kill_Bill:_Volume_1",
+      "source_url": "https://www.impawards.com/2003/posters/kill_bill_ver4_xlg.jpg",
+      "source_sha256": "404588aceb05d62e1e4520a6df464ef585174c7ebbb63917df965f0fc09e20a6",
+      "dimensions": [
+        998,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "la-la-land-2016",
+      "title": "La La Land",
+      "year": 2016,
+      "aliases": [
+        "La La Land"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2016/la_la_land_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/La_La_Land",
+      "source_url": "https://www.impawards.com/2016/posters/la_la_land_ver3_xlg.jpg",
+      "source_sha256": "eaa1240580ccd21862a69902d973e56d9c6f2065d8c1c0bdbe656658a207e9bb",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "mad-max-fury-road-2015",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "aliases": [
+        "Mad Max: Fury Road"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/intl/australia/2015/mad_max_fury_road_ver16_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road",
+      "source_url": "https://www.impawards.com/intl/australia/2015/posters/mad_max_fury_road_ver16_xlg.jpg",
+      "source_sha256": "b8a3508891aa6a6eebb338af1ea3bd1c2786123383f4901d9f33fb1dd92e33e0",
+      "dimensions": [
+        1012,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "metropolis-1927",
+      "title": "Metropolis",
+      "year": 1927,
+      "aliases": [
+        "Metropolis"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://en.wikipedia.org/wiki/File:Metropolis_(German_three-sheet_poster).jpg",
+      "film_reference": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/9/97/Metropolis_%28German_three-sheet_poster%29.jpg",
+      "source_sha256": "627bc3aa759797ca4e661460c32629d71724bbd24c3ecd537189d2df403bd044",
+      "dimensions": [
+        903,
+        2000
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "moonlight-2016",
+      "title": "Moonlight",
+      "year": 2016,
+      "aliases": [
+        "Moonlight"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2016/moonlight_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Moonlight_(2016_film)",
+      "source_url": "https://www.impawards.com/2016/posters/moonlight_ver2_xlg.jpg",
+      "source_sha256": "58279a2059e19669fe45cb19e593a87bf2981c6a69a629a9abd983fcb05c1e1d",
+      "dimensions": [
+        1035,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "oppenheimer-2023",
+      "title": "Oppenheimer",
+      "year": 2023,
+      "aliases": [
+        "Oppenheimer"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2023/oppenheimer_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+      "source_url": "https://www.impawards.com/2023/posters/oppenheimer_ver3_xlg.jpg",
+      "source_sha256": "334fb129968d0d78d933e877ad21ea6167c9dc78bb41e38e6dd9c77852bbb4ab",
+      "dimensions": [
+        947,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "parasite-2019",
+      "title": "Parasite",
+      "year": 2019,
+      "aliases": [
+        "Parasite"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/intl/south_korea/2019/parasite_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Parasite_(2019_film)",
+      "source_url": "https://www.impawards.com/intl/south_korea/2019/posters/parasite_xlg.jpg",
+      "source_sha256": "f624ff94f7813edaf4bba009800c7a790d292149296e6237745f8c6d9f0f194f",
+      "dimensions": [
+        1053,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "poor-things-2023",
+      "title": "Poor Things",
+      "year": 2023,
+      "aliases": [
+        "Poor Things"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2023/poor_things_ver3_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Poor_Things_(film)",
+      "source_url": "https://www.impawards.com/2023/posters/poor_things_ver3_xlg.jpg",
+      "source_sha256": "8e3b8f85c5d99ed4423ade6ae3d7b007f597dffc7acbb95f1c0c18e69c76cb85",
+      "dimensions": [
+        1013,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "psycho-1960",
+      "title": "Psycho",
+      "year": 1960,
+      "aliases": [
+        "Psycho"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1960/psycho_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+      "source_url": "https://www.impawards.com/1960/posters/psycho_xlg.jpg",
+      "source_sha256": "ade206ea0dffa04c254045aba0cf2f68fc35dd49c3d4feeb13d0ce671a6c2cb3",
+      "dimensions": [
+        978,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "pulp-fiction-1994",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "aliases": [
+        "Pulp Fiction"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1994/pulp_fiction.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Pulp_Fiction",
+      "source_url": "https://www.impawards.com/1994/posters/pulp_fiction.jpg",
+      "source_sha256": "70c6dcc60b5753c87edb392a05f2a1307a395e41ace884f8f059824265dd4541",
+      "dimensions": [
+        514,
+        755
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "se7en-1995",
+      "title": "Se7en",
+      "year": 1995,
+      "aliases": [
+        "Se7en"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1995/seven_ver1_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Seven_(1995_film)",
+      "source_url": "https://www.impawards.com/1995/posters/seven_ver1_xlg.jpg",
+      "source_sha256": "12b879a76b067d6e92b957becb1caca761da01fb3d0a6e6aceef847c9e7b417d",
+      "dimensions": [
+        960,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "sin-city-2005",
+      "title": "Sin City",
+      "year": 2005,
+      "aliases": [
+        "Sin City"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2005/sin_city_ver9.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Sin_City_(film)",
+      "source_url": "https://www.impawards.com/2005/posters/sin_city_ver9.jpg",
+      "source_sha256": "cf813626b616d52efe8a0a312e5dd47681f655ac344142b491f39b39580701d0",
+      "dimensions": [
+        484,
+        755
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "spirited-away-2001",
+      "title": "Spirited Away",
+      "year": 2001,
+      "aliases": [
+        "Spirited Away"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2002/spirited_away_ver3.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Spirited_Away",
+      "source_url": "https://www.impawards.com/2002/posters/spirited_away_ver3.jpg",
+      "source_sha256": "ce8f0b92b736bda49435e713bac7cb857e6538effd3855160270323cbd41b1e8",
+      "dimensions": [
+        535,
+        750
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "star-wars-1977",
+      "title": "Star Wars (Episode IV: A New Hope)",
+      "year": 1977,
+      "aliases": [
+        "Star Wars",
+        "Star Wars (Episode IV: A New Hope)"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1977/star_wars_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+      "source_url": "https://www.impawards.com/1977/posters/star_wars_ver2_xlg.jpg",
+      "source_sha256": "3271d9e24fccd11c04c2894d57f0bcefc5941668a218eb60fd8126081a57bb18",
+      "dimensions": [
+        981,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-dark-knight-2008",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "aliases": [
+        "The Dark Knight"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2008/dark_knight_ver5_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Dark_Knight",
+      "source_url": "https://www.impawards.com/2008/posters/dark_knight_ver5_xlg.jpg",
+      "source_sha256": "c89afdd5666bdbaff3d27a5371ef2d69aa0139166c576495ae280acabb38a51e",
+      "dimensions": [
+        1013,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-godfather-1972",
+      "title": "The Godfather",
+      "year": 1972,
+      "aliases": [
+        "The Godfather"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1972/godfather_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Godfather",
+      "source_url": "https://www.impawards.com/1972/posters/godfather_ver2_xlg.jpg",
+      "source_sha256": "e071cd1cdd6c9680b99fb24d06078308520ac96e96668eb60a9942faac00fa52",
+      "dimensions": [
+        1030,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-grand-budapest-hotel-2014",
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "aliases": [
+        "The Grand Budapest Hotel"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2014/grand_budapest_hotel_ver2_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel",
+      "source_url": "https://www.impawards.com/2014/posters/grand_budapest_hotel_ver2_xlg.jpg",
+      "source_sha256": "bff2d9bf7302227ec1de9f2979c168594c27267f627117862db26e6d82633c4c",
+      "dimensions": [
+        960,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-lord-of-the-rings-2001",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "aliases": [
+        "The Lord of the Rings",
+        "The Lord of the Rings: The Fellowship of the Ring"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/2001/lord_of_the_rings_the_fellowship_of_the_ring_ver4_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring",
+      "source_url": "https://www.impawards.com/2001/posters/lord_of_the_rings_the_fellowship_of_the_ring_ver4_xlg.jpg",
+      "source_sha256": "28acd892dcd5f482464926a8975df8b38719ea7368465226fcbdde960e21aef0",
+      "dimensions": [
+        1011,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-matrix-1999",
+      "title": "The Matrix",
+      "year": 1999,
+      "aliases": [
+        "The Matrix"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1999/matrix_ver1_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Matrix",
+      "source_url": "https://www.impawards.com/1999/posters/matrix_ver1_xlg.jpg",
+      "source_sha256": "a23c0347ec51bdb2f2bbbe210c9a4ee79023fab860554d227f5c62b3414ee235",
+      "dimensions": [
+        998,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-shining-1980",
+      "title": "The Shining",
+      "year": 1980,
+      "aliases": [
+        "The Shining"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1980/shining_ver1_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Shining_(film)",
+      "source_url": "https://www.impawards.com/1980/posters/shining_ver1_xlg.jpg",
+      "source_sha256": "24b2f14ae102ef163776eb3371758f563370b2e38853343aafd3c86390135c51",
+      "dimensions": [
+        994,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "the-wizard-of-oz-1939",
+      "title": "The Wizard of Oz",
+      "year": 1939,
+      "aliases": [
+        "The Wizard of Oz"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1939/wizard_of_oz_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+      "source_url": "https://www.impawards.com/1939/posters/wizard_of_oz_xlg.jpg",
+      "source_sha256": "6d56d690bb60e3d348b4abdf2ce9236cb4b3f5a9bd36e3fc55f9c6c7fe54e30f",
+      "dimensions": [
+        1003,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "tron-1982",
+      "title": "Tron",
+      "year": 1982,
+      "aliases": [
+        "Tron"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1982/tron_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Tron",
+      "source_url": "https://www.impawards.com/1982/posters/tron_xlg.jpg",
+      "source_sha256": "b63be2068d940b828c4541e6863fb36a863cc5dcc1edea4cac83636b63832d07",
+      "dimensions": [
+        986,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    },
+    {
+      "key": "vertigo-1958",
+      "title": "Vertigo",
+      "year": 1958,
+      "aliases": [
+        "Vertigo"
+      ],
+      "poster_kind": "main theatrical release poster",
+      "source_page": "https://www.impawards.com/1958/vertigo_xlg.html",
+      "film_reference": "https://en.wikipedia.org/wiki/Vertigo_(film)",
+      "source_url": "https://www.impawards.com/1958/posters/vertigo_xlg.jpg",
+      "source_sha256": "4b232bb15e55215e8387c8bc8762703904eb8e039d5616fa1f3b9012e18f0bda",
+      "dimensions": [
+        952,
+        1500
+      ],
+      "reviewed_at": "2026-10-21",
+      "review": "Film, year/part, complete poster layout and title visually checked."
+    }
+  ]
+}
