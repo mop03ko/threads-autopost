@@ -16,6 +16,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from publishing import LOCKED
+from movie_posters import is_movie_post
 from queue_store import remote_store
 
 
@@ -148,7 +149,7 @@ def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tupl
         status = str(post.get("status") or "pending").lower()
         if item_id <= 1 or status in LOCKED:
             continue
-        if any(part in str(post.get('image_url') or '') for part in ('/editorial/', '/manual-post-')):
+        if is_movie_post(post) or any(part in str(post.get('image_url') or '') for part in ('/editorial/', '/manual-post-', '/movie-posters/')):
             continue
         if force or not post.get("image_url"):
             post["image_url"] = public_url(base_url, item_id)

@@ -11,6 +11,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from PIL import Image, ImageDraw, ImageFont
+from movie_posters import is_movie_post
 
 W, H = 1080, 1350
 BG, INK, BLUE, ORANGE, MUTED, LINE = '#F4F1E9', '#152626', '#2759DE', '#EB6D42', '#61716D', '#D9DED5'
@@ -27,6 +28,8 @@ def text_hash(text):
 
 def eligible(post, brief, now):
     return (post.get('status') == 'pending'
+            and not is_movie_post(post)
+            and not brief.get('kind', '').startswith('film_')
             and post['scheduled_at'] > now.strftime('%Y-%m-%d %H:%M')
             and post['scheduled_at'] == brief['scheduled_at']
             and text_hash(post['text']) == brief['text_sha256'])

@@ -94,6 +94,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from prepare_image_urls import load_queue, save_queue, sync_google_sheet
+          from movie_posters import is_movie_post
 
           queue_path = Path("queue.json")
           queue = load_queue(queue_path)
@@ -105,6 +106,8 @@ jobs:
               post = by_id.get(post_id)
               if post is None:
                   raise SystemExit(f"Post ID {post_id} not found in queue.json")
+              if is_movie_post(post) or '/movie-posters/' in str(post.get('image_url') or ''):
+                  continue
               post["image_url"] = url
               updated.append(post_id)
           changed = save_queue(queue_path, queue)

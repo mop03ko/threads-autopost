@@ -21,6 +21,7 @@ from PIL import Image, ImageOps
 
 from prepare_image_urls import classify, load_queue, save_queue, sync_google_sheet
 from publishing import LOCKED
+from movie_posters import is_movie_post
 
 
 BASE = Path(__file__).resolve().parent
@@ -227,8 +228,8 @@ def select_targets(queue: list[dict], scope: str, limit: int, current=None) -> l
         post for post in queue
         if post.get("status") == "pending" and post.get("scheduled_at", "") > stamp
         and not any(part in str(post.get("image_url") or "")
-                    for part in ("/magnific-generated/", "/editorial/", "/manual-post-"))
-        and "киноны график" not in str(post.get("text") or "").casefold()
+                    for part in ("/magnific-generated/", "/editorial/", "/manual-post-", "/movie-posters/"))
+        and not is_movie_post(post)
     ]
     targets.sort(key=lambda post: (post["scheduled_at"], int(post.get("id") or 0)))
     if scope == "pilot":

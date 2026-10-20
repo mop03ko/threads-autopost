@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from urllib.parse import urlparse
 
 from queue_store import remote_store
+from movie_posters import validate_movie_poster
 
 LOCKED = {"posted", "processing", "needs_review"}
 EDITABLE = ("scheduled_at", "text", "image_url")
@@ -77,6 +78,7 @@ def select_posts(queue, current, runtime, only_ids=(), force=False):
 
 
 def validate_post(post, current, runtime):
+    validate_movie_poster(post)
     text = post.get("text", "")
     if not isinstance(text, str) or not text.strip() or len(text) > runtime.MAX_CHARS:
         raise RuntimeError(f"Post {post['id']}: бичвэр хоосон эсвэл {runtime.MAX_CHARS}-аас урт.")
