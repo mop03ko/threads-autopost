@@ -1,0 +1,32 @@
+name: Review legacy failed posts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/recovery-batch.json', '.github/workflows/recover-failed-posts.yml']
+permissions:
+  contents: write
+concurrency:
+  group: threads-post
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      THREADS_QUEUE_BRANCH: main
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      THREADS_TZ: Asia/Ulaanbaatar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet -r requirements.txt
+      - name: Read Threads timeline and compare failed posts
+        run: python audit_failed_posts.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: failed-post-audit
+          path: failed-post-audit.json
