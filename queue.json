@@ -3099,13 +3099,15 @@
     "scheduled_at": "2026-10-06 22:00",
     "text": "Vertigo: улаан, ногоон өнгийг зэрэг хүчтэй бүү өрсөлдүүл\n\nЭнэ хоёр өнгө хурц эсрэгцэл үүсгэж чадна. Гэхдээ том талбайд ижил хүчтэй ашиглавал харц хаана тогтох нь тодорхойгүй болдог.\n\nНэгийг нь үндсэн өнгө, нөгөөг нь жижиг онцлох хэсэг болгоод турш. Бичвэрийн уншигдах байдлыг тусад нь шалгаж, чухал утгыг зөвхөн өнгөөр бүү ялгаарай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-856-9f4e622d0e99ff8d1a3b.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T00:19:54.000242+08:00",
     "processing_token": "3db7ceb1-eae8-4fe6-9ad1-07da847c3532",
     "processing_at": "2026-10-21 00:22",
     "attempted_at": "2026-10-21 00:22",
-    "publication_phase": "publishing",
-    "container_id": "17988565047110223"
+    "publication_phase": "published",
+    "container_id": "17988565047110223",
+    "threads_id": "18131816398751113",
+    "posted_at": "2026-10-21 00:22"
   },
   {
     "id": 99,
