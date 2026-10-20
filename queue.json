@@ -3908,14 +3908,18 @@
     "scheduled_at": "2026-10-20 19:00",
     "text": "Before/After задлан: CTA тодруулсан before/after\n\nМуу хувилбарт CTA бусад badge, logo-той ижил жинтэй байдаг. Сайн хувилбар action verb, contrast, зайгаар дараагийн алхмыг тодорхойлно.\n\nНэг primary CTA үлдээж secondary action-ийг сул style-р ялга.\n\nТа “CTA тодруулсан before/after” шийдэлд ямар өөрчлөлт хийх байсан бэ?",
     "image_url": "https://images.pexels.com/photos/16313529/pexels-photo-16313529.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-20 21:30",
+    "threads_id": "17883289935652542"
   },
   {
     "id": 126,
     "scheduled_at": "2026-10-20 20:30",
     "text": "Ажлын явцад, гоё дэлгэцүүдийн цуглуулга заавал сайн бүтээгдэхүүн болдоггүй.\n\nГэхдээ дэлгэц бүрийг тус тусад нь төгс болгоод холбоосыг нь орхих нь эрсдэлтэй.\n\nХэрэглэгч нэг дэлгэц дээр биш, бүх замын турш төөрдөг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-126-32234951648.jpg",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-20 21:30",
+    "threads_id": "18098684201108052"
   },
   {
     "id": 870,
