@@ -23,7 +23,8 @@ class ImageUpdatesTests(unittest.TestCase):
                 self.assertEqual(latest[0]['status'], status)
                 self.assertEqual(latest[0]['text'], 'Latest editorial text')
                 self.assertEqual(latest[0]['threads_id'], 'preserved')
-                self.assertEqual(changed, [] if status in ('posted','processing','needs_review') else [1])
+                self.assertEqual(changed, [])  # Text changed during rendering: keep its old image.
+                self.assertEqual(latest[0]['image_url'], 'https://example.test/old.jpg')
 
     def test_concurrent_image_change_wins(self):
         original=[post(image_url='https://example.test/old.jpg')]

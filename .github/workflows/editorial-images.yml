@@ -1,0 +1,51 @@
+name: Deploy reviewed editorial images
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'image-briefs/**'
+      - 'editorial_images.py'
+      - 'deploy_editorial_images.py'
+      - '.github/workflows/editorial-images.yml'
+permissions:
+  contents: write
+concurrency:
+  group: threads-post
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
+      THREADS_SHEET_GID: '1131908690'
+      GITHUB_TOKEN: ${{ github.token }}
+      THREADS_QUEUE_BRANCH: main
+      THREADS_TZ: Asia/Ulaanbaatar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install rendering and upload dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-dejavu-core fonts-urw-base35
+          pip install --quiet -r requirements.txt boto3
+      - name: Sync current editorial content
+        run: python threads_post.py sync
+      - name: Render, upload, verify and sync reviewed illustrations
+        run: python deploy_editorial_images.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reviewed-editorial-images
+          path: editorial-output/
+          if-no-files-found: ignore

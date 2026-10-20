@@ -1,0 +1,402 @@
+{
+  "as_of_local": "2026-10-20 23:26",
+  "future_posts": 3059,
+  "missing_images": 2041,
+  "unique_existing_image_urls": 294,
+  "request_failures": 7,
+  "small_images": 26,
+  "reused_image_urls": 11,
+  "maximum_reuse": 122,
+  "reviewed_pack_images": 56,
+  "issues": [
+    {
+      "id": 871,
+      "scheduled_at": "2026-10-21 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 736,
+      "height": 511,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 873,
+      "scheduled_at": "2026-10-23 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 728,
+      "height": 455,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 874,
+      "scheduled_at": "2026-10-24 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 800,
+      "height": 450,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 875,
+      "scheduled_at": "2026-10-25 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 992,
+      "height": 558,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 876,
+      "scheduled_at": "2026-10-26 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1024,
+      "height": 552,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 880,
+      "scheduled_at": "2026-10-30 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 403,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 882,
+      "scheduled_at": "2026-11-01 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 406,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 887,
+      "scheduled_at": "2026-11-06 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1200,
+      "height": 500,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 892,
+      "scheduled_at": "2026-11-11 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 735,
+      "height": 397,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 893,
+      "scheduled_at": "2026-11-12 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1280,
+      "height": 540,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 895,
+      "scheduled_at": "2026-11-14 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 403,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 898,
+      "scheduled_at": "2026-11-17 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 880,
+      "height": 542,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 899,
+      "scheduled_at": "2026-11-18 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 620,
+      "height": 466,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 900,
+      "scheduled_at": "2026-11-19 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 580,
+      "height": 435,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 901,
+      "scheduled_at": "2026-11-20 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 768,
+      "height": 542,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 903,
+      "scheduled_at": "2026-11-22 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 580,
+      "height": 566,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 904,
+      "scheduled_at": "2026-11-23 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 768,
+      "height": 452,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 909,
+      "scheduled_at": "2026-11-28 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1024,
+      "height": 427,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 911,
+      "scheduled_at": "2026-11-30 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 503,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 915,
+      "scheduled_at": "2026-12-04 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1200,
+      "height": 547,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 916,
+      "scheduled_at": "2026-12-05 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 770,
+      "height": 513,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 917,
+      "scheduled_at": "2026-12-06 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 790,
+      "height": 560,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 918,
+      "scheduled_at": "2026-12-07 22:00",
+      "issues": [],
+      "request_error": "ReadTimeout",
+      "http": null,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 919,
+      "scheduled_at": "2026-12-08 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 752,
+      "height": 432,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 920,
+      "scheduled_at": "2026-12-09 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 620,
+      "height": 410,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 921,
+      "scheduled_at": "2026-12-10 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 403,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 925,
+      "scheduled_at": "2026-12-14 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 740,
+      "height": 418,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 926,
+      "scheduled_at": "2026-12-15 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1272,
+      "height": 528,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 927,
+      "scheduled_at": "2026-12-16 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 736,
+      "height": 414,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 930,
+      "scheduled_at": "2026-12-19 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1280,
+      "height": 534,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 932,
+      "scheduled_at": "2026-12-21 22:00",
+      "issues": [],
+      "request_error": "HTTPError",
+      "http": 403,
+      "width": null,
+      "height": null,
+      "included_in_reviewed_pack": true
+    },
+    {
+      "id": 935,
+      "scheduled_at": "2026-12-24 22:00",
+      "issues": [
+        "small_image",
+        "very_wide"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 1118,
+      "height": 465,
+      "included_in_reviewed_pack": false
+    },
+    {
+      "id": 941,
+      "scheduled_at": "2026-12-30 22:00",
+      "issues": [
+        "small_image"
+      ],
+      "request_error": null,
+      "http": 200,
+      "width": 780,
+      "height": 438,
+      "included_in_reviewed_pack": false
+    }
+  ]
+}
