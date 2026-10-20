@@ -1815,9 +1815,12 @@
     "scheduled_at": "2026-09-16 22:00",
     "text": "The Dark Knight: тэмдэг хэлбэрээрээ танигддаг\n\nСарьсан багваахайн тэмдэг гэрэл, сүүдэр, барилгын хүрээгээр илэрсэн ч ерөнхий хэлбэр нь танигдсаар байдаг.\n\nЛогогоо зөвхөн цагаан дэвсгэр дээр шалгах хангалтгүй. Бараан орчин, нэг өнгө, жижиг хэмжээ, хэсэгчлэн тайрагдсан хэрэглээнд туршаарай. Ямар шинжийг нь заавал хадгалах ёстой вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-836-f542cd36986aa420cd97.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "ac6821e4-40e2-471a-8b7e-bd76f39335ae",
+    "processing_at": "2026-10-21 00:21",
+    "attempted_at": "2026-10-21 00:21",
+    "publication_phase": "claimed"
   },
   {
     "id": 59,
@@ -1878,9 +1881,12 @@
     "scheduled_at": "2026-09-17 22:00",
     "text": "Avatar: гэрэлтэх өнгөнд бараан орон зай хэрэгтэй\n\nЦэнхэр, нил ягаан, хөх ногоон гэрэл бараан орчиндоо илүү тод мэдрэгддэг. Бүх хэсгийг гэрэлтүүлбэл онцлох цэг алга болно.\n\nGlow эффект ашиглахдаа нэг хэсгийг гол болгож, бусдыг нь намжаа. Бичвэрийн ард тайван, жигд талбай үлдээгээд утасны дэлгэц дээр уншигдаж байгаа эсэхийг шалгаарай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-837-8a56c07ea229e07dc889.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "ac6821e4-40e2-471a-8b7e-bd76f39335ae",
+    "processing_at": "2026-10-21 00:21",
+    "attempted_at": "2026-10-21 00:21",
+    "publication_phase": "claimed"
   },
   {
     "id": 61,
@@ -2571,9 +2577,12 @@
     "scheduled_at": "2026-09-28 22:00",
     "text": "Dune: томыг мэдрүүлэхийн тулд жижиг зүйл хэрэгтэй\n\nАсар том дүрсний хажууд жижиг хүний дүрс байхад хэмжээний ялгааг шууд мэдэрдэг. Олон деталь нэмэх шаардлагагүй.\n\nПостероо нэг гол хэлбэр, хэмжээг нь ойлгуулах жижиг объект, нэг бичвэрийн хэсэгтэйгээр туршаад үз. Цөөн элементээр гол санаагаа илэрхийлж чадаж байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-848-b6e08347b1e629c23352.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "ac6821e4-40e2-471a-8b7e-bd76f39335ae",
+    "processing_at": "2026-10-21 00:21",
+    "attempted_at": "2026-10-21 00:21",
+    "publication_phase": "claimed"
   },
   {
     "id": 83,
