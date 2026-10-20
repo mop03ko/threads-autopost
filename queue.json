@@ -3881,14 +3881,18 @@
     "scheduled_at": "2026-10-20 10:00",
     "text": "Lossless compression гэж юу вэ?\n\nДүрсний өгөгдлийг алдалгүйгээр илүү үр ашигтай бүтэцтэй хадгалдаг шахалт.\n\nЛого, text screenshot, дахин засварлах эхэд lossless формат сонго; фото веб файлд хэмжээ нь том байж болохыг тооц. “Lossless compression” ойлголтыг зөв хэрэглэвэл техникийн алдаа багасна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-20 13:10",
+    "threads_id": "18122658007728816"
   },
   {
     "id": 332,
     "scheduled_at": "2026-10-20 13:00",
     "text": "Blur-ийг муу зургийг нуухад биш, depth үүсгэхэд ашигла.\n\nForeground эсвэл background-ийн аль нэгийг зөөлөн blur хийж focal subject-ээ тодруул. Текстийн ард хэт их detail байвал бас ашиглаж болно.\n\nЗөв blur анхаарлыг удирдаж, композицыг давхаргатай харагдуулна.",
     "image_url": null,
-    "status": "pending"
+    "status": "posted",
+    "posted_at": "2026-10-20 13:11",
+    "threads_id": "18110478365229409"
   },
   {
     "id": 528,
