@@ -3935,13 +3935,15 @@
     "scheduled_at": "2026-10-20 22:00",
     "text": "Pulp Fiction: шар гарчиг яагаад анхаарал татдаг вэ?\n\nБараан зураг дээрх хар хүрээтэй шар үсэг гарчгийг орчноос нь ялгаж харуулдаг.\n\nЗураг давамгайлсан постер хийхдээ бичвэрийнхээ ард нэг өнгийн талбай тавих эсвэл хүрээ ашиглах хувилбарыг туршаарай. Гол нь гарчиг зурагтайгаа өрсөлдөхгүй, шууд уншигдах хэрэгтэй.",
     "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F09%2Fquentin-tarantino-movie-filmography-kill-bill-django-2.jpg?cbr=1&fit=max&q=90&w=1260",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-20T23:16:33.879787+08:00",
     "processing_token": "2cd2c796-e76c-4102-b601-2f1b8fc6a4f9",
     "processing_at": "2026-10-20 23:16",
     "attempted_at": "2026-10-20 23:16",
-    "publication_phase": "publishing",
-    "container_id": "17988555174110223"
+    "publication_phase": "published",
+    "container_id": "17988555174110223",
+    "threads_id": "18012872537992334",
+    "posted_at": "2026-10-20 23:16"
   },
   {
     "id": 127,
