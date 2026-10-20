@@ -1815,13 +1815,15 @@
     "scheduled_at": "2026-09-16 22:00",
     "text": "The Dark Knight: тэмдэг хэлбэрээрээ танигддаг\n\nСарьсан багваахайн тэмдэг гэрэл, сүүдэр, барилгын хүрээгээр илэрсэн ч ерөнхий хэлбэр нь танигдсаар байдаг.\n\nЛогогоо зөвхөн цагаан дэвсгэр дээр шалгах хангалтгүй. Бараан орчин, нэг өнгө, жижиг хэмжээ, хэсэгчлэн тайрагдсан хэрэглээнд туршаарай. Ямар шинжийг нь заавал хадгалах ёстой вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-836-f542cd36986aa420cd97.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T00:19:54.000242+08:00",
     "processing_token": "ac6821e4-40e2-471a-8b7e-bd76f39335ae",
     "processing_at": "2026-10-21 00:21",
     "attempted_at": "2026-10-21 00:21",
-    "publication_phase": "publishing",
-    "container_id": "17988564873110223"
+    "publication_phase": "published",
+    "container_id": "17988564873110223",
+    "threads_id": "18101457815367949",
+    "posted_at": "2026-10-21 00:21"
   },
   {
     "id": 59,
