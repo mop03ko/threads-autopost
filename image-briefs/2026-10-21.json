@@ -1,0 +1,751 @@
+[
+  {
+    "id": 127,
+    "text_sha256": "e0ef625823744ed7f13a2f6dbe0e880ac49610070b5acfe23a8cccba5c4763fe",
+    "scheduled_at": "2026-10-21 08:30",
+    "kind": "onboarding",
+    "title": "Эхний хэрэгтэй үйлдэл",
+    "eyebrow": "ONBOARDING",
+    "labels": [
+      "Олон тайлбар",
+      "Нэг үйлдэл"
+    ],
+    "note": "Хэрэглэгч үнэ цэнийг хэдэн алхмын дараа мэдрэх вэ?"
+  },
+  {
+    "id": 529,
+    "text_sha256": "960b5d9fcab273d457552367f93c6ac577d1cdf67785562cb8c48bc087abe132",
+    "scheduled_at": "2026-10-21 10:00",
+    "kind": "ratios",
+    "title": "Харьцаа өөр. Санаа ижил.",
+    "eyebrow": "ASPECT RATIO",
+    "labels": [
+      "1:1",
+      "4:5",
+      "16:9"
+    ],
+    "note": "Хэмжээ солигдоход гол объект, гарчгаа дахин байрлуул."
+  },
+  {
+    "id": 333,
+    "text_sha256": "58379b9e692b6ef383c669db4a98613fd1be03a45b493a0eeb896b9619340ccd",
+    "scheduled_at": "2026-10-21 13:00",
+    "kind": "filter",
+    "title": "Эффектээ тохируул",
+    "eyebrow": "FILTER INTENSITY",
+    "labels": [
+      "0%",
+      "35%",
+      "100%"
+    ],
+    "note": "Эх зурагтай харьцуул. Өнгө засвар ба эффектээ тусад нь шийд."
+  },
+  {
+    "id": 530,
+    "text_sha256": "66d0370910c2693fddf0d1dd634cdafe3f99d91c28b21540fb6b1032cc3d7b90",
+    "scheduled_at": "2026-10-21 16:00",
+    "kind": "logoscale",
+    "title": "Жижигрүүлэхэд юу үлдэх вэ?",
+    "eyebrow": "MINIMUM LOGO SIZE",
+    "labels": [
+      "Том",
+      "Дунд",
+      "Жижиг"
+    ],
+    "note": "Бодит хэмжээнд шалгаж, жижиг хэрэглээнд хялбаршуул."
+  },
+  {
+    "id": 735,
+    "text_sha256": "4241f073a63d11bf55258f7cad2fb0b23ace6c1ceafed1a828e4f960f7282889",
+    "scheduled_at": "2026-10-21 19:00",
+    "kind": "system",
+    "title": "Систем = бүрдэл + дүрэм",
+    "eyebrow": "DESIGN SYSTEM",
+    "labels": [
+      "Бүрдэл",
+      "Хэрэглээ",
+      "Хариуцагч"
+    ],
+    "note": "Хэзээ ашиглах, хэн шинэчлэхийг хамт тодорхойл."
+  },
+  {
+    "id": 128,
+    "text_sha256": "62f92b211c5b7822a7f1c0f24a0991a4a69e833074abc14e14d8e48b2c206b94",
+    "scheduled_at": "2026-10-21 20:30",
+    "kind": "feedback",
+    "title": "Засаж болох санал өг",
+    "eyebrow": "DESIGN FEEDBACK",
+    "labels": [
+      "«Таалагдахгүй байна»",
+      "«Дарах товч олдохгүй байна»"
+    ],
+    "note": "Асуудал хаана, яагаад үүссэнийг тодорхой хэл."
+  },
+  {
+    "id": 129,
+    "text_sha256": "5f8e1078c3d7a00ec23408533652d6251a251c2888148e55b2d5322c2b3cf83b",
+    "scheduled_at": "2026-10-22 08:30",
+    "kind": "steps",
+    "title": "Шийдвэрээ тайлбарла",
+    "eyebrow": "DESIGN PRESENTATION",
+    "labels": [
+      "Асуудал",
+      "Шийдэл",
+      "Хэрэглээ"
+    ],
+    "note": "Үр дүнг үзүүлэхээс өмнө шийдвэрийн шалтгаанаа хэл."
+  },
+  {
+    "id": 531,
+    "text_sha256": "c00ead3950634d2164bd863a203e83ce20d0421b0d75870ab401d80d8555d736",
+    "scheduled_at": "2026-10-22 10:00",
+    "kind": "canvas",
+    "title": "Талбай ≠ зургийн хэмжээ",
+    "eyebrow": "CANVAS SIZE",
+    "labels": [
+      "Эх талбай",
+      "Тэлсэн талбай"
+    ],
+    "note": "Canvas тэлэхэд объектын өөрийн хэмжээ хэвээр үлдэнэ."
+  },
+  {
+    "id": 334,
+    "text_sha256": "f66aac8fee324a117250bb0c03bd8df8a2831e06d6811a41b99dd86ebeb986eb",
+    "scheduled_at": "2026-10-22 13:00",
+    "kind": "lighting",
+    "title": "Нэг орчинд авсан мэт",
+    "eyebrow": "PRODUCT CONSISTENCY",
+    "labels": [
+      "Өөр өөр гэрэл",
+      "Ижил гэрэл"
+    ],
+    "note": "Өнцөг, хэмжээ, гэрэл, сүүдрийн чиглэлээ нийцүүл."
+  },
+  {
+    "id": 532,
+    "text_sha256": "cd09dc61e33d42ab6d3006640a51d845d73bd3b9984a7c7edfa7567bc7d3fb43",
+    "scheduled_at": "2026-10-22 16:00",
+    "kind": "monochrome",
+    "title": "Нэг өнгөөр ч танигдах",
+    "eyebrow": "ONE-COLOR LOGO",
+    "labels": [
+      "Өнгөт",
+      "Нэг өнгөт"
+    ],
+    "note": "Давхцал, дотоод зай, нарийн хэсгийг шалга."
+  },
+  {
+    "id": 736,
+    "text_sha256": "e6e854ea817cbf1e2cf994709326cff1efa396136af2df161f25ac5bcc336111",
+    "scheduled_at": "2026-10-22 19:00",
+    "kind": "mascot",
+    "title": "Танигдах шинжээ үлдээ",
+    "eyebrow": "RESPONSIVE MASCOT",
+    "labels": [
+      "Дэлгэрэнгүй",
+      "Жижиг хэрэглээ"
+    ],
+    "note": "Ерөнхий хэлбэр, нүүр, нэг гол шинжийг хадгал."
+  },
+  {
+    "id": 130,
+    "text_sha256": "08c230a623f54eaa126d55829449346174f144e5d2a6070a4e5a4d655a9b9c80",
+    "scheduled_at": "2026-10-22 20:30",
+    "kind": "revision",
+    "title": "Засвар бүр зорилготой",
+    "eyebrow": "REVISION CHECK",
+    "labels": [
+      "Эхний санаа",
+      "Засвар",
+      "Зорилго"
+    ],
+    "note": "Өөрчлөлтийн дараа загвараа бүхлээр нь дахин хар."
+  },
+  {
+    "id": 131,
+    "text_sha256": "0d11b09763a16845577c73bc5b23606b611061046e5a686b1a4daab05abf14f8",
+    "scheduled_at": "2026-10-23 08:30",
+    "kind": "steps",
+    "title": "Эхлээд хүрээгээ тохир",
+    "eyebrow": "PROJECT SCOPE",
+    "labels": [
+      "Материал",
+      "Засварын үе",
+      "Хугацаа"
+    ],
+    "note": "Шинэ хүсэлт нэмэгдвэл хугацаанд үзүүлэх нөлөөг ярилц."
+  },
+  {
+    "id": 533,
+    "text_sha256": "0ddda1371bbe12ac570054b98abeea89aaafee3ef963252ed4ad966be0a88598",
+    "scheduled_at": "2026-10-23 10:00",
+    "kind": "artboards",
+    "title": "Талбар бүр тодорхой нэртэй",
+    "eyebrow": "ARTBOARD ORGANIZATION",
+    "labels": [
+      "Feed · 4:5",
+      "Story · 9:16",
+      "Cover · 16:9"
+    ],
+    "note": "Нэрнээс нь зориулалт, хэмжээ, хувилбар ойлгогдох ёстой."
+  },
+  {
+    "id": 335,
+    "text_sha256": "4d98f821c198e341f060370bc747cda129d4c73ac8aa874c8c4b286cb43a29cc",
+    "scheduled_at": "2026-10-23 13:00",
+    "kind": "mockup",
+    "title": "Бодит хэрэглээнд үзүүл",
+    "eyebrow": "CONTEXTUAL MOCKUP",
+    "labels": [
+      "Утас",
+      "Савлагаа",
+      "Гадна хаяг"
+    ],
+    "note": "Дизайн хаана, ямар зайнаас харагдах вэ?"
+  },
+  {
+    "id": 534,
+    "text_sha256": "e57548ac4d79a65ca1aa59fa81e7ab288e88a43cbd9a88bdb61ae1c1225c9b46",
+    "scheduled_at": "2026-10-23 16:00",
+    "kind": "inverse",
+    "title": "Дэвсгэр солигдоход шалга",
+    "eyebrow": "LOGO ON DARK",
+    "labels": [
+      "Цайвар дэвсгэр",
+      "Бараан дэвсгэр"
+    ],
+    "note": "Нарийн шугам, жижиг үсэг, дотоод зайг нягтал."
+  },
+  {
+    "id": 737,
+    "text_sha256": "99fce05162493c78a2bfb62c59ace892bbbc1c655a144b2e9403acfac6cf899e",
+    "scheduled_at": "2026-10-23 19:00",
+    "kind": "accent",
+    "title": "Онцлох өнгө цөөн байг",
+    "eyebrow": "ACCENT COLOR",
+    "labels": [
+      "Бүгд онцолсон",
+      "Нэгийг онцолсон"
+    ],
+    "note": "Харагдах дараалал бий болгохын тулд өнгөө хязгаарла."
+  },
+  {
+    "id": 132,
+    "text_sha256": "6fe5ef5b831fbc6ff60a98206b540032d6d9e82929f4209008555cf89df2fd80",
+    "scheduled_at": "2026-10-23 20:30",
+    "kind": "filenames",
+    "title": "Файлаа нэрнээс нь ол",
+    "eyebrow": "FILE NAMING",
+    "labels": [
+      "Final_final2_NEW",
+      "Project_Format_v03"
+    ],
+    "note": "Төслийн нэр, зориулалт, хувилбараа тогтмол дарааллаар бич."
+  },
+  {
+    "id": 133,
+    "text_sha256": "b4cf9c6fc6f06fc0158dd27092ba4a6cced58839e09781611ddf234c6d0e1104",
+    "scheduled_at": "2026-10-24 08:30",
+    "kind": "versions",
+    "title": "Буцах цэгээ хадгал",
+    "eyebrow": "VERSION HISTORY",
+    "labels": [
+      "v01 · Эхлэл",
+      "v02 · Туршилт",
+      "v03 · Сонголт"
+    ],
+    "note": "Гол үе шатыг тусад нь хадгалж, хувилбараа тэмдэглэ."
+  },
+  {
+    "id": 535,
+    "text_sha256": "5410e5e9b477f5d22f1893622071c1c4c03acde688250fdf79d05c2b739c9329",
+    "scheduled_at": "2026-10-24 10:00",
+    "kind": "crop",
+    "title": "Тайралт анхаарлыг өөрчилнө",
+    "eyebrow": "CROP & COMPOSITION",
+    "labels": [
+      "Эх хүрээ",
+      "Сонгосон хүрээ"
+    ],
+    "note": "Гол объектоо хаана байрлуулахаа зориуд шийд."
+  },
+  {
+    "id": 336,
+    "text_sha256": "b694e929577d45eb090f0a5a36f6b6555a0d07e91c35f84cd28c21ccd97fa6f4",
+    "scheduled_at": "2026-10-24 13:00",
+    "kind": "resolution",
+    "title": "Жижиг эхийг хүчээр бүү сунга",
+    "eyebrow": "IMAGE RESOLUTION",
+    "labels": [
+      "Хэт томруулсан",
+      "Тохирох талбай"
+    ],
+    "note": "Чанар муу зургийг жижиг талбайд, хангалттай зайтай ашигла."
+  },
+  {
+    "id": 536,
+    "text_sha256": "dbfde5ba22371647bc7268b12552fdba52abb7c0f93af39c7e2ff25512db56d8",
+    "scheduled_at": "2026-10-24 16:00",
+    "kind": "formats",
+    "title": "Зөв файлыг сонгоход хялбар",
+    "eyebrow": "BRAND HANDOFF",
+    "labels": [
+      "SVG · Вектор",
+      "PNG · Тунгалаг",
+      "PDF · Хэвлэл"
+    ],
+    "note": "Формат бүрийн зориулалт, өнгөний хувилбарыг тайлбарла."
+  },
+  {
+    "id": 738,
+    "text_sha256": "cd468cca9037ef348ce133574ef0ed75b6b01be22ec0c4aa431505028f19c636",
+    "scheduled_at": "2026-10-24 19:00",
+    "kind": "kerning",
+    "title": "Тэнцүү зай ≠ ижил мэдрэмж",
+    "eyebrow": "OPTICAL KERNING",
+    "labels": [
+      "Тоон зай",
+      "Харааны зай"
+    ],
+    "note": "Үсгийн хэлбэрийн хоорондох хоосон зайг харьцуул."
+  },
+  {
+    "id": 134,
+    "text_sha256": "bdf4f547ea5338d371705c903856a19aa110aa9dc356efd5315ba062e2474bc4",
+    "scheduled_at": "2026-10-24 20:30",
+    "kind": "steps",
+    "title": "Экспорт бол сүүлийн шалгалт",
+    "eyebrow": "EXPORT CHECK",
+    "labels": [
+      "Хэмжээ",
+      "Формат",
+      "Бодит орчин"
+    ],
+    "note": "Файлаа экспортлоод, ашиглах төхөөрөмж дээр нээж үз."
+  },
+  {
+    "id": 135,
+    "text_sha256": "b5a767cb72c0bffaca8121b61638e4df8b677555648dc336b17914a28ce6376b",
+    "scheduled_at": "2026-10-25 08:30",
+    "kind": "print",
+    "title": "Өнгөө эрт турш",
+    "eyebrow": "PRINT COLOR",
+    "labels": [
+      "Дэлгэц",
+      "Туршилтын хэвлэл"
+    ],
+    "note": "Дэлгэцийн өнгө хэвлэлтэй яг ижил гэж бүү тооц."
+  },
+  {
+    "id": 537,
+    "text_sha256": "f74c3a8b543fbcbb1ce859b72445e0a0f4b6d55257089bf1ee3d58352b7092c8",
+    "scheduled_at": "2026-10-25 10:00",
+    "kind": "bleed",
+    "title": "Зүсэлтийн цаана үргэлжилнэ",
+    "eyebrow": "PRINT BLEED",
+    "labels": [
+      "Bleed",
+      "Trim",
+      "Safe area"
+    ],
+    "note": "Дэвсгэрийг bleed хүртэл сунга. Хэмжээг хэвлэлийн газраас ав."
+  },
+  {
+    "id": 337,
+    "text_sha256": "0ddc3d3a8943494329027bd3d1380d663a582e790fc6ff86e902d2837d011f27",
+    "scheduled_at": "2026-10-25 13:00",
+    "kind": "retouch",
+    "title": "Бүтцийг нь хадгал",
+    "eyebrow": "PORTRAIT RETOUCH",
+    "labels": [
+      "Хэт толийлгосон",
+      "Бүтэц хадгалсан"
+    ],
+    "note": "Арьсны бүтэц, нүүрний хэлбэр, хүний онцлогийг бүү арилга."
+  },
+  {
+    "id": 538,
+    "text_sha256": "0f1c82deb4cf276c851c8428afa06eeccd25c12d822eb4ccb77889ac7d8dc6d7",
+    "scheduled_at": "2026-10-25 16:00",
+    "kind": "locking",
+    "title": "Юуг өөрчилж болох вэ?",
+    "eyebrow": "TEMPLATE LOCKING",
+    "labels": [
+      "Түгжээтэй бүтэц",
+      "Засах контент"
+    ],
+    "note": "Лого, үндсэн бүтцийг хамгаалж, контентын хэсгийг нээлттэй үлдээ."
+  },
+  {
+    "id": 739,
+    "text_sha256": "58801e19c241bb5a375b89cdb70da8c7b87e9a952ec294adb5d26d03b942ade5",
+    "scheduled_at": "2026-10-25 19:00",
+    "kind": "diagonal",
+    "title": "Диагональ чиглэл өгдөг",
+    "eyebrow": "DIAGONAL COMPOSITION",
+    "labels": [
+      "Хөдөлгөөний чиглэл",
+      "Анхаарлын цэг"
+    ],
+    "note": "Налуу шугам гол объект руу харцыг чиглүүлж байна уу?"
+  },
+  {
+    "id": 136,
+    "text_sha256": "fdca50c3adaff16d0d07e4036556728ac87ee1c59c9677777f5df0c170dc14de",
+    "scheduled_at": "2026-10-25 20:30",
+    "kind": "light",
+    "title": "Эхлээд гэрлээ байрлуул",
+    "eyebrow": "LIGHTING SETUP",
+    "labels": [
+      "Гэрэл",
+      "Объект",
+      "Сүүдэр"
+    ],
+    "note": "Гэрлийн чиглэл, зөөлөн байдал, дэвсгэрээ эхэлж шийд."
+  },
+  {
+    "id": 137,
+    "text_sha256": "0832652d699bbeec8e8067705a30ba77d37bb100dd353631cf58e0079aa4ed3d",
+    "scheduled_at": "2026-10-26 08:30",
+    "kind": "background",
+    "title": "Арын орчин ч зохиомж",
+    "eyebrow": "BACKGROUND CONTROL",
+    "labels": [
+      "Сарниулсан",
+      "Цэгцэлсэн"
+    ],
+    "note": "Гол объектын ард давхцал, хурц толбо байгаа эсэхийг хар."
+  },
+  {
+    "id": 539,
+    "text_sha256": "8fac2184e385689f8773ddccf94f1516e53dc65e79eae6f0f2a6339cc333157e",
+    "scheduled_at": "2026-10-26 10:00",
+    "kind": "trim",
+    "title": "Эцсийн хэмжээ бол trim",
+    "eyebrow": "TRIM SIZE",
+    "labels": [
+      "Bleed",
+      "Trim",
+      "Safe area"
+    ],
+    "note": "Зүсэгдэж дууссаны дараах бодит хэмжээг trim гэж нэрлэнэ."
+  },
+  {
+    "id": 338,
+    "text_sha256": "e4ceb31d7916ed69183bc491d362df83dff17754ecb6ee9ee71dabda75716187",
+    "scheduled_at": "2026-10-26 13:00",
+    "kind": "storyboard",
+    "title": "Эффектээс өмнө дараалал",
+    "eyebrow": "VIDEO STORYBOARD",
+    "labels": [
+      "Эхлэл",
+      "Гол санаа",
+      "Төгсгөл"
+    ],
+    "note": "Кадр бүр өмнөхөө үргэлжлүүлж, нэг санааг тайлбарлах ёстой."
+  },
+  {
+    "id": 540,
+    "text_sha256": "869c94086bb765ba26b103c365fe94e2f404817091dad670f8516054dc3a00a2",
+    "scheduled_at": "2026-10-26 16:00",
+    "kind": "master",
+    "title": "Нэг суурь. Олон хуудас.",
+    "eyebrow": "MASTER PAGES",
+    "labels": [
+      "Суурь хуудас",
+      "Хуудас 01",
+      "Хуудас 02"
+    ],
+    "note": "Давтагдах толгой, хөл, дугаарлалтыг суурь хуудсанд байрлуул."
+  },
+  {
+    "id": 740,
+    "text_sha256": "cf3135f6bfb185a5007ecb0590e7adbf589095b4b3aacb6f73f9da7babf41ab8",
+    "scheduled_at": "2026-10-26 19:00",
+    "kind": "whitespace",
+    "title": "Зай нь бүлгийг ойлгуулна",
+    "eyebrow": "UI WHITESPACE",
+    "labels": [
+      "Шахуу",
+      "Бүлэглэсэн"
+    ],
+    "note": "Холбоотой зүйлс ойр, тусдаа бүлгүүд хол байрлана."
+  },
+  {
+    "id": 138,
+    "text_sha256": "1963e6bada8993058b2a22ef687c6e617544c18064d66ee0a6da9f2e4ea8c380",
+    "scheduled_at": "2026-10-26 20:30",
+    "kind": "retouch",
+    "title": "Анхаарал сарниулахыг хяна",
+    "eyebrow": "RETOUCH WITH RESTRAINT",
+    "labels": [
+      "Хэт толийлгосон",
+      "Бүтэц хадгалсан"
+    ],
+    "note": "Засварын дараа бодит байдал ба гол объектын онцлог үлдсэн үү?"
+  },
+  {
+    "id": 139,
+    "text_sha256": "f426811fe32cee219be69ef0d21a14d9eb6c8d5b2429560438951aa503b4157b",
+    "scheduled_at": "2026-10-27 08:30",
+    "kind": "focal",
+    "title": "Зураг ба текст хамт ажиллана",
+    "eyebrow": "FOCAL BALANCE",
+    "labels": [
+      "Өрсөлдсөн",
+      "Уялдсан"
+    ],
+    "note": "Текст уншигдах зайг зураг сонгохдоо төлөвлө."
+  },
+  {
+    "id": 541,
+    "text_sha256": "2b21381060f4d7b31820707a2fab062abccd95927146f7b5d18a07e6c6f22c1d",
+    "scheduled_at": "2026-10-27 10:00",
+    "kind": "safe",
+    "title": "Чухал зүйлсийг дотогш байрлуул",
+    "eyebrow": "SAFE AREA",
+    "labels": [
+      "Bleed",
+      "Trim",
+      "Safe area"
+    ],
+    "note": "Текст, логоо зүсэлт болон дэлгэцийн давхаргаас хол байлга."
+  },
+  {
+    "id": 339,
+    "text_sha256": "7733034973536bb4d1385bf7b7d8d073c089efc64c7997cea1cd9a382ec8e969",
+    "scheduled_at": "2026-10-27 13:00",
+    "kind": "hook",
+    "title": "Эхний 2 секундэд утга өг",
+    "eyebrow": "REEL OPENING",
+    "labels": [
+      "0–2 сек",
+      "Гол жишээ",
+      "Дараагийн алхам"
+    ],
+    "note": "Эхлэлдээ үзэгчид хамаатай асуулт эсвэл үр дүнг үзүүл."
+  },
+  {
+    "id": 542,
+    "text_sha256": "2f1fc58aceb8f629d1243b4d6e730bc4aa929ad27d21599a68f4f5e094fa4c8f",
+    "scheduled_at": "2026-10-27 16:00",
+    "kind": "paragraph",
+    "title": "Хэвийг нэг дүрмээр удирд",
+    "eyebrow": "PARAGRAPH STYLES",
+    "labels": [
+      "Гарчиг",
+      "Дэд гарчиг",
+      "Үндсэн бичвэр"
+    ],
+    "note": "Хэмжээ, мөр хоорондын зай, догол мөрөө style-аар нэгтгэ."
+  },
+  {
+    "id": 741,
+    "text_sha256": "f4614856a175804ca0589187839f2dc2e4851533a80c08043462f7e5e5edb1ac",
+    "scheduled_at": "2026-10-27 19:00",
+    "kind": "contrast",
+    "title": "Ялгарал уншихад тусална",
+    "eyebrow": "TEXT CONTRAST",
+    "labels": [
+      "Бүдэг",
+      "Тод"
+    ],
+    "note": "Бодит хэмжээ, ашиглах дэвсгэр дээрээ уншигдах эсэхийг шалга."
+  },
+  {
+    "id": 140,
+    "text_sha256": "f517962520cf76085e4f4a9cf4c38d78b3c1dcb93486779f3a82ae9e2f3a6361",
+    "scheduled_at": "2026-10-27 20:30",
+    "kind": "icons",
+    "title": "Нэг гэр бүлийн icon-ууд",
+    "eyebrow": "ICON CONSISTENCY",
+    "labels": [
+      "Холимог",
+      "Ижил дүрэм"
+    ],
+    "note": "Шугамын зузаан, булан, хэмжээний мэдрэмжээ нийцүүл."
+  },
+  {
+    "id": 871,
+    "text_sha256": "ac6111db8f79ad63aac604e1a4b98089d0ca0bec5491637fd5367e719b929f42",
+    "scheduled_at": "2026-10-21 22:00",
+    "kind": "film_collage",
+    "title": "Se7en · нэг өнгө аяс",
+    "eyebrow": "CINEMA / COLLAGE",
+    "labels": [
+      "Материал",
+      "Өнгө аяс"
+    ],
+    "note": "Өөр материалуудыг хязгаарлагдмал өнгө, ширхэгээр холбо."
+  },
+  {
+    "id": 872,
+    "text_sha256": "270e9bb766333b7da2f12ad3c05b6e1a1c8c94b4f814462bfa74dfa1c9b86db1",
+    "scheduled_at": "2026-10-22 22:00",
+    "kind": "film_worlds",
+    "title": "The Matrix · өнгөөр ялгах",
+    "eyebrow": "CINEMA / COLOR WORLDS",
+    "labels": [
+      "Орчин A",
+      "Орчин B"
+    ],
+    "note": "Өнгөөр ялгахдаа нэр, дүрсээр давхар утга өг."
+  },
+  {
+    "id": 873,
+    "text_sha256": "acca4b5d5e9ab7df1810fe40dc2f0ff4f184b1c6e31f76df759989e53572087f",
+    "scheduled_at": "2026-10-23 22:00",
+    "kind": "film_rough",
+    "title": "Fight Club · барзгар график",
+    "eyebrow": "CINEMA / ROUGH TEXTURE",
+    "labels": [
+      "Барзгар ирмэг",
+      "Тод гарчиг"
+    ],
+    "note": "Барзгар дэвсгэр дээр гол мэдээллээ уншигдахуйц байлга."
+  },
+  {
+    "id": 874,
+    "text_sha256": "59045a7b18e66e9ecc9111c82f208df955d830713853d63e8026f56dbb73e159",
+    "scheduled_at": "2026-10-24 22:00",
+    "kind": "film_hand",
+    "title": "Amélie · гарын мэдрэмж",
+    "eyebrow": "CINEMA / HANDMADE",
+    "labels": [
+      "Муруй",
+      "Хэмнэл"
+    ],
+    "note": "Төгс бус ирмэг, дулаан өнгөөр гар ажиллагааны мэдрэмж үүсгэ."
+  },
+  {
+    "id": 875,
+    "text_sha256": "8b291f923b44f27ab8f62cd1207f8b90f6290d892c37fe40cfb411c69addfc7f",
+    "scheduled_at": "2026-10-25 22:00",
+    "kind": "film_ring",
+    "title": "LOTR · тойрсон бичвэр",
+    "eyebrow": "CINEMA / CIRCULAR TYPE",
+    "labels": [
+      "Тойрог",
+      "Бичвэрийн хэмнэл"
+    ],
+    "note": "Бичвэрийн чиглэл, зай нь дүрсний хэлбэрийг дагаж болно."
+  },
+  {
+    "id": 876,
+    "text_sha256": "dfe13edb86b41846dc596c67587b40df515b3c96bc3ee9feecdf9248d2348020",
+    "scheduled_at": "2026-10-26 22:00",
+    "kind": "film_bridge",
+    "title": "Spirited Away · улаан акцент",
+    "eyebrow": "CINEMA / COLOR ACCENT",
+    "labels": [
+      "Дэвсгэр",
+      "Акцент"
+    ],
+    "note": "Улаан өнгө ногоон орчин дунд анхаарлын цэг болж чадна."
+  },
+  {
+    "id": 877,
+    "text_sha256": "0e767563ad64ed919e7e6483e82ad2ac3f6e3db2b5834510415d2df81abc6588",
+    "scheduled_at": "2026-10-27 22:00",
+    "kind": "film_frame",
+    "title": "In the Mood for Love · хүрээ",
+    "eyebrow": "CINEMA / FRAME WITHIN FRAME",
+    "labels": [
+      "Гадна хүрээ",
+      "Дотор хүрээ"
+    ],
+    "note": "Давхар хүрээ харцыг гол дүрс рүү чиглүүлнэ."
+  },
+  {
+    "id": 880,
+    "text_sha256": "da76be132fa80bd90a0118cf9be9d9bff386ffe38b94f675e5fc3bfb154f3ddd",
+    "scheduled_at": "2026-10-30 22:00",
+    "kind": "film_ink",
+    "title": "Sin City · хар ба цагаан",
+    "eyebrow": "CINEMA / INK CONTRAST",
+    "labels": [
+      "Хар масс",
+      "Цагаан орон зай"
+    ],
+    "note": "Дунд өнгийг хязгаарлаж, хэлбэр ба сүүдрийг хүчтэй ялга."
+  },
+  {
+    "id": 882,
+    "text_sha256": "bd334f34e7e2cce2d10420fe717c15a205692310f4c20bcc1a64426f200fd539",
+    "scheduled_at": "2026-11-01 22:00",
+    "kind": "film_organic",
+    "title": "Avatar · органик хэмнэл",
+    "eyebrow": "CINEMA / ORGANIC PATTERN",
+    "labels": [
+      "Том",
+      "Дунд",
+      "Жижиг"
+    ],
+    "note": "Муруй чиглэл дагуу хэмжээ, нягтралыг шаталж өөрчил."
+  },
+  {
+    "id": 895,
+    "text_sha256": "c12f2507311f602f2f31540cc291b364c7577d5292573bcb1394a22ae581629e",
+    "scheduled_at": "2026-11-14 22:00",
+    "kind": "film_bubble",
+    "title": "Barbie · бөөрөнхий бичвэр",
+    "eyebrow": "CINEMA / BUBBLE LETTERING",
+    "labels": [
+      "Зөөлөн хэлбэр",
+      "Цагаан хүрээ"
+    ],
+    "note": "Хүрээ нь өөр дэвсгэр дээр бичвэрийн хэлбэрийг ялгана."
+  },
+  {
+    "id": 911,
+    "text_sha256": "4ac3a43cebcf121fccf08e278ec3ea5b42e89b2a90005d333f69617809c0c9b2",
+    "scheduled_at": "2026-11-30 22:00",
+    "kind": "film_surreal",
+    "title": "Brazil · санаанд үлдэх дүрс",
+    "eyebrow": "CINEMA / SURREAL SILHOUETTE",
+    "labels": [
+      "Нэг дүрс",
+      "Их орон зай"
+    ],
+    "note": "Санаанд оромгүй дүрслэлийг цөөн элементээр илэрхийл."
+  },
+  {
+    "id": 918,
+    "text_sha256": "b4b167936af87e8d70fe0b89f511ea4c75f089e5b2634880aa7cdc7516fe0da4",
+    "scheduled_at": "2026-12-07 22:00",
+    "kind": "film_condensed",
+    "title": "Fight Club · шахуу үсэг",
+    "eyebrow": "CINEMA / CONDENSED TYPE",
+    "labels": [
+      "Богино гарчиг",
+      "Хүчтэй блок"
+    ],
+    "note": "Шахуу үсгийг богино гарчигт ашиглаж, зайг нь шалга."
+  },
+  {
+    "id": 921,
+    "text_sha256": "3945fbee060314f1ce06182e733075d9e45857d31533b0049258f368552943b1",
+    "scheduled_at": "2026-12-10 22:00",
+    "kind": "film_symbol",
+    "title": "Spirited Away · цэвэр хэлбэр",
+    "eyebrow": "CINEMA / SIMPLE SILHOUETTE",
+    "labels": [
+      "Том дүрс",
+      "Жижиг дүрс"
+    ],
+    "note": "Дотоод деталь багассан ч гол хэлбэр танигдах ёстой."
+  },
+  {
+    "id": 932,
+    "text_sha256": "f7aa550797d7fa3f55a8f663b154b63b4b4c9b4abb11595092740756fa0e0c9f",
+    "scheduled_at": "2026-12-21 22:00",
+    "kind": "film_quiet",
+    "title": "Arrival · тайван бичвэр",
+    "eyebrow": "CINEMA / QUIET TYPOGRAPHY",
+    "labels": [
+      "Гол дүрс",
+      "Туслах бичвэр"
+    ],
+    "note": "Хүчтэй дүрсний доор жижиг, зайтай бичвэр хэрэглэ."
+  }
+]

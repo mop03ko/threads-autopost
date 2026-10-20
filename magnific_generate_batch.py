@@ -13,6 +13,8 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import requests
 from PIL import Image, ImageOps
@@ -110,17 +112,19 @@ def build_prompt(post: dict) -> str:
             "the reference's surface appearance."
         )
     return (
-        "Create a unique premium 4:5 editorial image for a professional graphic designer's "
-        "Threads post. Interpret the Mongolian post concept visually; do not typeset or quote it.\n\n"
+        "Create an original 4:5 educational illustration for a graphic designer's Threads post. "
+        "The image must explain the SPECIFIC practical lesson, not merely decorate its category. "
+        "Read the full Mongolian post and identify one concrete action, comparison or design decision. "
+        "Show that action with recognizable objects or a clear before/after comparison. "
+        "Keep the focal subject immediately understandable at phone size.\n\n"
         f"Post concept:\n{concept}\n\n"
-        f"Visual direction: {direction}. Use {composition}. Materials: {material}. "
-        f"Color palette: {palette}. Lighting: {light}. "
-        "Contemporary international design-award quality, sophisticated art direction, tactile detail, "
-        "clean hierarchy, intentional whitespace, photorealistic editorial still life mixed with subtle "
-        "graphic abstraction. Make this composition unmistakably different from a template or stock image. "
-        f"Unique visual signature for post #{post_id}. "
-        "ABSOLUTELY NO readable text, letters, numbers, logos, UI labels, watermarks, signatures, borders, "
-        "mockup captions, or social-media icons. One finished image only."
+        f"Optional color direction, subordinate to meaning: {palette}. "
+        "For a UI lesson, show relevant interface structure; for typography, show spacing or hierarchy; "
+        "for a photography lesson, show framing or light; for feedback or process, show the actual decision. "
+        "Do not substitute generic desks, laptops, floating spheres, fabric blocks, random sculptures, "
+        "or decorative geometry for the lesson. Do not imitate a film still or brand logo. "
+        "Keep all essential objects inside an 8% safe margin. No watermark, signatures, gibberish text "
+        "or decorative captions. One finished image only."
     )
 
 
@@ -174,7 +178,11 @@ def normalized_jpeg(url: str) -> tuple[bytes, str]:
     response = requests.get(url, timeout=120)
     response.raise_for_status()
     with Image.open(io.BytesIO(response.content)) as source:
-        image = ImageOps.fit(source.convert("RGB"), OUTPUT_SIZE, method=Image.Resampling.LANCZOS)
+        if min(source.size) < 512:
+            raise RuntimeError("Generated image is too small; refusing to upscale a poor source.")
+        # Preserve the entire composition, including labels and focal objects.
+        image = ImageOps.pad(ImageOps.exif_transpose(source).convert("RGB"), OUTPUT_SIZE,
+                             method=Image.Resampling.LANCZOS, color="#F4F1E9")
         output = io.BytesIO()
         image.save(output, "JPEG", quality=94, optimize=True, progressive=True)
     data = output.getvalue()
@@ -212,13 +220,17 @@ def process_post(post: dict, *, api_headers: dict[str, str], client,
     return {"id": post_id, "url": public_url, "sha256": digest}
 
 
-def select_targets(queue: list[dict], scope: str, limit: int) -> list[dict]:
+def select_targets(queue: list[dict], scope: str, limit: int, current=None) -> list[dict]:
+    current = current or datetime.now(ZoneInfo("Asia/Ulaanbaatar"))
+    stamp = current.strftime("%Y-%m-%d %H:%M")
     targets = [
         post for post in queue
-        if str(post.get("status") or "pending").lower() not in LOCKED
-        and "/magnific-generated/" not in str(post.get("image_url") or "")
+        if post.get("status") == "pending" and post.get("scheduled_at", "") > stamp
+        and not any(part in str(post.get("image_url") or "")
+                    for part in ("/magnific-generated/", "/editorial/", "/manual-post-"))
+        and "киноны график" not in str(post.get("text") or "").casefold()
     ]
-    targets.sort(key=lambda post: int(post.get("id") or 0))
+    targets.sort(key=lambda post: (post["scheduled_at"], int(post.get("id") or 0)))
     if scope == "pilot":
         return targets[:limit]
     return targets

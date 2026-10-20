@@ -112,6 +112,8 @@ def merge_image_changes(current, original, edited):
         # Another image job or a Sheet edit already won. Do not revert it.
         if post.get("image_url") != before[item_id].get("image_url"):
             continue
+        if any(post.get(key) != before[item_id].get(key) for key in ('text', 'scheduled_at')):
+            continue  # A reviewed illustration belongs to the reviewed text and date.
         post["image_url"] = changes[item_id]
         post.pop("synced_at", None)  # Require a fresh Sheet read before publishing.
         changed.append(item_id)
@@ -146,13 +148,15 @@ def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tupl
         status = str(post.get("status") or "pending").lower()
         if item_id <= 1 or status in LOCKED:
             continue
+        if any(part in str(post.get('image_url') or '') for part in ('/editorial/', '/manual-post-')):
+            continue
         if force or not post.get("image_url"):
             post["image_url"] = public_url(base_url, item_id)
             assigned += 1
     return assigned, activated
 
 
-def sync_google_sheet(queue: list[dict], only_ids: list[int]) -> int:
+def sync_google_sheet(queue: list[dict], only_ids: list[int], expected_posts=None) -> int:
     """Mirror only changed image URLs; never overwrite editorial/publication status."""
     if not only_ids:
         return 0
@@ -171,7 +175,15 @@ def sync_google_sheet(queue: list[dict], only_ids: list[int]) -> int:
     rows = (data.get("valueRanges") or [{}])[0].get("values", [])
     if not rows or len(rows) >= 10001:
         raise RuntimeError("Sheet хоосон эсвэл 10000 мөрийн хязгаараас давсан байна.")
-    parse_sheet_rows(rows[0], [dict(zip(rows[0], row)) for row in rows[1:]])
+    parsed = parse_sheet_rows(rows[0], [dict(zip(rows[0], row)) for row in rows[1:]])
+    if expected_posts is not None:
+        latest = {p['id']: p for p in parsed}
+        expected = {p['id']: p for p in expected_posts}
+        for item_id in only_ids:
+            actual, prior = latest.get(item_id), expected.get(item_id)
+            if not actual or not prior or actual.get('status') != 'pending' or any(
+                    actual.get(key) != prior.get(key) for key in ('text','scheduled_at','image_url')):
+                raise RuntimeError(f'Post {item_id}: Sheet changed since image review; no images written.')
     headers = [str(value).strip().lower() for value in rows[0]]
     id_col = next(i for i, name in enumerate(headers) if name in ("id", "дугаар"))
     image_names = ("зургийн_холбоос", "зургийн холбоос", "image_url", "зураг")
