@@ -25,6 +25,9 @@ jobs:
       THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_TZ: Asia/Ulaanbaatar
+      THREADS_SHEET_GID: ${{ vars.THREADS_SHEET_GID || '1131908690' }}
+      THREADS_QUEUE_BRANCH: main
+      GITHUB_TOKEN: ${{ github.token }}
 
     steps:
       - name: Кодыг татах

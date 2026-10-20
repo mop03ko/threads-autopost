@@ -31,10 +31,13 @@ import json
 import logging
 import os
 import sys
-import time
 from datetime import datetime, timedelta
 import pathlib
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
+
+from publishing import merge_snapshot, run as run_publisher
+from queue_store import remote_store
 
 try:
     from zoneinfo import ZoneInfo
@@ -72,22 +75,22 @@ MAX_CHARS = 500              # Threads-ийн хатуу хязгаар
 SOFT_MAX_CHARS = 200         # Үүнээс урт бол анхааруулна (оролцоо буурдаг)
 MAX_POSTS_PER_RUN = 3        # Нэг ажиллагаанд нийтлэх дээд хэмжээ
 MAX_POSTS_PER_DAY = 15       # Өөрийн хамгаалалт (API-ийн хязгаар 250)
-CONTAINER_WAIT_SEC = 30      # Meta-гийн зөвлөсөн хүлээх хугацаа
 LATE_GRACE_MIN = int(os.environ.get("THREADS_LATE_GRACE", "90"))  # хоцролтын хамгаалалт
 REFRESH_BEFORE_DAYS = 10     # Дуусахаас хэдэн хоногийн өмнө автоматаар сунгах вэ
 
 log = logging.getLogger("threads")
 
 
-def setup_logging(verbose: bool = False) -> None:
+def setup_logging(verbose: bool = False, persist: bool = True) -> None:
     log.setLevel(logging.DEBUG if verbose else logging.INFO)
     fmt = logging.Formatter("%(asctime)s  %(levelname)-7s  %(message)s", "%Y-%m-%d %H:%M:%S")
     sh = logging.StreamHandler(sys.stdout)
     sh.setFormatter(fmt)
     log.addHandler(sh)
-    fh = logging.FileHandler(LOG_FILE, encoding="utf-8")
-    fh.setFormatter(fmt)
-    log.addHandler(fh)
+    if persist:
+        fh = logging.FileHandler(LOG_FILE, encoding="utf-8")
+        fh.setFormatter(fmt)
+        log.addHandler(fh)
 
 
 # ---------------------------------------------------------------- туслах
@@ -149,18 +152,17 @@ def api(method: str, url: str, **kwargs) -> dict:
     try:
         resp = requests.request(method, url, timeout=45, **kwargs)
     except requests.RequestException as exc:
-        raise RuntimeError(f"Сүлжээний алдаа: {exc}") from exc
+        raise RuntimeError("API сүлжээний алдаа (хүсэлтийн нууц мэдээллийг нуув).") from exc
 
     try:
         data = resp.json()
     except ValueError:
-        raise RuntimeError(f"JSON биш хариу ирлээ (HTTP {resp.status_code}): {resp.text[:300]}")
+        raise RuntimeError(f"JSON биш хариу ирлээ (HTTP {resp.status_code})")
 
     if resp.status_code >= 400 or "error" in data:
         err = data.get("error", {})
-        msg = err.get("message") or json.dumps(data, ensure_ascii=False)[:300]
         code = err.get("code")
-        raise RuntimeError(f"API алдаа (HTTP {resp.status_code}, код {code}): {msg}")
+        raise RuntimeError(f"API алдаа (HTTP {resp.status_code}, код {code})")
     return data
 
 
@@ -343,7 +345,7 @@ def cmd_list(_args) -> None:
         print(f"{icon} {p['scheduled_at']}  {len(p['text']):3d}т{img}  {first}")
 
 
-SHEET_STATUSES = ("pending", "hold", "posted", "failed", "skipped")
+SHEET_STATUSES = ("pending", "hold", "posted", "failed", "skipped", "processing", "needs_review")
 
 
 def cmd_token_import(_args) -> None:
@@ -437,88 +439,106 @@ def sheet_csv_url() -> str:
     return f"{base}&gid={gid}" if gid else base
 
 
+def selected_sheet(session, base):
+    metadata = google_json(session, "GET", base,
+                          params={"fields": "sheets.properties(sheetId,title,index)"})
+    sheets = [s.get("properties", {}) for s in metadata.get("sheets", [])]
+    if not sheets:
+        raise RuntimeError("Google Sheet дотор хуудас олдсонгүй.")
+    gid = os.environ.get("THREADS_SHEET_GID", "").strip()
+    if gid:
+        selected = next((s for s in sheets if str(s.get("sheetId")) == gid), None)
+        if selected is None:
+            raise RuntimeError("Тохируулсан THREADS_SHEET_GID олдсонгүй; өөр хуудас ашиглахгүй.")
+        return selected
+    return min(sheets, key=lambda s: s.get("index", 0))
+
+
+def parse_sheet_rows(fieldnames, records):
+    """Validate the entire source before any queue mutation. Never silently drop rows."""
+    def pick(*names):
+        matches = [f for f in fieldnames if str(f or "").strip().lower() in names]
+        if len(matches) > 1:
+            raise RuntimeError("Sheet баганын нэр давхардсан байна.")
+        return matches[0] if matches else None
+
+    columns = {
+        "id": pick("id", "дугаар"),
+        "scheduled_at": pick("огноо_цаг", "огноо цаг", "when", "scheduled_at"),
+        "text": pick("бичвэр", "text", "пост"),
+        "image_url": pick("зургийн_холбоос", "зургийн холбоос", "image_url", "зураг"),
+        "status": pick("төлөв", "status"),
+    }
+    if any(columns[k] is None for k in ("id", "scheduled_at", "text", "status")):
+        raise RuntimeError("Sheet-д id, огноо_цаг, бичвэр, төлөв багана шаардлагатай.")
+    seen, rows, errors = set(), [], []
+    allowed = {"pending", "hold", "posted", "failed", "skipped", "processing", "needs_review"}
+    for line, record in enumerate(records, start=2):
+        if not any(str(v or "").strip() for v in record.values()):
+            continue
+        values = {key: str(record.get(column) or "").strip() for key, column in columns.items()}
+        try:
+            number = Decimal(values["id"])
+            if not number.is_finite() or number <= 0 or number != number.to_integral_value():
+                raise ValueError("ID эерэг бүхэл тоо байх ёстой")
+            item_id = int(number)
+            if item_id in seen:
+                raise ValueError("ID давхардсан")
+            seen.add(item_id)
+            when = parse_sheet_datetime(values["scheduled_at"])
+            text = values["text"]
+            if not text:
+                raise ValueError("бичвэр хоосон")
+            status = values["status"].lower()
+            if status not in allowed:
+                raise ValueError("төлөв буруу эсвэл хоосон")
+            if status == "pending" and len(text) > MAX_CHARS:
+                raise ValueError("нийтлэх бичвэр 500 тэмдэгтээс урт")
+            if values["image_url"]:
+                from urllib.parse import urlparse
+                image = urlparse(values["image_url"])
+                if image.scheme != "https" or not image.netloc:
+                    raise ValueError("зургийн HTTPS холбоос буруу")
+            rows.append({"id": item_id, "scheduled_at": when, "text": text,
+                         "image_url": values["image_url"] or None, "status": status})
+        except (ValueError, InvalidOperation):
+            errors.append(str(line))
+    if errors:
+        raise RuntimeError("Sheet шалгалт амжилтгүй. Засах мөрүүд: " + ", ".join(errors[:20]))
+    if not rows:
+        raise RuntimeError("Sheet хоосон; ээлжийг дарж бичихгүй.")
+    return rows
+
+
 def fetch_sheet_rows() -> list:
-    """Sheet-ээс мөрүүдийг татаж, толь бичгийн жагсаалт болгож буцаана."""
+    """Prefer authenticated Sheets reads; public CSV is a legacy read-only fallback."""
     import csv
     import io
-
-    url = sheet_csv_url()
-    log.info("Google Sheet-ээс татаж байна.")
-    try:
-        resp = requests.get(url, timeout=45, allow_redirects=True)
-    except requests.RequestException as exc:
-        raise SystemExit(f"Sheet татаж чадсангүй: {exc}")
-
-    ctype = resp.headers.get("Content-Type", "").lower()
-    looks_like_html = "text/html" in ctype
-    if resp.status_code != 200 or looks_like_html:
-        raise SystemExit(
-            f"Sheet-ийг уншиж чадсангүй (HTTP {resp.status_code}).\n"
-            "Хуудас нээлттэй эсэхийг шалгана уу: Share -> General access ->\n"
-            "'Anyone with the link' -> Viewer."
-        )
-
-    resp.encoding = "utf-8"
-    reader = csv.DictReader(io.StringIO(resp.text))
-    if not reader.fieldnames:
-        raise SystemExit("Sheet хоосон байна.")
-
-    # баганын нэрийг уян хатан таних
-    def pick(*names):
-        for field in reader.fieldnames:
-            key = (field or "").strip().lower()
-            if key in names:
-                return field
-        return None
-
-    col_id = pick("id", "дугаар")
-    col_when = pick("огноо_цаг", "огноо цаг", "when", "scheduled_at")
-    col_text = pick("бичвэр", "text", "пост")
-    col_img = pick("зургийн_холбоос", "зургийн холбоос", "image_url", "зураг")
-    col_status = pick("төлөв", "status")
-
-    missing = [n for n, c in
-               (("огноо_цаг", col_when), ("бичвэр", col_text)) if not c]
-    if missing:
-        raise SystemExit(
-            f"Sheet-д дараах багана олдсонгүй: {', '.join(missing)}\n"
-            f"Одоо байгаа баганууд: {', '.join(reader.fieldnames)}"
-        )
-
-    rows = []
-    for line_no, row in enumerate(reader, start=2):
-        text = (row.get(col_text) or "").strip()
-        when_raw = (row.get(col_when) or "").strip()
-        if not text and not when_raw:
-            continue  # хоосон мөр
-        if not text:
-            log.warning("Мөр %d: бичвэр хоосон тул алгаслаа.", line_no)
-            continue
+    session = google_sheet_session()
+    if session is not None:
+        sheet_id = env("THREADS_SHEET_ID")
+        base = f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}"
+        title = selected_sheet(session, base)["title"].replace("'", "''")
+        data = google_json(session, "GET", f"{base}/values:batchGet", params={
+            "ranges": f"'{title}'!A1:Z10001", "majorDimension": "ROWS",
+            "valueRenderOption": "FORMATTED_VALUE"})
+        table = (data.get("valueRanges") or [{}])[0].get("values", [])
+        if not table or len(table) >= 10001:
+            raise RuntimeError("Sheet хоосон эсвэл 10000 мөрийн хязгаараас давсан байна.")
+        headers = table[0]
+        records = [dict(zip(headers, row)) for row in table[1:]]
+    else:
+        log.info("Google Sheet-ийг CSV хэлбэрээр уншина.")
         try:
-            when = parse_sheet_datetime(when_raw)
-        except ValueError as exc:
-            log.warning("Мөр %d: %s. Алгаслаа.", line_no, exc)
-            continue
-
-        raw_id = (row.get(col_id) or "").strip() if col_id else ""
-        try:
-            item_id = int(float(raw_id)) if raw_id else 0
-        except ValueError:
-            item_id = 0
-
-        status = (row.get(col_status) or "pending").strip().lower() if col_status else "pending"
-        if status not in SHEET_STATUSES:
-            status = "pending"
-
-        rows.append({
-            "id": item_id,
-            "scheduled_at": when,
-            "text": text,
-            "image_url": ((row.get(col_img) or "").strip() or None) if col_img else None,
-            "status": status,
-            "_line": line_no,
-        })
-    return rows
+            response = requests.get(sheet_csv_url(), timeout=45, allow_redirects=True)
+        except requests.RequestException as exc:
+            raise RuntimeError("Google Sheet CSV сүлжээний алдаа.") from exc
+        if response.status_code != 200 or "text/html" in response.headers.get("Content-Type", "").lower():
+            raise RuntimeError("Google Sheet CSV уншигдсангүй; нийтлэл түр зогслоо.")
+        response.encoding = "utf-8"
+        reader = csv.DictReader(io.StringIO(response.text))
+        headers, records = reader.fieldnames or [], list(reader)
+    return parse_sheet_rows(headers, records)
 
 
 def google_sheet_session():
@@ -552,10 +572,10 @@ def google_json(session, method: str, url: str, **kwargs) -> dict:
     try:
         resp = session.request(method, url, timeout=45, **kwargs)
     except requests.RequestException as exc:
-        raise RuntimeError(f"Google Sheets сүлжээний алдаа: {exc}") from exc
+        raise RuntimeError("Google Sheets сүлжээний алдаа.") from exc
     if resp.status_code >= 400:
         raise RuntimeError(
-            f"Google Sheets API алдаа (HTTP {resp.status_code}): {resp.text[:300]}"
+            f"Google Sheets API алдаа (HTTP {resp.status_code})"
         )
     try:
         return resp.json()
@@ -587,23 +607,10 @@ def update_google_sheet_status(queue: list) -> int:
         raise RuntimeError("THREADS_SHEET_ID тохируулаагүй байна.")
 
     base = f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}"
-    metadata = google_json(
-        session,
-        "GET",
-        base,
-        params={"fields": "sheets.properties(sheetId,title,index)"},
-    )
-    sheets = [s.get("properties", {}) for s in metadata.get("sheets", [])]
-    if not sheets:
-        raise RuntimeError("Google Sheet дотор хуудас олдсонгүй.")
-
-    gid = os.environ.get("THREADS_SHEET_GID", "").strip()
-    selected = next((s for s in sheets if gid and str(s.get("sheetId")) == gid), None)
-    if selected is None:
-        selected = min(sheets, key=lambda s: s.get("index", 0))
+    selected = selected_sheet(session, base)
     title = selected["title"]
     quoted_title = title.replace("'", "''")
-    table_range = f"'{quoted_title}'!A:Z"
+    table_range = f"'{quoted_title}'!A1:Z10001"
 
     values = google_json(
         session,
@@ -619,6 +626,9 @@ def update_google_sheet_status(queue: list) -> int:
     if not rows:
         raise RuntimeError("Google Sheet хоосон байна.")
 
+    if len(rows) >= 10001:
+        raise RuntimeError("Sheet 10000 мөрийн хязгаараас давсан байна.")
+    parse_sheet_rows(rows[0], [dict(zip(rows[0], row)) for row in rows[1:]])
     headers = [str(value).strip().lower() for value in rows[0]]
     try:
         id_col = next(i for i, name in enumerate(headers) if name in ("id", "дугаар"))
@@ -629,7 +639,7 @@ def update_google_sheet_status(queue: list) -> int:
     final_by_id = {
         int(post["id"]): post["status"]
         for post in queue
-        if post.get("id") and post.get("status") in ("posted", "failed", "skipped")
+        if post.get("id") and post.get("status") in ("posted", "failed", "skipped", "needs_review")
     }
     status_letter = sheet_column_name(status_col)
     updates = []
@@ -637,8 +647,8 @@ def update_google_sheet_status(queue: list) -> int:
         if id_col >= len(row):
             continue
         try:
-            item_id = int(float(str(row[id_col]).strip()))
-        except (TypeError, ValueError):
+            item_id = int(Decimal(str(row[id_col]).strip()))
+        except (TypeError, ValueError, InvalidOperation):
             continue
         desired = final_by_id.get(item_id)
         if not desired:
@@ -668,82 +678,30 @@ def update_google_sheet_status(queue: list) -> int:
 def cmd_sheet_status(_args) -> None:
     """Нийтэлсэн/алдаатай/алгассан төлөвийг Google Sheet рүү буцааж бичнэ."""
     load_dotenv()
-    update_google_sheet_status(load_json(QUEUE_FILE, []))
+    if os.environ.get("GITHUB_REPOSITORY") and os.environ.get("GITHUB_TOKEN"):
+        queue, _ = remote_store().read()
+    else:
+        queue = load_json(QUEUE_FILE, [])
+    update_google_sheet_status(queue)
 
 
 def cmd_sync(args) -> None:
-    """Google Sheet-ийн агуулгыг локал ээлж рүү татна."""
+    """Validate Sheets, then merge against the current remote queue using CAS."""
     load_dotenv()
     rows = fetch_sheet_rows()
-    local = load_json(QUEUE_FILE, [])
-    by_id = {p.get("id"): p for p in local if p.get("id")}
+    stamp = now().isoformat()
 
-    merged, added, updated, locked = [], 0, 0, 0
-    next_id = max([p.get("id", 0) for p in local] + [r["id"] for r in rows] + [0]) + 1
+    def merge(queue):
+        queue[:] = merge_snapshot(queue, rows, stamp)
 
-    for row in rows:
-        item_id = row["id"]
-        if not item_id:
-            item_id = next_id
-            next_id += 1
-
-        existing = by_id.get(item_id)
-
-        # Нийтлэгдсэн/боловсруулж буй постыг Sheet-ээс дарж бичихгүй.
-        # failed/skipped мөрийг Sheet дээр pending болгосон бол зассан агуулгаар
-        # дахин оролдохыг зөвшөөрнө (жишээ нь эвдэрсэн image_url-г арилгах).
-        if existing and (
-            existing.get("status") in ("posted", "processing")
-            or (
-                existing.get("status") in ("failed", "skipped")
-                and row["status"] != "pending"
-            )
-        ):
-            merged.append(existing)
-            locked += 1
-            continue
-
-        entry = {
-            "id": item_id,
-            "scheduled_at": row["scheduled_at"],
-            "text": row["text"],
-            "image_url": row["image_url"],
-            "status": row["status"],
-        }
-        if existing:
-            if any(existing.get(k) != entry[k] for k in
-                   ("scheduled_at", "text", "image_url", "status")):
-                updated += 1
-        else:
-            added += 1
-        merged.append(entry)
-
-    # Sheet-д байхгүй боловч нийтлэгдсэн постуудыг хадгална
-    sheet_ids = {e["id"] for e in merged}
-    for post in local:
-        if post.get("id") not in sheet_ids and post.get("status") in ("posted", "failed", "skipped", "processing"):
-            merged.append(post)
-            locked += 1
-
-    removed = len(local) - len([p for p in local if p.get("id") in sheet_ids]) - \
-              len([p for p in local if p.get("id") not in sheet_ids
-                   and p.get("status") in ("posted", "failed", "skipped", "processing")])
-
+    if os.environ.get("GITHUB_REPOSITORY") and os.environ.get("GITHUB_TOKEN"):
+        _, merged = remote_store().update(merge, "Threads Sheet synced [skip ci]")
+    else:
+        merged = merge_snapshot(load_json(QUEUE_FILE, []), rows, stamp)
     if QUEUE_FILE.exists():
-        QUEUE_FILE.with_suffix(".bak.json").write_text(
-            QUEUE_FILE.read_text(encoding="utf-8"), encoding="utf-8")
-
-    merged.sort(key=lambda p: p["scheduled_at"])
+        QUEUE_FILE.with_suffix(".bak.json").write_text(QUEUE_FILE.read_text(encoding="utf-8"), encoding="utf-8")
     save_json(QUEUE_FILE, merged)
-
-    log.info("Sync дууслаа: нэмэгдсэн %d, шинэчлэгдсэн %d, хасагдсан %d, хамгаалагдсан %d",
-             added, updated, max(0, removed), locked)
-
-    too_long = [p for p in merged if p["status"] == "pending" and len(p["text"]) > MAX_CHARS]
-    if too_long:
-        log.warning("%d пост %d тэмдэгтээс урт байна. Эдгээр нийтлэгдэхгүй.",
-                    len(too_long), MAX_CHARS)
-    log.info("Ээлжинд нийт %d пост байна.", len(merged))
+    log.info("Sync амжилттай: %d мөр, нийт %d пост.", len(rows), len(merged))
 
 
 def cmd_editor(args) -> None:
@@ -802,7 +760,7 @@ def cmd_editor(args) -> None:
                         "text": text,
                         "image_url": (item.get("image_url") or None),
                         "status": item.get("status") if item.get("status") in
-                                  ("pending", "hold", "posted", "failed", "skipped", "processing") else "pending",
+                                  ("pending", "hold", "posted", "failed", "skipped", "processing", "needs_review") else "pending",
                     }
                     for keep in ("posted_at", "threads_id", "error", "note", "processing_token", "processing_at"):
                         if item.get(keep):
@@ -835,6 +793,9 @@ def cmd_editor(args) -> None:
     threading.Timer(0.6, lambda: webbrowser.open(url)).start()
     try:
         server.serve_forever()
+    except RuntimeError as exc:
+        log.error("%s", exc)
+        sys.exit(1)
     except KeyboardInterrupt:
         print("\n  Засварлагч хаагдлаа.")
         server.shutdown()
@@ -898,142 +859,8 @@ def cmd_add(args) -> None:
     log.info("Нэмэгдлээ (id %d): %s", new_id, when.strftime("%Y-%m-%d %H:%M"))
 
 
-def publish_one(user_id: str, token: str, post: dict, live: bool) -> str:
-    """Нэг постыг нийтэлж, Threads дээрх ID-г буцаана."""
-    text = post["text"]
-    image_url = post.get("image_url")
-
-    if not live:
-        kind = "IMAGE" if image_url else "TEXT"
-        log.info("[ТУРШИЛТ] %s пост нийтлэх байсан (%d тэмдэгт): %s",
-                 kind, len(text), text.splitlines()[0][:60])
-        return "dry-run"
-
-    params = {"access_token": token, "text": text}
-    if image_url:
-        params["media_type"] = "IMAGE"
-        params["image_url"] = image_url
-    else:
-        params["media_type"] = "TEXT"
-
-    container = api("POST", f"{GRAPH}/{user_id}/threads", data=params)
-    creation_id = container["id"]
-    log.info("Контейнер үүслээ: %s. %d секунд хүлээж байна.", creation_id, CONTAINER_WAIT_SEC)
-    time.sleep(CONTAINER_WAIT_SEC)
-
-    result = api(
-        "POST",
-        f"{GRAPH}/{user_id}/threads_publish",
-        data={"access_token": token, "creation_id": creation_id},
-    )
-    return result["id"]
-
-
 def cmd_run(args) -> None:
-    load_dotenv()
-    if getattr(args, "sync", False):
-        try:
-            cmd_sync(args)
-        except SystemExit as exc:
-            log.warning("Sync алгаслаа: %s", exc)
-    live = bool(args.live)
-    if not live:
-        log.info("ТУРШИЛТЫН ГОРИМ. Бодитоор нийтлэхгүй. --live туг өгвөл нийтэлнэ.")
-
-    queue = load_json(QUEUE_FILE, [])
-    if not queue:
-        log.info("Ээлж хоосон байна.")
-        return
-
-    tok = ensure_fresh_token() if live else load_json(TOKEN_FILE, {"user_id": "TEST", "access_token": "TEST"})
-    user_id = tok.get("user_id")
-    if live and not user_id:
-        raise SystemExit("token.json дотор user_id алга. `exchange` тушаалыг дахин ажиллуулна уу.")
-
-    current = now()
-    today = current.strftime("%Y-%m-%d")
-    posted_today = sum(
-        1 for p in queue
-        if p.get("status") == "posted" and str(p.get("posted_at", "")).startswith(today)
-    )
-    if posted_today >= MAX_POSTS_PER_DAY:
-        log.warning("Өнөөдөр аль хэдийн %d пост нийтэлсэн. Хязгаарт хүрсэн.", posted_today)
-        return
-
-    only_ids = set(getattr(args, "id", None) or [])
-    force = bool(getattr(args, "force", False))
-
-    if only_ids:
-        # Тодорхой постыг хуваарь харгалзахгүй яг одоо нийтэлнэ
-        due = []
-        for p in queue:
-            if p.get("id") not in only_ids:
-                continue
-            if p.get("status") == "posted":
-                log.warning("id %s аль хэдийн нийтлэгдсэн тул алгаслаа.", p.get("id"))
-                continue
-            p["status"] = "pending"     # hold/skipped/failed байсныг сэргээнэ
-            p.pop("note", None)
-            p.pop("error", None)
-            due.append(p)
-        missing = only_ids - {p.get("id") for p in queue}
-        for m in sorted(missing):
-            log.warning("id %s ээлжинд олдсонгүй.", m)
-        if not due:
-            log.info("Нийтлэх пост олдсонгүй.")
-            save_json(QUEUE_FILE, queue)
-            return
-        log.info("Гар аргаар нийтлэх: %d пост (хуваарь харгалзахгүй).", len(due))
-    else:
-        due = []
-        for p in queue:
-            if p.get("status") != "pending":
-                continue
-            when = parse_local(p["scheduled_at"])
-            if when > current:
-                continue
-            if not force and current - when > timedelta(minutes=LATE_GRACE_MIN):
-                p["status"] = "skipped"
-                p["note"] = f"{LATE_GRACE_MIN} минутаас их хоцорсон тул алгассан"
-                log.warning("Алгаслаа (хэт хоцорсон): %s", p["scheduled_at"])
-                continue
-            due.append(p)
-        if force and due:
-            log.info("--force: хоцролтын хамгаалалт түр идэвхгүй.")
-
-    due.sort(key=lambda p: p["scheduled_at"])
-    if not due:
-        log.info("Хугацаа болсон пост алга.")
-        save_json(QUEUE_FILE, queue)
-        return
-
-    budget = min(MAX_POSTS_PER_RUN, MAX_POSTS_PER_DAY - posted_today)
-    if len(due) > budget:
-        log.warning("%d пост хугацаа болсон ч энэ удаад зөвхөн %d-г нийтэлнэ.", len(due), budget)
-        due = due[:budget]
-
-    for p in due:
-        text = p["text"]
-        if len(text) > MAX_CHARS:
-            p["status"] = "failed"
-            p["error"] = f"{len(text)} тэмдэгт, хязгаар {MAX_CHARS}"
-            log.error("Нийтлэхээс татгалзлаа (хэт урт): id %s", p.get("id"))
-            continue
-        try:
-            post_id = publish_one(user_id, tok["access_token"], p, live)
-            if live:
-                p["status"] = "posted"
-                p["posted_at"] = now().strftime("%Y-%m-%d %H:%M")
-                p["threads_id"] = post_id
-                log.info("Нийтэллээ: id %s -> %s", p.get("id"), post_id)
-        except RuntimeError as exc:
-            p["status"] = "failed"
-            p["error"] = str(exc)
-            log.error("Амжилтгүй: id %s | %s", p.get("id"), exc)
-
-    save_json(QUEUE_FILE, queue)
-    remaining = sum(1 for p in queue if p.get("status") == "pending")
-    log.info("Дууслаа. Ээлжинд %d пост үлдлээ.", remaining)
+    run_publisher(args, sys.modules[__name__])
 
 
 # ---------------------------------------------------------------- эхлэл
@@ -1079,7 +906,7 @@ def main() -> None:
                     help="хоцорсон постыг ч нийтлэх (90 минутын хамгаалалтыг үл тоох)")
 
     args = ap.parse_args()
-    setup_logging(args.verbose)
+    setup_logging(args.verbose, persist=not (args.cmd == "run" and not args.live))
 
     handlers = {
         "auth-url": cmd_auth_url,
@@ -1098,6 +925,9 @@ def main() -> None:
     }
     try:
         handlers[args.cmd](args)
+    except RuntimeError as exc:
+        log.error("%s", exc)
+        sys.exit(1)
     except KeyboardInterrupt:
         log.warning("Тасаллаа.")
         sys.exit(130)

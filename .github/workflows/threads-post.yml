@@ -27,7 +27,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write           # queue.json-г буцааж commit хийхэд хэрэгтэй
+  contents: write           # queue.json-ийн SHA-тай API шинэчлэлтэд хэрэгтэй
 
 jobs:
   post:
@@ -42,7 +42,10 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_REDIRECT_URI: https://localhost/threads-auth
       THREADS_TZ:           Asia/Ulaanbaatar
-      THREADS_LATE_GRACE:   "10080"
+      THREADS_LATE_GRACE:   "90"
+      THREADS_SHEET_GID:    ${{ vars.THREADS_SHEET_GID || '1131908690' }}
+      THREADS_QUEUE_BRANCH: main
+      GITHUB_TOKEN:        ${{ github.token }}
       GH_PAT:               ${{ secrets.GH_PAT }}
 
     steps:
@@ -62,7 +65,6 @@ jobs:
 
       - name: Google Sheet-ээс татах
         run: python threads_post.py sync
-        continue-on-error: true      # Sheet унтарсан ч постлолт үргэлжилнэ
 
       - name: Хугацаа болсон эсвэл сонгосон постыг нийтлэх
         env:
@@ -78,34 +80,20 @@ jobs:
           fi
 
           if [[ -n "$post_id" ]]; then
-            # Нэг ID эсвэл таслал/зайгаар тусгаарласан олон ID дэмжинэ.
-            # Нэг пост алдаа өгсөн ч batch-ийн үлдсэн постууд үргэлжилнэ.
+            if [[ ! "$post_id" =~ ^[0-9,[:space:]]+$ ]]; then
+              echo "::error::Post ID нь зөвхөн эерэг бүхэл тоо байна."
+              exit 1
+            fi
             IFS=', ' read -r -a post_ids <<< "$post_id"
+            ids=()
             for id in "${post_ids[@]}"; do
-              [[ -z "$id" ]] && continue
-              echo "Гар аргаар нийтлэх post ID: $id"
-              if ! python threads_post.py run --live --id "$id"; then
-                echo "::warning::Post ID $id нийтлэхэд алдаа гарлаа; дараагийн ID руу үргэлжилж байна."
-              fi
+              [[ -z "$id" ]] || ids+=("$id")
             done
+            [[ ${#ids[@]} -gt 0 ]] || exit 1
+            python threads_post.py run --live --id "${ids[@]}"
           else
-            echo "Хуваарьт ажиллагаа: хугацаа болсон постуудыг нөхөж байна."
-            python threads_post.py run --live --force
+            python threads_post.py run --live
           fi
-
-      - name: Ээлжийн төлөвийг хадгалах
-        run: |
-          if git diff --quiet -- queue.json; then
-            echo "Өөрчлөлт алга."
-            exit 0
-          fi
-          git config user.name  "threads-autopost"
-          git config user.email "actions@users.noreply.github.com"
-          git add queue.json
-          git commit -m "Ээлж шинэчлэв [skip ci]"
-          # Зэрэг ажиллагаанаас үүдэх зөрчлийг зөөлөн барина
-          git pull --rebase --autostash || true
-          git push
 
       - name: Google Sheet-ийн төлөвийг шинэчлэх
         if: ${{ always() && env.GOOGLE_SERVICE_ACCOUNT_JSON != '' }}
@@ -113,10 +101,11 @@ jobs:
         run: python threads_post.py sheet-status
 
       - name: Токеныг шинэчлэх
-        if: ${{ env.GH_PAT != '' }}
+        if: ${{ always() && env.GH_PAT != '' && hashFiles('token.json') != '' }}
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          trap 'rm -f token.txt' EXIT
           python threads_post.py token-export --out token.txt
           gh secret set THREADS_ACCESS_TOKEN < token.txt
           rm -f token.txt

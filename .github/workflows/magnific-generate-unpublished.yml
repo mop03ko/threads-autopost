@@ -40,6 +40,8 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
       THREADS_SHEET_GID: "1131908690"
+      GITHUB_TOKEN: ${{ github.token }}
+      THREADS_QUEUE_BRANCH: main
 
     steps:
       - name: Checkout
@@ -78,19 +80,6 @@ jobs:
             --workers 1 \
             --run-token "${GITHUB_RUN_ID}"
 
-      - name: Commit updated queue
-        if: ${{ always() }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add queue.json
-          if git diff --cached --quiet; then
-            echo "queue.json is already current."
-            exit 0
-          fi
-          git commit -m "Magnific images generated for unpublished posts [skip ci]"
-          git pull --rebase --autostash || true
-          git push
 
       - name: Upload batch manifest
         if: ${{ always() }}
@@ -99,3 +88,4 @@ jobs:
           name: magnific-batch-${{ github.run_id }}
           path: magnific-batch-manifest.json
           if-no-files-found: ignore
+

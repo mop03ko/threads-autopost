@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - "manual-images/**"
-      - ".github/workflows/upload-manual-images.yml"
 
 permissions:
   contents: write
@@ -27,6 +26,8 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       THREADS_SHEET_ID: ${{ secrets.THREADS_SHEET_ID }}
       THREADS_SHEET_GID: "1131908690"
+      GITHUB_TOKEN: ${{ github.token }}
+      THREADS_QUEUE_BRANCH: main
 
     steps:
       - name: Checkout
@@ -105,24 +106,9 @@ jobs:
               if post is None:
                   raise SystemExit(f"Post ID {post_id} not found in queue.json")
               post["image_url"] = url
-              post["status"] = "pending"
-              for key in ("error", "posted_at", "threads_id"):
-                  post.pop(key, None)
               updated.append(post_id)
-          save_queue(queue_path, queue)
-          cells = sync_google_sheet(queue)
+          changed = save_queue(queue_path, queue)
+          cells = sync_google_sheet(queue, changed)
           print(f"Updated post IDs: {updated}; Sheet cells: {cells}")
           PY
 
-      - name: Commit updated queue
-        run: |
-          if git diff --quiet -- queue.json; then
-            echo "queue.json is already current."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add queue.json
-          git commit -m "Manual post images uploaded to R2 [skip ci]"
-          git pull --rebase --autostash || true
-          git push
