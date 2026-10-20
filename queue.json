@@ -598,9 +598,12 @@
     "scheduled_at": "2026-08-28 22:00",
     "text": "Alien: органик хэлбэр ба механик бүтэц\n\nМуруй, судалтай гадаргууг хатуу шугам, давтагдах эд ангитай хослуулахад танил хэрнээ ер бусын дүрслэл үүсдэг.\n\nӨөрийн загварт хоёр өөр бүтэц ашиглах бол хоёуланг нь ижил хүчтэй бүү өрсөлдүүл. Нэгийг нь үндсэн орчин, нөгөөг нь жижиг онцлох хэсэг болгоод үз. Аль нь эхэлж харагдаж байна вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-817-0a1aeac9db202c64cd33.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "3999246e-17f2-4f56-b242-a9d15c386c16",
+    "processing_at": "2026-10-21 00:20",
+    "attempted_at": "2026-10-21 00:20",
+    "publication_phase": "claimed"
   },
   {
     "id": 21,
@@ -1734,9 +1737,12 @@
     "scheduled_at": "2026-09-15 22:00",
     "text": "Sin City: ганц өнгө харцыг чиглүүлдэг\n\nХар, цагаан орчин дундах улаан эсвэл шар хэсэг түрүүлж анзаарагдана. Бусад өнгийг намжаасан учраас тэр жижиг хэсэг хүчтэй харагдаж байгаа юм.\n\nПостер дээрээ энэ аргыг туршихдаа нэг л зүйлийг өнгөөр онцол. Үнэ, гарчиг, товч гурвуул ижил хүчтэй байвал харц хаана тогтох вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-835-f067dd344114eb8582b7.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 400, код 1): An unknown error occurred",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "3999246e-17f2-4f56-b242-a9d15c386c16",
+    "processing_at": "2026-10-21 00:20",
+    "attempted_at": "2026-10-21 00:20",
+    "publication_phase": "claimed"
   },
   {
     "id": 57,
@@ -1779,9 +1785,12 @@
     "scheduled_at": "2026-09-16 19:00",
     "text": "AI хувилбар гаргаж чадна. Аль нь зөв болохыг дизайнер шийднэ.\n\nЗорилгоо тодорхойлох, санааг сонгох, брэндтэй нийцүүлэх, эцсийн чанарыг шалгах ажил хэвээр үлдэнэ.\n\nAI-аар гаргасан зургийг бэлэн бүтээл гэж шууд бүү үз. Гар, нүүрний хэлбэр, үсэг, жижиг деталь болон ашиглах нөхцөлийг нь шалга. Хурд нэмэгдсэн ч шалгах хариуцлага багасахгүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-700-0fdbbf09464c4c979108.jpg",
-    "status": "failed",
-    "error": "API алдаа (HTTP 500, код 2): An unexpected error has occurred. Please retry your request later.",
-    "synced_at": "2026-10-21T00:19:54.000242+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-21T00:19:54.000242+08:00",
+    "processing_token": "3999246e-17f2-4f56-b242-a9d15c386c16",
+    "processing_at": "2026-10-21 00:20",
+    "attempted_at": "2026-10-21 00:20",
+    "publication_phase": "claimed"
   },
   {
     "id": 58,
