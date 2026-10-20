@@ -598,13 +598,15 @@
     "scheduled_at": "2026-08-28 22:00",
     "text": "Alien: органик хэлбэр ба механик бүтэц\n\nМуруй, судалтай гадаргууг хатуу шугам, давтагдах эд ангитай хослуулахад танил хэрнээ ер бусын дүрслэл үүсдэг.\n\nӨөрийн загварт хоёр өөр бүтэц ашиглах бол хоёуланг нь ижил хүчтэй бүү өрсөлдүүл. Нэгийг нь үндсэн орчин, нөгөөг нь жижиг онцлох хэсэг болгоод үз. Аль нь эхэлж харагдаж байна вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-817-0a1aeac9db202c64cd33.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T00:19:54.000242+08:00",
     "processing_token": "3999246e-17f2-4f56-b242-a9d15c386c16",
     "processing_at": "2026-10-21 00:20",
     "attempted_at": "2026-10-21 00:20",
-    "publication_phase": "publishing",
-    "container_id": "17988564747110223"
+    "publication_phase": "published",
+    "container_id": "17988564747110223",
+    "threads_id": "18112770013870130",
+    "posted_at": "2026-10-21 00:20"
   },
   {
     "id": 21,
