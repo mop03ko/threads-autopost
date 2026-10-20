@@ -1884,13 +1884,15 @@
     "scheduled_at": "2026-09-17 22:00",
     "text": "Avatar: гэрэлтэх өнгөнд бараан орон зай хэрэгтэй\n\nЦэнхэр, нил ягаан, хөх ногоон гэрэл бараан орчиндоо илүү тод мэдрэгддэг. Бүх хэсгийг гэрэлтүүлбэл онцлох цэг алга болно.\n\nGlow эффект ашиглахдаа нэг хэсгийг гол болгож, бусдыг нь намжаа. Бичвэрийн ард тайван, жигд талбай үлдээгээд утасны дэлгэц дээр уншигдаж байгаа эсэхийг шалгаарай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/recovery-837-8a56c07ea229e07dc889.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T00:19:54.000242+08:00",
     "processing_token": "ac6821e4-40e2-471a-8b7e-bd76f39335ae",
     "processing_at": "2026-10-21 00:21",
     "attempted_at": "2026-10-21 00:21",
-    "publication_phase": "publishing",
-    "container_id": "17988564915110223"
+    "publication_phase": "published",
+    "container_id": "17988564915110223",
+    "threads_id": "18076743644757438",
+    "posted_at": "2026-10-21 00:21"
   },
   {
     "id": 61,
