@@ -18,6 +18,7 @@ import requests
 from PIL import Image, ImageOps
 
 from prepare_image_urls import classify, load_queue, save_queue, sync_google_sheet
+from publishing import LOCKED
 
 
 BASE = Path(__file__).resolve().parent
@@ -214,7 +215,7 @@ def process_post(post: dict, *, api_headers: dict[str, str], client,
 def select_targets(queue: list[dict], scope: str, limit: int) -> list[dict]:
     targets = [
         post for post in queue
-        if str(post.get("status") or "pending").lower() != "posted"
+        if str(post.get("status") or "pending").lower() not in LOCKED
         and "/magnific-generated/" not in str(post.get("image_url") or "")
     ]
     targets.sort(key=lambda post: int(post.get("id") or 0))
@@ -288,11 +289,8 @@ def main() -> None:
     for result in results:
         post = by_id[result["id"]]
         post["image_url"] = result["url"]
-        post["status"] = "pending"
-        for key in ("error", "posted_at", "threads_id"):
-            post.pop(key, None)
-    save_queue(QUEUE_PATH, queue)
-    sheet_cells = sync_google_sheet(queue) if results else 0
+    changed = save_queue(QUEUE_PATH, queue)
+    sheet_cells = sync_google_sheet(queue, changed) if results else 0
 
     manifest = {
         "requested": len(targets),
@@ -308,3 +306,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -1,74 +1,47 @@
-import assert from "node:assert/strict";
-import test from "node:test";
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import worker, { dispatchScheduled } from '../src/index.js';
 
-import worker, { localTimestamp, parseScheduledAt, selectDuePosts } from "../src/index.js";
+const env = { GITHUB_TOKEN: 'test-only-token' };
 
-test("Улаанбаатарын цагийг UTC+8-аар хөрвүүлнэ", () => {
-  assert.equal(
-    parseScheduledAt("2026-08-25 10:00"),
-    Date.parse("2026-08-25T02:00:00Z"),
-  );
-  assert.equal(localTimestamp(new Date("2026-08-25T02:00:00Z")), "2026-08-25 10:00");
-});
-
-test("хугацаа болсон постыг сонгож, хэт хоцорсныг тусгаарлана", () => {
-  const queue = [
-    { id: 1, scheduled_at: "2026-08-25 10:00", status: "pending" },
-    { id: 2, scheduled_at: "2026-08-25 07:00", status: "pending" },
-    { id: 3, scheduled_at: "2026-08-25 13:00", status: "pending" },
-    { id: 4, scheduled_at: "2026-08-25 09:00", status: "posted", posted_at: "2026-08-25 09:01" },
-  ];
-  const result = selectDuePosts(queue, Date.parse("2026-08-25T02:01:00Z"), {
-    graceMinutes: 150,
-    maxPostsPerRun: 3,
-    maxPostsPerDay: 15,
+test('cron only dispatches Actions, without a forced ID or Threads call', async t => {
+  const calls = [];
+  t.mock.method(globalThis, 'fetch', async (url, init) => {
+    calls.push({url, init});
+    return new Response(null, { status: 204 });
   });
-  assert.deepEqual(result.selected.map((post) => post.id), [1]);
-  assert.deepEqual(result.stale.map((post) => post.id), [2]);
+  assert.deepEqual(await dispatchScheduled(env), {status: 'dispatched'});
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].url, 'https://api.github.com/repos/mop03ko/threads-autopost/actions/workflows/threads-post.yml/dispatches');
+  assert.deepEqual(JSON.parse(calls[0].init.body), {ref: 'main'});
+  assert.equal(calls[0].init.method, 'POST');
 });
 
-test("өдрийн хамгаалалтын хязгаарт хүрвэл шинэ пост claim хийхгүй", () => {
-  const queue = [
-    { id: 1, scheduled_at: "2026-08-25 10:00", status: "pending" },
-    { id: 2, scheduled_at: "2026-08-25 08:30", status: "posted", posted_at: "2026-08-25 08:31" },
-  ];
-  const result = selectDuePosts(queue, Date.parse("2026-08-25T02:01:00Z"), {
-    graceMinutes: 150,
-    maxPostsPerRun: 3,
-    maxPostsPerDay: 1,
-  });
-  assert.equal(result.selected.length, 0);
+test('disabled scheduler and missing token perform no HTTP calls', async t => {
+  const fetch = t.mock.method(globalThis, 'fetch', () => assert.fail('unexpected HTTP'));
+  assert.deepEqual(await dispatchScheduled({DISPATCH_ENABLED: 'false'}), {status: 'disabled'});
+  await assert.rejects(dispatchScheduled({}), /GITHUB_TOKEN/);
+  assert.equal(fetch.mock.callCount(), 0);
 });
 
-test("health runtime secret болон KV binding-ийн бэлэн байдлыг шалгана", async () => {
-  const env = {
-    GITHUB_TOKEN: "github-test",
-    STATE: {
-      async get(key) {
-        if (key === "threads_token") return { accessToken: "threads-test" };
-        if (key === "last_run") return { status: "success" };
-        return null;
-      },
-    },
-  };
-  const response = await worker.fetch(new Request("https://worker.example/health"), env);
-  const body = await response.json();
+test('dispatch HTTP error does not expose the response body', async t => {
+  t.mock.method(globalThis, 'fetch', async () => new Response('secret body', {status: 403}));
+  await assert.rejects(dispatchScheduled(env), {message: 'GitHub workflow dispatch HTTP 403'});
+});
+
+test('network exception is sanitized and cron failure propagates', async t => {
+  t.mock.method(globalThis, 'fetch', async () => {throw new Error('secret URL');});
+  t.mock.method(console, 'error', () => {});
+  let task;
+  await worker.scheduled({}, env, {waitUntil(promise) {task = promise;}});
+  await assert.rejects(task, {message: 'GitHub workflow dispatch сүлжээний алдаа'});
+});
+
+test('health reports configuration only and is read-only', async t => {
+  t.mock.method(globalThis, 'fetch', () => assert.fail('health must not dispatch'));
+  const response = await worker.fetch(new Request('https://example.test/health'), env);
   assert.equal(response.status, 200);
-  assert.equal(body.ready, true);
-  assert.equal(body.bindings.githubToken, true);
-  assert.equal(body.bindings.threadsAccessToken, true);
-  assert.equal(body.bindings.state, true);
-  assert.equal(body.lastRun.status, "success");
-});
-
-test("health runtime secret дутуу үед 503 буцаана", async () => {
-  const response = await worker.fetch(
-    new Request("https://worker.example/health"),
-    {},
-  );
-  const body = await response.json();
-  assert.equal(response.status, 503);
-  assert.equal(body.ready, false);
-  assert.equal(body.bindings.githubToken, false);
-  assert.equal(body.bindings.threadsAccessToken, false);
+  assert.deepEqual(await response.json(), {service:'threads-autopost-dispatch', enabled:true, configured:true});
+  assert.equal((await worker.fetch(new Request('https://example.test/health'), {})).status, 503);
+  assert.equal((await worker.fetch(new Request('https://example.test/post'), env)).status, 404);
 });

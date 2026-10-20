@@ -1,5 +1,8 @@
 # Windows дээр суулгах заавар
 
+> Live горимд `.env` дотор `GITHUB_REPOSITORY`, `GITHUB_TOKEN` (Contents: read/write) шаардлагатай.
+> [RELIABILITY.md](RELIABILITY.md)-ийг уншина. Editor-ийн засвар локал; автомат постоо Sheet дээр засна.
+
 README.md доторх тушаалууд Linux/Mac-д зориулагдсан. Windows дээр
 дараах ялгаатай тушаалуудыг ашиглана.
 
@@ -168,13 +171,13 @@ py -3 threads_post.py run
 
 ```powershell
 py -3 threads_post.py list                 # id-г олно
-py -3 threads_post.py run --live --id 1    # тэр постыг яг одоо
+py -3 threads_post.py run --live --sync --id 1    # тэр постыг яг одоо
 ```
 
 Хоцорсон бүгдийг нийтлэх бол:
 
 ```powershell
-py -3 threads_post.py run --live --force
+py -3 threads_post.py run --live --sync --force
 ```
 
 ---
@@ -256,3 +259,4 @@ Windows унтуулах (sleep) горимд орсон ч даалгавар �
 `.env` эсвэл `queue.json` файлыг Notepad-аар засвал хадгалахдаа
 **Encoding: UTF-8** сонгоно. Монгол үсэг эвдрэхээс сэргийлнэ.
 Илүү сайн нь VS Code ашиглах (танд суусан байна).
+

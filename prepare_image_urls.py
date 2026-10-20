@@ -3,21 +3,25 @@
 
 The script is intentionally deterministic: the same post ID always receives the
 same visual variant.  It updates queue.json first, then mirrors image URLs and
-statuses to the configured Google Sheet when service-account credentials exist.
+only changed image URLs to the configured Google Sheet when service-account credentials exist.
 """
 
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import os
 from pathlib import Path
 from urllib.parse import quote
 
+from publishing import LOCKED
+from queue_store import remote_store
+
 
 BASE = Path(__file__).resolve().parent
 DEFAULT_QUEUE = BASE / "queue.json"
-VALID_STATUSES = {"pending", "hold", "posted", "failed", "skipped"}
+_loaded_snapshots = {}
 
 # The order matters only when two categories receive the same score.
 KEYWORDS = {
@@ -84,20 +88,55 @@ def public_url(base_url: str, item_id: int) -> str:
 
 
 def load_queue(path: Path) -> list[dict]:
-    with path.open(encoding="utf-8") as handle:
-        data = json.load(handle)
+    if os.environ.get("GITHUB_REPOSITORY") and os.environ.get("GITHUB_TOKEN"):
+        data, _ = remote_store().read()
+    else:
+        with path.open(encoding="utf-8") as handle:
+            data = json.load(handle)
     if not isinstance(data, list):
         raise SystemExit(f"{path} нь JSON жагсаалт биш байна.")
+    _loaded_snapshots[str(path.resolve())] = copy.deepcopy(data)
     return data
 
 
-def save_queue(path: Path, queue: list[dict]) -> None:
+def merge_image_changes(current, original, edited):
+    """Apply image-only changes; preserve text, scheduling and publication state."""
+    before = {p["id"]: p for p in original}
+    changes = {p["id"]: p.get("image_url") for p in edited
+               if p["id"] in before and p.get("image_url") != before[p["id"]].get("image_url")}
+    changed = []
+    for post in current:
+        item_id = post["id"]
+        if item_id not in changes or post.get("status") in LOCKED:
+            continue
+        # Another image job or a Sheet edit already won. Do not revert it.
+        if post.get("image_url") != before[item_id].get("image_url"):
+            continue
+        post["image_url"] = changes[item_id]
+        post.pop("synced_at", None)  # Require a fresh Sheet read before publishing.
+        changed.append(item_id)
+    return changed
+
+
+def save_queue(path: Path, queue: list[dict]) -> list[int]:
+    original = _loaded_snapshots.get(str(path.resolve()))
+    if original is None:
+        raise RuntimeError("Image queue must be loaded before saving.")
+
+    def merge(current):
+        return merge_image_changes(current, original, queue)
+
+    if os.environ.get("GITHUB_REPOSITORY") and os.environ.get("GITHUB_TOKEN"):
+        changed, saved = remote_store().update(merge, "Threads images updated [skip ci]")
+    else:
+        saved = copy.deepcopy(original)
+        changed = merge(saved)
+    queue[:] = saved
+    _loaded_snapshots[str(path.resolve())] = copy.deepcopy(saved)
     temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(
-        json.dumps(queue, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    temporary.write_text(json.dumps(saved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(path)
+    return changed
 
 
 def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tuple[int, int]:
@@ -105,127 +144,60 @@ def assign_images(queue: list[dict], base_url: str, force: bool = False) -> tupl
     for post in queue:
         item_id = int(post.get("id") or 0)
         status = str(post.get("status") or "pending").lower()
-        if item_id <= 1 or status == "posted":
+        if item_id <= 1 or status in LOCKED:
             continue
-        if status not in VALID_STATUSES:
-            post["status"] = "pending"
         if force or not post.get("image_url"):
             post["image_url"] = public_url(base_url, item_id)
             assigned += 1
-        if post.get("status") == "hold" and post.get("image_url"):
-            post["status"] = "pending"
-            post.pop("note", None)
-            activated += 1
     return assigned, activated
 
 
-def sync_google_sheet(queue: list[dict]) -> int:
-    """Mirror image URL and status to columns discovered from Sheet headers."""
-    raw_credentials = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "").strip()
-    sheet_id = os.environ.get("THREADS_SHEET_ID", "").strip()
-    if not raw_credentials or not sheet_id:
-        print("Sheets sync skipped: GOOGLE_SERVICE_ACCOUNT_JSON or THREADS_SHEET_ID is missing.")
+def sync_google_sheet(queue: list[dict], only_ids: list[int]) -> int:
+    """Mirror only changed image URLs; never overwrite editorial/publication status."""
+    if not only_ids:
         return 0
-
+    from threads_post import (google_sheet_session, google_json, selected_sheet,
+                              parse_sheet_rows, sheet_column_name)
+    session = google_sheet_session()
+    sheet_id = os.environ.get("THREADS_SHEET_ID", "").strip()
+    if session is None or not sheet_id:
+        print("Sheets image sync skipped: credentials or Sheet ID is missing.")
+        return 0
+    base = f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}"
+    title = selected_sheet(session, base)["title"].replace("'", "''")
+    data = google_json(session, "GET", f"{base}/values:batchGet", params={
+        "ranges": f"'{title}'!A1:Z10001", "majorDimension": "ROWS",
+        "valueRenderOption": "FORMATTED_VALUE"})
+    rows = (data.get("valueRanges") or [{}])[0].get("values", [])
+    if not rows or len(rows) >= 10001:
+        raise RuntimeError("Sheet хоосон эсвэл 10000 мөрийн хязгаараас давсан байна.")
+    parse_sheet_rows(rows[0], [dict(zip(rows[0], row)) for row in rows[1:]])
+    headers = [str(value).strip().lower() for value in rows[0]]
+    id_col = next(i for i, name in enumerate(headers) if name in ("id", "дугаар"))
+    image_names = ("зургийн_холбоос", "зургийн холбоос", "image_url", "зураг")
     try:
-        from google.auth.transport.requests import AuthorizedSession
-        from google.oauth2 import service_account
-    except ImportError as exc:
-        raise SystemExit("google-auth is required; install requirements.txt first.") from exc
-
-    info = json.loads(raw_credentials)
-    credentials = service_account.Credentials.from_service_account_info(
-        info,
-        scopes=("https://www.googleapis.com/auth/spreadsheets",),
-    )
-    session = AuthorizedSession(credentials)
-    api_root = f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}"
-
-    metadata = session.get(
-        api_root,
-        params={"fields": "sheets.properties(sheetId,title,index)"},
-        timeout=45,
-    )
-    metadata.raise_for_status()
-    sheets = [item.get("properties", {}) for item in metadata.json().get("sheets", [])]
-    if not sheets:
-        raise SystemExit("Google Sheet has no worksheets.")
-
-    gid = os.environ.get("THREADS_SHEET_GID", "").strip()
-    selected = next((item for item in sheets if gid and str(item.get("sheetId")) == gid), None)
-    if selected is None:
-        selected = min(sheets, key=lambda item: item.get("index", 0))
-    title = selected["title"]
-    escaped = title.replace("'", "''")
-
-    response = session.get(
-        f"{api_root}/values/'{escaped}'!A:Z",
-        params={"majorDimension": "ROWS", "valueRenderOption": "FORMATTED_VALUE"},
-        timeout=45,
-    )
-    response.raise_for_status()
-    rows = response.json().get("values", [])
-    if not rows:
-        raise SystemExit("Google Sheet is empty.")
-
-    headers = [str(value).strip().casefold() for value in rows[0]]
-
-    def find_header(*names: str) -> int:
-        accepted = {name.casefold() for name in names}
-        try:
-            return next(index for index, value in enumerate(headers) if value in accepted)
-        except StopIteration as exc:
-            raise SystemExit(f"Missing Google Sheet column: {names[0]}") from exc
-
-    id_col = find_header("id", "дугаар")
-    image_col = find_header("зургийн_холбоос", "зургийн холбоос", "image_url", "зураг")
-    status_col = find_header("төлөв", "status")
-
-    by_id = {int(post["id"]): post for post in queue if post.get("id")}
+        image_col = next(i for i, name in enumerate(headers) if name in image_names)
+    except StopIteration as exc:
+        raise RuntimeError("Sheet зургийн багана олдсонгүй.") from exc
+    ids = set(only_ids)
+    by_id = {p["id"]: p for p in queue if p.get("id") in ids}
     updates = []
-
-    def column_name(index: int) -> str:
-        result = ""
-        index += 1
-        while index:
-            index, remainder = divmod(index - 1, 26)
-            result = chr(65 + remainder) + result
-        return result
-
-    image_letter = column_name(image_col)
-    status_letter = column_name(status_col)
     for row_number, row in enumerate(rows[1:], start=2):
-        if id_col >= len(row):
+        if id_col >= len(row) or not str(row[id_col]).strip():
             continue
-        try:
-            item_id = int(float(str(row[id_col]).strip()))
-        except (TypeError, ValueError):
-            continue
+        from decimal import Decimal
+        item_id = int(Decimal(str(row[id_col]).strip()))
         post = by_id.get(item_id)
         if not post:
             continue
         desired_url = str(post.get("image_url") or "")
-        desired_status = str(post.get("status") or "pending")
         current_url = str(row[image_col]).strip() if image_col < len(row) else ""
-        current_status = str(row[status_col]).strip().lower() if status_col < len(row) else ""
         if current_url != desired_url:
-            updates.append({
-                "range": f"'{escaped}'!{image_letter}{row_number}",
-                "values": [[desired_url]],
-            })
-        if current_status != desired_status:
-            updates.append({
-                "range": f"'{escaped}'!{status_letter}{row_number}",
-                "values": [[desired_status]],
-            })
-
+            updates.append({"range": f"'{title}'!{sheet_column_name(image_col)}{row_number}",
+                            "values": [[desired_url]]})
     if updates:
-        result = session.post(
-            f"{api_root}/values:batchUpdate",
-            json={"valueInputOption": "RAW", "data": updates},
-            timeout=45,
-        )
-        result.raise_for_status()
+        google_json(session, "POST", f"{base}/values:batchUpdate",
+                    json={"valueInputOption": "RAW", "data": updates})
     return len(updates)
 
 
@@ -242,8 +214,8 @@ def main() -> None:
 
     queue = load_queue(args.queue)
     assigned, activated = assign_images(queue, base_url, force=args.force)
-    save_queue(args.queue, queue)
-    sheet_updates = 0 if args.no_sheet else sync_google_sheet(queue)
+    changed = save_queue(args.queue, queue)
+    sheet_updates = 0 if args.no_sheet else sync_google_sheet(queue, changed)
     print(
         f"Image assignment complete: {assigned} URLs assigned, "
         f"{activated} held posts activated, {sheet_updates} Sheet cells updated."
@@ -252,3 +224,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

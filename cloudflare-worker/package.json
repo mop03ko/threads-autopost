@@ -1,5 +1,5 @@
 {
-  "name": "threads-autopost-direct-worker",
+  "name": "threads-autopost-dispatch-worker",
   "private": true,
   "type": "module",
   "scripts": {

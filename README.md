@@ -1,5 +1,8 @@
 # Threads автомат постлогч
 
+> **Нийтлэх шинэ урсгал:** [RELIABILITY.md](RELIABILITY.md)-ийн шилжилтийн дарааллыг эхэлж уншина.
+> GitHub Actions нийтэлж, Cloudflare зөвхөн ажиллагаа эхлүүлнэ. Live горим GitHub дахь ээлжийг ашиглана.
+
 Meta-гийн албан ёсны Threads API ашиглан товлосон цагт пост нийтэлдэг хэрэгсэл.
 Гуравдагч этгээдийн үйлчилгээ шаардахгүй, үнэ төлбөргүй, Threads-ийн дүрэм зөрчихгүй.
 
@@ -152,7 +155,7 @@ THREADS_SHEET_ID=таны_sheet_id
 
 ```bash
 python3 threads_post.py sync          # Sheet-ээс татах
-python3 threads_post.py run --sync    # татаад дараа нь нийтлэх
+python3 threads_post.py run --sync    # бичихгүйгээр урьдчилан харах
 ```
 
 **Баганын нэрс** (эхний мөр): `id`, `огноо_цаг`, `бичвэр`, `зургийн_холбоос`, `төлөв`
@@ -160,7 +163,7 @@ python3 threads_post.py run --sync    # татаад дараа нь нийтл�
 **Хамгаалалт:**
 
 - Аль хэдийн нийтэлсэн постыг Sheet дарж бичихгүй. Дахин нийтлэгдэх эрсдэлгүй
-- Буруу огноо, хоосон бичвэртэй мөрийг алгасаж, анхааруулга өгнө
+- Буруу ID, огноо, төлөв, хоосон бичвэр байвал синк болон нийтлэл бүхэлдээ зогсоно
 - Огнооны олон хэлбэрийг таньдаг (`2026-08-20 08:30`, `8/20/2026 8:30 PM` гэх мэт)
 - Татахын өмнө `queue.bak.json` нөөц үлдээнэ
 
@@ -169,7 +172,9 @@ python3 threads_post.py run --sync    # татаад дараа нь нийтл�
 
 ---
 
-### Постоо засах (вэб интерфейс)
+### Постоо засах (локал туршилтын вэб интерфейс)
+
+Энэ editor зөвхөн локал хуулбарыг засна. Автомат нийтлэлийн агуулгыг Google Sheet дээр засна.
 
 ```bash
 python3 threads_post.py editor
@@ -225,8 +230,11 @@ python3 threads_post.py run
 
 ## 6. Бодитоор ажиллуулах
 
+GitHub ээлж рүү хандах `GITHUB_REPOSITORY`, `GITHUB_TOKEN`-ыг `.env`-д тохируулна.
+Токен тухайн repo-ийн Contents: read/write эрхтэй байна. `.env.example`-ийг харна уу.
+
 ```bash
-python3 threads_post.py run --live
+python3 threads_post.py run --live --sync
 ```
 
 Хугацаа нь болсон пост байвал нийтэлнэ. Threads дээрээ шалгана.
@@ -242,18 +250,18 @@ python3 threads_post.py run --live
 
 ```bash
 python3 threads_post.py list                  # id-г нь олно
-python3 threads_post.py run --live --id 1
+python3 threads_post.py run --live --sync --id 1
 ```
 
 Хуваарь, хоцролт, `hold` төлөв бүгдийг үл тоож нийтэлнэ. Хэд хэдэн постыг
 зэрэг өгч болно: `--id 1 4 7`
 
-Аль хэдийн нийтэлсэн постыг дахин нийтлэхээс татгалзана.
+`posted`, `processing`, `needs_review` постыг `--id` болон `--force`-оор дахин нийтлэхгүй.
 
 **Хоцорсон бүх постыг нийтлэх**:
 
 ```bash
-python3 threads_post.py run --live --force
+python3 threads_post.py run --live --sync --force
 ```
 
 Нэг удаад 3 постоос ихгүй нийтэлнэ. Ирээдүйн постуудад хүрэхгүй.
@@ -277,7 +285,7 @@ crontab -e
 
 ```cron
 # 10 минут тутам хугацаа болсон постыг нийтэлнэ
-*/10 * * * * cd /ЗАМ/threads-autopost && /usr/bin/python3 threads_post.py run --live >> cron.log 2>&1
+*/10 * * * * cd /ЗАМ/threads-autopost && /usr/bin/python3 threads_post.py run --live --sync >> cron.log 2>&1
 
 # Сар бүрийн 1-нд токеныг сунгана (нөөц хамгаалалт)
 0 9 1 * * cd /ЗАМ/threads-autopost && /usr/bin/python3 threads_post.py refresh >> cron.log 2>&1
@@ -392,3 +400,4 @@ threads-autopost/
 ├── token.json          Токен (автоматаар үүснэ)
 └── threads-autopost.log Бүртгэл
 ```
+
