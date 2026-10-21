@@ -4026,13 +4026,15 @@
     "scheduled_at": "2026-10-21 13:00",
     "text": "Зургийн шүүлтүүрийг тултал нь нэмэх шаардлагагүй.\n\nҮйлчлэлийг нь багасгаад эх зурагтай ээлжлэн харьцуул. Өнгөний алдааг засах, тодорхой өнгө аяс оруулах хоёр ажлыг тусад нь шийдвэл хяналттай.\n\nЗасварын дараа зураг өөрөө харагдаж байна уу, эсвэл зөвхөн эффект нь анзаарагдаж байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/333-b36f3743ac96038a9163.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T13:11:53.144572+08:00",
     "processing_token": "bafae603-0c2d-4e14-a726-f93d7acd5463",
     "processing_at": "2026-10-21 13:11",
     "attempted_at": "2026-10-21 13:11",
-    "publication_phase": "publishing",
-    "container_id": "17988641835110223"
+    "publication_phase": "published",
+    "container_id": "17988641835110223",
+    "threads_id": "18141139651722180",
+    "posted_at": "2026-10-21 13:12"
   },
   {
     "id": 530,
