@@ -4002,13 +4002,15 @@
     "scheduled_at": "2026-10-21 08:30",
     "text": "Апп нээхэд урт танилцуулга угтвал та дуустал нь уншдаг уу?\n\nХэрэглэж амжаагүй боломжуудыг нэг дор тайлбарлахад тогтооход хэцүү.\n\nЭхний туршлагыг нэг хэрэгтэй үйлдэл хийлгэхээр төлөвлөж үзээрэй. Хэрэглэгч хэдэн алхмын дараа аппын үнэ цэнийг мэдэрч байна вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/127-aa417ff11d8892cceac3.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T08:53:10.136481+08:00",
     "processing_token": "dbae94b7-7564-410f-9db5-f03872568c2a",
     "processing_at": "2026-10-21 08:53",
     "attempted_at": "2026-10-21 08:53",
-    "publication_phase": "publishing",
-    "container_id": "17988610905110223"
+    "publication_phase": "published",
+    "container_id": "17988610905110223",
+    "threads_id": "18101650580377278",
+    "posted_at": "2026-10-21 08:53"
   },
   {
     "id": 529,
