@@ -4059,13 +4059,15 @@
     "scheduled_at": "2026-10-21 20:30",
     "text": "«Надад таалагдахгүй байна» гэдэг санал дараагийн алхмыг хэлдэггүй.\n\nХарин «энэ хэсэгт юу хийхээ ойлгосонгүй» гэвэл засах асуудал тодорхой болно.\n\nСанал авахдаа юу таалагдсаныг асуухаас гадна хаана эргэлзсэн, ямар мэдээлэл дутсаныг тодруулаарай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/128-6215e737960c2f4c51eb.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-21T21:39:08.509670+08:00",
     "processing_token": "186fbbfc-96e5-418f-8061-4f9938dd8b15",
     "processing_at": "2026-10-21 21:39",
     "attempted_at": "2026-10-21 21:39",
-    "publication_phase": "publishing",
-    "container_id": "17988696060110223"
+    "publication_phase": "published",
+    "container_id": "17988696060110223",
+    "threads_id": "18218760319356044",
+    "posted_at": "2026-10-21 21:39"
   },
   {
     "id": 871,
