@@ -4131,13 +4131,15 @@
     "scheduled_at": "2026-10-22 19:00",
     "text": "Маскот брэндэд зан чанар, түүх, контентын олон боломж өгдөг.\n\nГэхдээ постерт гоё харагдсан бүх деталь жижиг дүрсэнд үлдэхгүй.\n\nНүүр, ерөнхий хэлбэр, танигдах нэг гол шинжийг нь хадгалсан хялбар хувилбар бэлтгэ. Жижиг профайлын зураг дээр ч тэр дүр мөн гэж танигдах уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/736-cc040aa1c3ecb87b48a8.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-22T20:02:30.627942+08:00",
     "processing_token": "c4ceebbc-6b4f-49f4-862b-26067a7cbc4f",
     "processing_at": "2026-10-22 20:02",
     "attempted_at": "2026-10-22 20:02",
-    "publication_phase": "publishing",
-    "container_id": "17988844587110223"
+    "publication_phase": "published",
+    "container_id": "17988844587110223",
+    "threads_id": "18368614447244162",
+    "posted_at": "2026-10-22 20:02"
   },
   {
     "id": 130,
