@@ -4088,7 +4088,8 @@
     "processing_token": "84fb3794-7d59-4bc5-bacc-afbf4ae6a88b",
     "processing_at": "2026-10-22 09:13",
     "attempted_at": "2026-10-22 09:13",
-    "publication_phase": "claimed"
+    "publication_phase": "container_created",
+    "container_id": "17988782832110223"
   },
   {
     "id": 531,
