@@ -4170,13 +4170,15 @@
     "scheduled_at": "2026-10-23 08:30",
     "text": "Юу хийхээ тодорхойлоогүй байж зөвхөн дуусах өдөр тохирвол ажил замдаа томордог.\n\nЭхлэхээс өмнө хүлээлгэн өгөх материал, засварын үе шат, хугацаагаа бичгээр нэгтгэ.\n\nШинэ хүсэлт нэмэгдэх бүрд хугацаа, чанарт хэрхэн нөлөөлөхийг ярилцаарай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/131-45428afe979e0882e38e.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-23T09:56:57.777323+08:00",
     "processing_token": "7b1a18ff-9474-4c1a-93c0-86e70c54372a",
     "processing_at": "2026-10-23 09:57",
     "attempted_at": "2026-10-23 09:57",
-    "publication_phase": "publishing",
-    "container_id": "17988935088110223"
+    "publication_phase": "published",
+    "container_id": "17988935088110223",
+    "threads_id": "18492062137129400",
+    "posted_at": "2026-10-23 09:57"
   },
   {
     "id": 533,
