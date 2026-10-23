@@ -4227,13 +4227,15 @@
     "scheduled_at": "2026-10-23 20:30",
     "text": "«Final_final2_NEW» өнөөдөр ойлгомжтой байж болно. Сарын дараа яах вэ?\n\nТөсөл, материал, хувилбар, төлөвийг нь ялгаж болох нэг нэршил хэрэглэ.\n\nЗөв файлаа олохын тулд бүх хувилбарыг нээх хэрэгтэй бол нэршлээ өөрчлөх цаг болжээ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/132-0caf8dd15a40651fd9f0.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-23T20:44:41.953006+08:00",
     "processing_token": "f0c675f2-58da-412d-83de-3ba637e814b2",
     "processing_at": "2026-10-23 20:44",
     "attempted_at": "2026-10-23 20:44",
-    "publication_phase": "publishing",
-    "container_id": "17988998079110223"
+    "publication_phase": "published",
+    "container_id": "17988998079110223",
+    "threads_id": "18036729029814690",
+    "posted_at": "2026-10-23 20:45"
   },
   {
     "id": 873,
