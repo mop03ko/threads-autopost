@@ -4194,13 +4194,15 @@
     "scheduled_at": "2026-10-23 13:00",
     "text": "Mockup сонгохдоо дизайн бодитоор хаана хэрэглэгдэхийг эхэлж бодоорой.\n\nГар утас, гадна хаяг, савлагаа — орчин бүр өөр хэмжээ ба харах зайтай.\n\nЗөв орчинд үзүүлсэн загвар хэрэглээгээ тайлбарлана. Зөвхөн гоё харагдуулахын тулд хамааралгүй орчин сонгох шаардлагагүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/335-8cc7214cb466d562d01a.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-23T13:14:38.720092+08:00",
     "processing_token": "4948e821-0145-45c0-be09-0d5dbd566bd4",
     "processing_at": "2026-10-23 13:14",
     "attempted_at": "2026-10-23 13:14",
-    "publication_phase": "publishing",
-    "container_id": "17988955527110223"
+    "publication_phase": "published",
+    "container_id": "17988955527110223",
+    "threads_id": "18030235226884447",
+    "posted_at": "2026-10-23 13:14"
   },
   {
     "id": 534,
