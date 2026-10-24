@@ -4251,8 +4251,12 @@
     "scheduled_at": "2026-10-24 08:30",
     "text": "Бүх туршилтаа ганц файлд давхарлаад байвал буцах цэгээ олоход хэцүү.\n\nКонцепц, хянуулсан, батлагдсан хувилбаруудаа ялгаж хадгал.\n\nЗөвхөн файлаа бус, яагаад тэр шийдвэрт хүрснээ тэмдэглэвэл дараа нь ажлаа үргэлжлүүлэхэд тустай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/133-d468d9689e13c6026f1d.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-24T09:57:16.248130+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-24T09:57:16.248130+08:00",
+    "processing_token": "d9bc8f41-8d4d-4bda-8edf-77bdbe8b6cad",
+    "processing_at": "2026-10-24 09:57",
+    "attempted_at": "2026-10-24 09:57",
+    "publication_phase": "claimed"
   },
   {
     "id": 535,
