@@ -4293,13 +4293,15 @@
     "scheduled_at": "2026-10-24 19:00",
     "text": "Үсгийн зай зөвхөн тоогоор тэнцдэггүй.\n\nAV, To, Wa зэрэг хос том гарчиг, логонд хэт салангид эсвэл шахуу харагдаж болно.\n\nҮгийг бүхэл дүрс болгон харж, жижиг ба том хэмжээнд зайг нь тохируулаарай. Нэг хос үсэг бусдаасаа тасарч харагдаж байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/738-febc57cf1c50752e59a7.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-24T20:03:21.574734+08:00",
     "processing_token": "43455f8f-e3cc-4069-b7c6-4bf80b778264",
     "processing_at": "2026-10-24 20:03",
     "attempted_at": "2026-10-24 20:03",
-    "publication_phase": "publishing",
-    "container_id": "17989150788110223"
+    "publication_phase": "published",
+    "container_id": "17989150788110223",
+    "threads_id": "18039554831844834",
+    "posted_at": "2026-10-24 20:03"
   },
   {
     "id": 134,
