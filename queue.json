@@ -4313,7 +4313,8 @@
     "processing_token": "63dea080-2bee-49c7-8f3d-93639520bb6e",
     "processing_at": "2026-10-24 20:35",
     "attempted_at": "2026-10-24 20:35",
-    "publication_phase": "claimed"
+    "publication_phase": "container_created",
+    "container_id": "17989156122110223"
   },
   {
     "id": 874,
