@@ -4356,13 +4356,15 @@
     "scheduled_at": "2026-10-25 13:00",
     "text": "Portrait retouch хийхдээ хүний онцлогийг арилгахгүй бай.\n\nSkin smoothing, teeth whitening, eye enhancement-ийг бага түвшинд хэрэглэж, өөрчлөлт-аа ойр ойрхон харьцуул.\n\nБодит төрх хадгалагдсан зураг илүү итгэл төрүүлж, удаан настай харагддаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/337-3f77a477369f388d55b1.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-25T13:09:25.435503+08:00",
     "processing_token": "f877a551-6ffc-473d-850c-fea3bfa331e8",
     "processing_at": "2026-10-25 13:09",
     "attempted_at": "2026-10-25 13:09",
-    "publication_phase": "publishing",
-    "container_id": "17989288233110223"
+    "publication_phase": "published",
+    "container_id": "17989288233110223",
+    "threads_id": "17978341161128701",
+    "posted_at": "2026-10-25 13:09"
   },
   {
     "id": 538,
