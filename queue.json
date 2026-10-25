@@ -4371,16 +4371,21 @@
     "scheduled_at": "2026-10-25 16:00",
     "text": "Template locking: дизайнерын практик зөвлөгөө\n\nЗахиалагч засварлах загварт лого, фон, торон бүтэц зэрэг хөдөлгөх ёсгүй элементийг lock хий.\n\nEditable бичвэр, image placeholder-ийг ойлгомжтой нэрлэж, хэрэглэгч буруу фонт, өнгө сонгох боломжийг багасга.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/538-12f77eb33d037c564cc8.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-25T20:04:38.067236+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-25T20:04:38.067236+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 739,
     "scheduled_at": "2026-10-25 19:00",
     "text": "Постерын задлан: Diagonal composition\n\nДиагональ шугам хөдөлгөөн, хурд, эрч хүч үүсгэдэг. Олон зөрүүтэй өнцөг visual noise болдог.\n\nНэг гол angle сонгож зураг, type, shape-ийн чиглэлийг түүнд уялдуул.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/739-c5894e7adc0355e26b07.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-25T20:04:38.067236+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-25T20:04:38.067236+08:00",
+    "processing_token": "5299f652-2e1e-4336-a4f9-ec79a4eb6125",
+    "processing_at": "2026-10-25 20:04",
+    "attempted_at": "2026-10-25 20:04",
+    "publication_phase": "claimed"
   },
   {
     "id": 136,
