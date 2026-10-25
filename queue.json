@@ -4395,13 +4395,15 @@
     "scheduled_at": "2026-10-25 20:30",
     "text": "Тоног төхөөрөмжөөр гэрлийн асуудлыг бүрэн нөхнө гэж бодох нь өрөөсгөл.\n\nӨндөр нягтралтай ч хавтгай, утгагүй зураг гарч болно.\n\nҮүнийг багасгахын тулд би зураг авахаасаа өмнө арын дэвсгэр биш, гэрлийн эх үүсвэрийг эхэлж хардаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/136-1d0976c74d739019a249.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-25T21:07:13.524255+08:00",
     "processing_token": "9ed3ec84-83ee-41fe-be40-1da836b4582f",
     "processing_at": "2026-10-25 21:07",
     "attempted_at": "2026-10-25 21:07",
-    "publication_phase": "publishing",
-    "container_id": "17989352208110223"
+    "publication_phase": "published",
+    "container_id": "17989352208110223",
+    "threads_id": "18116393561011279",
+    "posted_at": "2026-10-25 21:07"
   },
   {
     "id": 875,
