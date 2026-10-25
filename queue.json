@@ -4332,13 +4332,15 @@
     "scheduled_at": "2026-10-25 08:30",
     "text": "Хэвлэлийн өнгийг хамгийн сүүлд бодвол засвар хийхэд оройтож болно.\n\nАжил эхлэхдээ хэвлэх газрын өнгөний профайл, тайралтын нэмэгдэл, бичвэрийн аюулгүй зай, боловсруулалтын шаардлагыг аваарай.\n\nБрэндийн чухал өнгөнд туршилтын хэвлэл хийж шалгавал хүлээлтээ бодит үр дүнтэй тулгах боломжтой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/135-92d375fc07a795fb8afc.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-25T09:24:53.331676+08:00",
     "processing_token": "912aae66-0400-4e81-94bd-4fac6a3d1451",
     "processing_at": "2026-10-25 09:24",
     "attempted_at": "2026-10-25 09:24",
-    "publication_phase": "publishing",
-    "container_id": "17989256604110223"
+    "publication_phase": "published",
+    "container_id": "17989256604110223",
+    "threads_id": "18107896904337946",
+    "posted_at": "2026-10-25 09:25"
   },
   {
     "id": 537,
