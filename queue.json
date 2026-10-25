@@ -4347,16 +4347,21 @@
     "scheduled_at": "2026-10-25 10:00",
     "text": "Bleed гэж юу вэ?\n\nТайралтын алдааг нөхөхийн тулд дизайны фон, зургийг trim шугамаас гадагш сунгасан хэсэг.\n\nХэвлэх газрын шаардлагыг шалгаж ихэвчлэн 3 мм bleed өг; цагаан ирмэг гарахаас сэргийлж фон бүх bleed-д хүрсэн байх ёстой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/537-a96f644a696c8d0b6ab5.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-25T13:09:25.435503+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-25T13:09:25.435503+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 337,
     "scheduled_at": "2026-10-25 13:00",
     "text": "Portrait retouch хийхдээ хүний онцлогийг арилгахгүй бай.\n\nSkin smoothing, teeth whitening, eye enhancement-ийг бага түвшинд хэрэглэж, өөрчлөлт-аа ойр ойрхон харьцуул.\n\nБодит төрх хадгалагдсан зураг илүү итгэл төрүүлж, удаан настай харагддаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/337-3f77a477369f388d55b1.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-25T13:09:25.435503+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-25T13:09:25.435503+08:00",
+    "processing_token": "f877a551-6ffc-473d-850c-fea3bfa331e8",
+    "processing_at": "2026-10-25 13:09",
+    "attempted_at": "2026-10-25 13:09",
+    "publication_phase": "claimed"
   },
   {
     "id": 538,
