@@ -4485,13 +4485,15 @@
     "scheduled_at": "2026-10-26 22:00",
     "text": "Киноны график дизайн: Spirited Away — Улаан bridge accent\n\nНогоон, хүрэн орчин дотор тод улаан зурвас frame-ийг огтолж, шууд visual anchor үүсгэдэг.\n\nТуршаад үзээрэй: Өргөн композици дээр focal line ашиглаж нүдний замыг нэг хөдөлгөөнөөр тогтоо.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/spirited-away-2001-ce8f0b92b736bda49435.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-26T22:30:18.266399+08:00",
     "processing_token": "de1cd0d0-50e4-41a1-a47c-b86ab687fcfb",
     "processing_at": "2026-10-26 22:30",
     "attempted_at": "2026-10-26 22:30",
-    "publication_phase": "publishing",
-    "container_id": "17989616316110223"
+    "publication_phase": "published",
+    "container_id": "17989616316110223",
+    "threads_id": "18006134903990933",
+    "posted_at": "2026-10-26 22:30"
   },
   {
     "id": 139,
