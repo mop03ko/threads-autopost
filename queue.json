@@ -4443,13 +4443,15 @@
     "scheduled_at": "2026-10-26 13:00",
     "text": "Canva дээр видео хийхдээ эхлээд шилжилтийн эффект сонгох хэрэггүй.\n\nКадрын дараалал, өгүүлэх санаа, хугацаагаа шийд. Дараа нь хэсгүүдийг холбоход хэрэгтэй шилжилтээ нэм.\n\nЭффектгүй тоглуулахад ч видео чинь ойлгомжтой байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/338-5cc03c52f769069c02d8.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-26T13:11:15.628363+08:00",
     "processing_token": "4070f4cd-1947-4aa2-8078-7b7b96fef602",
     "processing_at": "2026-10-26 13:11",
     "attempted_at": "2026-10-26 13:11",
-    "publication_phase": "publishing",
-    "container_id": "17989518576110223"
+    "publication_phase": "published",
+    "container_id": "17989518576110223",
+    "threads_id": "18120718616051558",
+    "posted_at": "2026-10-26 13:11"
   },
   {
     "id": 540,
