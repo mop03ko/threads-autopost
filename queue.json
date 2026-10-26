@@ -4458,32 +4458,39 @@
     "scheduled_at": "2026-10-26 16:00",
     "text": "Master pages: дизайнерын практик зөвлөгөө\n\nОлон хуудасны page number, header, footer, торон бүтэц, давтагдах элементийг master дээр удирд.\n\nMaster-ийг гараар override хийхийг багасгаж, өөр зохион байгуулалт хэрэгтэй үед шинэ master variant үүсгэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/540-d49b272ec50b946d59be.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-26T22:30:18.266399+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-26T22:30:18.266399+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 740,
     "scheduled_at": "2026-10-26 19:00",
     "text": "UI/UX задлан: UI whitespace\n\nЗай нь мэдээллийн бүлэг, interaction target, мэдээллийн эрэмбийг тодруулдаг. Өндөр density-г зайгүй байдалтай андуурч болохгүй.\n\nSpacing token ашиглаж холбоотой зүйлсийн зайг бага, бүлэг хоорондын зайг их байлга.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/740-958d582e22924b180210.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-26T22:30:18.266399+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-26T22:30:18.266399+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 138,
     "scheduled_at": "2026-10-26 20:30",
     "text": "Retouch-ийн зорилго бодит байдлыг арилгах биш, анхаарал сарниулах зүйлсийг хянах.\n\nГэхдээ бүх texture-ийг жигд болгох нь чанартай retouch шиг харагддаггүй.\n\nЗураг төгс болсон ч амьд мэдрэмжгүй болж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/138-e9111be022d2b9cd3ba6.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-26T22:30:18.266399+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-26T22:30:18.266399+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 876,
     "scheduled_at": "2026-10-26 22:00",
     "text": "Киноны график дизайн: Spirited Away — Улаан bridge accent\n\nНогоон, хүрэн орчин дотор тод улаан зурвас frame-ийг огтолж, шууд visual anchor үүсгэдэг.\n\nТуршаад үзээрэй: Өргөн композици дээр focal line ашиглаж нүдний замыг нэг хөдөлгөөнөөр тогтоо.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/spirited-away-2001-ce8f0b92b736bda49435.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-26T22:30:18.266399+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-26T22:30:18.266399+08:00",
+    "processing_token": "de1cd0d0-50e4-41a1-a47c-b86ab687fcfb",
+    "processing_at": "2026-10-26 22:30",
+    "attempted_at": "2026-10-26 22:30",
+    "publication_phase": "claimed"
   },
   {
     "id": 139,
