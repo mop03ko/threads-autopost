@@ -4419,8 +4419,12 @@
     "scheduled_at": "2026-10-26 08:30",
     "text": "Зөвхөн гол объектоо хараад арын дэвсгэрээ орхих нь нийтлэг.\n\nЖижиг саад, тасарсан хэлбэр, илүүдэл элемент кадрын хүчийг сулруулдаг.\n\nБи зураг авахдаа хүрээний дөрвөн буланг тус бүр шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/137-a89c8f04d760c8a5a3a8.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-26T09:48:30.965362+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-26T09:48:30.965362+08:00",
+    "processing_token": "a9821f28-a49d-457d-b56e-3f2bbb7a6884",
+    "processing_at": "2026-10-26 09:48",
+    "attempted_at": "2026-10-26 09:48",
+    "publication_phase": "claimed"
   },
   {
     "id": 539,
