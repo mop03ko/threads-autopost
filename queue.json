@@ -4560,13 +4560,15 @@
     "scheduled_at": "2026-10-27 22:00",
     "text": "Киноны график дизайн: In the Mood for Love — Frame дотор frame\n\nХаалга, толь, хөшиг, corridor нь content-ийг байгалийн margin ба crop дотор байрлуулдаг.\n\nТуршаад үзээрэй: Poster зохион байгуулалтад rectangular masking ашиглаж negative space ба focus-ийг нарийвчил.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/in-the-mood-for-love-2000-a9ae4689e7815b11ae4d.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-27T22:18:12.845387+08:00",
     "processing_token": "b3d36d40-814d-4dff-a057-b40e1a4c9065",
     "processing_at": "2026-10-27 22:18",
     "attempted_at": "2026-10-27 22:18",
-    "publication_phase": "publishing",
-    "container_id": "17989846980110223"
+    "publication_phase": "published",
+    "container_id": "17989846980110223",
+    "threads_id": "17938466790127052",
+    "posted_at": "2026-10-27 22:18"
   },
   {
     "id": 141,
