@@ -4542,24 +4542,30 @@
     "scheduled_at": "2026-10-27 19:00",
     "text": "Өмнө ба дараа: Contrast нэмсэн өөрчлөлт\n\nОйролцоо lightness-тай бичвэр, арын дэвсгэр дэлгэцийн brightness өөрчлөгдөхөд алга болдог. Сайн хувилбар тоогоор баталгаажсан ялгаралтай.\n\nColor picker-ийн мэдрэмжид найдахгүй, ratio хэмжиж хамгийн чухал бичвэрээ 4.5:1 орчимд хүргэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/741-5278946664c73453f93c.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-27T22:18:12.845387+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-27T22:18:12.845387+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 140,
     "scheduled_at": "2026-10-27 20:30",
     "text": "Өөр өөр эх сурвалжийн icon-уудыг нэг дэлгэц дээр шууд хольж ашиглах нь зөрчил үүсгэдэг.\n\nЖижиг деталь бүр өөр системийн ул мөрийг ил гаргана.\n\nҮүнийг багасгахын тулд би дүрсэн тэмдэг бүрийг 16, 24, 32 пиксел дээр хамтад нь шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/140-ff1d21204e63ef6ef0fe.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-27T22:18:12.845387+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-27T22:18:12.845387+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 877,
     "scheduled_at": "2026-10-27 22:00",
     "text": "Киноны график дизайн: In the Mood for Love — Frame дотор frame\n\nХаалга, толь, хөшиг, corridor нь content-ийг байгалийн margin ба crop дотор байрлуулдаг.\n\nТуршаад үзээрэй: Poster зохион байгуулалтад rectangular masking ашиглаж negative space ба focus-ийг нарийвчил.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/in-the-mood-for-love-2000-a9ae4689e7815b11ae4d.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-27T22:18:12.845387+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-27T22:18:12.845387+08:00",
+    "processing_token": "b3d36d40-814d-4dff-a057-b40e1a4c9065",
+    "processing_at": "2026-10-27 22:18",
+    "attempted_at": "2026-10-27 22:18",
+    "publication_phase": "claimed"
   },
   {
     "id": 141,
