@@ -4518,8 +4518,12 @@
     "scheduled_at": "2026-10-27 13:00",
     "text": "Reel-ийн эхний 2 секундэд лого intro тавих нь үргэлж зөв биш.\n\nХамгийн хүчтэй visual, үр дүн эсвэл асуултаар эхэл. логог контекст тогтсоны дараа оруул.\n\nHook түрүүлж ирэхэд хэрэглэгч зогсож, брэндийг харах боломж нэмэгддэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/339-aa38cf88102ab07b1139.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-27T13:28:14.493075+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-27T13:28:14.493075+08:00",
+    "processing_token": "03ebafe7-5b13-4582-82a2-76b09d8b4dbd",
+    "processing_at": "2026-10-27 13:28",
+    "attempted_at": "2026-10-27 13:28",
+    "publication_phase": "claimed"
   },
   {
     "id": 542,
