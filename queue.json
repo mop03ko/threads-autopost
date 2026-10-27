@@ -4533,8 +4533,9 @@
     "scheduled_at": "2026-10-27 16:00",
     "text": "Paragraph styles: дизайнерын практик зөвлөгөө\n\nФонт, хэмжээ, leading, spacing, keep rule-ийг нэртэй paragraph хэв маягт нэгтгэ.\n\nBody бичвэрийг гараар format хийхгүй; хэв маяг өөрчлөхөд бүх баримт нэг дор шинэчлэгдэх ёстой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/editorial/542-1bf561727a5b192deffb.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-27T18:12:13.318108+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-27T18:12:13.318108+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 741,
