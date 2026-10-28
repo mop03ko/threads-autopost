@@ -4608,13 +4608,15 @@
     "scheduled_at": "2026-10-28 16:00",
     "text": "Character styles: дизайнерын практик зөвлөгөө\n\nParagraph доторх emphasis, link, label зэрэг хэсгийн formatting-ийг тусдаа хэв маяг болго.\n\nBold товчийг санамсаргүй дарахын оронд semantic character хэв маяг ашиглавал баримт цэвэр, тогтвортой үлдэнэ.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-28T16:12:30.632775+08:00",
     "processing_token": "4f48c85d-13ec-451e-8320-23d145d30015",
     "processing_at": "2026-10-28 16:12",
     "attempted_at": "2026-10-28 16:12",
-    "publication_phase": "publishing",
-    "container_id": "17989967832110223"
+    "publication_phase": "published",
+    "container_id": "17989967832110223",
+    "threads_id": "18642013405012907",
+    "posted_at": "2026-10-28 16:12"
   },
   {
     "id": 742,
