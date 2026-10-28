@@ -4623,8 +4623,12 @@
     "scheduled_at": "2026-10-28 19:00",
     "text": "Дизайнерын байр суурь: Reference хуулбарлах эрсдэл\n\nНэг reference-ийн зохиомж, өнгөний багц, type-ийг бүхэлд нь авахад plagiarism болон generic үр дүн үүснэ. Reference бол асуултын эхлэл.\n\nЖишээ бүрээс нэг л зарчим авч, өөр content ба audience дээр шинэ structure байгуул.",
     "image_url": "https://images.pexels.com/photos/3045245/pexels-photo-3045245.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-10-28T19:36:15.249194+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-28T19:36:15.249194+08:00",
+    "processing_token": "0021d824-9d13-4267-83ab-a7b758a0b703",
+    "processing_at": "2026-10-28 19:36",
+    "attempted_at": "2026-10-28 19:36",
+    "publication_phase": "claimed"
   },
   {
     "id": 142,
