@@ -4695,13 +4695,15 @@
     "scheduled_at": "2026-10-29 16:00",
     "text": "Global swatches: дизайнерын практик зөвлөгөө\n\nБрэндийн өнгийг global swatch болгож бүх объекттой холбо.\n\nSwatch-ийн утгыг нэг удаа өөрчлөхөд бүх хэрэглээ шинэчлэгдэх тул хувилбар турших, засвар хийх хурдан болно.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-29T16:18:30.473183+08:00",
     "processing_token": "531d8fce-9d0d-4d41-ab2f-6081b433c846",
     "processing_at": "2026-10-29 16:18",
     "attempted_at": "2026-10-29 16:18",
-    "publication_phase": "publishing",
-    "container_id": "17990148096110223"
+    "publication_phase": "published",
+    "container_id": "17990148096110223",
+    "threads_id": "17963409804506864",
+    "posted_at": "2026-10-29 16:18"
   },
   {
     "id": 743,
