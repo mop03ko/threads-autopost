@@ -4728,13 +4728,15 @@
     "scheduled_at": "2026-10-29 22:00",
     "text": "Киноны график дизайн: Kill Bill — Brush typography\n\nХурдан, жигд бус brush шугамын зузаан нь хөдөлгөөн ба эрчийг үсгийн хэлбэрээр илэрхийлдэг.\n\nТуршаад үзээрэй: Expressive lettering-ийг богино үгэнд ашиглаж, surrounding type-ийг саармаг байлга.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/kill-bill-2003-404588aceb05d62e1e45.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-29T22:40:48.443595+08:00",
     "processing_token": "beb15f8f-f8b5-42b7-b8e5-67d4381a20e0",
     "processing_at": "2026-10-29 22:40",
     "attempted_at": "2026-10-29 22:40",
-    "publication_phase": "publishing",
-    "container_id": "17990210745110223"
+    "publication_phase": "published",
+    "container_id": "17990210745110223",
+    "threads_id": "18030876176887142",
+    "posted_at": "2026-10-29 22:41"
   },
   {
     "id": 145,
