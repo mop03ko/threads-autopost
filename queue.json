@@ -4710,24 +4710,30 @@
     "scheduled_at": "2026-10-29 19:00",
     "text": "Логоны задлан: Emblem лого\n\nНэр, тэмдэг нэг хүрээнд багтсан emblem уламжлал, нэгдэл, бат бөх мэдрэмж өгдөг. Жижиг хэмжээнд доторх текст түрүүлж муудна.\n\nFull emblem, simplified badge, дүрсэн тэмдэг гэсэн гурван түвшинтэй болговол хэрэглээний хүрээ тэлнэ.",
     "image_url": "https://images.pexels.com/photos/7989229/pexels-photo-7989229.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-10-29T22:40:48.443595+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-29T22:40:48.443595+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 144,
     "scheduled_at": "2026-10-29 20:30",
     "text": "Трендийг шалтгаангүй дагавал бүтээл хурдан хуучирч болно.\n\nХэлбэрийг нь шууд дуурайхаас өмнө ямар хэрэгцээнд хариулж байгааг нь бодоорой.\n\nТанай брэнд, хэрэглэгчийн асуудалд тэр шийдэл үнэхээр нийцэж байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-144-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-29T22:40:48.443595+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-29T22:40:48.443595+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 879,
     "scheduled_at": "2026-10-29 22:00",
     "text": "Киноны график дизайн: Kill Bill — Brush typography\n\nХурдан, жигд бус brush шугамын зузаан нь хөдөлгөөн ба эрчийг үсгийн хэлбэрээр илэрхийлдэг.\n\nТуршаад үзээрэй: Expressive lettering-ийг богино үгэнд ашиглаж, surrounding type-ийг саармаг байлга.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/kill-bill-2003-404588aceb05d62e1e45.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-29T22:40:48.443595+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-29T22:40:48.443595+08:00",
+    "processing_token": "beb15f8f-f8b5-42b7-b8e5-67d4381a20e0",
+    "processing_at": "2026-10-29 22:40",
+    "attempted_at": "2026-10-29 22:40",
+    "publication_phase": "claimed"
   },
   {
     "id": 145,
