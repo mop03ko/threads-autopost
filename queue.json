@@ -4656,13 +4656,15 @@
     "scheduled_at": "2026-10-29 08:30",
     "text": "Хариу өгөхгүй интерфэйс хэрэглэгчийг дахин дарахад хүргэдэг.\n\nНэг удаагийн үйлдэл давхардаж, алдаа хэрэглэгчийн буруу мэт харагдана.\n\nБи үйлдэл бүрийн дараа хэрэглэгч юу мэдэх ёстойг жагсаадаг.таны бүтээгдэхүүний хамгийн хэрэгтэй microinteraction аль нь вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-143-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-29T09:33:15.659484+08:00",
     "processing_token": "188e5beb-5309-4758-ae82-932ee65d071e",
     "processing_at": "2026-10-29 09:33",
     "attempted_at": "2026-10-29 09:33",
-    "publication_phase": "publishing",
-    "container_id": "17990096586110223"
+    "publication_phase": "published",
+    "container_id": "17990096586110223",
+    "threads_id": "17914418355516520",
+    "posted_at": "2026-10-29 09:33"
   },
   {
     "id": 545,
