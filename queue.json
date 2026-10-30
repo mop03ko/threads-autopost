@@ -4776,8 +4776,12 @@
     "scheduled_at": "2026-10-30 16:00",
     "text": "Components: дизайнерын практик зөвлөгөө\n\nДахин ашиглах button, card, navigation, badge-ийг нэг master component-той болго.\n\nCopy-paste салангид объект үүсгэхгүй; component update бүх instance-д зөв тархаж буйг шалга.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-10-30T16:26:18.505119+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-30T16:26:18.505119+08:00",
+    "processing_token": "fbf88d04-f8e8-4e8d-a1d2-22d28b201fee",
+    "processing_at": "2026-10-30 16:26",
+    "attempted_at": "2026-10-30 16:26",
+    "publication_phase": "claimed"
   },
   {
     "id": 744,
