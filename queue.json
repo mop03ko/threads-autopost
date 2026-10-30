@@ -4761,8 +4761,12 @@
     "scheduled_at": "2026-10-30 13:00",
     "text": "Бичвэр animation хийхдээ үг бүрийг зэрэг хөдөлгөх хэрэггүй.\n\nГол түлхүүр үг, тоо, CTA-г л хөдөлгөөнөөр онцол. Body бичвэрийг тогтвортой үлдээ.\n\nЦөөн motion cue хэрэглэгчийн анхаарлыг чиглүүлж, уншлагыг тасалдуулахгүй.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-10-30T14:18:55.658234+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-30T14:18:55.658234+08:00",
+    "processing_token": "87978a0c-9e7f-473f-b8a4-5f5cb727780a",
+    "processing_at": "2026-10-30 14:18",
+    "attempted_at": "2026-10-30 14:18",
+    "publication_phase": "claimed"
   },
   {
     "id": 548,
