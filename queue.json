@@ -4791,24 +4791,27 @@
     "scheduled_at": "2026-10-30 19:00",
     "text": "Өнгөний задлан: Color psychology\n\nУлаан эрч хүч, цэнхэр итгэл гэх мэт нийтлэг холбоо байдаг ч салбар, соёл, shade-аас утга өөрчлөгдөнө.\n\nӨнгө сонгохдоо хүссэн adjective-ээс гадна өрсөлдөгч, audience, бодит хэрэглээний контекстыг харьцуул.",
     "image_url": "https://images.pexels.com/photos/28576306/pexels-photo-28576306.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-10-31T00:58:46.357116+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-31T00:58:46.357116+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 146,
     "scheduled_at": "2026-10-30 20:30",
     "text": "Оригинал санаа хоосноос гэнэт бий болдоггүй.\n\nГэхдээ зөвхөн шууд өрсөлдөгчдөө харах нь шийдлийн хүрээг нарийсгадаг.\n\nБүгд ижил эх сурвалжаас сурахад бүх брэнд ижил харагдана.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-146-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-31T00:58:46.357116+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-31T00:58:46.357116+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 880,
     "scheduled_at": "2026-10-30 22:00",
     "text": "Киноны график дизайн: Sin City — Ink contrast\n\nДунд tone-ийг багасгаж, том хар сүүдэр, цагаан highlight-аар комик шиг graphic mass үүсгэдэг.\n\nТуршаад үзээрэй: Фото постыг threshold-д шалгаж, silhouette ба текстийн байрлал өнгөгүй үед ажиллаж буй эсэхийг үз.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/sin-city-2005-cf813626b616d52efe8a.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-31T00:58:46.357116+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-31T00:58:46.357116+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 147,
