@@ -4872,16 +4872,21 @@
     "scheduled_at": "2026-10-31 19:00",
     "text": "Үсгийн хэвийн задлан: All-caps typography\n\nБүх том үсэг authority, label, compact emphasis өгдөг ч урт өгүүлбэрийн word shape-ийг алдагдуулна.\n\nAll-caps-ийг богино хэсэгт хэрэглэж, tracking-ийг бага зэрэг нэмэн accent-аа хязгаарла.",
     "image_url": "https://images.pexels.com/photos/36846220/pexels-photo-36846220.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-10-31T21:32:47.485702+08:00"
+    "status": "skipped",
+    "synced_at": "2026-10-31T21:32:47.485702+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 148,
     "scheduled_at": "2026-10-31 20:30",
     "text": "Олон хувилбар гаргахын өмнө хувилбар бүр юуг шалгахыг нэрлээрэй.\n\nНэг нь гарчгийн дараалал, нөгөө нь гол үйлдлийн байрлалыг туршиж болно.\n\nЯлгаа нь тодорхой байвал «аль нь гоё вэ?» гэдгээс илүү ямар шийдэл ажиллаж байгааг хэлэлцэнэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-148-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-10-31T21:32:47.485702+08:00"
+    "status": "processing",
+    "synced_at": "2026-10-31T21:32:47.485702+08:00",
+    "processing_token": "433cd4db-c3a1-49d9-a9a2-70d2b964807d",
+    "processing_at": "2026-10-31 21:32",
+    "attempted_at": "2026-10-31 21:32",
+    "publication_phase": "claimed"
   },
   {
     "id": 881,
