@@ -4857,13 +4857,15 @@
     "scheduled_at": "2026-10-31 16:00",
     "text": "Variants: дизайнерын практик зөвлөгөө\n\nНэг component-ийн хэмжээ, state, theme зэрэг холбоотой хувилбарыг нэг системд зохион байгуул.\n\nBoolean, property нэрийг ойлгомжтой өгч, боломжгүй хослолыг багасгавал handoff цэгцтэй болно.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-31T16:16:08.968202+08:00",
     "processing_token": "66d1fd05-2071-45ca-8d72-cd4d4dda64b9",
     "processing_at": "2026-10-31 16:16",
     "attempted_at": "2026-10-31 16:16",
-    "publication_phase": "publishing",
-    "container_id": "17990469966110223"
+    "publication_phase": "published",
+    "container_id": "17990469966110223",
+    "threads_id": "18105797879019436",
+    "posted_at": "2026-10-31 16:16"
   },
   {
     "id": 745,
