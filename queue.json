@@ -4881,13 +4881,15 @@
     "scheduled_at": "2026-10-31 20:30",
     "text": "Олон хувилбар гаргахын өмнө хувилбар бүр юуг шалгахыг нэрлээрэй.\n\nНэг нь гарчгийн дараалал, нөгөө нь гол үйлдлийн байрлалыг туршиж болно.\n\nЯлгаа нь тодорхой байвал «аль нь гоё вэ?» гэдгээс илүү ямар шийдэл ажиллаж байгааг хэлэлцэнэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-148-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-31T21:32:47.485702+08:00",
     "processing_token": "433cd4db-c3a1-49d9-a9a2-70d2b964807d",
     "processing_at": "2026-10-31 21:32",
     "attempted_at": "2026-10-31 21:32",
-    "publication_phase": "publishing",
-    "container_id": "17990513430110223"
+    "publication_phase": "published",
+    "container_id": "17990513430110223",
+    "threads_id": "18099270662553695",
+    "posted_at": "2026-10-31 21:33"
   },
   {
     "id": 881,
