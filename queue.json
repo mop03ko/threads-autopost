@@ -4818,13 +4818,15 @@
     "scheduled_at": "2026-10-31 08:30",
     "text": "Эхний оролдлого төгс байх ёстой гэж өөртөө дарамт өгөх нь хөдөлгөөнийг зогсоодог.\n\nХоосон canvas улам аймшигтай болж, шүүлт бүтээлээс түрүүлдэг.\n\nБи асуудлыг жижиг болгож, нэг constraint сонгоод 15 минутын турш муу хувилбарууд гаргадаг.та creative block-оос гарахдаа юу хийдэг вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-147-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-10-31T08:59:09.839498+08:00",
     "processing_token": "a267d22c-508d-45a7-ad99-b403a7540d57",
     "processing_at": "2026-10-31 08:59",
     "attempted_at": "2026-10-31 08:59",
-    "publication_phase": "publishing",
-    "container_id": "17990419812110223"
+    "publication_phase": "published",
+    "container_id": "17990419812110223",
+    "threads_id": "18135411485309241",
+    "posted_at": "2026-10-31 08:59"
   },
   {
     "id": 549,
