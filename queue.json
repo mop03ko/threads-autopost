@@ -4896,8 +4896,9 @@
     "scheduled_at": "2026-10-31 22:00",
     "text": "Киноны график дизайн: The Dark Knight — Хөх-саарал palette\n\nLow-saturation хөх, графит саарал, цагаан highlight нь хотын visual-ыг цэвэр, хатуу системд оруулдаг.\n\nТуршаад үзээрэй: Corporate dark theme-д hue-гаа цөөлж, ялгарлыг luminance ба spacing-аар шийд.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/the-dark-knight-2008-c89afdd5666bdbaff3d2.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-01T00:00:03.180573+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-01T00:00:03.180573+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 149,
