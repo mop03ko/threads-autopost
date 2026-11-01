@@ -4923,13 +4923,15 @@
     "scheduled_at": "2026-11-01 13:00",
     "text": "Арын дэвсгэр music voice-оос чанга байвал message алга болно.\n\nVoiceover эхлэх хэсэгт music level-ийг бууруулж, завсарлага дээр бага зэрэг өсгө. Чихэвч болон утасны speaker-ээр хоёулангаар шалга.\n\nТэнцвэртэй mix нь үгийг тод, видеог амьд байлгана.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-01T14:22:46.200916+08:00",
     "processing_token": "7d80b768-3c51-4e1a-9535-af3ca31d983c",
     "processing_at": "2026-11-01 14:22",
     "attempted_at": "2026-11-01 14:22",
-    "publication_phase": "publishing",
-    "container_id": "17990677248110223"
+    "publication_phase": "published",
+    "container_id": "17990677248110223",
+    "threads_id": "18159632362506337",
+    "posted_at": "2026-11-01 14:23"
   },
   {
     "id": 552,
