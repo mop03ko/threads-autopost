@@ -4905,24 +4905,30 @@
     "scheduled_at": "2026-11-01 08:30",
     "text": "Бүх боломж нээлттэй байхыг эрх чөлөө гэж андуурах нь түгжрэл үүсгэдэг.\n\nСонголт хэт олон болоход нэгийг нь хамгаалах шалтгаан сулрана.\n\nБи constraint бүрийг саад биш, дизайн шийдвэрийн эхлэл гэж хардаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-149-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-01T14:22:46.200916+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-01T14:22:46.200916+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 551,
     "scheduled_at": "2026-11-01 10:00",
     "text": "PDF/X-1a гэж юу вэ?\n\nCMYK болон spot color-д төвлөрсөн, transparency-г flatten хийсэн уламжлалт хэвлэлийн PDF стандарт.\n\nХуучин RIP, тодорхой хэвлэх газар шаардсан үед PDF/X-1a ашигла; transparency flattening-ийн ирмэгийг preview дээр шалга.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-01T14:22:46.200916+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-01T14:22:46.200916+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 344,
     "scheduled_at": "2026-11-01 13:00",
     "text": "Арын дэвсгэр music voice-оос чанга байвал message алга болно.\n\nVoiceover эхлэх хэсэгт music level-ийг бууруулж, завсарлага дээр бага зэрэг өсгө. Чихэвч болон утасны speaker-ээр хоёулангаар шалга.\n\nТэнцвэртэй mix нь үгийг тод, видеог амьд байлгана.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-01T14:22:46.200916+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-01T14:22:46.200916+08:00",
+    "processing_token": "7d80b768-3c51-4e1a-9535-af3ca31d983c",
+    "processing_at": "2026-11-01 14:22",
+    "attempted_at": "2026-11-01 14:22",
+    "publication_phase": "claimed"
   },
   {
     "id": 552,
