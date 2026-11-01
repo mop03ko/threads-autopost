@@ -4938,13 +4938,15 @@
     "scheduled_at": "2026-11-01 16:00",
     "text": "Auto layout: дизайнерын практик зөвлөгөө\n\nКонтент өөрчлөгдөхөд padding, gap, alignment, хэмжээ автоматаар зохицох container ашигла.\n\nУрт Монгол текст, олон хэл, empty state дээр component эвдрэхгүйг шалгаж fixed width-ийг зориудаар хэрэглэ.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-01T16:59:50.162684+08:00",
     "processing_token": "7e00dafa-40ff-41b1-bfdc-bda25ef246e6",
     "processing_at": "2026-11-01 16:59",
     "attempted_at": "2026-11-01 16:59",
-    "publication_phase": "publishing",
-    "container_id": "17990704281110223"
+    "publication_phase": "published",
+    "container_id": "17990704281110223",
+    "threads_id": "18171264142476364",
+    "posted_at": "2026-11-01 17:00"
   },
   {
     "id": 746,
