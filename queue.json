@@ -4962,13 +4962,15 @@
     "scheduled_at": "2026-11-01 20:30",
     "text": "Хурдан ажиллах гэдэг алхам алгасах тухай биш.\n\nГэхдээ хугацаа бага үед QA-г хамгийн түрүүнд хасах нь эрсдэлтэй.\n\nХэдхэн минут хэмнээд дараа нь бүтэн ажлыг дахин хийх нөхцөл үүснэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-150-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-01T21:41:09.968137+08:00",
     "processing_token": "020000eb-72cd-4fef-b341-1a44e53974f2",
     "processing_at": "2026-11-01 21:41",
     "attempted_at": "2026-11-01 21:41",
-    "publication_phase": "publishing",
-    "container_id": "17990737686110223"
+    "publication_phase": "published",
+    "container_id": "17990737686110223",
+    "threads_id": "18126817108912758",
+    "posted_at": "2026-11-01 21:41"
   },
   {
     "id": 882,
