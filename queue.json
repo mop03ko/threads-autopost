@@ -5034,24 +5034,27 @@
     "scheduled_at": "2026-11-02 19:00",
     "text": "UI/UX задлан: Icon with label\n\nТанил бус дүрсэн тэмдэг дангаараа утгаа тайлбарлаж чаддаггүй. хэв маяг танигдсан ч үйлдэл тодорхой биш байж болно.\n\nЧухал action-д бичвэр label нэмэж, tooltip-ийг үндсэн тайлбарын орлуулга болгохгүй.",
     "image_url": "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-03T02:43:08.724117+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-03T02:43:08.724117+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 152,
     "scheduled_at": "2026-11-02 20:30",
     "text": "Процессоо танилцуулахдаа зөвхөн дэлгэцийн зургуудыг дараалуулах хангалтгүй.\n\nЯмар асуудал байсан, юуг туршсан, яагаад нэг хувилбарыг сонгосноо тайлбарла.\n\nУншигч хийсэн ажлаас гадна гаргасан шийдвэрийг тань ойлгож байна уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-152-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-03T02:43:08.724117+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-03T02:43:08.724117+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 883,
     "scheduled_at": "2026-11-02 22:00",
     "text": "Киноны график дизайн: Inception — Төвлөрсөн poster grid\n\nCharacters-ийг төв axis, шаталсан scale, тогтсон horizon дээр байрлуулж олон элементийг эмхэлдэг.\n\nТуршаад үзээрэй: Group poster-д subject бүрийн хэмжээ, overlap, baseline-ийг торон бүтцээр удирд.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/inception-2010-047b0a9fa759bdb17c86.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-03T02:43:08.724117+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-03T02:43:08.724117+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 153,
