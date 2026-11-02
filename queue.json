@@ -5019,13 +5019,15 @@
     "scheduled_at": "2026-11-02 16:00",
     "text": "Responsive check: дизайнерын практик зөвлөгөө\n\nДизайнаа зөвхөн desktop, mobile хоёр frame дээр бус завсрын өргөнүүдэд турш.\n\nБичвэр wrap, card count, navigation, image crop яг хаана эвдэрч байгаагаар breakpoint-аа тодорхойл.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-02T16:24:14.949958+08:00",
     "processing_token": "1a757cd4-7ec5-4b74-992f-a7e7c1a71fda",
     "processing_at": "2026-11-02 16:24",
     "attempted_at": "2026-11-02 16:24",
-    "publication_phase": "publishing",
-    "container_id": "17990846385110223"
+    "publication_phase": "published",
+    "container_id": "17990846385110223",
+    "threads_id": "18120946727070429",
+    "posted_at": "2026-11-02 16:24"
   },
   {
     "id": 747,
