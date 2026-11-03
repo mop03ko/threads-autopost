@@ -5061,13 +5061,15 @@
     "scheduled_at": "2026-11-03 08:30",
     "text": "Зөвхөн software tutorial үзэхийг хөгжлийн төлөвлөгөө гэж үзэх нь хязгаарлагдмал.\n\nГар хурдан болсон ч шийдвэрийн чанар хэвэндээ үлдэж болно.\n\nБи сар бүр нэг ажлаа эргэж хараад юуг одоо өөрөөр хийхээ тэмдэглэдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-153-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-03T09:19:54.750111+08:00",
     "processing_token": "fa4fc8dc-e7b8-4445-b8b8-bc0b218b0961",
     "processing_at": "2026-11-03 09:19",
     "attempted_at": "2026-11-03 09:19",
-    "publication_phase": "publishing",
-    "container_id": "17990961084110223"
+    "publication_phase": "published",
+    "container_id": "17990961084110223",
+    "threads_id": "17977347662940342",
+    "posted_at": "2026-11-03 09:20"
   },
   {
     "id": 555,
