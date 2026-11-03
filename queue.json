@@ -5094,8 +5094,12 @@
     "scheduled_at": "2026-11-03 16:00",
     "text": "Accessibility hierarchy: дизайнерын практик зөвлөгөө\n\nHeading түвшин, унших дараалал, focus order-ийг харааны зохион байгуулалттай уялдуул.\n\nЗөвхөн фонт хэмжээгээр heading дүр эсгэхгүй; хөгжүүлэлтэд H1, H2, label-ийн semantic role-г дамжуул.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-03T16:18:03.052702+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-03T16:18:03.052702+08:00",
+    "processing_token": "e3b8db02-11ef-4780-8a1d-808d22e62549",
+    "processing_at": "2026-11-03 16:18",
+    "attempted_at": "2026-11-03 16:18",
+    "publication_phase": "claimed"
   },
   {
     "id": 748,
