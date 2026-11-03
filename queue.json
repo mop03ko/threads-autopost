@@ -5109,24 +5109,27 @@
     "scheduled_at": "2026-11-03 19:00",
     "text": "Өмнө ба дараа: Consistency зассан өөрчлөлт\n\nButton, дүрсэн тэмдэг, margin бүр өөр дүрэмтэй бол нэг дэлгэц олон эх сурвалжаас наасан мэт харагдана. Сайн хувилбар component rule ашиглана.\n\nRadius, шугамын зузаан, сүүдэр, spacing-ийн token-оо цөөлж бүх instance-д нэг дор шинэчил.",
     "image_url": "https://images.pexels.com/photos/19848073/pexels-photo-19848073.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-04T00:25:38.212683+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-04T00:25:38.212683+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 154,
     "scheduled_at": "2026-11-03 20:30",
     "text": "Tutorial үзээд ойлгосон мэдрэмж, өөрөө хийж чаддаг байх хоёр өөр.\n\nГэхдээ зөвхөн хадгалж, bookmark хийж, дараа үзнэ гэж хойшлуулах нь ахиц биш.\n\nМэдээлэл цугларсан ч гарын дадал үүсэхгүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-154-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-04T00:25:38.212683+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-04T00:25:38.212683+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 884,
     "scheduled_at": "2026-11-03 22:00",
     "text": "Киноны график дизайн: The Grand Budapest Hotel — Ягаан, нил ягаан palette\n\nОйролцоо hue-үүдийг value ба saturation-аар ялгаж, нэгэн төрлийн боловч хавтгай бус систем үүсгэдэг.\n\nТуршаад үзээрэй: Monochromatic өнгөний багцад light, mid, dark гэсэн value шатлал заавал байгуул.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/the-grand-budapest-hotel-2014-bff2d9bf7302227ec1de.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-04T00:25:38.212683+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-04T00:25:38.212683+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 155,
