@@ -5184,24 +5184,27 @@
     "scheduled_at": "2026-11-04 19:00",
     "text": "Дизайнерын байр суурь: Перфекционизм\n\nЖижиг детальд хэт удаан суух нь гол асуудлыг шийдээгүй хэвээр үлдээж болно. Чанар ба хугацааны тэнцвэрийг шатлал шийднэ.\n\nКонцепц, мэдээллийн эрэмбэ, readability, production гэсэн дарааллаар хяналт хийж дараа нь micro-деталь рүү ор.",
     "image_url": "https://images.pexels.com/photos/3730210/pexels-photo-3730210.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-05T01:10:30.282839+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-05T01:10:30.282839+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 156,
     "scheduled_at": "2026-11-04 20:30",
     "text": "Dark давталтыг clever design гэж зөвтгөх нь богино хугацааны сэтгэлгээ.\n\nНэг удаагийн өсөлтийн төлөө брэндийн урт хугацааны итгэлийг алдаж болно.\n\nҮүнийг багасгахын тулд би conversion нэмэгдүүлэх санал хэрэглэгчийн сонголтыг шударгаар хадгалж байгаа эсэхийг шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-156-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-05T01:10:30.282839+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-05T01:10:30.282839+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 885,
     "scheduled_at": "2026-11-04 22:00",
     "text": "Киноны график дизайн: Mad Max: Fury Road — Төвийн action composition\n\nГол объектууд төвд, шугамууд нэг vanishing point руу чиглэж хурдан хөдөлгөөн дунд ч уншигдана.\n\nТуршаад үзээрэй: Dynamic poster-д focal point-оо төвлөрүүлж, secondary elements-ээ radial guide дээр байрлуул.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/mad-max-fury-road-2015-b8a3508891aa6a6eebb3.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-05T01:10:30.282839+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-05T01:10:30.282839+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 157,
