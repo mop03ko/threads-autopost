@@ -5259,24 +5259,27 @@
     "scheduled_at": "2026-11-05 19:00",
     "text": "Логоны задлан: Dynamic identity\n\nНэг тогтмол тэмдэг дээр давталт, өнгө, дүрс өөрчлөгддөг систем брэндийг амьд харагдуулна. Хэт уян бол танигдах цөм алдагдана.\n\nӨөрчлөгдөх ба өөрчлөгдөхгүй элементүүдийг brand rule-д ялгаж, бүх хувилбарт нэг signature үлдээ.",
     "image_url": "https://images.pexels.com/photos/4348193/pexels-photo-4348193.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-06T02:10:39.140946+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-06T02:10:39.140946+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 158,
     "scheduled_at": "2026-11-05 20:30",
     "text": "Сайн харилцагч бэлэн төрдөггүй; сайн процессоор бий болдог.\n\nГэхдээ “Би дизайнер учраас мэднэ” гэсэн байр суурь яриаг хаадаг.\n\nЗөв шийдэл байсан ч итгэлцэлгүй бол батлагдахгүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-158-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-06T02:10:39.140946+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-06T02:10:39.140946+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 886,
     "scheduled_at": "2026-11-05 22:00",
     "text": "Киноны график дизайн: La La Land — Retro title typography\n\nArt Deco-д ойр serif, өргөн spacing, алтлаг өнгө нь classic entertainment identity үүсгэдэг.\n\nТуршаад үзээрэй: Period-inspired type-ийг modern spacing торон бүтэцтэй хослуулж хуучирсан харагдахаас сэргийл.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/la-la-land-2016-eaa1240580ccd21862a6.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-06T02:10:39.140946+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-06T02:10:39.140946+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 159,
