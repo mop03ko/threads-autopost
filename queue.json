@@ -5211,16 +5211,21 @@
     "scheduled_at": "2026-11-05 08:30",
     "text": "AI output-ыг шууд final гэж ашиглах нь олон жижиг алдааг далдалдаг.\n\nХарахад өнгөлөг ч брэнд, хэрэглэгч, бодит constraint-тай холбоогүй байж болно.\n\nБи AI-г эхний хувилбар, mood, copy exploration-д ашиглаад эцсийн шийдвэрээ өөрөө хамгаалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-157-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-05T10:51:51.461007+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-05T10:51:51.461007+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 559,
     "scheduled_at": "2026-11-05 10:00",
     "text": "Linked asset гэж юу вэ?\n\nЗураг, графикийг файл дотор хуулалгүй гаднах эх рүү замаар холбож ашигладаг бүтэц.\n\nLinked asset өөрчлөгдвөл зохион байгуулалт шинэчлэгдэнэ; файл зөөхдөө links folder-ийг хамт package хий.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-05T10:51:51.461007+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-05T10:51:51.461007+08:00",
+    "processing_token": "58317c41-8392-4203-ac48-66ed5d033a25",
+    "processing_at": "2026-11-05 10:51",
+    "attempted_at": "2026-11-05 10:51",
+    "publication_phase": "claimed"
   },
   {
     "id": 348,
