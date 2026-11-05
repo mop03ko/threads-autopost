@@ -5220,13 +5220,15 @@
     "scheduled_at": "2026-11-05 10:00",
     "text": "Linked asset гэж юу вэ?\n\nЗураг, графикийг файл дотор хуулалгүй гаднах эх рүү замаар холбож ашигладаг бүтэц.\n\nLinked asset өөрчлөгдвөл зохион байгуулалт шинэчлэгдэнэ; файл зөөхдөө links folder-ийг хамт package хий.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-05T10:51:51.461007+08:00",
     "processing_token": "58317c41-8392-4203-ac48-66ed5d033a25",
     "processing_at": "2026-11-05 10:51",
     "attempted_at": "2026-11-05 10:51",
-    "publication_phase": "publishing",
-    "container_id": "17991358221110223"
+    "publication_phase": "published",
+    "container_id": "17991358221110223",
+    "threads_id": "18644016598028029",
+    "posted_at": "2026-11-05 10:52"
   },
   {
     "id": 348,
