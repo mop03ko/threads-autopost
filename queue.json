@@ -5328,13 +5328,15 @@
     "scheduled_at": "2026-11-06 19:00",
     "text": "Өнгөний задлан: Cultural color meaning\n\nНэг өнгө улс, шашин, үе, үйл явдлаас хамаарч эсрэг утгатай байж болно. Global өнгөний багцыг зөвхөн трендээр сонгох эрсдэлтэй.\n\nЗорилтот зах зээл дээрээ өнгөний утга, баяр ёслол, хориг, өрсөлдөгчийн кодыг судал.",
     "image_url": "https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-06T19:36:14.683589+08:00",
     "processing_token": "a1e6ee55-7d54-40c6-8898-7f0df54ec648",
     "processing_at": "2026-11-06 19:36",
     "attempted_at": "2026-11-06 19:36",
-    "publication_phase": "publishing",
-    "container_id": "17991536796110223"
+    "publication_phase": "published",
+    "container_id": "17991536796110223",
+    "threads_id": "18127654391314032",
+    "posted_at": "2026-11-06 19:36"
   },
   {
     "id": 160,
