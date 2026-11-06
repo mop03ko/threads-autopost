@@ -5313,8 +5313,12 @@
     "scheduled_at": "2026-11-06 16:00",
     "text": "Icon consistency: дизайнерын практик зөвлөгөө\n\nДүрсэн тэмдэг set-ийн шугамын зузаан, corner, cap, торон бүтэц, perspective, fill rule-ийг нэг стандарттай барь.\n\nӨөр сангаас авсан дүрсэн тэмдгийг шууд хольж хэрэглэхгүй; хэмжээгээр бус optical weight-аар нь тэнцүүл.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-06T17:11:23.435680+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-06T17:11:23.435680+08:00",
+    "processing_token": "03506360-b101-40e5-80a4-46db1d515757",
+    "processing_at": "2026-11-06 17:11",
+    "attempted_at": "2026-11-06 17:11",
+    "publication_phase": "claimed"
   },
   {
     "id": 751,
