@@ -5415,24 +5415,27 @@
     "scheduled_at": "2026-11-07 19:00",
     "text": "Үсгийн хэвийн задлан: Lowercase tone\n\nЖижиг үсэг брэндийг илүү ойр, энгийн, contemporary харагдуулж чадна. Албан салбарт хэт casual мэдрэмж төрж болно.\n\nAudience, нэрийн дуудлага, өгүүлбэрийн дүрэмтэй нь туршиж, intentional lowercase гэдгийг системээр баталгаажуул.",
     "image_url": "https://images.pexels.com/photos/6005072/pexels-photo-6005072.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-08T00:35:02.265717+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-08T00:35:02.265717+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 162,
     "scheduled_at": "2026-11-07 20:30",
     "text": "Data бүтээлч байдлыг орлохгүй; таамгийг шалгахад тусална.\n\nГэхдээ тоог context-гүй дагах нь хэрэглэгчийн бодит шалтгааныг нууж болно.\n\nMetric өссөн ч урт хугацааны туршлага муудсан байх боломжтой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-162-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-08T00:35:02.265717+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-08T00:35:02.265717+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 888,
     "scheduled_at": "2026-11-07 22:00",
     "text": "Киноны график дизайн: Moonlight — Гурван хөргийн нийлбэр\n\nНэг нүүрийг гурван үеийн хэсгээс бүтээсэн poster нь modular crop-оор бүтэн identity гаргадаг.\n\nТуршаад үзээрэй: Series portrait-д ижил eye-line, crop ratio, color grade ашиглаж collage-ийг нэг болго.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/moonlight-2016-58279a2059e19669fe45.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-08T00:35:02.265717+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-08T00:35:02.265717+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 163,
