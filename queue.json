@@ -5400,13 +5400,15 @@
     "scheduled_at": "2026-11-07 16:00",
     "text": "Stroke consistency: дизайнерын практик зөвлөгөө\n\nИжил түвшний line, дүрсэн тэмдэг, divider-д тогтмол шугамын зузаан weight хэрэглэ.\n\nScale хийхдээ шугамын зузаан хамт өөрчлөгдөх эсэхийг хянаж, жижиг хэмжээнд хэт нарийсахыг зас.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-07T16:37:17.458272+08:00",
     "processing_token": "917baa34-c2cb-4d33-aed6-22138d76fa3d",
     "processing_at": "2026-11-07 16:37",
     "attempted_at": "2026-11-07 16:37",
-    "publication_phase": "publishing",
-    "container_id": "17991657498110223"
+    "publication_phase": "published",
+    "container_id": "17991657498110223",
+    "threads_id": "17993247971862113",
+    "posted_at": "2026-11-07 16:37"
   },
   {
     "id": 752,
