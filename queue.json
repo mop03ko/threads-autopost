@@ -5361,16 +5361,21 @@
     "scheduled_at": "2026-11-07 08:30",
     "text": "Lorem ipsum дээр төгс болгосон зохион байгуулалт бодит контент дээр амархан эвдэрдэг.\n\nДизайн буруу биш мэт боловч мэдээлэл багтахгүй, утга тасарна.\n\nБи боломжтой бол бодит copy-тай эрт ажиллаж, урт ба богино хувилбарыг туршдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-161-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-07T11:11:20.569579+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-07T11:11:20.569579+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 563,
     "scheduled_at": "2026-11-07 10:00",
     "text": "Transparency flattening гэж юу вэ?\n\nТунгалаг эффектүүдийг хуучин хэвлэлийн системд нийцүүлэхийн тулд vector, raster хэсэг болгон нэгтгэх процесс.\n\nFlatten хийх үед нимгэн цагаан шугам, бичвэр rasterization гарч болох тул high-resolution preset болон overprint preview ашигла.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-07T11:11:20.569579+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-07T11:11:20.569579+08:00",
+    "processing_token": "413cfd8d-0f0f-4a0d-a85c-43dbe32b8faa",
+    "processing_at": "2026-11-07 11:11",
+    "attempted_at": "2026-11-07 11:11",
+    "publication_phase": "claimed"
   },
   {
     "id": 350,
