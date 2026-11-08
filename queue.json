@@ -5490,16 +5490,21 @@
     "scheduled_at": "2026-11-08 19:00",
     "text": "Постерын задлан: Repetition poster\n\nНэг дүрс, үг, өнгө давтагдахад rhythm, campaign identity үүсдэг. Ижил давталт удаан үргэлжилбэл уйтгартай.\n\nХэмжээ, crop, opacity-ийн нэг хувьсагчийг өөрчилж давталт дотор surprise point үүсгэ.",
     "image_url": "https://images.pexels.com/photos/3964580/pexels-photo-3964580.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-08T20:46:32.578481+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-08T20:46:32.578481+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 164,
     "scheduled_at": "2026-11-08 20:30",
     "text": "Загвар ба хэрэгжсэн бүтээгдэхүүнийг зөвхөн зургаар харьцуулах хангалтгүй.\n\nДарах, буцах, мэдээлэл оруулах, алдаа гаргах зэрэг бодит үйлдлийг хийж үз.\n\nХарагдац төстэй ч үйлдлийн дараалал, хариу өгөх байдал өөр болсон байж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-164-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-08T20:46:32.578481+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-08T20:46:32.578481+08:00",
+    "processing_token": "8532e0b3-594f-4ced-a96f-e4e5804511bc",
+    "processing_at": "2026-11-08 20:46",
+    "attempted_at": "2026-11-08 20:46",
+    "publication_phase": "claimed"
   },
   {
     "id": 889,
