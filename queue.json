@@ -5460,13 +5460,15 @@
     "scheduled_at": "2026-11-08 13:00",
     "text": "Static design-аа video болгохдоо бүхнийг хөдөлгөх шаардлагагүй.\n\nНэг focal movement, зөөлөн camera motion, тодорхой timing нэмээд бусдыг тогтвортой үлдээ.\n\nХязгаарлагдсан хөдөлгөөн message-ийг амьдруулж, дизайны мэдээллийн эрэмбийг эвдэхгүй.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-08T13:48:49.283326+08:00",
     "processing_token": "ccb7749e-b358-4a07-acfd-092843c2caea",
     "processing_at": "2026-11-08 13:48",
     "attempted_at": "2026-11-08 13:48",
-    "publication_phase": "publishing",
-    "container_id": "17991786960110223"
+    "publication_phase": "published",
+    "container_id": "17991786960110223",
+    "threads_id": "17907315792355406",
+    "posted_at": "2026-11-08 13:49"
   },
   {
     "id": 566,
