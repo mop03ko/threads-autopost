@@ -5499,13 +5499,15 @@
     "scheduled_at": "2026-11-08 20:30",
     "text": "Загвар ба хэрэгжсэн бүтээгдэхүүнийг зөвхөн зургаар харьцуулах хангалтгүй.\n\nДарах, буцах, мэдээлэл оруулах, алдаа гаргах зэрэг бодит үйлдлийг хийж үз.\n\nХарагдац төстэй ч үйлдлийн дараалал, хариу өгөх байдал өөр болсон байж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-164-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-08T20:46:32.578481+08:00",
     "processing_token": "8532e0b3-594f-4ced-a96f-e4e5804511bc",
     "processing_at": "2026-11-08 20:46",
     "attempted_at": "2026-11-08 20:46",
-    "publication_phase": "publishing",
-    "container_id": "17991824253110223"
+    "publication_phase": "published",
+    "container_id": "17991824253110223",
+    "threads_id": "18004904540801720",
+    "posted_at": "2026-11-08 20:46"
   },
   {
     "id": 889,
