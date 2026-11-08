@@ -5514,8 +5514,9 @@
     "scheduled_at": "2026-11-08 22:00",
     "text": "Киноны график дизайн: Blade Runner 2049 — Монументал scale\n\nЖижиг silhouette-ийг аварга хоосон shape-ийн өмнө байрлуулж хэмжээг тоон тайлбаргүй ойлгуулдаг.\n\nТуршаад үзээрэй: Scale илэрхийлэхдээ нэг танил reference object, нэг том mass, их negative space ашигла.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/blade-runner-2049-2017-0aec5262d35f5880ca2c.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-09T00:58:42.211690+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-09T00:58:42.211690+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 165,
