@@ -5571,24 +5571,27 @@
     "scheduled_at": "2026-11-09 19:00",
     "text": "UI/UX задлан: Color-state system\n\nSuccess, warning, error, info өнгө тогтмол хэрэглэгдэхгүй бол хэрэглэгчийн суралцсан дохио эвдэрнэ.\n\nӨнгө бүрт дүрсэн тэмдэг, label, арын дэвсгэр treatment хослуулж light, dark mode-д ялгарал шалга.",
     "image_url": "https://images.pexels.com/photos/5678243/pexels-photo-5678243.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-10T03:14:03.965382+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-10T03:14:03.965382+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 166,
     "scheduled_at": "2026-11-09 20:30",
     "text": "Детальд анхаарах сайхан, гэхдээ буруу концепц дээр төгс kerning хийх ашиггүй.\n\nГэхдээ жижиг деталь дээр эрт гацах нь гол асуудлыг халхалдаг.\n\nЦаг дуусахад өнгөлсөн хэсэг олон ч бүхэл шийдэл сул үлдэнэ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-166-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-10T03:14:03.965382+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-10T03:14:03.965382+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 890,
     "scheduled_at": "2026-11-09 22:00",
     "text": "Киноны график дизайн: Black Panther — Хар, нил ягаан, алт\n\nБараан үндсэн өнгө дээр нил ягаан energy accent, алтлаг premium деталь ялгаатай үүрэгтэй.\n\nТуршаад үзээрэй: өнгөний багц token бүрт арын дэвсгэр, action, premium деталь гэсэн semantic role өг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/black-panther-2018-84c8d4a334f8b8c27764.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-10T03:14:03.965382+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-10T03:14:03.965382+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 167,
