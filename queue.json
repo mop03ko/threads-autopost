@@ -5556,13 +5556,15 @@
     "scheduled_at": "2026-11-09 16:00",
     "text": "Shadow restraint: дизайнерын практик зөвлөгөө\n\nСүүдрийг объект тус бүрд гоёл болгох бус elevation, focus, separation илэрхийлэхэд ашигла.\n\nBlur, offset, opacity-ийн 2–3 түвшин тогтоож, dark mode болон өнгөт арын дэвсгэр дээр дахин шалга.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-09T16:43:49.306757+08:00",
     "processing_token": "42fc4422-09e8-4ca7-b673-bbb372d3a544",
     "processing_at": "2026-11-09 16:43",
     "attempted_at": "2026-11-09 16:43",
-    "publication_phase": "publishing",
-    "container_id": "17991956301110223"
+    "publication_phase": "published",
+    "container_id": "17991956301110223",
+    "threads_id": "18110823899187882",
+    "posted_at": "2026-11-09 16:44"
   },
   {
     "id": 754,
