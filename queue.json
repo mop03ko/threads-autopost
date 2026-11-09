@@ -5523,13 +5523,15 @@
     "scheduled_at": "2026-11-09 08:30",
     "text": "Нэг удаагийн хүсэлтийг component-ийн үндсэн хувилбар болгох нь системийг хүнд болгодог.\n\nVariant олширч, аль нь зөв болохыг баг өөрөө мэдэхээ больдог.\n\nБи exception бүрийг шинэ дүрэм болгохоос өмнө давтамж, шалтгааныг нь шалгадаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-165-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-09T09:46:15.597769+08:00",
     "processing_token": "9dc403b8-cb57-4ac7-814f-4a17958eefbb",
     "processing_at": "2026-11-09 09:46",
     "attempted_at": "2026-11-09 09:46",
-    "publication_phase": "publishing",
-    "container_id": "17991915693110223"
+    "publication_phase": "published",
+    "container_id": "17991915693110223",
+    "threads_id": "17912720862580509",
+    "posted_at": "2026-11-09 09:46"
   },
   {
     "id": 567,
