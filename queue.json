@@ -5631,8 +5631,9 @@
     "scheduled_at": "2026-11-10 16:00",
     "text": "Gradient restraint: дизайнерын практик зөвлөгөө\n\nGradient-д олон санамсаргүй өнгө нэмэхгүй; hue path, lightness, focal direction-ийг зорилготой сонго.\n\nBanding, ялгарал, хэвлэлийн gamut-ийг шалгаж, бичвэр доорх gradient-д тогтвортой уншилт хадгал.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-10T17:34:09.925708+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-10T17:34:09.925708+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 755,
