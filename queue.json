@@ -5667,16 +5667,21 @@
     "scheduled_at": "2026-11-11 08:30",
     "text": "Зөвхөн final файл хадгалаад ярилцлагын түүхийг алдах нь багийн ой санамжийг сулруулдаг.\n\nШинэ хүн ирэхэд хуучин асуудлыг дахин нээж эхэлдэг.\n\nБи том өөрчлөлт бүрийн ард нэг өгүүлбэрийн reasoning үлдээдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-169-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-11T10:14:13.471195+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-11T10:14:13.471195+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 571,
     "scheduled_at": "2026-11-11 10:00",
     "text": "Adjustment Layer гэж юу вэ?\n\nӨнгө, гэрэлтэлтийн засварыг эх пикселд хүрэлгүй тусдаа layer дээр хийх арга.\n\nCurves, Hue/Saturation, Color Balance-ийг Adjustment Layer-аар хэрэглэж mask-аар нөлөөлөх хэсгийг удирд.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-11T10:14:13.471195+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-11T10:14:13.471195+08:00",
+    "processing_token": "0ffe1257-3dbc-4069-9b48-845a953ee4f3",
+    "processing_at": "2026-11-11 10:14",
+    "attempted_at": "2026-11-11 10:14",
+    "publication_phase": "claimed"
   },
   {
     "id": 354,
