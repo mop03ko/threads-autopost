@@ -5709,24 +5709,27 @@
     "scheduled_at": "2026-11-11 19:00",
     "text": "Дизайнерын байр суурь: Хурдан дизайн\n\nХурд нь shortcut бус сайн бэлтгэсэн system, asset, preset, checklist-ийн үр дүн. Яарсан improvisation тогтвортой биш.\n\nДавтагдсан ажлаа загвар болгож, бүтээлч цагийг гол концепц ба judgment-д үлдээ.",
     "image_url": "https://images.pexels.com/photos/16313660/pexels-photo-16313660.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-12T01:27:18.218741+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-12T01:27:18.218741+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 170,
     "scheduled_at": "2026-11-11 20:30",
     "text": "Өдөржин суусан цаг бүтээлч чанартай шууд тэнцдэггүй.\n\nГэхдээ ядарсан үедээ ч чухал шийдвэр гаргаад үргэлжлүүлэх нь засварыг өсгөдөг.\n\nМаргаашийн 20 минут өнөөдрийн хоёр цагаас илүү тод байж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-170-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-12T01:27:18.218741+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-12T01:27:18.218741+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 892,
     "scheduled_at": "2026-11-11 22:00",
     "text": "Киноны график дизайн: Joker — Hand-painted title\n\nЖигд бус цагаан үсэг нь төгс бус edge-тэй тул portrait-ийн gritty texture-тэй нийцдэг.\n\nТуршаад үзээрэй: Raw lettering-ийг vector болгож хэт цэвэрлэхгүй; controlled imperfection-ийг silhouette-д үлдээ.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/joker-2019-6a00cbad4c5bf05198ed.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-12T01:27:18.218741+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-12T01:27:18.218741+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 171,
