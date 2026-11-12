@@ -5781,13 +5781,15 @@
     "scheduled_at": "2026-11-12 20:30",
     "text": "Өөрийн хэв маягийг олохын тулд бусдын бүтээлийг бүхлээр нь дуурайх шаардлагагүй.\n\nХийсэн ажлуудаа зэрэгцүүлээд өнгө, зай, хэлбэр, бичвэрт ямар сонголт давтагдаж байгааг хар.\n\nТэр сонголтыг яагаад хийдгээ ойлгох нь өөрийн чиглэлээ тодруулахад тустай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-172-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-12T21:04:14.836374+08:00",
     "processing_token": "60264db1-88f7-4972-bd88-9dd6af0acfcf",
     "processing_at": "2026-11-12 21:04",
     "attempted_at": "2026-11-12 21:04",
-    "publication_phase": "publishing",
-    "container_id": "17992490946110223"
+    "publication_phase": "published",
+    "container_id": "17992490946110223",
+    "threads_id": "18645240796050431",
+    "posted_at": "2026-11-12 21:04"
   },
   {
     "id": 893,
