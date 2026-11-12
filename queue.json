@@ -5763,8 +5763,9 @@
     "scheduled_at": "2026-11-12 16:00",
     "text": "Crop consistency: дизайнерын практик зөвлөгөө\n\nCarousel, каталог, card доторх зургийн focal point, horizon, headroom-ийг ижил логикоор crop хий.\n\nAuto crop-д найдахгүй; хэмжээ бүрт subject тасраагүй, харцны чиглэлд зай үлдсэн эсэхийг шалга.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-12T17:37:09.767489+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-12T17:37:09.767489+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 757,
