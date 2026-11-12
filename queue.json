@@ -5772,16 +5772,21 @@
     "scheduled_at": "2026-11-12 19:00",
     "text": "Логоны задлан: Black-and-white logo test\n\nӨнгөгүй үед ажиллахгүй лого ихэнхдээ shape, мэдээллийн эрэмбийн асуудалтай байдаг. Өнгө муу бүтцийг түр нууж чадна.\n\nКонцепцийн эхэнд хар silhouette, дараа нь reverse хувилбарыг баталж байж өнгөний багц нэм.",
     "image_url": "https://images.pexels.com/photos/29485989/pexels-photo-29485989.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-12T21:04:14.836374+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-12T21:04:14.836374+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 172,
     "scheduled_at": "2026-11-12 20:30",
     "text": "Өөрийн хэв маягийг олохын тулд бусдын бүтээлийг бүхлээр нь дуурайх шаардлагагүй.\n\nХийсэн ажлуудаа зэрэгцүүлээд өнгө, зай, хэлбэр, бичвэрт ямар сонголт давтагдаж байгааг хар.\n\nТэр сонголтыг яагаад хийдгээ ойлгох нь өөрийн чиглэлээ тодруулахад тустай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-172-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-12T21:04:14.836374+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-12T21:04:14.836374+08:00",
+    "processing_token": "60264db1-88f7-4972-bd88-9dd6af0acfcf",
+    "processing_at": "2026-11-12 21:04",
+    "attempted_at": "2026-11-12 21:04",
+    "publication_phase": "claimed"
   },
   {
     "id": 893,
