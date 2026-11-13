@@ -5853,24 +5853,27 @@
     "scheduled_at": "2026-11-13 19:00",
     "text": "Өнгөний задлан: Black-and-white palette\n\nХар, цагаан систем shape, typography, spacing-ийг илүү тод харуулдаг. Харин цэвэр хар, цэвэр цагаан үргэлж хамгийн тухтай хос биш.\n\nДэлгэцэд off-black, off-white туршиж, хэвлэлд paper white болон ink density-г proof дээр шалга.",
     "image_url": "https://images.pexels.com/photos/38869233/pexels-photo-38869233.png?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-14T00:46:41.058919+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T00:46:41.058919+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 174,
     "scheduled_at": "2026-11-13 20:30",
     "text": "Дизайнаа хамгаална гэдэг бүх саналтай маргалдана гэсэн үг биш.\n\nГэхдээ өөрийн ego-г шийдэлтэйгээ хэт холбох нь сайн саналыг хаадаг.\n\nЗөв санааг хамгаалах гэж байгаад буруу хувилбараа хамгаалж үлдэж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-174-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-14T00:46:41.058919+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T00:46:41.058919+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 894,
     "scheduled_at": "2026-11-13 22:00",
     "text": "Киноны график дизайн: Everything Everywhere All at Once — Collage hierarchy\n\nОлон нүүр, объект, texture-ийг төв хөрөг, radial flow, хэмжээний огцом ялгаагаар эмхэлдэг.\n\nТуршаад үзээрэй: Maximalist зохион байгуулалтад төв focal point, 3 scale level, 1 direction of flow заавал тогтоо.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/everything-everywhere-all-at-once-2022-b0c259abc6fee1334954.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-14T00:46:41.058919+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T00:46:41.058919+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 175,
