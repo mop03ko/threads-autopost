@@ -5838,13 +5838,15 @@
     "scheduled_at": "2026-11-13 16:00",
     "text": "Subject eye line: дизайнерын практик зөвлөгөө\n\nХүний харц хаашаа чиглэж байгааг зохиомж дотор мессеж, бүтээгдэхүүн рүү ашигла.\n\nSubject frame-ээс гадагш харвал хараа дизайнээс гарах эрсдэлтэй; copy placement-тай нь хамт турш.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-13T16:43:28.575422+08:00",
     "processing_token": "a2e6b52f-5a5d-4fd8-a2e7-4601e7e88366",
     "processing_at": "2026-11-13 16:43",
     "attempted_at": "2026-11-13 16:43",
-    "publication_phase": "publishing",
-    "container_id": "17992610547110223"
+    "publication_phase": "published",
+    "container_id": "17992610547110223",
+    "threads_id": "18096821882183915",
+    "posted_at": "2026-11-13 16:43"
   },
   {
     "id": 758,
