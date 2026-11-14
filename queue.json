@@ -5928,24 +5928,27 @@
     "scheduled_at": "2026-11-14 19:00",
     "text": "Үсгийн хэвийн задлан: Text alignment\n\nLeft alignment урт уншлагад тогтвортой эхлэл өгдөг; centered alignment богино мессежид ёслолын мэдрэмж нэмнэ.\n\nНэг блокт олон alignment бүү хольж, хамгийн урт copy дээр rag болон scan path-ийг шалга.",
     "image_url": "https://images.pexels.com/photos/38459240/pexels-photo-38459240.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-14T23:57:22.853225+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T23:57:22.853225+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 176,
     "scheduled_at": "2026-11-14 20:30",
     "text": "Жилийн өсөлтийг зөвхөн дуусгасан ажлын тоогоор хэмжихэд дутуу.\n\nЯмар асуудлыг илүү сайн шийддэг болсон, юунаас суралцсан, дараа нь юуг өөрчлөхөө тэмдэглэ.\n\nЗарим жижиг шийдвэр олон ажлын чанарт нөлөөлсөн байж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-176-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-14T23:57:22.853225+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T23:57:22.853225+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 895,
     "scheduled_at": "2026-11-14 22:00",
     "text": "Киноны график дизайн: Barbie — Bubble wordmark\n\nЗөөлөн муруй, холбогдсон шугамын зузаан, цагаан outline нь фон солигдсон ч friendly silhouette-ээ хадгалдаг.\n\nТуршаад үзээрэй: Script логонд outline ба clear-space хувилбарыг жижиг дэлгэц, photo арын дэвсгэр дээр тусад нь турш.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/barbie-2023-ff75e50c5747dea69eea.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-14T23:57:22.853225+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-14T23:57:22.853225+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 177,
