@@ -5913,8 +5913,12 @@
     "scheduled_at": "2026-11-14 16:00",
     "text": "Background contrast: дизайнерын практик зөвлөгөө\n\nФото дээр бичвэр тавихдаа local ялгарлыг хэмжиж, бүх crop дээр уншигдахыг баталгаажуул.\n\nOverlay, blur, solid panel, бичвэр сүүдрээс хамгийн бага оролцоотой шийдлийг сонго; accessibility-г орхихгүй.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-14T16:50:20.872861+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-14T16:50:20.872861+08:00",
+    "processing_token": "ec4ac9e0-b0bc-4993-8a7f-e2a547436362",
+    "processing_at": "2026-11-14 16:50",
+    "attempted_at": "2026-11-14 16:50",
+    "publication_phase": "claimed"
   },
   {
     "id": 759,
