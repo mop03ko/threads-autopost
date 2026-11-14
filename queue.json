@@ -5894,7 +5894,8 @@
     "processing_token": "efbe8c01-929d-47cb-9f11-d50475fcd415",
     "processing_at": "2026-11-14 10:30",
     "attempted_at": "2026-11-14 10:30",
-    "publication_phase": "claimed"
+    "publication_phase": "container_created",
+    "container_id": "17992729767110223"
   },
   {
     "id": 357,
