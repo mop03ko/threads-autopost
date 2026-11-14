@@ -5889,13 +5889,15 @@
     "scheduled_at": "2026-11-14 10:00",
     "text": "Sans serif фонт гэж юу вэ?\n\nҮсгийн төгсгөлд serif-гүй цэвэр бүтэцтэй бөгөөд интерфэйс, орчин үеийн брэндэд түгээмэл.\n\nЖижиг дэлгэцийн текстэд шугамын зузаан нь тод, x-height өндөр sans serif сонгож, weight-ийн ялгааг хангалттай байлга.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-14T10:30:22.683746+08:00",
     "processing_token": "efbe8c01-929d-47cb-9f11-d50475fcd415",
     "processing_at": "2026-11-14 10:30",
     "attempted_at": "2026-11-14 10:30",
-    "publication_phase": "publishing",
-    "container_id": "17992729767110223"
+    "publication_phase": "published",
+    "container_id": "17992729767110223",
+    "threads_id": "18109121753194650",
+    "posted_at": "2026-11-14 10:30"
   },
   {
     "id": 357,
