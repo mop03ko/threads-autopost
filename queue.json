@@ -5997,24 +5997,30 @@
     "scheduled_at": "2026-11-15 19:00",
     "text": "Постерын задлан: Texture poster\n\nЦаас, grain, ink, material texture дизайндаа tactile мэдрэмж өгдөг. Texture ихдвэл жижиг copy, лого бүдгэрнэ.\n\nTexture-г мэдээллийн эрэмбийн доод түвшинд барьж, хэвлэл ба дэлгэцийн хувилбарт intensity-г тусад нь тохируул.",
     "image_url": "https://images.pexels.com/photos/28609342/pexels-photo-28609342.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-15T22:39:42.533678+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-15T22:39:42.533678+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 178,
     "scheduled_at": "2026-11-15 20:30",
     "text": "Бүх хүнд таалагдах дизайн ихэвчлэн хэнд ч онцгой хэрэгтэй байдаггүй.\n\nБи шийдвэр бүрийн өмнө “энэ хүний хувьд юу чухал вэ?” гэж асуудаг.\n\nДизайн бүтээгчдээ таалагдсан ч хэрэглэгчид ойлгомжгүй үлдэж болно.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-178-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-15T22:39:42.533678+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-15T22:39:42.533678+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 896,
     "scheduled_at": "2026-11-15 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Uppercase condensed title\n\nӨндөр, шахуу caps үсэг нь өргөн дэлгэцийн imagery дээр компакт, жинтэй block үүсгэдэг.\n\nТуршаад үзээрэй: Long word title-д condensed family ашиглахдаа tracking-ийг хэт шахалгүй counter-уудыг хамгаал.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/oppenheimer-2023-334fb129968d0d78d933.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-15T22:39:42.533678+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-15T22:39:42.533678+08:00",
+    "processing_token": "58098fe5-9fb4-4646-9276-7acaad3fa197",
+    "processing_at": "2026-11-15 22:39",
+    "attempted_at": "2026-11-15 22:39",
+    "publication_phase": "claimed"
   },
   {
     "id": 179,
