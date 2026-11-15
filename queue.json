@@ -5982,8 +5982,12 @@
     "scheduled_at": "2026-11-15 16:00",
     "text": "Focal-point control: дизайнерын практик зөвлөгөө\n\nНэг гол элементээ scale, ялгарал, isolation, direction-аар бусдаас давуу болго.\n\nBlur хийж нүдээ нарийсгаад харахад focal point хэвээр байвал мэдээллийн эрэмбэ тогтвортой байна.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-15T17:05:31.173988+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-15T17:05:31.173988+08:00",
+    "processing_token": "6f18f780-3e67-468c-b6fa-eb8c72bda718",
+    "processing_at": "2026-11-15 17:05",
+    "attempted_at": "2026-11-15 17:05",
+    "publication_phase": "claimed"
   },
   {
     "id": 760,
