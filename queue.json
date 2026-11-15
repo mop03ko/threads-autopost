@@ -6015,13 +6015,15 @@
     "scheduled_at": "2026-11-15 22:00",
     "text": "Киноны график дизайн: Oppenheimer — Uppercase condensed title\n\nӨндөр, шахуу caps үсэг нь өргөн дэлгэцийн imagery дээр компакт, жинтэй block үүсгэдэг.\n\nТуршаад үзээрэй: Long word title-д condensed family ашиглахдаа tracking-ийг хэт шахалгүй counter-уудыг хамгаал.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/oppenheimer-2023-334fb129968d0d78d933.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-15T22:39:42.533678+08:00",
     "processing_token": "58098fe5-9fb4-4646-9276-7acaad3fa197",
     "processing_at": "2026-11-15 22:39",
     "attempted_at": "2026-11-15 22:39",
-    "publication_phase": "publishing",
-    "container_id": "17992977861110223"
+    "publication_phase": "published",
+    "container_id": "17992977861110223",
+    "threads_id": "18100085129445537",
+    "posted_at": "2026-11-15 22:40"
   },
   {
     "id": 179,
