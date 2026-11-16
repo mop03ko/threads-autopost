@@ -6063,13 +6063,15 @@
     "scheduled_at": "2026-11-16 16:00",
     "text": "CTA prominence: дизайнерын практик зөвлөгөө\n\nCall to action нь action verb, хангалттай ялгарал, хүрэлцэхүйц хэмжээтэй байх ёстой.\n\nCTA-г бусад badge, лого, decoration-тай ижил хүчтэй болгож булшлахгүй; surrounding whitespace нэм.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-16T17:22:05.476089+08:00",
     "processing_token": "57c294c7-637c-476e-b6c2-6008abbdc11b",
     "processing_at": "2026-11-16 17:22",
     "attempted_at": "2026-11-16 17:22",
-    "publication_phase": "publishing",
-    "container_id": "17993098620110223"
+    "publication_phase": "published",
+    "container_id": "17993098620110223",
+    "threads_id": "17904500802378838",
+    "posted_at": "2026-11-16 17:22"
   },
   {
     "id": 761,
