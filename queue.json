@@ -6078,24 +6078,27 @@
     "scheduled_at": "2026-11-16 19:00",
     "text": "UI/UX задлан: UI typography\n\nИнтерфэйсийн текст decoration биш, navigation ба decision tool. Хэт олон хэмжээ, weight system-ийг сулруулна.\n\nDisplay, title, body, label, caption гэсэн цөөн role тогтоож component бүрт нэг мөр хэрэглэ.",
     "image_url": "https://images.pexels.com/photos/17279854/pexels-photo-17279854.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-17T00:00:07.646202+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-17T00:00:07.646202+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 180,
     "scheduled_at": "2026-11-16 20:30",
     "text": "Таны дизайн дээр гурван секундэд хамгийн түрүүнд юу харагддаг вэ?\n\nБи дизайнаа холоос хараад эхний, хоёр дахь, гурав дахь анхаарлын цэгийг шалгадаг.\n\nМэдээллийн эрэмбэ нь хэмжээ томруулах тухай биш; ач холбогдлыг дараалалтай болгох тухай.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-180-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-17T00:00:07.646202+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-17T00:00:07.646202+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 897,
     "scheduled_at": "2026-11-16 22:00",
     "text": "Киноны график дизайн: Poor Things — Сюрреал өнгөний блок\n\nХүчиллэг ногоон, тэнгэрийн хөх, улбар, ягаан том талбайгаар мөргөлдөж theatrical өнгөний багц үүсгэдэг.\n\nТуршаад үзээрэй: Өндөр ханалттай олон өнгө ашиглавал value мэдээллийн эрэмбэ ба neutral buffer заавал нэм.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/poor-things-2023-8e3b8f85c5d99ed4423a.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-17T00:00:07.646202+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-17T00:00:07.646202+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 181,
