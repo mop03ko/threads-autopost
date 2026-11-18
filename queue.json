@@ -6210,24 +6210,27 @@
     "scheduled_at": "2026-11-18 19:00",
     "text": "Дизайнерын байр суурь: Үнэгүй фонт\n\nFree гэж бичсэн бүхэн commercial хэрэглээ, web embedding, redistribution-д зөвшөөрөгдсөн гэсэн үг биш. Лиценз design-ийн нэг хэсэг.\n\nФонт source, license version, хэрэглээний эрхийг төсөлтэй нь архивлаж захиалагчид тодорхой дамжуул.",
     "image_url": "https://images.pexels.com/photos/16313516/pexels-photo-16313516.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-19T00:33:59.458076+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-19T00:33:59.458076+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 184,
     "scheduled_at": "2026-11-18 20:30",
     "text": "Та математик alignment-д итгэдэг үү, оптик тохируулгад итгэдэг үү?\n\nБи төгсгөлд нь guide-аа асааж бүх гол тэнхлэгийг нэг удаа шалгадаг.\n\nAlignment нь цэвэр харагдахаас гадна элементүүдийн холбоог тайлбарладаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-184-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-19T00:33:59.458076+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-19T00:33:59.458076+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 899,
     "scheduled_at": "2026-11-18 22:00",
     "text": "Киноны график дизайн: The Wizard of Oz — Дүрийн өнгөний код\n\nУлаан, цэнхэр, мөнгөлөг зэрэг цэвэр өнгөнүүд дүр бүрийг silhouette-ээс гадна өнгөний багцаар нь ялгадаг.\n\nТуршаад үзээрэй: Олон ангилалтай системд category бүрт тогтвортой, хоорондоо хангалттай ялгаатай өнгө оноо.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/the-wizard-of-oz-1939-6d56d690bb60e3d348b4.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-19T00:33:59.458076+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-19T00:33:59.458076+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 185,
