@@ -6282,13 +6282,15 @@
     "scheduled_at": "2026-11-19 20:30",
     "text": "Хоосон зайг заавал дүүргэх шаардлагагүй.\n\nЗай нь бүлгүүдийг ялгаж, гол мэдээлэлд анхаарах боломж өгдөг.\n\nНэг элемент нэмэхийн өмнө асуугаарай: энэ нь утгыг тодруулах уу, эсвэл уншихад илүү хэцүү болгох уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-186-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-19T21:25:56.549213+08:00",
     "processing_token": "dce97499-b29a-4914-a768-2c04fb5abe77",
     "processing_at": "2026-11-19 21:26",
     "attempted_at": "2026-11-19 21:26",
-    "publication_phase": "publishing",
-    "container_id": "17993515833110223"
+    "publication_phase": "published",
+    "container_id": "17993515833110223",
+    "threads_id": "18457930714121642",
+    "posted_at": "2026-11-19 21:26"
   },
   {
     "id": 900,
