@@ -6273,16 +6273,21 @@
     "scheduled_at": "2026-11-19 19:00",
     "text": "Логоны задлан: Minimum-size logo\n\nНарийн шугам, жижиг counter, урт tagline нь хэмжээг багасгахад хамгийн түрүүнд алга болдог. Minimum хэмжээ бол дурын тоо биш.\n\nДэлгэц, хэвлэл, embroidery дээр бодитоор туршиж, деталь алдагдах яг цэгээр доод хэмжээг тогтоо.",
     "image_url": "https://images.pexels.com/photos/9902813/pexels-photo-9902813.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-19T21:25:56.549213+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-19T21:25:56.549213+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 186,
     "scheduled_at": "2026-11-19 20:30",
     "text": "Хоосон зайг заавал дүүргэх шаардлагагүй.\n\nЗай нь бүлгүүдийг ялгаж, гол мэдээлэлд анхаарах боломж өгдөг.\n\nНэг элемент нэмэхийн өмнө асуугаарай: энэ нь утгыг тодруулах уу, эсвэл уншихад илүү хэцүү болгох уу?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-186-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-19T21:25:56.549213+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-19T21:25:56.549213+08:00",
+    "processing_token": "dce97499-b29a-4914-a768-2c04fb5abe77",
+    "processing_at": "2026-11-19 21:26",
+    "attempted_at": "2026-11-19 21:26",
+    "publication_phase": "claimed"
   },
   {
     "id": 900,
