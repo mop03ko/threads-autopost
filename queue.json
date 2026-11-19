@@ -6255,8 +6255,9 @@
     "scheduled_at": "2026-11-19 13:00",
     "text": "Approval status-аа filename-аар л удирдах хэрэггүй.\n\nCanva section, folder эсвэл team workflow-д Draft, хяналт, Approved, Archive гэсэн тодорхой шат ашигла.\n\nСтатус харагдахуйц байвал багийн хүн аль хувилбарт ажиллахаа шууд мэднэ.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-19T15:48:54.179188+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-19T15:48:54.179188+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 588,
