@@ -6315,13 +6315,15 @@
     "scheduled_at": "2026-11-20 10:00",
     "text": "X-height гэж юу вэ?\n\nЖижиг үсгийн үндсэн биеийн өндөр бөгөөд ижил point хэмжээтэй фонтуудын харагдах хэмжээг өөрчилдөг.\n\nЖижиг UI бичвэрт x-height өндөр фонт уншигдах нь элбэг; зөвхөн 14 pt гэсэн тоогоор фонтыг харьцуулахгүй.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-20T10:40:06.120384+08:00",
     "processing_token": "85c57e89-bef8-40dd-aed2-191406f394a4",
     "processing_at": "2026-11-20 10:40",
     "attempted_at": "2026-11-20 10:40",
-    "publication_phase": "publishing",
-    "container_id": "17993578764110223"
+    "publication_phase": "published",
+    "container_id": "17993578764110223",
+    "threads_id": "18135780553743462",
+    "posted_at": "2026-11-20 10:40"
   },
   {
     "id": 363,
