@@ -6348,24 +6348,27 @@
     "scheduled_at": "2026-11-20 19:00",
     "text": "Өнгөний задлан: Pastel palette\n\nӨндөр lightness, бага saturation нь зөөлөн, нөхөрсөг мэдрэмж өгдөг. Pastel дээр цагаан текст ихэнхдээ ялгарал дутна.\n\nBody бичвэрт бараан neutral хэрэглэж, pastel-аа арын дэвсгэр, illustration, supporting block-д байрлуул.",
     "image_url": "https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-21T02:49:24.314179+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T02:49:24.314179+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 188,
     "scheduled_at": "2026-11-20 20:30",
     "text": "Та фонт хослуулахдаа ялгарлыг юугаар үүсгэдэг вэ?\n\nБи үүргийг нь салгадаг: нэг нь анхаарал татна, нөгөө нь удаан уншуулах ёстой.\n\nХослолд ялгаа хэрэгтэй ч хоорондоо өрсөлдөх хэмжээний зөрчил хэрэггүй.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-188-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-21T02:49:24.314179+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T02:49:24.314179+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 901,
     "scheduled_at": "2026-11-20 22:00",
     "text": "Киноны график дизайн: Vertigo — Кинетик typography\n\nҮсэг дүрсийн төв рүү татагдах хөдөлгөөнтэй нийлснээр title өөрөө композици болдог.\n\nТуршаад үзээрэй: Motion title хийхдээ текстийн хөдөлгөөнийг арын motif-ийн чиглэлтэй нэг вектор болго.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/vertigo-1958-4b232bb15e55215e8387.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-21T02:49:24.314179+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T02:49:24.314179+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 189,
