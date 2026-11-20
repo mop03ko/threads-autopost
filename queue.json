@@ -6320,7 +6320,8 @@
     "processing_token": "85c57e89-bef8-40dd-aed2-191406f394a4",
     "processing_at": "2026-11-20 10:40",
     "attempted_at": "2026-11-20 10:40",
-    "publication_phase": "claimed"
+    "publication_phase": "container_created",
+    "container_id": "17993578764110223"
   },
   {
     "id": 363,
