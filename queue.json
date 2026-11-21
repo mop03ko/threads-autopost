@@ -6375,13 +6375,15 @@
     "scheduled_at": "2026-11-21 08:30",
     "text": "Би фонтыг сонгосны дараа хэмжээ биш, эхлээд унших хэмнэлийг нь шалгадаг.\n\nХэт бага зай текстийг бөөгнөрүүлж, хэт их зай өгүүлбэрийн холбоог тасалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-189-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-21T08:37:31.954875+08:00",
     "processing_token": "c21a2075-cf79-4cc5-b1ea-861cbb6d5acc",
     "processing_at": "2026-11-21 08:37",
     "attempted_at": "2026-11-21 08:37",
-    "publication_phase": "publishing",
-    "container_id": "17993691273110223"
+    "publication_phase": "published",
+    "container_id": "17993691273110223",
+    "threads_id": "17956924851296231",
+    "posted_at": "2026-11-21 08:37"
   },
   {
     "id": 591,
