@@ -6417,24 +6417,27 @@
     "scheduled_at": "2026-11-21 19:00",
     "text": "Үсгийн хэвийн задлан: Rag quality\n\nLeft-aligned текстийн баруун зах санамсаргүй том нүх, шат үүсгэвэл зохион байгуулалт боловсруулаагүй харагдана.\n\nColumn width, copy edit, discretionary line break ашиглан natural, зөөлөн rag үүсгэ.",
     "image_url": "https://images.pexels.com/photos/6005010/pexels-photo-6005010.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-21T23:39:59.316205+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T23:39:59.316205+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 190,
     "scheduled_at": "2026-11-21 20:30",
     "text": "Уншихад хэцүү бичвэрийн шалтгаан зөвхөн фонт биш.\n\nБаганын өргөн, мөр хоорондын зай, үсгийн хэмжээ хамт нөлөөлдөг.\n\nИжил бичвэрээ хэдэн өөр өргөнд байрлуулж уншаад үз. Аль хувилбарт мөрөөс мөр рүү шилжихэд эвтэйхэн байна вэ?",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-190-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-21T23:39:59.316205+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T23:39:59.316205+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 902,
     "scheduled_at": "2026-11-21 22:00",
     "text": "Киноны график дизайн: Psycho — Хар-цагаан value\n\nДунд саарал багатай, хар ба цагааны огцом шилжилт нь маш цэвэр visual мэдээллийн эрэмбэ өгдөг.\n\nТуршаад үзээрэй: Brand visual-аа grayscale болгож үзээд хоёр үндсэн value-д мэдээлэл салж байгаа эсэхийг шалга.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/psycho-1960-ade206ea0dffa04c2540.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-21T23:39:59.316205+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-21T23:39:59.316205+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 191,
