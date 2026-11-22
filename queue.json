@@ -6444,13 +6444,15 @@
     "scheduled_at": "2026-11-22 08:30",
     "text": "Би логотип, том гарчгийг жижиг хэмжээнд буулгахаасаа өмнө оптик зайг нь шалгадаг.\n\nKerning бол үсэг бүрийг тусгаарлаж харах биш, үгийг нэг дүрс болгон тэнцвэржүүлэх ажил.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-191-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-22T09:24:46.641484+08:00",
     "processing_token": "8bb9da96-f52d-429a-94c0-63ebc0adb4a4",
     "processing_at": "2026-11-22 09:24",
     "attempted_at": "2026-11-22 09:24",
-    "publication_phase": "publishing",
-    "container_id": "17993818038110223"
+    "publication_phase": "published",
+    "container_id": "17993818038110223",
+    "threads_id": "18105776675040684",
+    "posted_at": "2026-11-22 09:25"
   },
   {
     "id": 593,
