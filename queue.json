@@ -6477,13 +6477,15 @@
     "scheduled_at": "2026-11-22 16:00",
     "text": "Hanging punctuation: дизайнерын практик зөвлөгөө\n\nQuote, hyphen зэрэг тэмдэглэгээг бичвэр block-ийн захад бага зэрэг гаргаж optical margin үүсгэ.\n\nEditorial гарчиг, ишлэлд hanging punctuation ашиглавал гол үсгүүдийн зүүн, баруун ирмэг цэвэр харагдана.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-22T16:39:54.255246+08:00",
     "processing_token": "8066255d-c942-4386-8357-20734a274443",
     "processing_at": "2026-11-22 16:39",
     "attempted_at": "2026-11-22 16:39",
-    "publication_phase": "publishing",
-    "container_id": "17993855040110223"
+    "publication_phase": "published",
+    "container_id": "17993855040110223",
+    "threads_id": "17945867976385930",
+    "posted_at": "2026-11-22 16:40"
   },
   {
     "id": 767,
