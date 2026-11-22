@@ -6492,24 +6492,27 @@
     "scheduled_at": "2026-11-22 19:00",
     "text": "Постерын задлан: Collage poster\n\nӨөр эх сурвалжийн зураг, shape, type хослох нь story, energy үүсгэдэг. Scale, light, color grade зөрвөл тасархай харагдана.\n\nБүх asset-д нэг өнгөний багц, edge treatment, сүүдэр logic өгч collage-аа нэг орон зайд оруул.",
     "image_url": "https://images.pexels.com/photos/35066322/pexels-photo-35066322.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-23T00:40:58.851881+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-23T00:40:58.851881+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 192,
     "scheduled_at": "2026-11-22 20:30",
     "text": "Таны системд хэдэн үндсэн бичвэр хэв маяг байдаг вэ?\n\nБи 3–5 үндсэн хэмжээ сонгоод үүрэг бүрт нь нэр өгдөг.\n\nType scale нь ялгааг тогтвортой болгож, контент нэмэгдэхэд мэдээллийн эрэмбийг хамгаалдаг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-192-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-23T00:40:58.851881+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-23T00:40:58.851881+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 903,
     "scheduled_at": "2026-11-22 22:00",
     "text": "Киноны график дизайн: 2001: A Space Odyssey — Интерфэйсийн iconography\n\nЭнгийн тэмдэг, дугуй indicator, техникийн label нь нэг төрлийн modular visual language үүсгэдэг.\n\nТуршаад үзээрэй: Dashboard-д дүрсэн тэмдэг шугамын зузаан, corner radius, label case-ийг нэг дүрмээр стандартчил.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/2001-a-space-odyssey-1968-11f88668f9bbc5c4ea8a.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-23T00:40:58.851881+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-23T00:40:58.851881+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 193,
