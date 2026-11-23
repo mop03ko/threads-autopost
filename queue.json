@@ -6567,13 +6567,15 @@
     "scheduled_at": "2026-11-23 19:00",
     "text": "UI/UX задлан: Accessible UI\n\nKeyboard focus, ялгарал, semantic label, screen-reader order дизайн шатнаас шийдэгдэх ёстой. Дараа нь нэмэхэд бүтэц эвдэрнэ.\n\nPrototype дээр tab order, focus state, zoom, color blindness, error саналыг шалгах checklist ашигла.",
     "image_url": "https://images.pexels.com/photos/27141314/pexels-photo-27141314.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-23T19:54:00.320864+08:00",
     "processing_token": "ca7689a4-1767-4721-8465-d64aa417d4fc",
     "processing_at": "2026-11-23 19:54",
     "attempted_at": "2026-11-23 19:54",
-    "publication_phase": "publishing",
-    "container_id": "17994077544110223"
+    "publication_phase": "published",
+    "container_id": "17994077544110223",
+    "threads_id": "17898209988614556",
+    "posted_at": "2026-11-23 19:54"
   },
   {
     "id": 194,
