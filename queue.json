@@ -6552,13 +6552,15 @@
     "scheduled_at": "2026-11-23 16:00",
     "text": "Numeral formatting: дизайнерын практик зөвлөгөө\n\nҮнэ, хувь, огноо, утас, хэмжээг нэг стандарттай бичиж tabular эсвэл proportional numeral сонго.\n\nTable, price list-д tabular figures багана тэгшилнэ; currency, мянгатын тусгаарлагчийг locale-д тааруул.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-23T16:04:16.452094+08:00",
     "processing_token": "f1740ba3-ecb4-41c2-873e-c82da1a24700",
     "processing_at": "2026-11-23 16:04",
     "attempted_at": "2026-11-23 16:04",
-    "publication_phase": "publishing",
-    "container_id": "17994037887110223"
+    "publication_phase": "published",
+    "container_id": "17994037887110223",
+    "threads_id": "18488152762113019",
+    "posted_at": "2026-11-23 16:04"
   },
   {
     "id": 768,
