@@ -6543,16 +6543,21 @@
     "scheduled_at": "2026-11-23 13:00",
     "text": "Bulk Create эхлэхийн өмнө нэг мөрөөр test хий.\n\nУрт гарчиг, хамгийн том үнэ, хамгийн нарийн зураг зэрэг edge case-аа эхний data row болго.\n\nХамгийн хэцүү мөр дээр зохион байгуулалт тэсэж байвал үлдсэн хувилбарууд найдвартай үүснэ.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-23T16:04:16.452094+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-23T16:04:16.452094+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 596,
     "scheduled_at": "2026-11-23 16:00",
     "text": "Numeral formatting: дизайнерын практик зөвлөгөө\n\nҮнэ, хувь, огноо, утас, хэмжээг нэг стандарттай бичиж tabular эсвэл proportional numeral сонго.\n\nTable, price list-д tabular figures багана тэгшилнэ; currency, мянгатын тусгаарлагчийг locale-д тааруул.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-23T16:04:16.452094+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-23T16:04:16.452094+08:00",
+    "processing_token": "f1740ba3-ecb4-41c2-873e-c82da1a24700",
+    "processing_at": "2026-11-23 16:04",
+    "attempted_at": "2026-11-23 16:04",
+    "publication_phase": "claimed"
   },
   {
     "id": 768,
