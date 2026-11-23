@@ -6528,13 +6528,15 @@
     "scheduled_at": "2026-11-23 10:00",
     "text": "Kerning гэж юу вэ?\n\nХоёр тодорхой үсгийн хоорондын зайг тус бүрээр тохируулах үйл явц.\n\nТом лого, гарчигт AV, To, Wa зэрэг хосыг нүдээр шалгаж optical kerning хий; body бичвэрт фонтын metric-ийг түш.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-23T10:53:02.297693+08:00",
     "processing_token": "02ff7ef9-740c-4bfb-aa3f-805f25c254c7",
     "processing_at": "2026-11-23 10:53",
     "attempted_at": "2026-11-23 10:53",
-    "publication_phase": "publishing",
-    "container_id": "17994009432110223"
+    "publication_phase": "published",
+    "container_id": "17994009432110223",
+    "threads_id": "18440709757149065",
+    "posted_at": "2026-11-23 10:53"
   },
   {
     "id": 366,
