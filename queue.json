@@ -6627,8 +6627,9 @@
     "scheduled_at": "2026-11-24 16:00",
     "text": "Table readability: дизайнерын практик зөвлөгөө\n\nTable-д header, row divider, zebra band, alignment, unit-ийг минимал дүрмээр тодруул.\n\nБүх нүдийг зузаан хүрээгээр боохгүй; тоог баруун, label-ийг зүүн зэрэгцүүлж scan хийхийг хялбар болго.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-24T18:19:40.153028+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-24T18:19:40.153028+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 769,
