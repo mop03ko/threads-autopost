@@ -6702,13 +6702,15 @@
     "scheduled_at": "2026-11-25 16:00",
     "text": "Chart labeling: дизайнерын практик зөвлөгөө\n\nChart-ын гарчиг, axis, unit, source, time range-ийг шууд ойлгогдохоор бич.\n\nLegend рүү байнга харах шаардлагагүйгээр data series-ийг боломжтой үед line, bar дээр нь шууд label хий.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-25T17:00:28.199994+08:00",
     "processing_token": "11bd6a3a-74ee-49e7-9d33-a50111ff822c",
     "processing_at": "2026-11-25 17:00",
     "attempted_at": "2026-11-25 17:00",
-    "publication_phase": "publishing",
-    "container_id": "17994424614110223"
+    "publication_phase": "published",
+    "container_id": "17994424614110223",
+    "threads_id": "18165197959501686",
+    "posted_at": "2026-11-25 17:00"
   },
   {
     "id": 770,
