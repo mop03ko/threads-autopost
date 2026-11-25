@@ -6717,13 +6717,15 @@
     "scheduled_at": "2026-11-25 19:00",
     "text": "Дизайнерын байр суурь: Stock зураг\n\nStock зураг хурдан шийдэл боловч хэт танил pose, lighting брэндийг generic болгодог. Зөв art direction-оор stock ч ялгарч чадна.\n\nНэг campaign-ийн зургуудыг crop, grade, texture, subject direction-аар нэг хэллэгт оруул.",
     "image_url": "https://images.pexels.com/photos/12902944/pexels-photo-12902944.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-25T19:04:05.946396+08:00",
     "processing_token": "070c8c93-2f7c-4f00-8fb1-b484a8782674",
     "processing_at": "2026-11-25 19:04",
     "attempted_at": "2026-11-25 19:04",
-    "publication_phase": "publishing",
-    "container_id": "17994437187110223"
+    "publication_phase": "published",
+    "container_id": "17994437187110223",
+    "threads_id": "18142349518711891",
+    "posted_at": "2026-11-25 19:04"
   },
   {
     "id": 198,
