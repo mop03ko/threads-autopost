@@ -6732,13 +6732,15 @@
     "scheduled_at": "2026-11-25 20:30",
     "text": "Лого billboard дээр сайхан харагдах амархан; 24 пиксел дээр ажиллуулах хэцүү.\n\nБи логог favicon, аппын дүрсэн тэмдэг, хар цагаан хэвлэл дээр заавал шалгадаг.\n\nНарийн деталь жижиг хэмжээнд алга болж, танигдах байдал буурна.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-198-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-25T20:33:25.471804+08:00",
     "processing_token": "950bc6c2-c3c9-4cc1-817c-21497e575457",
     "processing_at": "2026-11-25 20:33",
     "attempted_at": "2026-11-25 20:33",
-    "publication_phase": "publishing",
-    "container_id": "17994447255110223"
+    "publication_phase": "published",
+    "container_id": "17994447255110223",
+    "threads_id": "18014444978989148",
+    "posted_at": "2026-11-25 20:33"
   },
   {
     "id": 906,
