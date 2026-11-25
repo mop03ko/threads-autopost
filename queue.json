@@ -6707,7 +6707,8 @@
     "processing_token": "11bd6a3a-74ee-49e7-9d33-a50111ff822c",
     "processing_at": "2026-11-25 17:00",
     "attempted_at": "2026-11-25 17:00",
-    "publication_phase": "claimed"
+    "publication_phase": "container_created",
+    "container_id": "17994424614110223"
   },
   {
     "id": 770,
