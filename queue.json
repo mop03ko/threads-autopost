@@ -6693,16 +6693,21 @@
     "scheduled_at": "2026-11-25 13:00",
     "text": "Chart дээр бүх тоог label болгох шаардлагагүй.\n\nЗөвхөн гол цэг, дээд/доод утга, шийдвэрт нөлөөлөх тоог онцол. Бусдыг axis болон tooltip-д үлдээ.\n\nЦөөн label мэдээллийн давталтыг харахад амар болгож, visual noise-ийг бууруулна.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-25T17:00:28.199994+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-25T17:00:28.199994+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 600,
     "scheduled_at": "2026-11-25 16:00",
     "text": "Chart labeling: дизайнерын практик зөвлөгөө\n\nChart-ын гарчиг, axis, unit, source, time range-ийг шууд ойлгогдохоор бич.\n\nLegend рүү байнга харах шаардлагагүйгээр data series-ийг боломжтой үед line, bar дээр нь шууд label хий.",
     "image_url": null,
-    "status": "pending",
-    "synced_at": "2026-11-25T17:00:28.199994+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-25T17:00:28.199994+08:00",
+    "processing_token": "11bd6a3a-74ee-49e7-9d33-a50111ff822c",
+    "processing_at": "2026-11-25 17:00",
+    "attempted_at": "2026-11-25 17:00",
+    "publication_phase": "claimed"
   },
   {
     "id": 770,
