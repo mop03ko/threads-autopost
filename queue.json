@@ -6678,13 +6678,15 @@
     "scheduled_at": "2026-11-25 10:00",
     "text": "Leading гэж юу вэ?\n\nТекстийн мөр хоорондын босоо зай.\n\nBody бичвэрт фонт хэмжээний ойролцоогоор 1.4–1.6 дахин leading эхлэл болгож, баганын өргөн ба хэлээс шалтгаалан нүдээр зас.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-25T10:56:07.007223+08:00",
     "processing_token": "b889affc-6d02-4d02-a3ab-bb9f67151bfd",
     "processing_at": "2026-11-25 10:56",
     "attempted_at": "2026-11-25 10:56",
-    "publication_phase": "publishing",
-    "container_id": "17994388794110223"
+    "publication_phase": "published",
+    "container_id": "17994388794110223",
+    "threads_id": "18124143691986000",
+    "posted_at": "2026-11-25 10:56"
   },
   {
     "id": 368,
