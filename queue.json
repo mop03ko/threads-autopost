@@ -6747,8 +6747,9 @@
     "scheduled_at": "2026-11-25 22:00",
     "text": "Киноны график дизайн: Star Wars — Фракцын тэмдэглэгээ\n\nЭнгийн radial, angular тэмдгүүд олон объект дээр давтагдан visual identity болон ажилладаг.\n\nТуршаад үзээрэй: Sub-brand бүрт нэг silhouette, тогтсон шугамын зузаан, хязгаарлагдмал деталийн дүрэм өг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/star-wars-1977-3271d9e24fccd11c04c2.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-26T05:56:27.639880+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-26T05:56:27.639880+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 199,
