@@ -6807,13 +6807,15 @@
     "scheduled_at": "2026-11-26 20:30",
     "text": "Таны брэнд системд логоноос гадна хамгийн хүчтэй элемент юу вэ?\n\nБи логог баталсны дараа бодит хэрэглээний системийг хамгийн түрүүнд туршдаг.\n\nТанигдах байдлыг өнгө, typography, зохион байгуулалт, зураг, хөдөлгөөн, хэл яриа хамт бүтээдэг.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-200-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-26T21:52:58.092117+08:00",
     "processing_token": "440d3fbb-2dfe-4a6f-b42e-f8a89b7b593c",
     "processing_at": "2026-11-26 21:53",
     "attempted_at": "2026-11-26 21:53",
-    "publication_phase": "publishing",
-    "container_id": "17994560241110223"
+    "publication_phase": "published",
+    "container_id": "17994560241110223",
+    "threads_id": "18005459531809712",
+    "posted_at": "2026-11-26 21:53"
   },
   {
     "id": 907,
