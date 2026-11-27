@@ -6858,13 +6858,15 @@
     "scheduled_at": "2026-11-27 16:00",
     "text": "Dashboard density: дизайнерын практик зөвлөгөө\n\nМэдээллийг card бүрт чихэхгүй; шийдвэр гаргахад хэрэгтэй KPI, trend, хэрэглээний нөхцөлийг эрэмбэл.\n\nWhitespace, group, progressive disclosure ашиглаж хамгийн чухал асуултад эхний дэлгэц хариулдаг болго.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-27T16:58:35.958216+08:00",
     "processing_token": "815525f8-82c8-418c-837c-232f154ef7a2",
     "processing_at": "2026-11-27 16:58",
     "attempted_at": "2026-11-27 16:58",
-    "publication_phase": "publishing",
-    "container_id": "17994657939110223"
+    "publication_phase": "published",
+    "container_id": "17994657939110223",
+    "threads_id": "18135651799747634",
+    "posted_at": "2026-11-27 16:58"
   },
   {
     "id": 772,
