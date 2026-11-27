@@ -6873,24 +6873,30 @@
     "scheduled_at": "2026-11-27 19:00",
     "text": "Өнгөний задлан: Neon palette\n\nНеон өнгө digital, entertainment, youthful energy-г хүчтэй өгдөг. CMYK хэвлэл дээр тэр тод байдал давтагдахгүй.\n\nДэлгэцийн RGB хувилбар, хэвлэлийн spot эсвэл ойролцоо CMYK хувилбарыг тусад нь тодорхойл.",
     "image_url": "https://images.pexels.com/photos/15124857/pexels-photo-15124857.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-27T22:27:08.391573+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-27T22:27:08.391573+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 202,
     "scheduled_at": "2026-11-27 20:30",
     "text": "Компонентын хамгийн гоё төлөв нь default; хамгийн чухал нь заримдаа error байдаг.\n\nБи компонент зурахдаа happy path-аас гадна эвгүй нөхцөлүүдийг жагсаадаг.\n\nБодит дата орж ирэхэд бүтээгдэхүүн гэнэт өөр дүр төрхтэй болдог.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-202-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-27T22:27:08.391573+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-27T22:27:08.391573+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 908,
     "scheduled_at": "2026-11-27 22:00",
     "text": "Киноны график дизайн: The Shining — Шар poster typography\n\nТод шар фон дээр хар, барзгар илэрхийлэлтэй үсэг нь минимал элементээр хүчтэй зөрчил бий болгодог.\n\nТуршаад үзээрэй: Poster-д нэг өнгө, нэг display хэв маяг, нэг сонин дүрс гэсэн хязгаар тавьж санаагаа хурцал.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/the-shining-1980-24b2f14ae102ef163776.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-27T22:27:08.391573+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-27T22:27:08.391573+08:00",
+    "processing_token": "9bdbdf97-ffcd-4a26-aea5-f611e2195186",
+    "processing_at": "2026-11-27 22:27",
+    "attempted_at": "2026-11-27 22:27",
+    "publication_phase": "claimed"
   },
   {
     "id": 203,
