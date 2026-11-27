@@ -6891,13 +6891,15 @@
     "scheduled_at": "2026-11-27 22:00",
     "text": "Киноны график дизайн: The Shining — Шар poster typography\n\nТод шар фон дээр хар, барзгар илэрхийлэлтэй үсэг нь минимал элементээр хүчтэй зөрчил бий болгодог.\n\nТуршаад үзээрэй: Poster-д нэг өнгө, нэг display хэв маяг, нэг сонин дүрс гэсэн хязгаар тавьж санаагаа хурцал.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/the-shining-1980-24b2f14ae102ef163776.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-27T22:27:08.391573+08:00",
     "processing_token": "9bdbdf97-ffcd-4a26-aea5-f611e2195186",
     "processing_at": "2026-11-27 22:27",
     "attempted_at": "2026-11-27 22:27",
-    "publication_phase": "publishing",
-    "container_id": "17994689244110223"
+    "publication_phase": "published",
+    "container_id": "17994689244110223",
+    "threads_id": "18123134332964358",
+    "posted_at": "2026-11-27 22:27"
   },
   {
     "id": 203,
