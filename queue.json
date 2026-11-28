@@ -6957,13 +6957,15 @@
     "scheduled_at": "2026-11-28 20:30",
     "text": "Та accessibility-г ямар үеэс дизайндаа оруулдаг вэ?\n\nБи component батлахдаа keyboard болон ялгарлын суурь шалгалтыг хийдэг.\n\nЯлгарал, фонт хэмжээ, focus order, alt бичвэр зэрэг нь эхний шийдвэрээс хамт төлөвлөгдөх ёстой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-204-32234951648.jpg",
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-28T21:35:44.946446+08:00",
     "processing_token": "105050b3-1aa5-41b3-9b53-d29c626041e5",
     "processing_at": "2026-11-28 21:35",
     "attempted_at": "2026-11-28 21:35",
-    "publication_phase": "publishing",
-    "container_id": "17994792495110223"
+    "publication_phase": "published",
+    "container_id": "17994792495110223",
+    "threads_id": "17884126065545983",
+    "posted_at": "2026-11-28 21:36"
   },
   {
     "id": 909,
