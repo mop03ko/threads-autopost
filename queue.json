@@ -6972,8 +6972,9 @@
     "scheduled_at": "2026-11-28 22:00",
     "text": "Киноны график дизайн: Blade Runner — Дэлгэцийн график\n\nНарийн торон бүтэц, monospaced label, жижиг technical marker нь интерфэйсийг нэг систем мэт харагдуулдаг.\n\nТуршаад үзээрэй: Sci-fi UI хийхдээ random деталь нэмэхээс өмнө spacing unit, type scale, state color-оо тодорхойл.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/movie-posters/blade-runner-1982-3bb60002e0c3450197d1.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-29T02:46:37.962464+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-29T02:46:37.962464+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 205,
