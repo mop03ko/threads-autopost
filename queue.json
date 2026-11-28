@@ -6933,13 +6933,15 @@
     "scheduled_at": "2026-11-28 16:00",
     "text": "Presentation one-idea rule: дизайнерын практик зөвлөгөө\n\nНэг слайдад нэг гол санаа өгч, гарчгийг conclusion хэлбэрээр бич.\n\nОлон bullet-ийг нэг дор жижигрүүлэхийн оронд sequence болгон хувааж, зураг эсвэл data-гаар нотолгоо нэм.",
     "image_url": null,
-    "status": "processing",
+    "status": "posted",
     "synced_at": "2026-11-28T16:19:36.788154+08:00",
     "processing_token": "a1bb327a-2e06-461c-a6e1-e26f86d29488",
     "processing_at": "2026-11-28 16:19",
     "attempted_at": "2026-11-28 16:19",
-    "publication_phase": "publishing",
-    "container_id": "17994767481110223"
+    "publication_phase": "published",
+    "container_id": "17994767481110223",
+    "threads_id": "17914628754311406",
+    "posted_at": "2026-11-28 16:19"
   },
   {
     "id": 773,
