@@ -6948,16 +6948,21 @@
     "scheduled_at": "2026-11-28 19:00",
     "text": "Үсгийн хэвийн задлан: Punctuation detail\n\nQuote, dash, apostrophe, ellipsis-ийн зөв glyph typography-г мэргэжлийн харагдуулдаг. Keyboard-ийн энгийн тэмдэг үргэлж зөв биш.\n\nLanguage бүрийн punctuation, spacing, quotation mark-ийг хэв маяг sheet-ээр нэг мөр болго.",
     "image_url": "https://images.pexels.com/photos/5981821/pexels-photo-5981821.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1350&fit=crop",
-    "status": "pending",
-    "synced_at": "2026-11-28T21:35:44.946446+08:00"
+    "status": "skipped",
+    "synced_at": "2026-11-28T21:35:44.946446+08:00",
+    "note": "Хоцорсон пост: дахин товлох эсвэл гараар сонгоно."
   },
   {
     "id": 204,
     "scheduled_at": "2026-11-28 20:30",
     "text": "Та accessibility-г ямар үеэс дизайндаа оруулдаг вэ?\n\nБи component батлахдаа keyboard болон ялгарлын суурь шалгалтыг хийдэг.\n\nЯлгарал, фонт хэмжээ, focus order, alt бичвэр зэрэг нь эхний шийдвэрээс хамт төлөвлөгдөх ёстой.",
     "image_url": "https://pub-3b83b4dbf30a4631a115cbd2336a731d.r2.dev/threads/posts/magnific-generated/post-204-32234951648.jpg",
-    "status": "pending",
-    "synced_at": "2026-11-28T21:35:44.946446+08:00"
+    "status": "processing",
+    "synced_at": "2026-11-28T21:35:44.946446+08:00",
+    "processing_token": "105050b3-1aa5-41b3-9b53-d29c626041e5",
+    "processing_at": "2026-11-28 21:35",
+    "attempted_at": "2026-11-28 21:35",
+    "publication_phase": "claimed"
   },
   {
     "id": 909,
